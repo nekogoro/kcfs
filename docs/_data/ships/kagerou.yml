@@ -38,25 +38,25 @@
 - id: urakaze
   name: 浦風 / 浦風改
 
-- id: c1
+- id: urakaze_c1
   name: 浦風丁改
 
 - id: isokaze
   name: 磯風 / 磯風改
 
-- id: b1
+- id: isokaze_b1
   name: 磯風乙改
 
 - id: hamakaze
   name: 浜風 / 浜風改
 
-- id: b1
+- id: hamakaze_b1
   name: 浜風乙改
 
 - id: tanikaze
   name: 谷風 / 谷風改
 
-- id: c1
+- id: tanikaze_c1
   name: 谷風丁改
 
 - id: nowaki
