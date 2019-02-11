@@ -41,7 +41,7 @@ $(function() {
 					for(var k = 0; k < len3; k++) {
 						if (data[i].bonus[j].items[k].ship_class == ship_name) {
 							subObj.append($('<ul/>')
-								.append($('<li #test/>').text(data[i].bonus[j].synergy)
+								.append($('<li/>').text(data[i].bonus[j].synergy)
 									.append($('<ul/>')
 										.append($('<li>').text(data[i].bonus[j].items[k].text)))
 							));
