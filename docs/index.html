@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -15,29 +18,13 @@
 
 	<select class="parent" name="dd_list">
 		<option selected="selected">--クラス選択--</option>
-		<optgroup label="駆逐艦">
-			<option value="kamikaze">神風型</option>
-			<option value="mutsuki">睦月型</option>
-			<option value="fubuki">吹雪型</option>
-			<option value="ayanami">綾波型</option>
-			<option value="akatsuki">暁型</option>
-			<option value="hatsuharu">初春型</option>
-			<option value="shiratsuyu">白露型</option>
-			<option value="asashio">朝潮型</option>
-			<option value="kagerou">陽炎型</option>
-			<option value="yuugumo">夕雲型</option>
-			<option value="akiduki">秋月型</option>
-			<option value="shimakaze">島風型</option>
-			<option value="uss">アメリカ海軍</option>
-			<option value="hms">イギリス海軍</option>
-			<option value="ussrs">ソビエト海軍</option>
+		{% for stype in site.data.stypes %}
+		<optgroup label="{{ stype.name }}">
+			{% for ctype in site.data.ctypes[stype.id] %}
+			<option value="{{ ctype.id }}">{{ ctype.name }}</option>
+			{% endfor %}
 		</optgroup>
-
-		<optgroup label="海防艦">
-			<option value="shimushu">占守型</option>
-			<option value="etorofu">択捉型</option>
-			<option value="hiburi">日振型</option>
-		</optgroup>
+		{% endfor %}
 	</select>
 
 	<select class="children" name="ship_list" disabled>
