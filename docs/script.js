@@ -2,32 +2,32 @@ $(function() {
 	var ship_class = "";
 	var ulObj = $("#output");
 
-	$('select[name="dd_list"]').change(function() {
-		ship_class = $('select[name="dd_list"]').val();
+	var $children = $('.children');
+	var original = $children.html();
 
-		var dd_list = $('select[name="dd_list"] option:selected').attr("class");
-		var count = $('select[name="ship_list"]').children().length;
+		$('.parent').change(function() {
+		var val1 = $(this).val();
+		ship_class = val1;
 		ulObj.empty();
 
-		for(var i = 0; i < count; i++){
-			var ship_list = $('select[name="ship_list"] option:eq(' + i +')');
-			if(ship_list.attr("class") === dd_list){
-				ship_list.show();
-			} else {
-				ship_list.hide();
-				if(ship_list.attr("class") === "msg") {
-					ship_list.show();
-					ship_list.prop('selected',true);
-				} else {
-					ship_list.hide();
-				}
-			}
-		}
+		$children.html(original).find('option').each(function() {
+	    var val2 = $(this).data('val');
+
+	    if (val1 != val2) {
+	      $(this).not(':first-child').remove();
+	    }
+	  });
+
+	  if ($(this).val() == "") {
+	    $children.attr('disabled', 'disabled');
+	  } else {
+	    $children.removeAttr('disabled');
+	  }
 	});
 
-	$('select[name="ship_list"]').change(function() {
+	$('.children').change(function() {
 
-		var ship_name = $('select[name="ship_list"]').val();
+		var ship_name = $('.children').val();
 		$.getJSON("materials.json" , function(data) {
 			var len = data.length;
 

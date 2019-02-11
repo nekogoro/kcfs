@@ -13,202 +13,203 @@
 
 	<p>最終更新：2019/2/11</p>
 
-	<select class="mainselect" name="dd_list">
-		<option selected="selected" class="msg">--クラス選択--</option>
-		<option value="kamikaze" class="kamikaze">神風型</option>
-		<option value="mutsuki" class="mutsuki">睦月型</option>
-		<option value="fubuki" class="fubuki">吹雪型</option>
-		<option value="ayanami" class="ayanami">綾波型</option>
-		<option value="akatsuki" class="akatsuki">暁型</option>
-		<option value="hatsuharu" class="hatsuharu">初春型</option>
-		<option value="shiratsuyu" class="shiratsuyu">白露型</option>
-		<option value="asashio" class="asashio">朝潮型</option>
-		<option value="kagerou" class="kagerou">陽炎型</option>
-		<option value="yuugumo" class="yuugumo">夕雲型</option>
-		<option value="akiduki" class="akiduki">秋月型</option>
-		<option value="shimakaze" class="shimakaze">島風型</option>
-		<option value="uss" class="uss">アメリカ海軍</option>
-		<option value="hms" class="hms">イギリス海軍</option>
-		<option value="ussrs" class="ussrs">ソビエト海軍</option>
+	<select class="parent" name="dd_list">
+		<option selected="selected">--クラス選択--</option>
+		<option value="kamikaze">神風型</option>
+		<option value="mutsuki">睦月型</option>
+		<option value="fubuki">吹雪型</option>
+		<option value="ayanami">綾波型</option>
+		<option value="akatsuki">暁型</option>
+		<option value="hatsuharu">初春型</option>
+		<option value="shiratsuyu">白露型</option>
+		<option value="asashio">朝潮型</option>
+		<option value="kagerou">陽炎型</option>
+		<option value="yuugumo">夕雲型</option>
+		<option value="akiduki">秋月型</option>
+		<option value="shimakaze">島風型</option>
+		<option value="uss">アメリカ海軍</option>
+		<option value="hms">イギリス海軍</option>
+		<option value="ussrs">ソビエト海軍</option>
 	</select>
 
-	<select name="ship_list">
-		<option selected="custom_selected" class="msg">--艦名選択--</option>
+	<select class="children" name="ship_list" disabled>
+		<option selected="custom_selected">--艦名選択--</option>
 
-		<option value="kamikaze_kamikaze" class="kamikaze">神風</option>
-		<option value="kamikaze_asakaze" class="kamikaze">朝風</option>
-		<option value="kamikaze_harukaze" class="kamikaze">春風</option>
-		<option value="kamikaze_matsukaze" class="kamikaze">松風</option>
-		<option value="kamikaze_hatakaze" class="kamikaze">旗風</option>
+		<option value="kamikaze_kamikaze" data-val="kamikaze">神風/神風改</option>
+		<option value="kamikaze_asakaze" data-val="kamikaze">朝風/朝風改</option>
+		<option value="kamikaze_harukaze" data-val="kamikaze">春風/春風改</option>
+		<option value="kamikaze_matsukaze" data-val="kamikaze">松風/松風改</option>
+		<option value="kamikaze_hatakaze" data-val="kamikaze">旗風/旗風改</option>
 
-		<option value="mutsuki_mutsuki" class="mutsuki">睦月</option>
-		<option value="mutsuki_mutsuki_2" class="mutsuki">睦月改二</option>
-		<option value="mutsuki_kisaragi" class="mutsuki">如月</option>
-		<option value="mutsuki_kisaragi_2" class="mutsuki">如月改二</option>
-		<option value="mutsuki_yayoi" class="mutsuki">弥生</option>
-		<option value="mutsuki_uduki" class="mutsuki">卯月</option>
-		<option value="mutsuki_satsuki" class="mutsuki">皐月</option>
-		<option value="mutsuki_satsuki_2" class="mutsuki">皐月改二</option>
-		<option value="mutsuki_minaduki" class="mutsuki">水無月</option>
-		<option value="mutsuki_fumiduki" class="mutsuki">文月</option>
-		<option value="mutsuki_fumiduki_2" class="mutsuki">文月改二</option>
-		<option value="mutsuki_nagatsuki" class="mutsuki">長月</option>
-		<option value="mutsuki_kikutsuki" class="mutsuki">菊月</option>
-		<option value="mutsuki_mikaduki" class="mutsuki">三日月</option>
-		<option value="mutsuki_mochoduki" class="mutsuki">望月</option>
+		<option value="mutsuki_mutsuki" data-val="mutsuki">睦月/睦月改</option>
+		<option value="mutsuki_mutsuki_2" data-val="mutsuki">睦月改二</option>
+		<option value="mutsuki_kisaragi" data-val="mutsuki">如月/如月改</option>
+		<option value="mutsuki_kisaragi_2" data-val="mutsuki">如月改二</option>
+		<option value="mutsuki_yayoi" data-val="mutsuki">弥生/弥生改</option>
+		<option value="mutsuki_uduki" data-val="mutsuki">卯月/卯月改</option>
+		<option value="mutsuki_satsuki" data-val="mutsuki">皐月/皐月改</option>
+		<option value="mutsuki_satsuki_2" data-val="mutsuki">皐月改二</option>
+		<option value="mutsuki_minaduki" data-val="mutsuki">水無月</option>
+		<option value="mutsuki_fumiduki" data-val="mutsuki">文月</option>
+		<option value="mutsuki_fumiduki_2" data-val="mutsuki">文月改二</option>
+		<option value="mutsuki_nagatsuki" data-val="mutsuki">長月</option>
+		<option value="mutsuki_kikutsuki" data-val="mutsuki">菊月</option>
+		<option value="mutsuki_mikaduki" data-val="mutsuki">三日月/三日月改</option>
+		<option value="mutsuki_mochiduki" data-val="mutsuki">望月/望月改</option>
 
-		<option value="fubuki_fubuki" class="fubuki">吹雪</option>
-		<option value="fubuki_fubuki_2" class="fubuki">吹雪改二</option>
-		<option value="fubuki_shirayuki" class="fubuki">白雪</option>
-		<option value="fubuki_hatsuyuki" class="fubuki">初雪</option>
-		<option value="fubuki_miyuki" class="fubuki">深雪</option>
-		<option value="fubuki_murakumo" class="fubuki">叢雲</option>
-		<option value="fubuki_murakumo_2" class="fubuki">叢雲改二</option>
-		<option value="fubuki_isonami" class="fubuki">磯波</option>
-		<option value="fubuki_uranami" class="fubuki">浦波</option>
+		<option value="fubuki_fubuki" data-val="fubuki">吹雪/吹雪改</option>
+		<option value="fubuki_fubuki_2" data-val="fubuki">吹雪改二</option>
+		<option value="fubuki_shirayuki" data-val="fubuki">白雪/白雪改</option>
+		<option value="fubuki_hatsuyuki" data-val="fubuki">初雪/初雪改</option>
+		<option value="fubuki_miyuki" data-val="fubuki">深雪/深雪改</option>
+		<option value="fubuki_murakumo" data-val="fubuki">叢雲/叢雲改</option>
+		<option value="fubuki_murakumo_2" data-val="fubuki">叢雲改二</option>
+		<option value="fubuki_isonami" data-val="fubuki">磯波/磯波改</option>
+		<option value="fubuki_uranami" data-val="fubuki">浦波/浦波改</option>
 
-		<option value="ayanami_ayanami" class="ayanami">綾波</option>
-		<option value="ayanami_ayanami_2" class="ayanami">綾波改二</option>
-		<option value="ayanami_shikinami" class="ayanami">敷波</option>
-		<option value="ayanami_amagiri" class="ayanami">天霧</option>
-		<option value="ayanami_sagiri" class="ayanami">狭霧</option>
-		<option value="ayanami_oboro" class="ayanami">朧</option>
-		<option value="ayanami_akebono" class="ayanami">曙</option>
-		<option value="ayanami_sazanami" class="ayanami">漣</option>
-		<option value="ayanami_ushio" class="ayanami">潮</option>
-		<option value="ayanami_ushio_2" class="ayanami">潮改二</option>
+		<option value="ayanami_ayanami" data-val="ayanami">綾波/綾波改</option>
+		<option value="ayanami_ayanami_2" data-val="ayanami">綾波改二</option>
+		<option value="ayanami_shikinami" data-val="ayanami">敷波/敷波改</option>
+		<option value="ayanami_amagiri" data-val="ayanami">天霧/天霧改</option>
+		<option value="ayanami_sagiri" data-val="ayanami">狭霧/狭霧改</option>
+		<option value="ayanami_oboro" data-val="ayanami">朧/朧改</option>
+		<option value="ayanami_akebono" data-val="ayanami">曙/曙改</option>
+		<option value="ayanami_sazanami" data-val="ayanami">漣/漣改</option>
+		<option value="ayanami_ushio" data-val="ayanami">潮/潮改</option>
+		<option value="ayanami_ushio_2" data-val="ayanami">潮改二</option>
 
-		<option value="akatsuki_akatsuki" class="akatsuki">暁</option>
-		<option value="akatsuki_akatsuki_2" class="akatsuki">暁改二</option>
-		<option value="akatsuki_hibiki" class="akatsuki">響</option>
-		<option value="akatsuki_hibiki_2" class="akatsuki">Верный</option>
-		<option value="akatsuki_ikaduchi" class="akatsuki">雷</option>
-		<option value="akatsuki_inaduma" class="akatsuki">電</option>
+		<option value="akatsuki_akatsuki" data-val="akatsuki">暁/暁改</option>
+		<option value="akatsuki_akatsuki_2" data-val="akatsuki">暁改二</option>
+		<option value="akatsuki_hibiki" data-val="akatsuki">響/響改</option>
+		<option value="akatsuki_hibiki_2" data-val="akatsuki">Верный</option>
+		<option value="akatsuki_ikaduchi" data-val="akatsuki">雷/雷改</option>
+		<option value="akatsuki_inaduma" data-val="akatsuki">電/電改</option>
 
-		<option value="hatsuharu_hatsuharu" class="hatsuharu">初春</option>
-		<option value="hatsuharu_hatsuharu_2" class="hatsuharu">初春改二</option>
-		<option value="hatsuharu_nenohi" class="hatsuharu">子日</option>
-		<option value="hatsuharu_wakaba" class="hatsuharu">若葉</option>
-		<option value="hatsuharu_hatsushimo" class="hatsuharu">初霜</option>
-		<option value="hatsuharu_hatsushimo_2" class="hatsuharu">初霜改二</option>
+		<option value="hatsuharu_hatsuharu" data-val="hatsuharu">初春/初春改</option>
+		<option value="hatsuharu_hatsuharu_2" data-val="hatsuharu">初春改二</option>
+		<option value="hatsuharu_nenohi" data-val="hatsuharu">子日/子日改</option>
+		<option value="hatsuharu_wakaba" data-val="hatsuharu">若葉/若葉改</option>
+		<option value="hatsuharu_hatsushimo" data-val="hatsuharu">初霜/初霜改</option>
+		<option value="hatsuharu_hatsushimo_2" data-val="hatsuharu">初霜改二</option>
 
-		<option value="shiratsuyu_shiratsuyu" class="shiratsuyu">白露</option>
-		<option value="shiratsuyu_shiratsuyu_1" class="shiratsuyu">白露改</option>
-		<option value="shiratsuyu_shiratsuyu_2" class="shiratsuyu">白露改二</option>
-		<option value="shiratsuyu_shigure" class="shiratsuyu">時雨</option>
-		<option value="shiratsuyu_shigure_2" class="shiratsuyu">時雨改二</option>
-		<option value="shiratsuyu_murasame" class="shiratsuyu">村雨</option>
-		<option value="shiratsuyu_murasame_2" class="shiratsuyu">村雨改二</option>
-		<option value="shiratsuyu_yudachi" class="shiratsuyu">夕立</option>
-		<option value="shiratsuyu_yudachi_2" class="shiratsuyu">夕立改二</option>
-		<option value="shiratsuyu_harusame" class="shiratsuyu">春雨</option>
-		<option value="shiratsuyu_samidare" class="shiratsuyu">五月雨</option>
-		<option value="shiratsuyu_umikaze" class="shiratsuyu">海風</option>
-		<option value="shiratsuyu_yamakaze" class="shiratsuyu">山風</option>
-		<option value="shiratsuyu_kawakaze" class="shiratsuyu">江風</option>
-		<option value="shiratsuyu_kawakaze_2" class="shiratsuyu">江風改二</option>
-		<option value="shiratsuyu_suzukaze" class="shiratsuyu">涼風</option>
+		<option value="shiratsuyu_shiratsuyu" data-val="shiratsuyu">白露</option>
+		<option value="shiratsuyu_shiratsuyu_1" data-val="shiratsuyu">白露改</option>
+		<option value="shiratsuyu_shiratsuyu_2" data-val="shiratsuyu">白露改二</option>
+		<option value="shiratsuyu_shigure" data-val="shiratsuyu">時雨/時雨改</option>
+		<option value="shiratsuyu_shigure_2" data-val="shiratsuyu">時雨改二</option>
+		<option value="shiratsuyu_murasame" data-val="shiratsuyu">村雨/村雨改</option>
+		<option value="shiratsuyu_murasame_2" data-val="shiratsuyu">村雨改二</option>
+		<option value="shiratsuyu_yudachi" data-val="shiratsuyu">夕立/夕立改</option>
+		<option value="shiratsuyu_yudachi_2" data-val="shiratsuyu">夕立改二</option>
+		<option value="shiratsuyu_harusame" data-val="shiratsuyu">春雨/春雨改</option>
+		<option value="shiratsuyu_samidare" data-val="shiratsuyu">五月雨/五月雨改</option>
+		<option value="shiratsuyu_umikaze" data-val="shiratsuyu">海風/海風改</option>
+		<option value="shiratsuyu_yamakaze" data-val="shiratsuyu">山風/山風改</option>
+		<option value="shiratsuyu_kawakaze" data-val="shiratsuyu">江風/江風改</option>
+		<option value="shiratsuyu_kawakaze_2" data-val="shiratsuyu">江風改二</option>
+		<option value="shiratsuyu_suzukaze" data-val="shiratsuyu">涼風/涼風改</option>
 
-		<option value="asashio_asashio" class="asashio">朝潮</option>
-		<option value="asashio_asashio_2" class="asashio">朝潮改二</option>
-		<option value="asashio_asashio_2c" class="asashio">朝潮改二丁</option>
-		<option value="asashio_ooshio" class="asashio">大潮</option>
-		<option value="asashio_ooshio_2" class="asashio">大潮改二</option>
-		<option value="asashio_michishio" class="asashio">満潮</option>
-		<option value="asashio_michishio_2" class="asashio">満潮改二</option>
-		<option value="asashio_arashio" class="asashio">荒潮</option>
-		<option value="asashio_arashio_2" class="asashio">荒潮改二</option>
-		<option value="asashio_asagumo" class="asashio">朝雲</option>
-		<option value="asashio_yamagumo" class="asashio">山雲</option>
-		<option value="asashio_minegumo" class="asashio">峯雲</option>
-		<option value="asashio_arare" class="asashio">霰</option>
-		<option value="asashio_arare_2" class="asashio">霰改二</option>
-		<option value="asashio_kasumi" class="asashio">霞</option>
-		<option value="asashio_kasumi_2" class="asashio">霞改二</option>
-		<option value="asashio_kasumi_2b" class="asashio">霞改二乙</option>
+		<option value="asashio_asashio" data-val="asashio">朝潮/朝潮改</option>
+		<option value="asashio_asashio_2" data-val="asashio">朝潮改二</option>
+		<option value="asashio_asashio_2c" data-val="asashio">朝潮改二丁</option>
+		<option value="asashio_ooshio" data-val="asashio">大潮/大潮改</option>
+		<option value="asashio_ooshio_2" data-val="asashio">大潮改二</option>
+		<option value="asashio_michishio" data-val="asashio">満潮/満潮改</option>
+		<option value="asashio_michishio_2" data-val="asashio">満潮改二</option>
+		<option value="asashio_arashio" data-val="asashio">荒潮/荒潮改</option>
+		<option value="asashio_arashio_2" data-val="asashio">荒潮改二</option>
+		<option value="asashio_asagumo" data-val="asashio">朝雲/朝雲改</option>
+		<option value="asashio_yamagumo" data-val="asashio">山雲/山雲改</option>
+		<option value="asashio_minegumo" data-val="asashio">峯雲/峯雲改</option>
+		<option value="asashio_arare" data-val="asashio">霰/霰改</option>
+		<option value="asashio_arare_2" data-val="asashio">霰改二</option>
+		<option value="asashio_kasumi" data-val="asashio">霞/霞改</option>
+		<option value="asashio_kasumi_2" data-val="asashio">霞改二</option>
+		<option value="asashio_kasumi_2b" data-val="asashio">霞改二乙</option>
 
-		<option value="kagerou_kagerou" class="kagerou">陽炎</option>
-		<option value="kagerou_kagerou_2" class="kagerou">陽炎改二</option>
-		<option value="kagerou_shiranui" class="kagerou">不知火</option>
-		<option value="kagerou_shiranui_2" class="kagerou">不知火改二</option>
-		<option value="kagerou_kuroiso" class="kagerou">黒潮</option>
-		<option value="kagerou_kuroiso_2" class="kagerou">黒潮改二</option>
-		<option value="kagerou_oyashio" class="kagerou">親潮</option>
-		<option value="kagerou_hatsukaze" class="kagerou">初風</option>
-		<option value="kagerou_yukikaze" class="kagerou">雪風</option>
-		<option value="kagerou_yukikaze_1" class="kagerou">雪風改</option>
-		<option value="kagerou_amatsukaze" class="kagerou">天津風</option>
-		<option value="kagerou_tokitsukaze" class="kagerou">時津風</option>
-		<option value="kagerou_urakaze" class="kagerou">浦風</option>
-		<option value="kagerou_urakaze_c1" class="kagerou">浦風丁改</option>
-		<option value="kagerou_isokaze" class="kagerou">磯風</option>
-		<option value="kagerou_isokaze_b1" class="kagerou">磯風乙改</option>
-		<option value="kagerou_hamakaze" class="kagerou">浜風</option>
-		<option value="kagerou_hamakaze_b1" class="kagerou">浜風乙改</option>
-		<option value="kagerou_tanikaze" class="kagerou">谷風</option>
-		<option value="kagerou_tanikaze_c1" class="kagerou">谷風丁改</option>
-		<option value="kagerou_nowaki" class="kagerou">野分</option>
-		<option value="kagerou_arashi" class="kagerou">嵐</option>
-		<option value="kagerou_hagikaze" class="kagerou">萩風</option>
-		<option value="kagerou_maikaze" class="kagerou">舞風</option>
-		<option value="kagerou_akigumo" class="kagerou">秋雲</option>
+		<option value="kagerou_kagerou" data-val="kagerou">陽炎/陽炎改</option>
+		<option value="kagerou_kagerou_2" data-val="kagerou">陽炎改二</option>
+		<option value="kagerou_shiranui" data-val="kagerou">不知火/不知火改</option>
+		<option value="kagerou_shiranui_2" data-val="kagerou">不知火改二</option>
+		<option value="kagerou_kuroiso" data-val="kagerou">黒潮/黒潮改</option>
+		<option value="kagerou_kuroiso_2" data-val="kagerou">黒潮改二</option>
+		<option value="kagerou_oyashio" data-val="kagerou">親潮/親潮改</option>
+		<option value="kagerou_hatsukaze" data-val="kagerou">初風/初風改</option>
+		<option value="kagerou_yukikaze" data-val="kagerou">雪風</option>
+		<option value="kagerou_yukikaze_1" data-val="kagerou">雪風改</option>
+		<option value="kagerou_amatsukaze" data-val="kagerou">天津風/天津風改</option>
+		<option value="kagerou_tokitsukaze" data-val="kagerou">時津風/時津風改</option>
+		<option value="kagerou_urakaze" data-val="kagerou">浦風/浦風改</option>
+		<option value="kagerou_urakaze_c1" data-val="kagerou">浦風丁改</option>
+		<option value="kagerou_isokaze" data-val="kagerou">磯風/磯風改</option>
+		<option value="kagerou_isokaze_b1" data-val="kagerou">磯風乙改</option>
+		<option value="kagerou_hamakaze" data-val="kagerou">浜風/浜風改</option>
+		<option value="kagerou_hamakaze_b1" data-val="kagerou">浜風乙改</option>
+		<option value="kagerou_tanikaze" data-val="kagerou">谷風/谷風改</option>
+		<option value="kagerou_tanikaze_c1" data-val="kagerou">谷風丁改</option>
+		<option value="kagerou_nowaki" data-val="kagerou">野分/野分改</option>
+		<option value="kagerou_arashi" data-val="kagerou">嵐/嵐改</option>
+		<option value="kagerou_hagikaze" data-val="kagerou">萩風/萩風改</option>
+		<option value="kagerou_maikaze" data-val="kagerou">舞風/舞風改</option>
+		<option value="kagerou_akigumo" data-val="kagerou">秋雲/秋雲改</option>
 
-		<option value="yuugumo_yuugumo" class="yuugumo">夕雲</option>
-		<option value="yuugumo_yuugumo_2" class="yuugumo">夕雲改二</option>
-		<option value="yuugumo_makigumo" class="yuugumo">巻雲</option>
-		<option value="yuugumo_makigumo_2" class="yuugumo">巻雲改二</option>
-		<option value="yuugumo_kazagumo" class="yuugumo">風雲</option>
-		<option value="yuugumo_kazagumo_2" class="yuugumo">風雲改二</option>
-		<option value="yuugumo_naganami" class="yuugumo">長波</option>
-		<option value="yuugumo_naganami_2" class="yuugumo">長波改二</option>
-		<option value="yuugumo_takanami" class="yuugumo">高波</option>
-		<option value="yuugumo_fujinami" class="yuugumo">藤波</option>
-		<option value="yuugumo_hayanami" class="yuugumo">早波</option>
-		<option value="yuugumo_hamanami" class="yuugumo">浜波</option>
-		<option value="yuugumo_okinami" class="yuugumo">沖波</option>
-		<option value="yuugumo_kishinami" class="yuugumo">岸波</option>
-		<option value="yuugumo_asashimo" class="yuugumo">朝霜</option>
-		<option value="yuugumo_hayashimo" class="yuugumo">早霜</option>
-		<option value="yuugumo_kiyoshimo" class="yuugumo">清霜</option>
+		<option value="yuugumo_yuugumo" data-val="yuugumo">夕雲/夕雲改</option>
+		<option value="yuugumo_yuugumo_2" data-val="yuugumo">夕雲改二</option>
+		<option value="yuugumo_makigumo" data-val="yuugumo">巻雲/巻雲改</option>
+		<option value="yuugumo_makigumo_2" data-val="yuugumo">巻雲改二</option>
+		<option value="yuugumo_kazagumo" data-val="yuugumo">風雲/風雲改</option>
+		<option value="yuugumo_kazagumo_2" data-val="yuugumo">風雲改二</option>
+		<option value="yuugumo_naganami" data-val="yuugumo">長波/長波改</option>
+		<option value="yuugumo_naganami_2" data-val="yuugumo">長波改二</option>
+		<option value="yuugumo_takanami" data-val="yuugumo">高波/高波改</option>
+		<option value="yuugumo_fujinami" data-val="yuugumo">藤波/藤波改</option>
+		<option value="yuugumo_hayanami" data-val="yuugumo">早波/早波改</option>
+		<option value="yuugumo_hamanami" data-val="yuugumo">浜波/浜波改</option>
+		<option value="yuugumo_okinami" data-val="yuugumo">沖波/沖波改</option>
+		<option value="yuugumo_kishinami" data-val="yuugumo">岸波/岸波改</option>
+		<option value="yuugumo_asashimo" data-val="yuugumo">朝霜/朝霜改</option>
+		<option value="yuugumo_hayashimo" data-val="yuugumo">早霜/早霜改</option>
+		<option value="yuugumo_kiyoshimo" data-val="yuugumo">清霜/清霜改</option>
 
-		<option value="akiduki_akiduki" class="akiduki">秋月</option>
-		<option value="akiduki_teruduki" class="akiduki">照月</option>
-		<option value="akiduki_suzutsuki" class="akiduki">涼月</option>
-		<option value="akiduki_hatsutsuki" class="akiduki">初月</option>
+		<option value="akiduki_akiduki" data-val="akiduki">秋月/秋月改</option>
+		<option value="akiduki_teruduki" data-val="akiduki">照月/照月改</option>
+		<option value="akiduki_suzutsuki" data-val="akiduki">涼月/涼月改</option>
+		<option value="akiduki_hatsutsuki" data-val="akiduki">初月/初月改</option>
 
-		<option value="shimakaze_shimakaze" class="shimakaze">島風</option>
-		<option value="shimakaze_shimakaze_1" class="shimakaze">島風改</option>
+		<option value="shimakaze_shimakaze" data-val="shimakaze">島風</option>
+		<option value="shimakaze_shimakaze_1" data-val="shimakaze">島風改</option>
 
-		<option value="uss_samuel" class="uss">Samuel B.Roberts</option>
-		<option value="uss_johnston" class="uss">Johnston</option>
+		<option value="uss_samuel" data-val="uss">Samuel B.Roberts</option>
+		<option value="uss_johnston" data-val="uss">Johnston/Johnston改</option>
 
-		<option value="hms_jarvis" class="hms">Jarvis</option>
+		<option value="hms_jarvis" data-val="hms">Jarvis/Jarvis改</option>
 
-		<option value="ussrs_tashkent" class="ussrs">Ташкент</option>
+		<option value="ussrs_tashkent" class="ussrs">Ташкент/Ташкент改</option>
 	</select>
 
 	<ul id="output"></ul>
 
 	<hr />
 
-	<p>
-		Q: これは何？<br />
-		A: 2019年2月時点で数多ある駆逐艦の装備ボーナス（フィット砲）を、艦娘ごとに出力するページです。
-		<a href="https://wikiwiki.jp/kancolle/">艦これ wiki</a> の情報を参考にしています。<br />
-		aさまざまな呼び名がありますが、<a href="https://wikiwiki.jp/kancolle/装備#bonus">艦これ wiki</a>に習い「装備ボーナス」と呼ぶことにします。
-	</p>
-	<p>
-		Q: 「改」がある艦娘とない艦娘がいる<br />
-		A: 未改造と改造後で効果が異なる場合にのみ「改」をつけています。
-	</p>
-	<p>
-		Q: iOS だとプルダウンがなんかおかしい<br />
-		A: そのうち直します…
-	</p>
-	<p>
-		Q: 間違いを見つけた<br />
-		A: <a href="https://kancolle.social/@nekogoro">作者</a>または<a href="https://github.com/nekogoro/kcfs/issues">Issues</a>まで
-	</p>
+	<dl>
+		<dt>これは何？</dt>
+		<dd>2019年2月時点における駆逐艦の装備ボーナス（フィット砲）を、艦娘ごとに出力するページです。
+			<a href="https://wikiwiki.jp/kancolle/">艦これ wiki</a> の情報を参考にしています。<br />
+			さまざまな呼び名がありますが、<a href="https://wikiwiki.jp/kancolle/装備#bonus">艦これ wiki</a> に習い「装備ボーナス」と呼ぶことにします。
+		</dd>
+	</dl>
+	<dl>
+		<dt>「単体」とは</dt>
+		<dd>装備自体を装備することで得られる装備ボーナスです。例外を除き、単体ボーナスは累積します。</dd>
+	</dl>
+	<dl>
+		<dt>「相互シナジー」とは</dt>
+		<dd>主砲と電探など、別の装備との組み合わせで得られる装備ボーナスです。単体ボーナスとは別に加算され、累積されません。</dd>
+	</dl>
+	<dl>
+		<dt>データに誤りを見つけた</dt>
+		<dd><a href="https://kancolle.social/@nekogoro">作者</a>または<a href="https://github.com/nekogoro/kcfs/issues">Issues</a>まで</dd>
+	</dl>
 	<p>Special Thanks: <a href="https://wikiwiki.jp/kancolle/">艦これ wiki</a> & <a href="https://kancolle.social/">艦これ マストドン泊地</a>
 	</p>
 	<p></p>
