@@ -4,13 +4,13 @@
     {"synergy":"単体", "items":[
       {"text":"火力+2　対空+1　回避+3", "ship_class":"kamikaze"},
       {"text":"火力+2　対空+1　回避+3", "ship_class":"mutsuki"},
-      {"text":"火力+1　対空+1　回避+2", "ship_class":"shumushu"},
+      {"text":"火力+1　対空+1　回避+2", "ship_class":"shimushu"},
       {"text":"火力+1　対空+1　回避+2", "ship_class":"etorofu"}
     ]},
     {"synergy":"＋水上電探", "items":[
       {"text":"火力+2　雷装+1　回避+3", "ship_class":"kamikaze"},
       {"text":"火力+2　雷装+1　回避+3", "ship_class":"mutsuki"},
-      {"text":"火力+1　回避+3　対潜+1", "ship_class":"shumushu"},
+      {"text":"火力+1　回避+3　対潜+1", "ship_class":"shimushu"},
       {"text":"火力+1　回避+3　対潜+1", "ship_class":"etorofu"}
     ]},
     {"synergy":"＋53cm連装魚雷", "items":[
@@ -26,14 +26,14 @@
     {"synergy":"単体", "items":[
       {"text":"火力+1　雷装+1", "ship_class":"kamikaze"},
       {"text":"火力+1　雷装+1", "ship_class":"mutsuki"},
-      {"text":"火力+1　雷装+1", "ship_class":"shumushu"},
+      {"text":"火力+1　雷装+1", "ship_class":"shimushu"},
       {"text":"火力+1　雷装+1", "ship_class":"etorofu"},
       {"text":"火力+1　雷装+1", "ship_class":"hiburi"}
     ]},
     {"synergy":"＋水上電探", "items":[
       {"text":"火力+2　回避+3", "ship_class":"kamikaze"},
       {"text":"火力+2　回避+3", "ship_class":"mutsuki"},
-      {"text":"火力+1　回避+4", "ship_class":"shumushu"},
+      {"text":"火力+1　回避+4", "ship_class":"shimushu"},
       {"text":"火力+1　回避+4", "ship_class":"etorofu"},
       {"text":"火力+1　回避+4", "ship_class":"hiburi"}
     ]}
@@ -263,7 +263,7 @@
       {"text":"火力+1", "ship_class":"shimakaze"},
       {"text":"火力+1", "ship_class":"hms"},
       {"text":"火力+1", "ship_class":"ussrs"},
-      {"text":"対空+1　回避+1", "ship_class":"shumushu"},
+      {"text":"対空+1　回避+1", "ship_class":"shimushu"},
       {"text":"対空+1　回避+1", "ship_class":"etorofu"},
       {"text":"対空+1　回避+1", "ship_class":"hiburi"}
     ]}

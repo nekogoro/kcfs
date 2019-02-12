@@ -1,0 +1,46 @@
+
+- id: kamikaze
+  name: 神風型
+
+- id: mutsuki
+  name: 睦月型
+
+- id: fubuki
+  name: 吹雪型
+
+- id: ayanami
+  name: 綾波型
+
+- id: akatsuki
+  name: 暁型
+
+- id: hatsuharu
+  name: 初春型
+
+- id: shiratsuyu
+  name: 白露型
+
+- id: asashio
+  name: 朝潮型
+
+- id: kagerou
+  name: 陽炎型
+
+- id: yuugumo
+  name: 夕雲型
+
+- id: akiduki
+  name: 秋月型
+
+- id: shimakaze
+  name: 島風型
+
+- id: uss
+  name: アメリカ海軍
+
+- id: hms
+  name: イギリス海軍
+
+- id: ussrs
+  name: ソビエト海軍
+
