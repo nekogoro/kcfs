@@ -273,5 +273,25 @@
       {"text":"火力+2　装甲+1", "ship_class":"ussrs"},
       {"text":"火力+2　装甲+1", "ship_class":"akatsuki_hibiki_2"}
     ]}
-  ]}
+  ]},
+  {"id":"13", "type":"その他", "title":"三式水中探信儀", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　回避+2　対潜+3", "ship_class":"kamikaze_kamikaze"},
+      {"text":"火力+1　回避+2　対潜+3", "ship_class":"kamikaze_harukaze"},
+      {"text":"火力+1　回避+2　対潜+3", "ship_class":"shiratsuyu_shigure"},
+      {"text":"火力+1　回避+2　対潜+3", "ship_class":"shiratsuyu_shigure_2"},
+      {"text":"火力+1　回避+2　対潜+3", "ship_class":"shiratsuyu_yamakaze"},
+      {"text":"火力+1　回避+2　対潜+3", "ship_class":"kagerou_maikaze"},
+      {"text":"火力+1　回避+2　対潜+3", "ship_class":"yuugumo_asashimo"},
+      {"text":"回避+2　対潜+2", "ship_class":"ayanami_ushio"},
+      {"text":"回避+2　対潜+2", "ship_class":"ayanami_ushio_2"},
+      {"text":"回避+2　対潜+2", "ship_class":"akatsuki_ikaduchi"},
+      {"text":"回避+2　対潜+2", "ship_class":"asashio_yamagumo"},
+      {"text":"回避+2　対潜+2", "ship_class":"kagerou_isokaze"},
+      {"text":"回避+2　対潜+2", "ship_class":"kagerou_isokaze_b1"},
+      {"text":"回避+2　対潜+2", "ship_class":"kagerou_hamakaze"},
+      {"text":"回避+2　対潜+2", "ship_class":"kagerou_hamakaze_b1"},
+      {"text":"回避+2　対潜+2", "ship_class":"yuugumo_kishinami"}
+      ]}
+    ]}
 ]
