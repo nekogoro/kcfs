@@ -35,6 +35,12 @@
 - id: shimakaze
   name: 島風型
 
+- id: z1
+  name: Z1 型
+
+- id: maestrale
+  name: Maestrale 級
+
 - id: uss
   name: アメリカ海軍
 
@@ -43,4 +49,3 @@
 
 - id: ussrs
   name: ソビエト海軍
-
