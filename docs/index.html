@@ -13,55 +13,59 @@
 	<link href="https://fonts.googleapis.com/css?family=Muli:400,900|Noto+Sans+JP:400,900&amp;subset=japanese" rel="stylesheet">
 </head>
 <body>
-	<header><p><a href="../">夕張の実験ノート</a></p></header>
+	<header>
+		<p><a href="../">夕張の実験ノート</a></p>
+	</header>
+	<div id="main">
 
-	<h2>装備ボーナスソート</h2>
+		<h2>装備ボーナスソート</h2>
 
-	<p>最終更新：2019/3/3 駆逐艦の追加</p>
-
-	<select class="parent" name="dd_list">
-		<option selected="selected">--クラス選択--</option>
-		{% for stype in site.data.stypes %}
-		<optgroup label="{{ stype.name }}">
-			{% for ctype in site.data.ctypes[stype.id] %}
-			<option value="{{ ctype.id }}">{{ ctype.name }}</option>
+		<select class="parent" name="dd_list">
+			<option selected="selected">--クラス選択--</option>
+			{% for stype in site.data.stypes %}
+			<optgroup label="{{ stype.name }}">
+				{% for ctype in site.data.ctypes[stype.id] %}
+				<option value="{{ ctype.id }}">{{ ctype.name }}</option>
+				{% endfor %}
+			</optgroup>
 			{% endfor %}
-		</optgroup>
-		{% endfor %}
-	</select>
+		</select>
 
-	<select class="children" name="ship_list" disabled>
-		<option selected="custom_selected">--艦名選択--</option>
-		{% for stype in site.data.stypes %} {% for ctype in site.data.ctypes[stype.id] %} {% for ship in site.data.ships[ctype.id] %}
-		<option value="{{ ctype.id }}_{{ ship.id }}" data-val="{{ ctype.id }}">{{ ship.name }}</option>
-		{% endfor %} {% endfor %} {% endfor %}
-	</select>
+		<select class="children" name="ship_list" disabled>
+			<option selected="custom_selected">--艦名選択--</option>
+			{% for stype in site.data.stypes %} {% for ctype in site.data.ctypes[stype.id] %} {% for ship in site.data.ships[ctype.id] %}
+			<option value="{{ ctype.id }}_{{ ship.id }}" data-val="{{ ctype.id }}">{{ ship.name }}</option>
+			{% endfor %} {% endfor %} {% endfor %}
+		</select>
 
-	<ul id="output"></ul>
+		<ul id="output"></ul>
 
-	<hr />
+		<hr />
 
-	<dl>
-		<dt>これは何？</dt>
-		<dd>2019年2月時点における駆逐艦・海防艦の装備ボーナス（フィット砲）を、艦娘ごとに出力するページです。
-			<a href="https://wikiwiki.jp/kancolle/">艦これ wiki</a> の情報を参考にしています。<br />
-			さまざまな呼び名がありますが、<a href="https://wikiwiki.jp/kancolle/装備#bonus">艦これ wiki</a> に習い「装備ボーナス」と呼ぶことにします。
-		</dd>
-	</dl>
-	<dl>
-		<dt>「単体」とは</dt>
-		<dd>装備自体を装備することで得られる装備ボーナスです。例外を除き、単体ボーナスは累積します。</dd>
-	</dl>
-	<dl>
-		<dt>「相互シナジー」とは</dt>
-		<dd>主砲と電探など、別の装備との組み合わせで得られる装備ボーナスです。単体ボーナスとは別に加算され、累積されません。</dd>
-	</dl>
-	<dl>
-		<dt>データに誤りを見つけた</dt>
-		<dd><a href="https://kancolle.social/@nekogoro">作者</a>または<a href="https://github.com/nekogoro/kcfs/issues">Issues</a>まで</dd>
-	</dl>
-	<p>Special Thanks: <a href="https://wikiwiki.jp/kancolle/">艦これ wiki</a> & <a href="https://kancolle.social/">艦これ マストドン泊地</a>
-	</p>
-	<p></p>
+		<dl>
+			<dt>これは何？</dt>
+			<dd>2019年2月時点における駆逐艦・海防艦の装備ボーナス（フィット砲）を、艦娘ごとに出力するページです。
+				<a href="https://wikiwiki.jp/kancolle/">艦これ wiki</a> の情報を参考にしています。<br />
+				さまざまな呼び名がありますが、<a href="https://wikiwiki.jp/kancolle/装備#bonus">艦これ wiki</a> に習い「装備ボーナス」と呼ぶことにします。
+			</dd>
+		</dl>
+		<dl>
+			<dt>「単体」とは</dt>
+			<dd>装備自体を装備することで得られる装備ボーナスです。例外を除き、単体ボーナスは累積します。</dd>
+		</dl>
+		<dl>
+			<dt>「相互シナジー」とは</dt>
+			<dd>主砲と電探など、別の装備との組み合わせで得られる装備ボーナスです。単体ボーナスとは別に加算され、累積されません。</dd>
+		</dl>
+		<dl>
+			<dt>データに誤りを見つけた</dt>
+			<dd><a href="https://kancolle.social/@nekogoro">作者</a>または<a href="https://github.com/nekogoro/kcfs/issues">Issues</a>まで</dd>
+		</dl>
+		<p>Special Thanks: <a href="https://wikiwiki.jp/kancolle/">艦これ wiki</a> & <a href="https://kancolle.social/">艦これ マストドン泊地</a></p>
+		<p>最終更新：2019/3/3 駆逐艦の追加、装備にリンク追加</p>
+	</div>
+	<footer>
+		<p>KanColle Experimental Dataset</p>
+	</footer>
 </body>
 </html>
