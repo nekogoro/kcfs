@@ -1,6 +1,6 @@
 [
   {"id":"0", "type":"", "title":"なし", "bonus":[]},
-  {"id":"1", "type":"小口径主砲", "title":"12cm単装砲改二", "bonus":[
+  {"id":"293", "type":"小口径主砲", "title":"12cm単装砲改二", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2　対空+1　回避+3", "ship_class":"kamikaze"},
       {"text":"火力+2　対空+1　回避+3", "ship_class":"mutsuki"},
@@ -22,7 +22,7 @@
       {"text":"火力+3　雷装+7", "ship_class":"mutsuki"}
     ]}
   ]},
-  {"id":"2", "type":"小口径主砲", "title":"12.7cm単装高角砲(後期型)★7以上", "bonus":[
+  {"id":"229", "type":"小口径主砲", "title":"12.7cm単装高角砲(後期型)★7以上", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1　雷装+1", "ship_class":"kamikaze"},
       {"text":"火力+1　雷装+1", "ship_class":"mutsuki"},
@@ -38,14 +38,14 @@
       {"text":"火力+1　回避+4", "ship_class":"hiburi"}
     ]}
   ]},
-  {"id":"3", "type":"小口径主砲", "title":"12.7cm連装砲A型", "bonus":[
+  {"id":"297", "type":"小口径主砲", "title":"12.7cm連装砲A型", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"回避+2", "ship_class":"fubuki"},
       {"text":"回避+1", "ship_class":"ayanami"},
       {"text":"回避+1", "ship_class":"akatsuki"}
     ]}
   ]},
-  {"id":"4", "type":"小口径主砲", "title":"12.7cm連装砲A型改二", "bonus":[
+  {"id":"294", "type":"小口径主砲", "title":"12.7cm連装砲A型改二", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1", "ship_class":"fubuki"},
       {"text":"火力+1", "ship_class":"ayanami"},
@@ -82,7 +82,7 @@
       {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
     ]}
   ]},
-  {"id":"5", "type":"小口径主砲", "title":"12.7cm連装砲A型改三(戦時改修)+高射装置", "bonus":[
+  {"id":"295", "type":"小口径主砲", "title":"12.7cm連装砲A型改三(戦時改修)+高射装置", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2　対空+2", "ship_class":"fubuki"},
       {"text":"火力+2　対空+2", "ship_class":"ayanami"},
@@ -129,7 +129,7 @@
       {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
     ]}
   ]},
-  {"id":"6", "type":"小口径主砲", "title":"12.7cm連装砲B型改二", "bonus":[
+  {"id":"063", "type":"小口径主砲", "title":"12.7cm連装砲B型改二", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"対空+1", "ship_class":"ayanami"},
       {"text":"対空+1", "ship_class":"akatsuki"},
@@ -142,7 +142,7 @@
       {"text":"回避+2", "ship_class":"shiratsuyu_kawakaze_2"}
     ]}
   ]},
-  {"id":"7", "type":"小口径主砲", "title":"12.7cm連装砲B型改四(戦時改修)+高射装置", "bonus":[
+  {"id":"296", "type":"小口径主砲", "title":"12.7cm連装砲B型改四(戦時改修)+高射装置", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1", "ship_class":"ayanami"},
       {"text":"火力+1", "ship_class":"akatsuki"},
@@ -181,7 +181,7 @@
       {"text":"火力+1　雷装+3", "ship_class":"shiratsuyu"}
     ]}
   ]},
-  {"id":"8", "type":"小口径主砲", "title":"12.7cm連装砲C型改二", "bonus":[
+  {"id":"266", "type":"小口径主砲", "title":"12.7cm連装砲C型改二", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1　回避+1", "ship_class":"shiratsuyu_shigure_2"},
       {"text":"火力+1", "ship_class":"shiratsuyu"},
@@ -209,7 +209,7 @@
       {"text":"火力+2　雷装+3　回避+1", "ship_class":"kagerou"}
     ]}
   ]},
-  {"id":"9", "type":"小口径主砲", "title":"12.7cm連装砲D型改二", "bonus":[
+  {"id":"267", "type":"小口径主砲", "title":"12.7cm連装砲D型改二", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+3　回避+1", "ship_class":"yuugumo_yuugumo_2"},
       {"text":"火力+3　回避+1", "ship_class":"yuugumo_makigumo_2"},
@@ -241,12 +241,12 @@
       {"text":"火力+1　雷装+3　回避+2", "ship_class":"shimakaze_shimakaze_1"}
     ]}
   ]},
-  {"id":"10", "type":"小口径主砲", "title":"5inch単装砲 Mk.30改", "bonus":[
+  {"id":"313", "type":"小口径主砲", "title":"5inch単装砲 Mk.30改", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2　対空+2　回避+2　装甲+1", "ship_class":"uss"}
     ]}
   ]},
-  {"id":"11", "type":"小口径主砲", "title":"5inch単装砲 Mk.30改＋GFCS Mk.37", "bonus":[
+  {"id":"308", "type":"小口径主砲", "title":"5inch単装砲 Mk.30改＋GFCS Mk.37", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2　対空+1　回避+1", "ship_class":"uss"},
       {"text":"火力+1", "ship_class":"kamikaze"},
@@ -270,13 +270,13 @@
       {"text":"対空+1　回避+1", "ship_class":"hiburi"}
     ]}
   ]},
-  {"id":"12", "type":"小口径主砲", "title":"130mm B-13連装砲", "bonus":[
+  {"id":"282", "type":"小口径主砲", "title":"130mm B-13連装砲", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2　装甲+1", "ship_class":"ussrs"},
       {"text":"火力+2　装甲+1", "ship_class":"akatsuki_hibiki_2"}
     ]}
   ]},
-  {"id":"13", "type":"その他", "title":"三式水中探信儀", "bonus":[
+  {"id":"047", "type":"その他", "title":"三式水中探信儀", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1　回避+2　対潜+3", "ship_class":"kamikaze_kamikaze"},
       {"text":"火力+1　回避+2　対潜+3", "ship_class":"kamikaze_harukaze"},

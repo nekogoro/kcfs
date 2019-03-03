@@ -34,7 +34,7 @@ $(function() {
 			ulObj.empty();
 			for(var i = 0; i < len; i++) {
 				var flag = false;
-				var subObj = $('<li/>').text(data[i].title);
+				var subObj = $('<li/>').html('<a href="https://akashi-list.me/#w' + data[i].id + '" target="_blank">' + data[i].title + '</a>');
 				var len2 = data[i].bonus.length;
 				for(var j = 0; j < len2; j++) {
 					var len3 = data[i].bonus[j].items.length;
