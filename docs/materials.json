@@ -28,14 +28,18 @@
       {"text":"火力+1　対空+1", "ship_class":"mutsuki"},
       {"text":"火力+1　対空+1", "ship_class":"shimushu"},
       {"text":"火力+1　対空+1", "ship_class":"etorofu"},
-      {"text":"火力+1　対空+1", "ship_class":"hiburi"}
+      {"text":"火力+1　対空+1", "ship_class":"hiburi"},
+      {"text":"火力+2　対空+3", "ship_class":"nagara_yura_2"},
+      {"text":"火力+2　対空+2", "ship_class":"nagara_kinu_2"}
     ]},
     {"synergy":"＋水上電探", "items":[
       {"text":"火力+2　回避+3", "ship_class":"kamikaze"},
       {"text":"火力+2　回避+3", "ship_class":"mutsuki"},
       {"text":"火力+1　回避+4", "ship_class":"shimushu"},
       {"text":"火力+1　回避+4", "ship_class":"etorofu"},
-      {"text":"火力+1　回避+4", "ship_class":"hiburi"}
+      {"text":"火力+1　回避+4", "ship_class":"hiburi"},
+      {"text":"火力+3　回避+2", "ship_class":"nagara_yura_2"},
+      {"text":"火力+3　回避+2", "ship_class":"nagara_kinu_2"}
     ]}
   ]},
   {"id":"297", "type":"小口径主砲", "title":"12.7cm連装砲A型", "bonus":[
@@ -273,7 +277,8 @@
   {"id":"282", "type":"小口径主砲", "title":"130mm B-13連装砲", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2　装甲+1", "ship_class":"ussrs"},
-      {"text":"火力+2　装甲+1", "ship_class":"akatsuki_hibiki_2"}
+      {"text":"火力+2　装甲+1", "ship_class":"akatsuki_hibiki_2"},
+      {"text":"火力+2　装甲+1", "ship_class":"yuubari"}
     ]}
   ]},
   {"id":"047", "type":"その他", "title":"三式水中探信儀", "bonus":[
