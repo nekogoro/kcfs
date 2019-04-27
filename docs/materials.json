@@ -281,6 +281,45 @@
       {"text":"火力+2　装甲+1", "ship_class":"yuubari"}
     ]}
   ]},
+  {"id":"090", "type":"中口径主砲", "title":"20.3cm(2号)連装砲", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1", "ship_class":"furutaka_furutaka_2"},
+      {"text":"火力+1", "ship_class":"furutaka_kako_2"},
+      {"text":"火力+1", "ship_class":"aoba_kinugasa_1"},
+      {"text":"火力+1　対空+1", "ship_class":"aoba_aoba_1"},
+      {"text":"火力+2　回避+1", "ship_class":"aoba_kinugasa_2"}
+    ]},
+    {"synergy":"＋水上電探", "items":[
+      {"text":"火力+3　雷装+2　回避+2", "ship_class":"furutaka"},
+      {"text":"火力+3　雷装+2　回避+2", "ship_class":"aoba"}
+    ]},
+    {"synergy":"＋対空電探", "items":[
+      {"text":"対空+5　回避+2", "ship_class":"aoba"}
+    ]}
+  ]},
+  {"id":"303", "type":"中口径主砲", "title":"Bofors15.2cm連装砲 Model1930", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　対空+1", "ship_class":"kuma"},
+      {"text":"火力+1　対空+1", "ship_class":"nagara"},
+      {"text":"火力+1　対空+1", "ship_class":"sendai"},
+      {"text":"火力+1　対空+1", "ship_class":"agano"},
+      {"text":"火力+1　対空+2　回避+1", "ship_class":"gotland"}
+    ]}
+  ]},
+  {"id":"119", "type":"中口径主砲", "title":"14cm連装砲", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1", "ship_class":"yuubari"},
+      {"text":"火力+1", "ship_class":"katori"},
+      {"text":"火力+2　雷装+1", "ship_class":"nisshin"}
+    ]}
+  ]},
+  {"id":"310", "type":"中口径主砲", "title":"14cm連装砲改", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2　対空+1　回避+1", "ship_class":"yuubari"},
+      {"text":"火力+2　回避+1", "ship_class":"katori"},
+      {"text":"火力+3　雷装+2　対空+1　回避+1", "ship_class":"nisshin"}
+    ]}
+  ]},
   {"id":"047", "type":"その他", "title":"三式水中探信儀", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1　回避+2　対潜+3", "ship_class":"kamikaze_kamikaze"},
