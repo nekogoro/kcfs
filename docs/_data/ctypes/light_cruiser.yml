@@ -1,0 +1,24 @@
+
+- id: tenryuu
+  name: 天龍型
+
+- id: kuma
+  name: 球磨型
+
+- id: nagara
+  name: 長良型
+
+- id: yuubari
+  name: 夕張型
+
+- id: sendai
+  name: 川内型
+
+- id: agano
+  name: 阿賀野型
+
+- id: ooyodo
+  name: 大淀型
+
+- id: gotland
+  name: Gotland型
