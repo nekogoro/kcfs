@@ -11,9 +11,23 @@
 - id: kitakami
   name: 北上
 
+- id: kitakami_1
+  name: 北上改
+
+- id: kitakami_2
+  name: 北上改二
+
 - id: ooi
   name: 大井
 
+- id: ooi_1
+  name: 大井改
+
+- id: ooi_2
+  name: 大井改二
+
 - id: kiso
   name: 木曾 / 木曾改
-  
+
+- id: kiso_2
+  name: 木曾改二
