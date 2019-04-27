@@ -24,11 +24,11 @@
   ]},
   {"id":"229", "type":"小口径主砲", "title":"12.7cm単装高角砲(後期型)★7以上", "bonus":[
     {"synergy":"単体", "items":[
-      {"text":"火力+1　雷装+1", "ship_class":"kamikaze"},
-      {"text":"火力+1　雷装+1", "ship_class":"mutsuki"},
-      {"text":"火力+1　雷装+1", "ship_class":"shimushu"},
-      {"text":"火力+1　雷装+1", "ship_class":"etorofu"},
-      {"text":"火力+1　雷装+1", "ship_class":"hiburi"}
+      {"text":"火力+1　対空+1", "ship_class":"kamikaze"},
+      {"text":"火力+1　対空+1", "ship_class":"mutsuki"},
+      {"text":"火力+1　対空+1", "ship_class":"shimushu"},
+      {"text":"火力+1　対空+1", "ship_class":"etorofu"},
+      {"text":"火力+1　対空+1", "ship_class":"hiburi"}
     ]},
     {"synergy":"＋水上電探", "items":[
       {"text":"火力+2　回避+3", "ship_class":"kamikaze"},
