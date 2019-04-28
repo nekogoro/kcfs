@@ -320,6 +320,52 @@
       {"text":"火力+3　雷装+2　対空+1　回避+1", "ship_class":"nisshin"}
     ]}
   ]},
+  {"id":"106", "type":"その他", "title":"13号対空電探改", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　対空+2　回避+3　装甲+1", "ship_class":"ayanami_ushio_2"},
+      {"text":"火力+1　対空+2　回避+3　装甲+1", "ship_class":"shiratsuyu_shigure_2"},
+      {"text":"火力+1　対空+2　回避+3　装甲+1", "ship_class":"hatsuharu_hatsushimo_2"},
+      {"text":"火力+1　対空+2　回避+3　装甲+1", "ship_class":"kongou_haruna_2"},
+      {"text":"火力+1　対空+2　回避+3　装甲+1", "ship_class":"nagato_nagato_2"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"agano_yahagi"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"agano_yahagi_2"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"asashio_kasumi"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"asashio_kasumi_2"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"asashio_kasumi_2b"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"kagerou_yukikaze"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"kagerou_yukikaze_1"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"kagerou_isokaze"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"kagerou_isokaze_b1"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"kagerou_hamakaze"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"kagerou_hamakaze_b1"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"yuugumo_asashimo"},
+      {"text":"対空+1　回避+2　装甲+1", "ship_class":"akiduki_sudutsuki"},
+      {"text":"対空+1　回避+3　装甲+1", "ship_class":"ooyodo_ooyodo"},
+      {"text":"対空+1　回避+3　装甲+1", "ship_class":"akatsuki_hibiki"},
+      {"text":"対空+1　回避+3　装甲+1", "ship_class":"akatsuki_hibiki_2"},
+      {"text":"対空+1　回避+3　装甲+1", "ship_class":"katori_kashima"}
+    ]}
+  ]},
+  {"id":"307", "type":"その他", "title":"GFCS Mk.37", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"iowa_iowa"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"lexington_saratoga"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"essex_intrepid"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"casablanca_gambier"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"uss_samuel"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"uss_johnston"}
+    ]}
+  ]},
+  {"id":"315", "type":"その他", "title":"SG レーダー(初期型)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+3　回避+3　索敵+4", "ship_class":"uss_samuel"},
+      {"text":"火力+3　回避+3　索敵+4", "ship_class":"uss_johnston"},
+      {"text":"火力+2　回避+3　索敵+4", "ship_class":"iowa_iowa"},
+      {"text":"火力+2　回避+3　索敵+4", "ship_class":"lexington_saratoga"},
+      {"text":"火力+2　回避+3　索敵+4", "ship_class":"essex_intrepid"},
+      {"text":"火力+2　回避+3　索敵+4", "ship_class":"casablanca_gambier"}
+    ]}
+  ]},
   {"id":"047", "type":"その他", "title":"三式水中探信儀", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1　回避+2　対潜+3", "ship_class":"kamikaze_kamikaze"},
