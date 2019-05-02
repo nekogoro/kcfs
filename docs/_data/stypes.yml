@@ -1,4 +1,7 @@
 
+- id: aircraft_carrier
+  name: 航空母艦
+
 - id: light_cruiser
   name: 軽巡洋艦
 
