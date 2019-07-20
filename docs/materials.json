@@ -789,11 +789,11 @@
     {"synergy":"★9(累積不可)", "items":[
       {"text":"火力+4　回避+2　装甲+1　索敵+2　射程1段階延長", "ship_class":"ise_ise_2"},
       {"text":"火力+4　回避+3　装甲+3　索敵+2　射程1段階延長", "ship_class":"ise_hyuuga_2"},
+      {"text":"火力+5　索敵+6　射程1段階延長", "ship_class":"souryuu_souryuu_2"},
       {"text":"火力+5　索敵+6", "ship_class":"souryuu"},
       {"text":"火力+3　索敵+4　射程1段階延長", "ship_class":"hiryuu_hiryuu_2"},
-      {"text":"火力+5　索敵+6　射程1段階延長", "ship_class":"souryuu_souryuu_2"},
-      {"text":"火力+2　索敵+3", "ship_class":"shouhou_zuihou_2b"},
       {"text":"火力+3　索敵+4", "ship_class":"hiryuu"},
+      {"text":"火力+2　索敵+3", "ship_class":"shouhou_zuihou_2b"},
       {"text":"火力+2　索敵+3", "ship_class":"mogami-v_suzuya_v2"},
       {"text":"火力+2　索敵+3", "ship_class":"mogami-v_kumano_v2"},
       {"text":"火力+1　索敵+2", "ship_class":"akagi"},
