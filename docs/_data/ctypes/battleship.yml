@@ -1,0 +1,39 @@
+
+# - id: kongou
+#   name: 金剛型
+
+- id: ise
+  name: 伊勢型
+
+# - id: fusou
+#   name: 扶桑型
+
+# - id: nagato
+#   name: 長門型
+#
+# - id: yamato
+#   name: 大和型
+#
+# - id: bismarck
+#   name: Bismarck級
+#
+# - id: vittorioveneto
+#   name: V.Veneto級
+
+- id: colorado
+  name: Colorado級
+
+- id: iowa
+  name: Iowa級
+
+# - id: queenelizabeth
+#   name: Queen Elizabeth級
+#
+# - id: nelson
+#   name: Nelson級
+#
+# - id: richelieu
+#   name: Richelieu級
+#
+# - id: gangut
+#   name: Гангут級

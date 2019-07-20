@@ -13,3 +13,15 @@
 
 - id: shoukaku
   name: 翔鶴型
+
+- id: grafzeppelin
+  name: Graf Zeppelin級
+
+- id: aquila
+  name: Aquila級
+
+- id: lexington
+  name: Lexington級
+
+- id: essex
+  name: Essex級

@@ -41,11 +41,14 @@
 - id: maestrale
   name: Maestrale 級
 
-- id: uss
-  name: アメリカ海軍
+- id: johncbutler
+  name: John C.Butler級
 
-- id: hms
-  name: イギリス海軍
+- id: fletcher
+  name: Fletcher級
 
-- id: ussrs
-  name: ソビエト海軍
+- id: hms-j
+  name: J級（英国海軍）
+
+- id: tashkent
+  name: Ташкент級
