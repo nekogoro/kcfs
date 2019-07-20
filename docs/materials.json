@@ -349,7 +349,7 @@
       {"text":"火力+1　対空+3　回避+4", "ship_class":"akagi_akagi_2"},
       {"text":"火力+6　対空+4　回避+5", "ship_class":"akagi_akagi_2e"},
       {"text":"火力+1　対空+2　回避+2", "ship_class":"akagi_akagi_1"},
-      {"text火力+1　対空+2　回避+3", "ship_class":"kaga_kaga_1"}
+      {"text":"火力+1　対空+2　回避+3", "ship_class":"kaga_kaga_1"}
     ]}
   ]},
   {"id":"184", "type":"艦上機", "title":"Re.2001 OR改", "bonus":[
