@@ -14,6 +14,12 @@
 - id: shoukaku
   name: 翔鶴型
 
+- id: unryuu
+  name: 雲龍型
+
+- id: taihou
+  name: 大鳳型
+
 - id: grafzeppelin
   name: Graf Zeppelin級
 
@@ -25,3 +31,6 @@
 
 - id: essex
   name: Essex級
+
+- id: arkroyal
+  name: Ark Royal級
