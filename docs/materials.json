@@ -320,6 +320,17 @@
       {"text":"火力+3　雷装+2　対空+1　回避+1", "ship_class":"nisshin"}
     ]}
   ]},
+  {"id":"340", "type":"中口径主砲", "title":"152mm／55 三連装速射砲", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"ldsddabruzzi_ggaribaldi"}
+    ]
+  ]},
+  {"id":"341", "type":"中口径主砲", "title":"152mm／55 三連装速射砲改", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2　対空+1　回避+1", "ship_class":"ldsddabruzzi_ggaribaldi"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"gotland_gotland"}
+    ]
+  ]},
   {"id":"335", "type":"艦上機", "title":"烈風改(試製艦載型)", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"対空+2　回避+1", "ship_class":"akagi_akagi_2"},
