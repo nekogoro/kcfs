@@ -156,6 +156,7 @@
       {"text":"火力+1　対空+1　回避+2", "ship_class":"shiratsuyu_murasame_2"},
       {"text":"火力+2　雷装+1　回避+1", "ship_class":"shiratsuyu_yudachi_2"},
       {"text":"火力+1　回避+2", "ship_class":"shiratsuyu_kawakaze_2"},
+      {"text":"火力+1　回避+2", "ship_class":"shiratsuyu_umikaze_2"},
       {"text":"火力+1", "ship_class":"shiratsuyu"}
     ]},
     {"synergy":"＋水上電探", "items":[
@@ -906,6 +907,27 @@
       {"text":"回避+2　対潜+2", "ship_class":"kagerou_hamakaze"},
       {"text":"回避+2　対潜+2", "ship_class":"kagerou_hamakaze_b1"},
       {"text":"回避+2　対潜+2", "ship_class":"yuugumo_kishinami"}
-      ]}
     ]}
+  ]},
+  {"id":"035", "type":"その他", "title":"三式弾", "bonus":[
+    {"synergy":"単体(累積不可)", "items":[
+      {"text":"火力+1　対空+1", "ship_class":"kongou_kongou_2"},
+      {"text":"火力+1　対空+1", "ship_class":"kongou_kongou_2c"},
+      {"text":"対空+1", "ship_class":"kongou_hiei_2"},
+      {"text":"対空+1　回避+1", "ship_class":"kongou_haruna_2"},
+      {"text":"火力+1", "ship_class":"kongou_kirishima_2"}
+    ]}
+  ]},
+  {"id":"317", "type":"その他", "title":"三式弾改", "bonus":[
+    {"synergy":"単体(累積不可)", "items":[
+      {"text":"火力+3　対空+3", "ship_class":"kongou_kongou_2"},
+      {"text":"火力+3　対空+3", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+2　対空+2", "ship_class":"kongou_hiei_2"},
+      {"text":"火力+2　対空+2　回避+1", "ship_class":"kongou_haruna_2"},
+      {"text":"火力+3　対空+2", "ship_class":"kongou_kirishima_2"},
+      {"text":"火力+1　対空+1", "ship_class":"kongou"},
+      {"text":"火力+1　対空+2", "ship_class":"nagato_nagato_2"},
+      {"text":"火力+2　対空+2　回避+1", "ship_class":"nagato_mutsu_2"}
+    ]}
+  ]}
 ]
