@@ -401,7 +401,7 @@
   {"id":"298", "type":"大口径主砲", "title":"16inch Mk.I三連装砲", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2　装甲+1", "ship_class":"nelson"},
-      {"text":"火力+2　回避-2　装甲+1", "ship_class":"warspite"},
+      {"text":"火力+2　回避-2　装甲+1", "ship_class":"queenelizabeth_warspite"},
       {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_kongou_2"},
       {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_hiei_2"},
       {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_kirishima_2"},
@@ -411,7 +411,7 @@
   {"id":"299", "type":"大口径主砲", "title":"16inch Mk.I三連装砲＋AFCT改", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2　装甲+1", "ship_class":"nelson"},
-      {"text":"火力+2　回避-2　装甲+1", "ship_class":"warspite"},
+      {"text":"火力+2　回避-2　装甲+1", "ship_class":"queenelizabeth_warspite"},
       {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_kongou_2"},
       {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_hiei_2"},
       {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_kirishima_2"},
@@ -421,7 +421,7 @@
   {"id":"300", "type":"大口径主砲", "title":"16inch Mk.I三連装砲改＋FCR type284", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2　装甲+1", "ship_class":"nelson"},
-      {"text":"火力+2　回避-2　装甲+1", "ship_class":"warspite"},
+      {"text":"火力+2　回避-2　装甲+1", "ship_class":"queenelizabeth_warspite"},
       {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_kongou_2"},
       {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_hiei_2"},
       {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_kirishima_2"},
