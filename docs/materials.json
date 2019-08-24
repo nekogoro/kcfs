@@ -334,7 +334,6 @@
   ]},
   {"id":"289", "type":"大口径主砲", "title":"35.6cm三連装砲改(ダズル迷彩仕様)", "bonus":[
     {"synergy":"単体", "items":[
-      {"text":"（補正なし）", "ship_class":"kongou_kongou_2c"},
       {"text":"火力+2　対空+1", "ship_class":"kongou_kongou_2"},
       {"text":"火力+2　対空+2　回避+2", "ship_class":"kongou_haruna_2"},
       {"text":"火力+1", "ship_class":"kongou_hiei_2"},
@@ -393,7 +392,6 @@
   ]},
   {"id":"104", "type":"大口径主砲", "title":"35.6cm連装砲(ダズル迷彩)", "bonus":[
     {"synergy":"単体", "items":[
-      {"text":"（補正なし）", "ship_class":"kongou_kongou_2c"},
       {"text":"火力+2", "ship_class":"kongou_kongou_2"},
       {"text":"火力+1", "ship_class":"kongou_hiei_2"},
       {"text":"火力+1", "ship_class":"kongou_kirishima_2"},
@@ -404,7 +402,6 @@
     {"synergy":"単体", "items":[
       {"text":"火力+2　装甲+1", "ship_class":"nelson"},
       {"text":"火力+2　回避-2　装甲+1", "ship_class":"warspite"},
-      {"text":"（補正なし）", "ship_class":"kongou_kongou_2c"},
       {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_kongou_2"},
       {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_hiei_2"},
       {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_kirishima_2"},
@@ -415,7 +412,6 @@
     {"synergy":"単体", "items":[
       {"text":"火力+2　装甲+1", "ship_class":"nelson"},
       {"text":"火力+2　回避-2　装甲+1", "ship_class":"warspite"},
-      {"text":"（補正なし）", "ship_class":"kongou_kongou_2c"},
       {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_kongou_2"},
       {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_hiei_2"},
       {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_kirishima_2"},
@@ -426,7 +422,6 @@
     {"synergy":"単体", "items":[
       {"text":"火力+2　装甲+1", "ship_class":"nelson"},
       {"text":"火力+2　回避-2　装甲+1", "ship_class":"warspite"},
-      {"text":"（補正なし）", "ship_class":"kongou_kongou_2c"},
       {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_kongou_2"},
       {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_hiei_2"},
       {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_kirishima_2"},
