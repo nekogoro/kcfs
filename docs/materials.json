@@ -332,12 +332,175 @@
       {"text":"火力+1　対空+1　回避+1", "ship_class":"gotland_gotland"}
     ]}
   ]},
+  {"id":"289", "type":"大口径主砲", "title":"35.6cm三連装砲改(ダズル迷彩仕様)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"（補正なし）", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+2　対空+1", "ship_class":"kongou_kongou_2"},
+      {"text":"火力+2　対空+2　回避+2", "ship_class":"kongou_haruna_2"},
+      {"text":"火力+1", "ship_class":"kongou_hiei_2"},
+      {"text":"火力+1", "ship_class":"kongou_kirishima_2"}
+    ]},
+    {"synergy":"＋水上電探", "items":[
+      {"text":"火力+2　回避+2", "ship_class":"kongou_kongou_2"},
+      {"text":"火力+2　回避+2", "ship_class":"kongou_haruna_2"}
+    ]}
+  ]},
+  {"id":"290", "type":"大口径主砲", "title":"41cm三連装砲改二", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1", "ship_class":"fusou_fusou_2"},
+      {"text":"火力+1", "ship_class":"fusou_yamashiro_2"},
+      {"text":"火力+3　対空+2　回避+1", "ship_class":"ise_ise_2"},
+      {"text":"火力+3　対空+2　回避+2", "ship_class":"ise_hyuuga_2"},
+      {"text":"火力+2　対空+2　回避+1", "ship_class":"ise_ise_1"},
+      {"text":"火力+2　対空+2　回避+1", "ship_class":"ise_hyuuga_2"}
+    ]},
+    {"synergy":"＋41cm連装砲改二", "items":[
+      {"text":"火力+2　回避+2　装甲+1", "ship_class":"nagato_nagato_2"},
+      {"text":"火力+2　回避+2　装甲+1", "ship_class":"nagato_mutsu_2"},
+      {"text":"火力+1　回避+2　装甲+1", "ship_class":"ise_hyuuga_2"},
+      {"text":"回避+2　装甲+1", "ship_class":"ise_ise_2"},
+      {"text":"回避+2　装甲+1", "ship_class":"ise_ise_1"},
+      {"text":"回避+2　装甲+1", "ship_class":"ise_hyuuga_1"}
+    ]},
+    {"synergy":"＋対空電探", "items":[
+      {"text":"対空+2　回避+3", "ship_class":"ise_ise_2"},
+      {"text":"対空+2　回避+3", "ship_class":"ise_hyuuga_2"}
+    ]}
+  ]},
+  {"id":"318", "type":"大口径主砲", "title":"41cm連装砲改二", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+3　対空+2　回避+1", "ship_class":"nagato_nagato_2"},
+      {"text":"火力+3　対空+2　回避+1", "ship_class":"nagato_mutsu_2"},
+      {"text":"火力+3　対空+2　回避+2", "ship_class":"ise_hyuuga_2"},
+      {"text":"火力+2　対空+2　回避+2", "ship_class":"ise_ise_2"},
+      {"text":"火力+2　対空+2　回避+2", "ship_class":"ise_ise_1"},
+      {"text":"火力+2　対空+2　回避+2", "ship_class":"ise_hyuuga_2"}
+      {"text":"火力+1", "ship_class":"fusou_fusou_2"},
+      {"text":"火力+1", "ship_class":"fusou_yamashiro_2"}
+    ]}
+  ]},
+  {"id":"104", "type":"大口径主砲", "title":"35.6cm連装砲(ダズル迷彩)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"（補正なし）", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+2", "ship_class":"kongou_kongou_2"},
+      {"text":"火力+1", "ship_class":"kongou_hiei_2"},
+      {"text":"火力+1", "ship_class":"kongou_kirishima_2"},
+      {"text":"火力+2　対空+1　回避+2", "ship_class":"kongou_haruna_2"}
+    ]}
+  ]},
+  {"id":"298", "type":"大口径主砲", "title":"16inch Mk.I三連装砲", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2　装甲+1", "ship_class":"nelson"},
+      {"text":"火力+2　回避-2　装甲+1", "ship_class":"warspite"},
+      {"text":"（補正なし）", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_kongou_2"},
+      {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_hiei_2"},
+      {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_kirishima_2"},
+      {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_haruna_2"}
+    ]}
+  ]},
+  {"id":"299", "type":"大口径主砲", "title":"16inch Mk.I三連装砲＋AFCT改", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2　装甲+1", "ship_class":"nelson"},
+      {"text":"火力+2　回避-2　装甲+1", "ship_class":"warspite"},
+      {"text":"（補正なし）", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_kongou_2"},
+      {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_hiei_2"},
+      {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_kirishima_2"},
+      {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_haruna_2"}
+    ]}
+  ]},
+  {"id":"300", "type":"大口径主砲", "title":"16inch Mk.I三連装砲改＋FCR type284", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2　装甲+1", "ship_class":"nelson"},
+      {"text":"火力+2　回避-2　装甲+1", "ship_class":"warspite"},
+      {"text":"（補正なし）", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_kongou_2"},
+      {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_hiei_2"},
+      {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_kirishima_2"},
+      {"text":"火力+1　回避-3　装甲+1", "ship_class":"kongou_haruna_2"}
+    ]}
+  ]},
+  {"id":"328", "type":"大口径主砲", "title":"35.6cm連装砲改", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+3　雷装+1　回避+1", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+2　回避+1", "ship_class":"kongou_kongou_2"},
+      {"text":"火力+2　回避+1", "ship_class":"kongou_hiei_2"},
+      {"text":"火力+2　回避+1", "ship_class":"kongou_haruna_2"},
+      {"text":"火力+2　回避+1", "ship_class":"kongou_kirishima_2"},
+      {"text":"火力+2　回避+1", "ship_class":"kongou_kongou_1"},
+      {"text":"火力+2　回避+1", "ship_class":"kongou_hiei_1"},
+      {"text":"火力+2　回避+1", "ship_class":"kongou_haruna_1"},
+      {"text":"火力+2　回避+1", "ship_class":"kongou_kirishima_1"},
+      {"text":"火力+1", "ship_class":"kongou"},
+      {"text":"火力+1", "ship_class":"fusou"},
+      {"text":"火力+1", "ship_class":"ise"}
+    ]}
+  ]},
+  {"id":"329", "type":"大口径主砲", "title":"35.6cm連装砲改二", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+4　雷装+2　対空+1　回避+1", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+3　対空+1　回避+1", "ship_class":"kongou_kongou_2"},
+      {"text":"火力+3　対空+1　回避+1", "ship_class":"kongou_hiei_2"},
+      {"text":"火力+3　対空+1　回避+1", "ship_class":"kongou_haruna_2"},
+      {"text":"火力+3　対空+1　回避+1", "ship_class":"kongou_kirishima_2"},
+      {"text":"火力+2　回避+1", "ship_class":"kongou_kongou_1"},
+      {"text":"火力+2　回避+1", "ship_class":"kongou_hiei_1"},
+      {"text":"火力+2　回避+1", "ship_class":"kongou_haruna_1"},
+      {"text":"火力+2　回避+1", "ship_class":"kongou_kirishima_1"},
+      {"text":"火力+1", "ship_class":"kongou"},
+      {"text":"火力+1", "ship_class":"fusou"},
+      {"text":"火力+1", "ship_class":"ise"}
+    ]}
+  ]},
+  {"id":"330", "type":"大口径主砲", "title":"16inch Mk.I連装砲", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2", "ship_class":"nelson_nelson_1"},
+      {"text":"火力+2", "ship_class":"nagato_nagato_2"},
+      {"text":"火力+2", "ship_class":"nagato_mutsu_2"},
+      {"text":"火力+1", "ship_class":"colorado"},
+      {"text":"火力+1", "ship_class":"nagato"}
+    ]}
+  ]},
+  {"id":"331", "type":"大口径主砲", "title":"16inch Mk.V連装砲", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2　回避+1", "ship_class":"colorado_colorado_1"},
+      {"text":"火力+2", "ship_class":"nelson_nelson_1"},
+      {"text":"火力+2", "ship_class":"nagato_nagato_2"},
+      {"text":"火力+2", "ship_class":"nagato_mutsu_2"},
+      {"text":"火力+1", "ship_class":"nagato_nagato_1"},
+      {"text":"火力+1", "ship_class":"nagato_mutsu_1"}
+    ]}
+  ]},
+  {"id":"332", "type":"大口径主砲", "title":"16inch Mk.VIII連装砲改", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2　回避+1", "ship_class":"colorado_colorado_1"},
+      {"text":"火力+2", "ship_class":"nelson_nelson_1"},
+      {"text":"火力+2", "ship_class":"nagato_nagato_2"},
+      {"text":"火力+2", "ship_class":"nagato_mutsu_2"},
+      {"text":"火力+1", "ship_class":"nagato_nagato_1"},
+      {"text":"火力+1", "ship_class":"nagato_mutsu_1"},
+      {"text":"火力+1", "ship_class":"colorado"}
+    ]}
+  ]},
   {"id":"335", "type":"艦上機", "title":"烈風改(試製艦載型)", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"対空+2　回避+1", "ship_class":"akagi_akagi_2"},
       {"text":"対空+2　回避+1", "ship_class":"akagi_akagi_2e"},
       {"text":"対空+1　回避+1", "ship_class":"akagi_akagi_1"},
       {"text":"対空+1　回避+1", "ship_class":"kaga_kaga_1"}
+    ]},
+    {"synergy":"＋41cm三連装砲改二", "items":[
+      {"text":"火力+2　回避+2　装甲+1", "ship_class":"nagato_nagato_2"},
+      {"text":"火力+2　回避+2　装甲+1", "ship_class":"nagato_mutsu_2"},
+      {"text":"火力+1　回避+2　装甲+1", "ship_class":"ise_hyuuga_2"},
+      {"text":"回避+2　装甲+1", "ship_class":"ise_ise_2"},
+      {"text":"回避+2　装甲+1", "ship_class":"ise_ise_1"},
+      {"text":"回避+2　装甲+1", "ship_class":"ise_hyuuga_1"}
+    ]},
+    {"synergy":"＋対空電探", "items":[
+      {"text":"対空+2　回避+3", "ship_class":"ise_ise_2"},
+      {"text":"対空+2　回避+3", "ship_class":"ise_hyuuga_2"}
     ]}
   ]},
   {"id":"336", "type":"艦上機", "title":"烈風改二", "bonus":[

@@ -1,6 +1,9 @@
 
 - id: kongou
-  name: 金剛 / 金剛改
+  name: 金剛
+
+- id: kongou_1
+  name: 金剛改
 
 - id: kongou_2
   name: 金剛改二
@@ -9,19 +12,28 @@
   name: 金剛改二丙
 
 - id: hiei
-  name: 比叡 / 比叡改
+  name: 比叡
+
+- id: hiei_1
+  name: 比叡改
 
 - id: hiei_2
   name: 比叡改二
 
 - id: haruna
-  name: 榛名 / 榛名改
+  name: 榛名
+
+- id: haruna_1
+  name: 榛名改
 
 - id: haruna_2
   name: 榛名改二
 
 - id: kirishima
-  name: 霧島 / 霧島改
+  name: 霧島
+
+- id: kirishima_1
+  name: 霧島改
 
 - id: kirishima_2
   name: 霧島改二

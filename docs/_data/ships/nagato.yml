@@ -1,12 +1,18 @@
 
 - id: nagato
-  name: 長門 / 長門改
+  name: 長門
+
+- id: nagato_1
+  name: 長門改
 
 - id: nagato_2
   name: 長門改二
 
 - id: mutsu
-  name: 陸奥 / 陸奥改
+  name: 陸奥
+
+- id: mutsu_1
+  name: 陸奥改
 
 - id: mutsu_2
   name: 陸奥改二
