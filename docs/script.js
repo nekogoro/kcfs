@@ -1,16 +1,39 @@
 $(function() {
+	var ship_type = "";
 	var ship_class = "";
 	var ulObj = $("#output");
 
+	var $parent = $('.parent');
 	var $children = $('.children');
-	var original = $children.html();
+	var original_parent = $parent.html();
+	var original_children = $children.html();
 
-		$('.parent').change(function() {
+	$('.grand').change(function() {
+		var val1 = $(this).val();
+		ship_type = val1;
+		ulObj.empty();
+
+		$parent.html(original_parent).find('option').each(function() {
+	    var val2 = $(this).data('val');
+
+	    if (val1 != val2) {
+	      $(this).not(':first-child').remove();
+	    }
+	  });
+
+	  if ($(this).val() == "") {
+	    $parent.attr('disabled', 'disabled');
+	  } else {
+	    $parent.removeAttr('disabled');
+	  }
+	});
+
+	$('.parent').change(function() {
 		var val1 = $(this).val();
 		ship_class = val1;
 		ulObj.empty();
 
-		$children.html(original).find('option').each(function() {
+		$children.html(original_children).find('option').each(function() {
 	    var val2 = $(this).data('val');
 
 	    if (val1 != val2) {
