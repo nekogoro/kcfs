@@ -23,6 +23,7 @@ $(function() {
 
 	  if ($(this).val() == "") {
 	    $parent.attr('disabled', 'disabled');
+	    $children.attr('disabled', 'disabled');
 	  } else {
 	    $parent.removeAttr('disabled');
 	  }
