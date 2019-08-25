@@ -26,6 +26,7 @@ $(function() {
 	    $children.attr('disabled', 'disabled');
 	  } else {
 	    $parent.removeAttr('disabled');
+	    $children.attr('disabled', 'disabled');
 	  }
 	});
 
