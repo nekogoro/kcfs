@@ -20,15 +20,18 @@
 
 		<h2>装備ボーナスソート</h2>
 
-		<select class="parent" name="dd_list">
-			<option selected="selected">--クラス選択--</option>
+		<select class="grand" name="type_list">
+			<option selected="selected">--艦種選択--</option>
 			{% for stype in site.data.stypes %}
-			<optgroup label="{{ stype.name }}">
-				{% for ctype in site.data.ctypes[stype.id] %}
-				<option value="{{ ctype.id }}">{{ ctype.name }}</option>
-				{% endfor %}
-			</optgroup>
+				<option value="{{ stype.id }}">{{ stype.name }}</option>
 			{% endfor %}
+		</select>
+
+		<select class="parent" name="class_list" disabled>
+			<option selected="custom_selected">--クラス選択--</option>
+			{% for stype in site.data.stypes %} {% for ctype in site.data.ctypes[stype.id] %}
+				<option value="{{ ctype.id }}"  data-val="{{ stype.id }}">{{ ctype.name }}</option>
+			{% endfor %} {% endfor %}
 		</select>
 
 		<select class="children" name="ship_list" disabled>
