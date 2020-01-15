@@ -250,12 +250,14 @@
   ]},
   {"id":"313", "type":"小口径主砲", "title":"5inch単装砲 Mk.30改", "bonus":[
     {"synergy":"単体", "items":[
-      {"text":"火力+2　対空+2　回避+2　装甲+1", "ship_class":"uss"}
+      {"text":"火力+2　対空+2　回避+2　装甲+1", "ship_class":"fletcher"},
+      {"text":"火力+2　対空+2　回避+2　装甲+1", "ship_class":"johncbutler"}
     ]}
   ]},
   {"id":"308", "type":"小口径主砲", "title":"5inch単装砲 Mk.30改＋GFCS Mk.37", "bonus":[
     {"synergy":"単体", "items":[
-      {"text":"火力+2　対空+1　回避+1", "ship_class":"uss"},
+      {"text":"火力+2　対空+1　回避+1", "ship_class":"fletcher"},
+      {"text":"火力+2　対空+1　回避+1", "ship_class":"johncbutler"},
       {"text":"火力+1", "ship_class":"kamikaze"},
       {"text":"火力+1", "ship_class":"mutsuki"},
       {"text":"火力+1", "ship_class":"fubuki"},
