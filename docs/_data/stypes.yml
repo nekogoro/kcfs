@@ -8,14 +8,23 @@
 - id: light_carrier
   name: 軽空母
 
-- id: light_cruiser
-  name: 軽巡洋艦・重雷装艦
+- id: heavy_cruiser
+  name: 重巡洋艦（派生含む）
 
-- id: training_cruiser
-  name: 練習巡洋艦
+- id: light_cruiser
+  name: 軽巡洋艦（派生含む）
 
 - id: destroyer
   name: 駆逐艦
 
 - id: escort
   name: 海防艦
+
+#- id: submarine
+#  name: 潜水艦・潜水母艦
+
+- id: seaplane_carrier
+  name: 水上機母艦
+
+#- id: other
+#  name: その他
