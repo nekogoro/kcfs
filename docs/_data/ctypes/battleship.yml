@@ -14,11 +14,11 @@
 - id: yamato
   name: 大和型
 
-# - id: bismarck
-#   name: Bismarck級
+- id: bismarck
+  name: Bismarck級
 
-# - id: vittorioveneto
-#   name: V.Veneto級
+- id: vittorioveneto
+  name: V.Veneto級
 
 - id: colorado
   name: Colorado級
@@ -32,8 +32,8 @@
 - id: nelson
   name: Nelson級
 
-# - id: richelieu
-#   name: Richelieu級
+- id: richelieu
+  name: Richelieu級
 
-# - id: gangut
-#   name: Гангут級
+- id: gangut
+  name: Гангут級
