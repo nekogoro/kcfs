@@ -26,5 +26,8 @@
 - id: seaplane_carrier
   name: 水上機母艦
 
-#- id: other
-#  name: その他
+- id: amphibious_assault_ship
+  name: 揚陸艦
+
+- id: other
+  name: その他
