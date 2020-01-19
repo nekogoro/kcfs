@@ -10,6 +10,7 @@
 	<meta name="description" content="「艦これ」における艦娘別装備ボーナスの一覧" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="title.js"></script>
 	<link href="github.css" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Muli:400,900|Noto+Sans+JP:400,900&amp;subset=japanese" rel="stylesheet">
 </head>
@@ -35,12 +36,16 @@
 			{% endfor %} {% endfor %}
 		</select>
 
-		<select class="children" name="ship_list" disabled>
+		<select class="children" name="ship_list" onChange="appearTitle()" disabled>
 			<option selected="custom_selected">--艦名選択--</option>
 			{% for stype in site.data.stypes %} {% for ctype in site.data.ctypes[stype.id] %} {% for ship in site.data.ships[ctype.id] %}
 			<option value="{{ ctype.id }}_{{ ship.id }}" data-val="{{ ctype.id }}">{{ ship.name }}</option>
 			{% endfor %} {% endfor %} {% endfor %}
 		</select>
+
+		<hr />
+
+		<h3 id="ship_name_title"><a href="https://wikiwiki.jp/kancolle/{{ ship.name}}" target="blank">{{ ship.name }}</a></h3>
 
 		<ul id="output"></ul>
 
@@ -48,7 +53,7 @@
 
 		<dl>
 			<dt>これは何？</dt>
-			<dd>2019年7月時点における装備ボーナス（フィット砲）を、艦娘ごとに出力するページです。
+			<dd>2020年1月時点における装備ボーナス（フィット砲）を、艦娘ごとに出力するページです。
 				<a href="https://wikiwiki.jp/kancolle/">艦これ wiki</a> の情報を参考にしています。<br />
 				さまざまな呼び名がありますが、<a href="https://wikiwiki.jp/kancolle/装備#bonus">艦これ wiki</a> に習い「装備ボーナス」と呼ぶことにします。
 			</dd>
@@ -62,18 +67,26 @@
 			<dd>主砲と電探など、別の装備との組み合わせで得られる装備ボーナスです。単体ボーナスとは別に加算され、累積されません。</dd>
 		</dl>
 		<dl>
-			<dt>データに誤りを見つけた</dt>
+			<dt>「水上電探」とは</dt>
+			<dd>索敵+5以上の電探</dd>
+		</dl>
+		<dl>
+			<dt>「対空電探」とは</dt>
+			<dd><対空+1以上の電探dd>
+		</dl>
+		<dl>
+			<dt>データに誤りを見つけた、要望について報告</dt>
 			<dd><a href="https://kancolle.social/@nekogoro">作者</a>または<a href="https://github.com/nekogoro/kcfs/issues">Issues</a>まで</dd>
 		</dl>
 		<dl>
 				<dt>対応一覧</dt>
 				<dd>
-					艦娘：駆逐艦、軽巡洋艦、重雷装巡洋艦、練習巡洋艦、海防艦、航空母艦、軽空母、戦艦<br />
-					装備：小口径主砲、中口径主砲、大口径主砲、艦上機、その他（電探・ソナー）
+					艦娘：駆逐艦、軽巡洋艦（重雷装巡洋艦、練習巡洋艦、防空巡洋艦、兵装実験軽巡）、海防艦、航空母艦、軽空母、戦艦、重巡洋艦（航空巡洋艦）<br />
+					装備：小口径主砲、中口径主砲、大口径主砲、艦上機、その他（電探・ソナー・タービン）
 				</dd>
 		</dl>
 		<p>Special Thanks: <a href="https://wikiwiki.jp/kancolle/">艦これ wiki</a> & <a href="https://kancolle.social/">艦これ マストドン泊地</a></p>
-		<p>最終更新：2019/10/12 新規実装艦の追加</p>
+		<p>最終更新：2020/01/10 新規実装艦・装備の追加、重巡洋艦の追加、表記修正</p>
 	</div>
 	<footer>
 		<p>KanColle Experimental Dataset</p>

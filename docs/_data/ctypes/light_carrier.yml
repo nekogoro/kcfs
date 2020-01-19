@@ -1,9 +1,9 @@
 
-# - id: houshou
-#   name: 鳳翔型
-#
-# - id: ryuujou
-#   name: 龍驤型
+- id: houshou
+  name: 鳳翔型
+
+- id: ryuujou
+  name: 龍驤型
 
 - id: ryuuhou
   name: 龍鳳型
@@ -11,14 +11,14 @@
 - id: shouhou
   name: 祥鳳型
 
-# - id: hiyou
-#   name: 飛鷹型
-#
-# - id: chitose-v
-#   name: 千歳型
-#
-# - id: kasugamaru
-#   name: 春日丸型
+- id: hiyou
+  name: 飛鷹型
+
+- id: chitose-v
+  name: 千歳型
+
+- id: kasugamaru
+  name: 春日丸型
 
 - id: taiyou
   name: 大鷹型

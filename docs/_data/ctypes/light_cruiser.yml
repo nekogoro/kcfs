@@ -3,13 +3,13 @@
   name: 天龍型
 
 - id: kuma
-  name: 球磨型（雷巡含む）
+  name: 球磨型 #重雷装巡洋艦含む
 
 - id: nagara
   name: 長良型
 
 - id: yuubari
-  name: 夕張型
+  name: 夕張型 #兵装実験軽巡含む
 
 - id: sendai
   name: 川内型
@@ -24,4 +24,20 @@
   name: L.d.S.D.d.Abruzzi級
 
 - id: gotland
-  name: Gotland級
+  name: Gotland級 #軽（航空）巡洋艦含む
+
+- id: deruyter
+  name: De Ruyter級
+
+- id: perth
+  name: Perth級
+
+# 防空巡洋艦
+
+- id: atlanta
+  name: Atlanta級
+
+# 練習巡洋艦
+
+- id: katori
+  name: 香取型
