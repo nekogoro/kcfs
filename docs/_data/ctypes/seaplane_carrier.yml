@@ -8,6 +8,9 @@
 - id: nisshin
   name: 日清型
 
+- id: kamoi-s
+  name: 神威型
+
 - id: akitsushima
   name: 秋津洲型
 

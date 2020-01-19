@@ -594,6 +594,76 @@
       {"text":"火力+1", "ship_class":"colorado"}
     ]}
   ]},
+  {"id":"079", "type":"水上機", "title":"瑞雲(六三四空)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2", "ship_class":"fusou_fusou_1"},
+      {"text":"火力+2", "ship_class":"fusou_yamashiro_1"},
+      {"text":"火力+2", "ship_class":"fusou_fusou_2"},
+      {"text":"火力+2", "ship_class":"fusou_yamashiro_2"},
+      {"text":"火力+2", "ship_class":"ise_ise_1"},
+      {"text":"火力+2", "ship_class":"ise_hyuuga_1"},
+      {"text":"火力+3", "ship_class":"ise_ise_2"},
+      {"text":"火力+3", "ship_class":"ise_hyuuga_2"}
+    ]}
+  ]},
+  {"id":"081", "type":"水上機", "title":"瑞雲12型(六三四空)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2", "ship_class":"fusou_fusou_1"},
+      {"text":"火力+2", "ship_class":"fusou_yamashiro_1"},
+      {"text":"火力+2", "ship_class":"fusou_fusou_2"},
+      {"text":"火力+2", "ship_class":"fusou_yamashiro_2"},
+      {"text":"火力+2", "ship_class":"ise_ise_1"},
+      {"text":"火力+2", "ship_class":"ise_hyuuga_1"},
+      {"text":"火力+3", "ship_class":"ise_ise_2"},
+      {"text":"火力+3", "ship_class":"ise_hyuuga_2"}
+    ]}
+  ]},
+  {"id":"237", "type":"水上機", "title":"瑞雲(六三四空／熟練)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2", "ship_class":"fusou_fusou_1"},
+      {"text":"火力+2", "ship_class":"fusou_yamashiro_1"},
+      {"text":"火力+2", "ship_class":"fusou_fusou_2"},
+      {"text":"火力+2", "ship_class":"fusou_yamashiro_2"},
+      {"text":"火力+3　回避+1", "ship_class":"ise_ise_1"},
+      {"text":"火力+3　回避+1", "ship_class":"ise_hyuuga_1"},
+      {"text":"火力+4　回避+2", "ship_class":"ise_ise_2"},
+      {"text":"火力+4　回避+2", "ship_class":"ise_hyuuga_2"}
+    ]}
+  ]},
+  {"id":"322", "type":"水上機", "title":"瑞雲改二(六三四空)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+5　対空+2　対潜+1　回避+2", "ship_class":"ise_ise_2"},
+      {"text":"火力+5　対空+2　対潜+1　回避+2", "ship_class":"ise_hyuuga_2"}
+    ]}
+  ]},
+  {"id":"323", "type":"水上機", "title":"瑞雲改二(六三四空／熟練)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+6　対空+3　対潜+2　回避+3", "ship_class":"ise_ise_2"},
+      {"text":"火力+6　対空+3　対潜+2　回避+3", "ship_class":"ise_hyuuga_2"}
+    ]}
+  ]},
+  {"id":"304", "type":"水上機", "title":"S9 Osprey", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　対潜+1　回避+1", "ship_class":"kuma_kuma"},
+      {"text":"火力+1　対潜+1　回避+1", "ship_class":"kuma_tama"},
+      {"text":"火力+1　対潜+1　回避+1", "ship_class":"kuma_tama_2"},
+      {"text":"火力+1　対潜+1　回避+1", "ship_class":"kuma_kitakami"},
+      {"text":"火力+1　対潜+1　回避+1", "ship_class":"kuma_ooi"},
+      {"text":"火力+1　対潜+1　回避+1", "ship_class":"kuma_kiso"},
+      {"text":"火力+1　対潜+1　回避+1", "ship_class":"nagara"},
+      {"text":"火力+1　対潜+1　回避+1", "ship_class":"sendai"},
+      {"text":"火力+1　対潜+1　回避+1", "ship_class":"agano"},
+      {"text":"火力+1　対潜+2　回避+2", "ship_class":"gotland"}
+    ]}
+  ]},
+  {"id":"194", "type":"水上機", "title":"Late 298B", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　回避+2　索敵+2", "ship_class":"richelieu_richelieu_1"},
+      {"text":"火力+3　回避+2　索敵+2", "ship_class":"commandantteste"},
+      {"text":"回避+1　索敵+2", "ship_class":"mizuho"},
+      {"text":"回避+1　索敵+2", "ship_class":"kamoi"}
+    ]}
+  ]},
   {"id":"019", "type":"艦上機", "title":"九六式艦戦", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1　対空+1　対潜+1　回避+2", "ship_class":"houshou"},

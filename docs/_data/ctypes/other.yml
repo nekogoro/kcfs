@@ -1,6 +1,9 @@
 
+- id: submarinetender
+  name: 潜水母艦
+
 - id: repairship
   name: 工作艦
 
-- id: submarinetender
-  name: 潜水母艦
+- id: amphibiousassaultship
+  name: 揚陸艦

@@ -23,11 +23,11 @@
 #- id: submarine
 #  name: 潜水艦・潜水母艦
 
-#- id: seaplane_carrier
-#  name: 水上機母艦
+- id: seaplane_carrier
+  name: 水上機母艦
 
-#- id: amphibious_assault_ship
-#  name: 揚陸艦
+- id: fleet_oiler
+  name: 補給艦
 
 - id: other
   name: その他

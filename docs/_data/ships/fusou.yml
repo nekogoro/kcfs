@@ -1,12 +1,18 @@
 
 - id: fusou
-  name: 扶桑 / 扶桑改
+  name: 扶桑
+
+- id: fusou_1
+  name: 扶桑改
 
 - id: fusou_2
   name: 扶桑改二
 
 - id: yamashiro
-  name: 山城 / 山城改
+  name: 山城
+
+- id: yamashiro_1
+  name: 山城改
 
 - id: yamashiro_2
   name: 山城改二
