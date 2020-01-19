@@ -45,7 +45,7 @@
     ]},
     {"synergy":"＋対空電探", "items":[
       {"text":"対空+2　回避+2", "ship_class":"yuubari_yuubari_2"},
-      {"text":"対空+2　回避+2", "ship_class":"yuubari_yuubari_2s"},
+      {"text":"対空+2　回避+2", "ship_class":"yuubari_yuubari_2s"}
   ]},
     {"synergy":"(★7以上)＋水上電探", "items":[
       {"text":"火力+2　回避+3", "ship_class":"kamikaze"},
@@ -605,7 +605,7 @@
       {"text":"対空+1　回避+1", "ship_class":"hiyou"},
       {"text":"対空+1　回避+1", "ship_class":"chitose-v"},
       {"text":"対空+1　回避+1", "ship_class":"mogami-v"},
-      {"text":"対空+1　回避+1", "ship_class":"casablanca}
+      {"text":"対空+1　回避+1", "ship_class":"casablanca"}
     ]}
   ]},
   {"id":"228", "type":"艦上機", "title":"九六式艦戦改", "bonus":[
@@ -619,7 +619,7 @@
       {"text":"対空+1　対潜+2　回避+1", "ship_class":"hiyou"},
       {"text":"対空+1　対潜+2　回避+1", "ship_class":"chitose-v"},
       {"text":"対空+1　対潜+2　回避+1", "ship_class":"mogami-v"},
-      {"text":"対空+1　対潜+2　回避+1", "ship_class":"casablanca}
+      {"text":"対空+1　対潜+2　回避+1", "ship_class":"casablanca"}
     ]}
   ]},
   {"id":"335", "type":"艦上機", "title":"烈風改(試製艦載型)", "bonus":[
@@ -928,7 +928,7 @@
       {"text":"射程1段階延長", "ship_class":"souryuu_souryuu_2"},
       {"text":"射程1段階延長", "ship_class":"hiryuu_hiryuu_2"}
     ]},
-    {"synergy":"★0～1(累積不可)", "items"[
+    {"synergy":"★0～1(累積不可)", "items":[
       {"text":"火力+3　回避+2　装甲+1　射程1段階延長", "ship_class":"ise_ise_2"},
       {"text":"火力+3　回避+3　装甲+3　射程1段階延長", "ship_class":"ise_hyuuga_2"}
     ]},
@@ -941,7 +941,7 @@
       {"text":"火力+1　索敵+1", "ship_class":"mogami-v_suzuya_v2"},
       {"text":"火力+1　索敵+1", "ship_class":"mogami-v_kumano_v2"}
     ]},
-    {"synergy":"★2～3(累積不可)", "items"[
+    {"synergy":"★2～3(累積不可)", "items":[
       {"text":"火力+3　回避+2　装甲+1　索敵+1　射程1段階延長", "ship_class":"ise_ise_2"},
       {"text":"火力+3　回避+3　装甲+3　索敵+1　射程1段階延長", "ship_class":"ise_hyuuga_2"},
       {"text":"火力+3　索敵+4　射程1段階延長", "ship_class":"souryuu_souryuu_2"},
@@ -962,9 +962,9 @@
       {"text":"索敵+1", "ship_class":"essex"},
       {"text":"索敵+1", "ship_class":"arkroyal"}
     ]},
-    {"synergy":"★4～5(累積不可)", "items"[
+    {"synergy":"★4～5(累積不可)", "items":[
       {"text":"火力+4　回避+2　装甲+1　索敵+1　射程1段階延長", "ship_class":"ise_ise_2"},
-      {"text":"火力+4　回避+3　装甲+3　索敵+1　射程1段階延長", "ship_class":"ise_hyuuga_2"}
+      {"text":"火力+4　回避+3　装甲+3　索敵+1　射程1段階延長", "ship_class":"ise_hyuuga_2"},
       {"text":"火力+4　索敵+4　射程1段階延長", "ship_class":"souryuu_souryuu_2"},
       {"text":"火力+4　索敵+4", "ship_class":"souryuu"},
       {"text":"火力+3　索敵+3　射程1段階延長", "ship_class":"hiryuu_hiryuu_2"},
@@ -983,7 +983,7 @@
       {"text":"火力+1　索敵+1", "ship_class":"essex"},
       {"text":"火力+1　索敵+1", "ship_class":"arkroyal"}
     ]},
-    {"synergy":"★6～9(累積不可)", "items"[
+    {"synergy":"★6～9(累積不可)", "items":[
       {"text":"火力+4　回避+2　装甲+1　索敵+2　射程1段階延長", "ship_class":"ise_ise_2"},
       {"text":"火力+4　回避+3　装甲+3　索敵+2　射程1段階延長", "ship_class":"ise_hyuuga_2"},
       {"text":"火力+4　索敵+5　射程1段階延長", "ship_class":"souryuu_souryuu_2"},
