@@ -21,8 +21,6 @@
 
 		<h2>装備ボーナスソート</h2>
 
-		{% assign shipTitle = "" %}
-
 		<select class="grand" name="type_list">
 			<option selected="selected">--艦種選択--</option>
 			{% for stype in site.data.stypes %}
@@ -49,10 +47,6 @@
 				{% endfor %}
 			{% endfor %}
 		</select>
-
-		<hr />
-
-		<h3 id="ship_name_title"><a href="https://wikiwiki.jp/kancolle/{{ ship.name }}" target="blank">{{ ship.name }}</a></h3>
 
 		<ul id="output"></ul>
 
