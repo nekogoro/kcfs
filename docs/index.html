@@ -10,7 +10,6 @@
 	<meta name="description" content="「艦これ」における艦娘別装備ボーナスの一覧" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="script.js"></script>
-	<!--<script type="text/javascript" src="title.js"></script>-->
 	<link href="github.css" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Muli:400,900|Noto+Sans+JP:400,900&amp;subset=japanese" rel="stylesheet">
 </head>
@@ -22,6 +21,8 @@
 
 		<h2>装備ボーナスソート</h2>
 
+		{% assign shipTitle = "" %}
+
 		<select class="grand" name="type_list">
 			<option selected="selected">--艦種選択--</option>
 			{% for stype in site.data.stypes %}
@@ -31,16 +32,22 @@
 
 		<select class="parent" name="class_list" disabled>
 			<option selected="custom_selected">--クラス選択--</option>
-			{% for stype in site.data.stypes %} {% for ctype in site.data.ctypes[stype.id] %}
-				<option value="{{ ctype.id }}"  data-val="{{ stype.id }}">{{ ctype.name }}</option>
-			{% endfor %} {% endfor %}
+			{% for stype in site.data.stypes %}
+				{% for ctype in site.data.ctypes[stype.id] %}
+					<option value="{{ ctype.id }}"  data-val="{{ stype.id }}">{{ ctype.name }}</option>
+				{% endfor %}
+			{% endfor %}
 		</select>
 
-		<select class="children" name="ship_list" onChange="appearTitle()" disabled>
+		<select class="children" name="ship_list" disabled>
 			<option selected="custom_selected">--艦名選択--</option>
-			{% for stype in site.data.stypes %} {% for ctype in site.data.ctypes[stype.id] %} {% for ship in site.data.ships[ctype.id] %}
-			<option value="{{ ctype.id }}_{{ ship.id }}" data-val="{{ ctype.id }}">{{ ship.name }}</option>
-			{% endfor %} {% endfor %} {% endfor %}
+			{% for stype in site.data.stypes %}
+				{% for ctype in site.data.ctypes[stype.id] %}
+					{% for ship in site.data.ships[ctype.id] %}
+						<option value="{{ ctype.id }}_{{ ship.id }}" data-val="{{ ctype.id }}">{{ ship.name }}</option>
+					{% endfor %}
+				{% endfor %}
+			{% endfor %}
 		</select>
 
 		<hr />
