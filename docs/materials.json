@@ -118,7 +118,7 @@
       {"text":"対空+6", "ship_class":"ayanami"},
       {"text":"対空+6", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋水上電探＋対空電探", "items":[
+    {"synergy":"＋水上電探＋対空電探（または双方の条件を満たす電探）", "items":[
       {"text":"火力+3　雷装+1　対空+6　回避+2", "ship_class":"fubuki"},
       {"text":"火力+3　雷装+1　対空+6　回避+2", "ship_class":"ayanami"},
       {"text":"火力+3　雷装+1　対空+6　回避+2", "ship_class":"akatsuki"}
@@ -187,7 +187,7 @@
       {"text":"対空+5", "ship_class":"hatsuharu"},
       {"text":"対空+6", "ship_class":"shiratsuyu"}
     ]},
-    {"synergy":"＋GFCS Mk.37", "items":[
+    {"synergy":"＋水上電探＋対空電探（または双方の条件を満たす電探）", "items":[
       {"text":"火力+1　雷装+2　対空+5　回避+2", "ship_class":"ayanami"},
       {"text":"火力+1　雷装+2　対空+5　回避+2", "ship_class":"akatsuki"},
       {"text":"火力+1　雷装+2　対空+5　回避+2", "ship_class":"hatsuharu"},
