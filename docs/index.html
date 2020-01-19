@@ -10,6 +10,7 @@
 	<meta name="description" content="「艦これ」における艦娘別装備ボーナスの一覧" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="title.js"></script>
 	<link href="github.css" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Muli:400,900|Noto+Sans+JP:400,900&amp;subset=japanese" rel="stylesheet">
 </head>
@@ -35,12 +36,16 @@
 			{% endfor %} {% endfor %}
 		</select>
 
-		<select class="children" name="ship_list" disabled>
+		<select class="children" name="ship_list" onChange="appearTitle()" disabled>
 			<option selected="custom_selected">--艦名選択--</option>
 			{% for stype in site.data.stypes %} {% for ctype in site.data.ctypes[stype.id] %} {% for ship in site.data.ships[ctype.id] %}
 			<option value="{{ ctype.id }}_{{ ship.id }}" data-val="{{ ctype.id }}">{{ ship.name }}</option>
 			{% endfor %} {% endfor %} {% endfor %}
 		</select>
+
+		<hr />
+
+		<h3 id="ship_name_title">{{ ship.name }}</h3>
 
 		<ul id="output"></ul>
 
