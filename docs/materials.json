@@ -730,7 +730,7 @@
       {"text":"火力+1　対空+2　回避+3", "ship_class":"aquila"}
     ]}
   ]},
-  {"id":"189", "type":"艦上機", "title":"Re.2005改", "bonus":[
+  {"id":"189", "type":"艦上機", "title":"Re.2005 改", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"対空+1　回避+2", "ship_class":"aquila"},
       {"text":"対空+1　回避+2", "ship_class":"grafzeppelin"}
