@@ -61,7 +61,8 @@ $(function() {
 			var defaultObj = $('<li/>').html('この艦に適用される装備ボーナスは登録されていません');
 			for(var i = 0; i < len; i++) {
 				var flag = false;
-				var subObj = $('<li/>').html('<a href="https://akashi-list.me/#w' + data[i].id + '" target="_blank">' + data[i].title + '</a>');
+				var subObj = $('<li/>').html('<a href="https://akashi-list.me/#w' + data[i].id + '" alt="「明石の工廠早見表」装備ページ" target="_blank" rel="noopener">' + data[i].title + '</a>'
+							     + ' <a href="https://wikiwiki.jp/kancolle/' + data[i].title + '" alt="「艦これ wiki」装備ページ" target="_blank" rel="noopener">🔗</a>');
 				var len2 = data[i].bonus.length;
 				for(var j = 0; j < len2; j++) {
 					var len3 = data[i].bonus[j].items.length;
