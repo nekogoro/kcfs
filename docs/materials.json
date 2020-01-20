@@ -661,7 +661,8 @@
       {"text":"火力+1　回避+2　索敵+2", "ship_class":"richelieu_richelieu_1"},
       {"text":"火力+3　回避+2　索敵+2", "ship_class":"commandantteste"},
       {"text":"回避+1　索敵+2", "ship_class":"mizuho"},
-      {"text":"回避+1　索敵+2", "ship_class":"kamoi"}
+      {"text":"回避+1　索敵+2", "ship_class":"kamoi"},
+      {"text":"回避+1　索敵+2", "ship_class":"kamoi-s"}
     ]}
   ]},
   {"id":"019", "type":"艦上機", "title":"九六式艦戦", "bonus":[
