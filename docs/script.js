@@ -57,6 +57,8 @@ $(function() {
 			var len = data.length;
 
 			ulObj.empty();
+			var isEmpty = true;
+			var defaultObj = $('<li/>').html('この艦に適用される装備ボーナスは登録されていません');
 			for(var i = 0; i < len; i++) {
 				var flag = false;
 				var subObj = $('<li/>').html('<a href="https://akashi-list.me/#w' + data[i].id + '" target="_blank">' + data[i].title + '</a>');
@@ -84,8 +86,12 @@ $(function() {
 					}
 				}
 				if (flag) {
+					isEmpty = false;
 					ulObj.append(subObj);
 				}
+			}
+			if (isEmpty) {
+				ulObj.append(defaultObj);
 			}
 		});
 
