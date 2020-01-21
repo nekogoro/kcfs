@@ -6,11 +6,14 @@ $(function() {
   var $classList = $('#class-list');
   var $shipList = $('#ship-list');
 
+  var originalClassList = $classList.html();
+  var originalShipList = $shipList.html();
+
   $typeList.change(function() {
     var selectedId = $(this).val();
     ulObj.empty();
 
-    $classList.html().find('option').each(function() {
+    $classList.html(originalClassList).find('option').each(function() {
       var tmpId = $(this).data('val');
 
       if (selectedId != tmpId) {
@@ -32,7 +35,7 @@ $(function() {
     classId = selectedId;
     ulObj.empty();
 
-    $shipList.html().find('option').each(function() {
+    $shipList.html(originalShipList).find('option').each(function() {
       var tmpId = $(this).data('val');
 
       if (selectedId != tmpId) {
