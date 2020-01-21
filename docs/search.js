@@ -18,7 +18,12 @@ $(function() {
         if (data[i].name.toLowerCase() === input.toLowerCase()) {
           outputMaterialList(ulObj, titleObj, data[i].name, data[i].class, data[i].ship);
         } else if (~data[i].name.toLowerCase().indexOf(input.toLowerCase())) {
-          suggestObj.append($('<li/>').text(data[i].name));
+          suggestObj.append($('<li/>').text(data[i].name)
+            .on('click', function(event) {
+              outputMaterialList(ulObj, titleObj, data[i].name, data[i].class, data[i].ship);
+              suggestObj.empty();
+            })
+          );
         }
       }
     });
