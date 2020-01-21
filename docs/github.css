@@ -42,4 +42,6 @@ header a {
 
 #suggest li {
   display: inline;
+  padding: 0 1em;
+  font-style: italic;
 }
