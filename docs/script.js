@@ -10,7 +10,7 @@ $(function() {
     var selectedId = $(this).val();
     ulObj.empty();
 
-    $classList.find('option').each(function() {
+    $classList.html().find('option').each(function() {
       var tmpId = $(this).data('val');
 
       if (selectedId != tmpId) {
@@ -32,7 +32,7 @@ $(function() {
     classId = selectedId;
     ulObj.empty();
 
-    $shipList.find('option').each(function() {
+    $shipList.html().find('option').each(function() {
       var tmpId = $(this).data('val');
 
       if (selectedId != tmpId) {
