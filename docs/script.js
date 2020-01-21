@@ -1,6 +1,7 @@
 $(function() {
-  var classId = "";
-  var ulObj = $("#output");
+  var classId = '';
+  var ulObj = $('#output');
+  var titleObj = $('#ship-title');
 
   var $typeList = $('#type-list');
   var $classList = $('#class-list');
@@ -12,6 +13,7 @@ $(function() {
   $typeList.change(function() {
     var selectedId = $(this).val();
     ulObj.empty();
+    titleObj.empty();
 
     $classList.html(originalClassList).find('option').each(function() {
       var tmpId = $(this).data('val');
@@ -21,7 +23,7 @@ $(function() {
       }
     });
 
-    if ($(this).val() == "") {
+    if ($(this).val() == '') {
       $classList.attr('disabled', 'disabled');
       $shipList.attr('disabled', 'disabled');
     } else {
@@ -34,6 +36,7 @@ $(function() {
     var selectedId = $(this).val();
     classId = selectedId;
     ulObj.empty();
+    titleObj.empty();
 
     $shipList.html(originalShipList).find('option').each(function() {
       var tmpId = $(this).data('val');
@@ -43,7 +46,7 @@ $(function() {
       }
     });
 
-    if ($(this).val() == "") {
+    if ($(this).val() == '') {
       $shipList.attr('disabled', 'disabled');
     } else {
       $shipList.removeAttr('disabled');
@@ -54,6 +57,7 @@ $(function() {
     var shipId = $shipList.val();
     $.getJSON("materials.json" , function(data) {
       ulObj.empty();
+      titleObj.append($shipList.text());
       var isEmpty = true;
       for(var i = 0; i < data.length; i++) {
         var isBonusFound = false;

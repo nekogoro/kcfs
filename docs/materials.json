@@ -102,7 +102,7 @@
       {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
     ]}
   ]},
-  {"id":"295", "type":"小口径主砲", "title":"12.7cm連装砲A型改三(戦時改修)+高射装置", "bonus":[
+  {"id":"295", "type":"小口径主砲", "title":"12.7cm連装砲A型改三(戦時改修)＋高射装置", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2　対空+2", "ship_class":"fubuki"},
       {"text":"火力+2　対空+2", "ship_class":"ayanami"},
@@ -162,7 +162,7 @@
       {"text":"回避+2", "ship_class":"shiratsuyu_kawakaze_2"}
     ]}
   ]},
-  {"id":"296", "type":"小口径主砲", "title":"12.7cm連装砲B型改四(戦時改修)+高射装置", "bonus":[
+  {"id":"296", "type":"小口径主砲", "title":"12.7cm連装砲B型改四(戦時改修)＋高射装置", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1", "ship_class":"ayanami"},
       {"text":"火力+1", "ship_class":"akatsuki"},
