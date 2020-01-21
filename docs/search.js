@@ -8,7 +8,7 @@ $(function() {
 
   $searchBox.on('input', function(event) {
     var input = $searchBox.val();
-    suggestArray.empty();
+    suggestArray = [];
     suggestObj.empty();
     ulObj.empty();
     titleObj.empty();
