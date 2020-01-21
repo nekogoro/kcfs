@@ -35,3 +35,11 @@ header p, footer p {
 header a {
   color: white;
 }
+
+#suggest ul {
+  list-style-type: none;
+}
+
+#suggest li {
+  display: inline;
+}
