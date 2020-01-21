@@ -41,7 +41,7 @@ header a {
 }
 
 #suggest li {
-  display: inline;
+  display: inline-block;
   padding: 0 1em;
   font-style: italic;
 }
