@@ -44,4 +44,6 @@ header a {
   display: inline-block;
   padding: 0 1em;
   font-style: italic;
+  color: #0366d6;
+  text-decoration: underline;
 }
