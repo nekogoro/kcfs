@@ -1,101 +1,90 @@
 $(function() {
-	var ship_type = "";
-	var ship_class = "";
-	var ulObj = $("#output");
+  var classId = "";
+  var ulObj = $("#output");
 
-	var $parent = $('.parent');
-	var $children = $('.children');
-	var original_parent = $parent.html();
-	var original_children = $children.html();
+  var $typeList = $('#type-list');
+  var $classList = $('#class-list');
+  var $shipList = $('#ship-list');
 
-	$('.grand').change(function() {
-		var val1 = $(this).val();
-		ship_type = val1;
-		ulObj.empty();
+  $typeList.change(function() {
+    var selectedId = $(this).val();
+    ulObj.empty();
 
-		$parent.html(original_parent).find('option').each(function() {
-	    var val2 = $(this).data('val');
+    $classList.find('option').each(function() {
+      var tmpId = $(this).data('val');
 
-	    if (val1 != val2) {
-	      $(this).not(':first-child').remove();
-	    }
-	  });
+      if (selectedId != tmpId) {
+        $(this).not(':first-child').remove();
+      }
+    });
 
-	  if ($(this).val() == "") {
-	    $parent.attr('disabled', 'disabled');
-	    $children.attr('disabled', 'disabled');
-	  } else {
-	    $parent.removeAttr('disabled');
-	    $children.attr('disabled', 'disabled');
-	  }
-	});
+    if ($(this).val() == "") {
+      $classList.attr('disabled', 'disabled');
+      $shipList.attr('disabled', 'disabled');
+    } else {
+      $classList.removeAttr('disabled');
+      $shipList.attr('disabled', 'disabled');
+    }
+  });
 
-	$('.parent').change(function() {
-		var val1 = $(this).val();
-		ship_class = val1;
-		ulObj.empty();
+  $classList.change(function() {
+    var selectedId = $(this).val();
+    classId = selectedId;
+    ulObj.empty();
 
-		$children.html(original_children).find('option').each(function() {
-	    var val2 = $(this).data('val');
+    $shipList.find('option').each(function() {
+      var tmpId = $(this).data('val');
 
-	    if (val1 != val2) {
-	      $(this).not(':first-child').remove();
-	    }
-	  });
+      if (selectedId != tmpId) {
+        $(this).not(':first-child').remove();
+      }
+    });
 
-	  if ($(this).val() == "") {
-	    $children.attr('disabled', 'disabled');
-	  } else {
-	    $children.removeAttr('disabled');
-	  }
-	});
+    if ($(this).val() == "") {
+      $shipList.attr('disabled', 'disabled');
+    } else {
+      $shipList.removeAttr('disabled');
+    }
+  });
 
-	$('.children').change(function() {
-
-		var ship_name = $('.children').val();
-		$.getJSON("materials.json" , function(data) {
-			var len = data.length;
-
-			ulObj.empty();
-			var isEmpty = true;
-			var defaultObj = $('<li/>').html('この艦に適用される装備ボーナスは登録されていません');
-			for(var i = 0; i < len; i++) {
-				var flag = false;
-				var subObj = $('<li/>').html('<a href="https://akashi-list.me/#w' + data[i].id + '" title="「明石の工廠早見表」装備ページ" target="_blank" rel="noopener">' + data[i].title + '</a>'
-							     + ' <a href="https://wikiwiki.jp/kancolle/' + data[i].title + '" title="「艦これ wiki」装備ページ" target="_blank" rel="noopener"><span class="fi fi-link"></span></a>');
-				var len2 = data[i].bonus.length;
-				for(var j = 0; j < len2; j++) {
-					var len3 = data[i].bonus[j].items.length;
-					for(var k = 0; k < len3; k++) {
-						if (data[i].bonus[j].items[k].ship_class == ship_name) {
-							subObj.append($('<ul/>')
-								.append($('<li/>').text(data[i].bonus[j].synergy)
-									.append($('<ul/>')
-										.append($('<li>').text(data[i].bonus[j].items[k].text)))
-							));
-							flag = true;
-							break;
-						} else if (data[i].bonus[j].items[k].ship_class == ship_class) {
-							subObj.append($('<ul/>')
-								.append($('<li/>').text(data[i].bonus[j].synergy)
-									.append($('<ul/>')
-										.append($('<li>').text(data[i].bonus[j].items[k].text)))
-							));
-							flag = true;
-							break;
-						}
-					}
-				}
-				if (flag) {
-					isEmpty = false;
-					ulObj.append(subObj);
-				}
-			}
-			if (isEmpty) {
-				ulObj.append(defaultObj);
-			}
-		});
-
-	});
-
+  $shipList.change(function() {
+    var shipId = $shipList.val();
+    $.getJSON("materials.json" , function(data) {
+      ulObj.empty();
+      var isEmpty = true;
+      for(var i = 0; i < data.length; i++) {
+        var isBonusFound = false;
+        for(var j = 0; j < data[i].bonus.length; j++) {
+          for(var k = 0; k < data[i].bonus[j].items.length; k++) {
+            var subObj = $('<li/>').html('<a href="https://akashi-list.me/#w' + data[i].id + '" title="「明石の工廠早見表」装備ページ" target="_blank" rel="noopener">' + data[i].title + '</a>'
+              + ' <a href="https://wikiwiki.jp/kancolle/' + data[i].title + '" title="「艦これ wiki」装備ページ" target="_blank" rel="noopener"><span class="fi fi-link"></span></a>');
+            if (data[i].bonus[j].items[k].ship_class == shipId) {
+              subObj.append($('<ul/>')
+                .append($('<li/>').text(data[i].bonus[j].synergy)
+                  .append($('<ul/>')
+                    .append($('<li>').text(data[i].bonus[j].items[k].text)))
+              ));
+              isBonusFound = true;
+              break;
+            } else if (data[i].bonus[j].items[k].ship_class == classId) {
+              subObj.append($('<ul/>')
+                .append($('<li/>').text(data[i].bonus[j].synergy)
+                  .append($('<ul/>')
+                    .append($('<li>').text(data[i].bonus[j].items[k].text)))
+              ));
+              isBonusFound = true;
+              break;
+            }
+          }
+        }
+        if (isBonusFound) {
+          isEmpty = false;
+          ulObj.append(subObj);
+        }
+      }
+      if (isEmpty) {
+        ulObj.append($('<li/>').html('この艦に適用される装備ボーナスは登録されていません'));
+      }
+    });
+  });
 });
