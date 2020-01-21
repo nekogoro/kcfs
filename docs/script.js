@@ -57,7 +57,7 @@ $(function() {
     var shipId = $shipList.val();
     $.getJSON("materials.json" , function(data) {
       ulObj.empty();
-      titleObj.append($('#ship-list option:selected').text());
+      titleObj.text($('#ship-list option:selected').text());
       var isEmpty = true;
       for(var i = 0; i < data.length; i++) {
         var isBonusFound = false;
