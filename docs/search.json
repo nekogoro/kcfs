@@ -1,14 +1,10 @@
 ---
 ---
 [
-  {% for stype in site.data.stypes %}
-    {% for ctype in site.data.ctypes[stype.id] %}
-      {% for ship in site.data.ships[ctype.id] %}
-        {
-          "id":"{{ ctype.id }}_{{ ship.id }}",
-          "name":"{{ ship.name }}"
-        }{% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    {% endfor %}
-  {% endfor %}
+  {% for stype in site.data.stypes %}{% for ctype in site.data.ctypes[stype.id] %}{% for ship in site.data.ships[ctype.id] %}
+  {
+    "id":"{{ ctype.id }}_{{ ship.id }}",
+    "name":"{{ ship.name }}"
+  }
+  {% unless forloop.last %},{% endunless %}{% endfor %}{% unless forloop.last %},{% endunless %}{% endfor %}{% unless forloop.last %},{% endunless %}{% endfor %}
 ]
