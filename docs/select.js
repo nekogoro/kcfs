@@ -55,6 +55,7 @@ $(function() {
 
   $shipList.change(function() {
     var shipId = $shipList.val();
-    outputMaterialList(ulObj, titleObj, classId, shipId);
+    var shipTitle = $('#ship-list option:selected').text();
+    outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId);
   });
 });

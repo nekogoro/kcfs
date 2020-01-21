@@ -10,13 +10,14 @@ $(function() {
     $.getJSON('search.json', function(data) {
       for (var i = 0; i < data.length; i++) {
         if (data[i].name === input) {
-          outputMaterialList(ulObj, titleObj, data[i].class, data[i].ship);
+          outputMaterialList(ulObj, titleObj, data[i].name, data[i].class, data[i].ship);
           flag = true;
           break;
         }
       }
       if (!flag) {
-        console.log(input + 'is not found.');
+        ulObj.empty();
+        titleObj.empty();
       }
     });
   });

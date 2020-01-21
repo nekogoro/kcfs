@@ -1,7 +1,11 @@
-function outputMaterialList(ulObj, titleObj, classId, shipId) {
+function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
   $.getJSON("materials.json" , function(data) {
     ulObj.empty();
-    titleObj.text($('#ship-list option:selected').text());
+    if (shipTitle !== '') {
+      titleObj.text(shipTitle);
+    } else {
+      titleObj.empty();
+    }
     var isEmpty = true;
     for(var i = 0; i < data.length; i++) {
       var subObj = $('<li/>').html('<a href="https://akashi-list.me/#w' + data[i].id + '" title="「明石の工廠早見表」装備ページ" target="_blank" rel="noopener">' + data[i].title + '</a>'
