@@ -25,13 +25,11 @@ $(function() {
         }
       }
     });
+    $('#suggest li').on('click', function() {
+      var i = $(this).index();
+      outputMaterialList(ulObj, titleObj, suggestArray[i].name, suggestArray[i].class, suggestArray[i].ship);
+      $suggestObj.empty();
+      suggestArray = [];
+    });
   });
-  
-  $('#suggest li').on('click', function() {
-    var i = $(this).index();
-    outputMaterialList(ulObj, titleObj, suggestArray[i].name, suggestArray[i].class, suggestArray[i].ship);
-    $suggestObj.empty();
-    suggestArray = [];
-  });
-
 });
