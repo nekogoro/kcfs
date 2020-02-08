@@ -25,7 +25,7 @@ $(function() {
         }
       }
     });
-    $('#suggest li').on('click', function() {
+    $('#suggest li').live('click', function() {
       var i = $(this).index();
       $searchBox.val(suggestArray[i].name);
       // outputMaterialList(ulObj, titleObj, suggestArray[i].name, suggestArray[i].class, suggestArray[i].ship);
