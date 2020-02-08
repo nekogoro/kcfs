@@ -1,7 +1,7 @@
 ---
 ---
 [
-  {% for stype in site.data.stypes %}{% for ctype in site.data.ctypes[stype.id] %}{% for ship in site.data.ships[ctype.id] %}{% assign names = ship.name | split: " / " %}{% for name in names %}{% assign kana = site.data.ships_kana[names[0]] %}
+  {% for stype in site.data.stypes %}{% for ctype in site.data.ctypes[stype.id] %}{% for ship in site.data.ships[ctype.id] %}{% assign names = ship.name | split: " / " %}{% for name in names %}{% assign kana = site.data.ships_kana[name] %}
   {
     "name":"{{ name }}", "class":"{{ ctype.id }}", "ship":"{{ ctype.id }}_{{ ship.id }}", "kana":"{{ kana }}"
   }
