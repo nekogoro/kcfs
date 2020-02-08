@@ -1,9 +1,9 @@
 ---
 ---
 [
-  {% for stype in site.data.stypes %}{% for ctype in site.data.ctypes[stype.id] %}{% for ship in site.data.ships[ctype.id] %}{% assign names = ship.name | split: " / " %}{% for name in names %}
+  {% for stype in site.data.stypes %}{% for ctype in site.data.ctypes[stype.id] %}{% for ship in site.data.ships[ctype.id] %}{% assign names = ship.name | split: " / " %}{% for name in names %}{% assign kana = nil %}{% for jpname in site.data.ships_kana %}{% if name == jpname.name %}{% kana = jpname.kana %}{% endif %}{% if name contains jpname.name and kana == nil %}{% kana = jpname.name %}{% endif %}{% endfor %}
   {
-    "name":"{{ name }}", "class":"{{ ctype.id }}", "ship":"{{ ctype.id }}_{{ ship.id }}", "kana":{% for jpname in site.data.ships_kana %}{% if name contains jpname.name %}"{{ jpname.kana }}"{% endif %}{% endfor %}
+    "name":"{{ name }}", "class":"{{ ctype.id }}", "ship":"{{ ctype.id }}_{{ ship.id }}", "kana":"{{ kana }}"
   }
   {% unless forloop.last %},{% endunless %}{% endfor %}{% unless forloop.last %},{% endunless %}{% endfor %}{% unless forloop.last %},{% endunless %}{% endfor %}{% unless forloop.last %},{% endunless %}{% endfor %}
 ]
