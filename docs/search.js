@@ -19,17 +19,18 @@ $(function() {
       for (var i = 0; i < data.length; i++) {
         if (data[i].name.toLowerCase() === input.toLowerCase()) {
           outputMaterialList(ulObj, titleObj, data[i].name, data[i].class, data[i].ship);
-        // } else if (~data[i].name.toLowerCase().indexOf(input.toLowerCase())) {
-        //   suggestArray.push(data[i]);
-        //   $suggestObj.append($('<li/>').text(data[i].name));
+        } else if (~data[i].name.toLowerCase().indexOf(input.toLowerCase()) || ~data[i].kana.indexOf(input)) {
+          suggestArray.push(data[i]);
+          $suggestObj.append($('<li/>').text(data[i].name));
         }
       }
     });
-    // $('#suggest li').on('click', function() {
-    //   var i = $(this).index();
-    //   outputMaterialList(ulObj, titleObj, suggestArray[i].name, suggestArray[i].class, suggestArray[i].ship);
-    //   $suggestObj.empty();
-    //   suggestArray = [];
-    // });
+    $('#suggest li').on('click', function() {
+      var i = $(this).index();
+      $searchBox.val(suggestArray[i].name);
+      // outputMaterialList(ulObj, titleObj, suggestArray[i].name, suggestArray[i].class, suggestArray[i].ship);
+      $suggestObj.empty();
+      suggestArray = [];
+    });
   });
 });
