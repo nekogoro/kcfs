@@ -15,7 +15,7 @@ $(function() {
     if (input === '') {
       return;
     }
-    $.getJSON('search.json', function(data) {
+    $.getJSON('combinedData.json', function(data) {
       for (var i = 0; i < data.length; i++) {
         if (data[i].name.toLowerCase() === input.toLowerCase()) {
           outputMaterialList(ulObj, titleObj, data[i].name, data[i].class, data[i].ship);
