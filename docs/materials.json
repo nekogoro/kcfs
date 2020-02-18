@@ -1353,8 +1353,8 @@
       {"text":"火力+2　回避-1", "ship_class":"akatsuki_akatsuki"}
     ]},
     {"synergy":"単体(累積可)", "items":[
-      {"text":"火力+1", "ship_class":"yuugumo_akigumo_1"},
-      {"text":"火力+1", "ship_class":"yuugumo_akigumo"},
+      {"text":"火力+1", "ship_class":"kagerou_akigumo_1"},
+      {"text":"火力+1", "ship_class":"kagerou_akigumo"},
       {"text":"対空+1", "ship_class":"kagerou_yukikaze_1"},
       {"text":"対空+1", "ship_class":"kagerou_yukikaze"}
     ]}
