@@ -1,9 +1,15 @@
 
 - id: kuma
-  name: 球磨 / 球磨改
+  name: 球磨
+
+- id: kuma_1
+  name: 球磨改
 
 - id: tama
-  name: 多摩 / 多摩改
+  name: 多摩
+  
+- id: tama_1
+  name: 多摩改
 
 - id: tama_2
   name: 多摩改二
@@ -27,7 +33,10 @@
   name: 大井改二
 
 - id: kiso
-  name: 木曾 / 木曾改
+  name: 木曾
+  
+- id: kiso_1
+  name: 木曾改
 
 - id: kiso_2
   name: 木曾改二

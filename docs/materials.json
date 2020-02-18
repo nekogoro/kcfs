@@ -597,6 +597,19 @@
       {"text":"火力+1", "ship_class":"colorado"}
     ]}
   ]},
+  {"id":"358", "type":"副砲", "title":"5inch 単装高角砲群", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2　対空+3　回避+3", "ship_class":"northampton"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"colorado"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"iowa"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"lexington"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"essex"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"casablanca"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"queenelizabeth"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"nelson"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"arkroyal"}
+    ]}
+  ]},
   {"id":"079", "type":"水上機", "title":"瑞雲(六三四空)", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2", "ship_class":"fusou_fusou_1"},
@@ -647,11 +660,14 @@
   ]},
   {"id":"304", "type":"水上機", "title":"S9 Osprey", "bonus":[
     {"synergy":"単体", "items":[
+      {"text":"火力+1　対潜+1　回避+1", "ship_class":"kuma_kuma_1"},
       {"text":"火力+1　対潜+1　回避+1", "ship_class":"kuma_kuma"},
-      {"text":"火力+1　対潜+1　回避+1", "ship_class":"kuma_tama"},
       {"text":"火力+1　対潜+1　回避+1", "ship_class":"kuma_tama_2"},
+      {"text":"火力+1　対潜+1　回避+1", "ship_class":"kuma_tama_1"},
+      {"text":"火力+1　対潜+1　回避+1", "ship_class":"kuma_tama"},
       {"text":"火力+1　対潜+1　回避+1", "ship_class":"kuma_kitakami"},
       {"text":"火力+1　対潜+1　回避+1", "ship_class":"kuma_ooi"},
+      {"text":"火力+1　対潜+1　回避+1", "ship_class":"kuma_kiso_1"},
       {"text":"火力+1　対潜+1　回避+1", "ship_class":"kuma_kiso"},
       {"text":"火力+1　対潜+1　回避+1", "ship_class":"nagara"},
       {"text":"火力+1　対潜+1　回避+1", "ship_class":"sendai"},
@@ -1251,6 +1267,22 @@
       {"text":"回避+5　対潜+3", "ship_class":"yuubari_yuubari_2d"}
     ]}
   ]},
+  {"id":"287", "type":"その他", "title":"三式爆雷投射機 集中配備", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"回避+1　対潜+1", "ship_class":"nagara_isuzu_2"},
+      {"text":"回避+1　対潜+1", "ship_class":"nagara_yura_2"},
+      {"text":"回避+1　対潜+1", "ship_class":"sendai_naka_2"}
+    ]}
+  ]},
+  {"id":"288", "type":"その他", "title":"試製15cm9連装対潜噴進砲", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　回避+5　対潜+3", "ship_class":"yuubari_yuubari_2d"},
+      {"text":"回避+1　対潜+2", "ship_class":"nagara_isuzu_2"},
+      {"text":"回避+1　対潜+2", "ship_class":"nagara_yura_2"},
+      {"text":"回避+1　対潜+2", "ship_class":"sendai_naka_2"},
+      {"text":"回避+1　対潜+2", "ship_class":"yuubari_yuubari_2"}
+    ]}
+  ]},
   {"id":"035", "type":"その他", "title":"三式弾", "bonus":[
     {"synergy":"単体(累積不可)", "items":[
       {"text":"火力+1　対空+1", "ship_class":"kongou_kongou_2"},
@@ -1270,6 +1302,95 @@
       {"text":"火力+1　対空+1", "ship_class":"kongou"},
       {"text":"火力+1　対空+2", "ship_class":"nagato_nagato_2"},
       {"text":"火力+2　対空+2　回避+1", "ship_class":"nagato_mutsu_2"}
+    ]}
+  ]},
+  {"id":"365", "type":"その他", "title":"一式徹甲弾改", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+3", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+2", "ship_class":"yamato_yamato_1"},
+      {"text":"火力+2", "ship_class":"yamato_musashi_2"},
+      {"text":"火力+2", "ship_class":"nagato_nagato_2"},
+      {"text":"火力+2", "ship_class":"nagato_mutsu_2"},
+      {"text":"火力+1", "ship_class":"kongou"},
+      {"text":"火力+1", "ship_class":"fusou"},
+      {"text":"火力+1", "ship_class":"ise"},
+      {"text":"火力+1", "ship_class":"yamato"},
+      {"text":"火力+1", "ship_class":"nagato"}
+    ]}
+  ]},
+  {"id":"301", "type":"その他", "title":"20連装7inch UP Rocket Launchers", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"queenelizabeth"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"nelson"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"arkroyal"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"hms-j"}
+    ]}
+  ]},
+  {"id":"268", "type":"その他", "title":"北方迷彩(＋北方装備)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"回避+7　装甲+2", "ship_class":"kuma_tama_2"},
+      {"text":"回避+7　装甲+2", "ship_class":"kuma_tama_1"},
+      {"text":"回避+7　装甲+2", "ship_class":"kuma_kiso_2"},
+      {"text":"回避+7　装甲+2", "ship_class":"kuma_kiso_1"}
+    ]}
+  ]},
+  {"id":"074", "type":"その他", "title":"探照灯", "bonus":[
+    {"synergy":"単体(累積不可)", "items":[
+      {"text":"火力+2　雷装+2　回避-1", "ship_class":"sendai_jintsuu_2"},
+      {"text":"火力+2　雷装+2　回避-1", "ship_class":"sendai_jintsuu_1"},
+      {"text":"火力+2　雷装+2　回避-1", "ship_class":"sendai_jintsuu"},
+      {"text":"火力+2　回避-1", "ship_class":"kongou_hiei_2"},
+      {"text":"火力+2　回避-1", "ship_class":"kongou_hiei_1"},
+      {"text":"火力+2　回避-1", "ship_class":"kongou_hiei"},
+      {"text":"火力+2　回避-1", "ship_class":"kongou_kirishima_2"},
+      {"text":"火力+2　回避-1", "ship_class":"kongou_kirishima_1"},
+      {"text":"火力+2　回避-1", "ship_class":"kongou_kirishima"},
+      {"text":"火力+2　回避-1", "ship_class":"takao_choukai_2"},
+      {"text":"火力+2　回避-1", "ship_class":"takao_choukai_1"},
+      {"text":"火力+2　回避-1", "ship_class":"takao_choukai"},
+      {"text":"火力+2　回避-1", "ship_class":"akatsuki_akatsuki_2"},
+      {"text":"火力+2　回避-1", "ship_class":"akatsuki_akatsuki_1"},
+      {"text":"火力+2　回避-1", "ship_class":"akatsuki_akatsuki"}
+    ]},
+    {"synergy":"単体(累積可)", "items":[
+      {"text":"火力+1", "ship_class":"yuugumo_akigumo_1"},
+      {"text":"火力+1", "ship_class":"yuugumo_akigumo"},
+      {"text":"対空+1", "ship_class":"kagerou_yukikaze_1"},
+      {"text":"対空+1", "ship_class":"kagerou_yukikaze"}
+    ]}
+  ]},
+  {"id":"140", "type":"その他", "title":"96式150cm探照灯", "bonus":[
+    {"synergy":"単体(累積不可)", "items":[
+      {"text":"火力+3　回避-2", "ship_class":"kongou_hiei_2"},
+      {"text":"火力+3　回避-2", "ship_class":"kongou_hiei_1"},
+      {"text":"火力+3　回避-2", "ship_class":"kongou_hiei"},
+      {"text":"火力+3　回避-2", "ship_class":"kongou_kirishima_2"},
+      {"text":"火力+3　回避-2", "ship_class":"kongou_kirishima_1"},
+      {"text":"火力+3　回避-2", "ship_class":"kongou_kirishima"}
+    ]}
+  ]},
+  {"id":"324", "type":"その他", "title":"オ号観測機改", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"対潜+1　回避+1", "ship_class":"ise_ise_2"},
+      {"text":"対潜+2　回避+1", "ship_class":"ise_hyuuga_2"}
+    ]}
+  ]},
+  {"id":"325", "type":"その他", "title":"オ号観測機改二", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"対潜+1　回避+1", "ship_class":"ise_ise_2"},
+      {"text":"対潜+2　回避+1", "ship_class":"ise_hyuuga_2"}
+    ]}
+  ]},
+  {"id":"326", "type":"その他", "title":"S-51J", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"対潜+2　回避+1", "ship_class":"ise_ise_2"},
+      {"text":"火力+1　対潜+3　回避+2", "ship_class":"ise_hyuuga_2"}
+    ]}
+  ]},
+  {"id":"327", "type":"その他", "title":"S-51J改", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　対潜+3　回避+1", "ship_class":"ise_ise_2"},
+      {"text":"火力+2　対潜+4　回避+2", "ship_class":"ise_hyuuga_2"}
     ]}
   ]}
 ]
