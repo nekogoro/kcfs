@@ -1,9 +1,15 @@
 
 - id: yamato
-  name: 大和 / 大和改
+  name: 大和
+
+- id: yamato_1
+  name: 大和改
 
 - id: musashi
-  name: 武蔵 / 武蔵改
+  name: 武蔵
+
+- id: musashi_1
+  name: 武蔵改
 
 - id: musashi_2
   name: 武蔵改二
