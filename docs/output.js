@@ -15,9 +15,9 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
         for(var k = 0; k < data[i].bonus[j].items.length; k++) {
           if (data[i].bonus[j].items[k].ship_class == shipId) {
             subObj.append($('<ul/>')
-              .append($('<li/>').text(data[i].bonus[j].synergy)
+              .append($('<li/>').append(data[i].bonus[j].synergy)
                 .append($('<ul/>')
-                  .append($('<li>').html(data[i].bonus[j].items[k].text.replace(/(..-[0-9])/g, '<span class="bonus_minus">$1</span>'))))
+                  .append($('<li>').append(data[i].bonus[j].items[k].text.replace(/(..-[0-9])/g, '<span class="bonus_minus">$1</span>'))))
                     // .replace(/(火力.[0-9]+)/g, '<span class="bonus_firepower">$1</span>')
                     // .replace(/(雷装.[0-9]+)/g, '<span class="bonus_torpedo">$1</span>')
                     // .replace(/(対空.[0-9]+)/g, '<span class="bonus_aa">$1</span>')
@@ -32,9 +32,9 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
             break;
           } else if (data[i].bonus[j].items[k].ship_class == classId) {
             subObj.append($('<ul/>')
-              .append($('<li/>').html(data[i].bonus[j].synergy)
+              .append($('<li/>').append(data[i].bonus[j].synergy)
                 .append($('<ul/>')
-                  .append($('<li>').text(data[i].bonus[j].items[k].text.replace(/(..-[0-9])/g, '<span class="bonus_minus">$1</span>'))))
+                  .append($('<li>').append(data[i].bonus[j].items[k].text.replace(/(..-[0-9])/g, '<span class="bonus_minus">$1</span>'))))
                     // .replace(/(火力.[0-9]+)/g, '<span class="bonus_firepower">$1</span>')
                     // .replace(/(雷装.[0-9]+)/g, '<span class="bonus_torpedo">$1</span>')
                     // .replace(/(対空.[0-9]+)/g, '<span class="bonus_aa">$1</span>')
