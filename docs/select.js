@@ -62,13 +62,3 @@ $(function() {
   
   $('input[name="option"]').change(checkOption());
 });
-
-function checkOption() {
-  var minus = $('#option_minus').prop('checked');
-
-  if (minus) {
-    $('.bonus_minus').css('color', '#ff4b00');
-  } else {
-    $('.bonus_minus').css('color', '#24292e');
-  }
-}

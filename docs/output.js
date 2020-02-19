@@ -53,10 +53,21 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
       if (isBonusFound) {
         isEmpty = false;
         ulObj.append(subObj);
+        checkOption();
       }
     }
     if (isEmpty) {
       ulObj.append($('<li/>').html('この艦に適用される装備ボーナスは登録されていません'));
     }
   });
+}
+
+function checkOption() {
+  var minus = $('#option_minus').prop('checked');
+
+  if (minus) {
+    $('.bonus_minus').css('color', '#ff4b00');
+  } else {
+    $('.bonus_minus').css('color', '#24292e');
+  }
 }
