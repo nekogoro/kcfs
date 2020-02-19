@@ -13,11 +13,11 @@
       {"text":"火力+1　回避+3　対潜+1", "ship_class":"shimushu"},
       {"text":"火力+1　回避+3　対潜+1", "ship_class":"etorofu"}
     ]},
-    {"synergy":"＋53cm連装魚雷", "items":[
+    {"synergy":"＋53cm連装魚雷(※1)", "items":[
       {"text":"火力+2　雷装+4", "ship_class":"kamikaze"},
       {"text":"火力+2　雷装+4", "ship_class":"mutsuki"}
     ]},
-    {"synergy":"＋53cm連装魚雷×2", "items":[
+    {"synergy":"＋53cm連装魚雷×2(※1)", "items":[
       {"text":"火力+3　雷装+7", "ship_class":"kamikaze"},
       {"text":"火力+3　雷装+7", "ship_class":"mutsuki"}
     ]}
@@ -76,27 +76,27 @@
       {"text":"火力+3　雷装+1　回避+2", "ship_class":"ayanami"},
       {"text":"火力+3　雷装+1　回避+2", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋61cm三連装魚雷（酸素魚雷含む）", "items":[
+    {"synergy":"＋61cm三連装魚雷（酸素魚雷含む）(※1)", "items":[
       {"text":"火力+1　雷装+3", "ship_class":"fubuki"},
       {"text":"火力+1　雷装+3", "ship_class":"ayanami"},
       {"text":"火力+1　雷装+3", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋61cm三連装魚雷（酸素魚雷含む）×2", "items":[
+    {"synergy":"＋61cm三連装魚雷（酸素魚雷含む）×2(※1)", "items":[
       {"text":"火力+2　雷装+5", "ship_class":"fubuki"},
       {"text":"火力+2　雷装+5", "ship_class":"ayanami"},
       {"text":"火力+2　雷装+5", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋61cm三連装魚雷（酸素魚雷含む）＋61cm三連装(酸素)魚雷後期型", "items":[
+    {"synergy":"＋61cm三連装魚雷（酸素魚雷含む）＋61cm三連装(酸素)魚雷後期型(※1)", "items":[
       {"text":"火力+2　雷装+6", "ship_class":"fubuki"},
       {"text":"火力+2　雷装+6", "ship_class":"ayanami"},
       {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋61cm三連装(酸素)魚雷後期型", "items":[
+    {"synergy":"＋61cm三連装(酸素)魚雷後期型(※1)", "items":[
       {"text":"火力+1　雷装+4", "ship_class":"fubuki"},
       {"text":"火力+1　雷装+4", "ship_class":"ayanami"},
       {"text":"火力+1　雷装+4", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋61cm三連装(酸素)魚雷後期型×2", "items":[
+    {"synergy":"＋61cm三連装(酸素)魚雷後期型×2(※1)", "items":[
       {"text":"火力+2　雷装+6", "ship_class":"fubuki"},
       {"text":"火力+2　雷装+6", "ship_class":"ayanami"},
       {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
@@ -123,27 +123,27 @@
       {"text":"火力+3　雷装+1　対空+6　回避+2", "ship_class":"ayanami"},
       {"text":"火力+3　雷装+1　対空+6　回避+2", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋61cm三連装魚雷（酸素魚雷含む）", "items":[
+    {"synergy":"＋61cm三連装魚雷（酸素魚雷含む）(※1)", "items":[
       {"text":"火力+1　雷装+3", "ship_class":"fubuki"},
       {"text":"火力+1　雷装+3", "ship_class":"ayanami"},
       {"text":"火力+1　雷装+3", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋61cm三連装魚雷（酸素魚雷含む）×2", "items":[
+    {"synergy":"＋61cm三連装魚雷（酸素魚雷含む）×2(※1)", "items":[
       {"text":"火力+2　雷装+5", "ship_class":"fubuki"},
       {"text":"火力+2　雷装+5", "ship_class":"ayanami"},
       {"text":"火力+2　雷装+5", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋61cm三連装(酸素)魚雷後期型", "items":[
+    {"synergy":"＋61cm三連装(酸素)魚雷後期型(※1)", "items":[
       {"text":"火力+1　雷装+4", "ship_class":"fubuki"},
       {"text":"火力+1　雷装+4", "ship_class":"ayanami"},
       {"text":"火力+1　雷装+4", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋61cm三連装(酸素)魚雷後期型＋61cm三連装魚雷（酸素魚雷含む）", "items":[
+    {"synergy":"＋61cm三連装(酸素)魚雷後期型＋61cm三連装魚雷（酸素魚雷含む）(※1)", "items":[
       {"text":"火力+2　雷装+6", "ship_class":"fubuki"},
       {"text":"火力+2　雷装+6", "ship_class":"ayanami"},
       {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋61cm三連装(酸素)魚雷後期型×2", "items":[
+    {"synergy":"＋61cm三連装(酸素)魚雷後期型×2(※1)", "items":[
       {"text":"火力+2　雷装+6", "ship_class":"fubuki"},
       {"text":"火力+2　雷装+6", "ship_class":"ayanami"},
       {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
@@ -195,12 +195,12 @@
       {"text":"火力+1　雷装+2　対空+5　回避+2", "ship_class":"hatsuharu"},
       {"text":"火力+1　雷装+3　対空+6　回避+2", "ship_class":"shiratsuyu"}
     ]},
-    {"synergy":"＋61cm三連装(酸素)魚雷後期型", "items":[
+    {"synergy":"＋61cm三連装(酸素)魚雷後期型(※1)", "items":[
       {"text":"火力+1　雷装+3", "ship_class":"ayanami"},
       {"text":"火力+1　雷装+3", "ship_class":"akatsuki"},
       {"text":"火力+1　雷装+3", "ship_class":"hatsuharu"}
     ]},
-    {"synergy":"＋61cm四連装(酸素)魚雷後期型", "items":[
+    {"synergy":"＋61cm四連装(酸素)魚雷後期型(※1)", "items":[
       {"text":"火力+1　雷装+3", "ship_class":"shiratsuyu"}
     ]}
   ]},
@@ -618,74 +618,74 @@
       {"text":"火力+2　雷装+4　回避+4", "ship_class":"yuubari_yuubari_2s"},
       {"text":"雷装+6　回避+3", "ship_class":"kongou_kongou_2c"}
     ]},
-    {"synergy":"＋12cm単装砲改二(※)", "items":[
+    {"synergy":"＋12cm単装砲改二(※2)", "items":[
       {"text":"火力+2　雷装+4", "ship_class":"kamikaze"},
       {"text":"火力+2　雷装+4", "ship_class":"mutsuki"}
     ]},
-    {"synergy":"＋12cm単装砲改二＋53cm連装魚雷(※)", "items":[
+    {"synergy":"＋12cm単装砲改二(※2)＋53cm連装魚雷", "items":[
       {"text":"火力+3　雷装+7", "ship_class":"kamikaze"},
       {"text":"火力+3　雷装+7", "ship_class":"mutsuki"}
     ]}
   ]},
   {"id":"013", "type":"魚雷", "title":"61cm三連装魚雷", "bonus":[
-    {"synergy":"＋12.7cm連装砲A型改二(※)", "items":[
+    {"synergy":"＋12.7cm連装砲A型改二(※2)", "items":[
       {"text":"火力+1　雷装+3", "ship_class":"fubuki"},
       {"text":"火力+1　雷装+3", "ship_class":"ayanami"},
       {"text":"火力+1　雷装+3", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋12.7cm連装砲A型改二＋61cm三連装魚雷（酸素魚雷含む）(※)", "items":[
+    {"synergy":"＋12.7cm連装砲A型改二(※2)＋61cm三連装魚雷（酸素魚雷含む）", "items":[
       {"text":"火力+2　雷装+5", "ship_class":"fubuki"},
       {"text":"火力+2　雷装+5", "ship_class":"ayanami"},
       {"text":"火力+2　雷装+5", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋12.7cm連装砲A型改二＋61cm三連装(酸素)魚雷後期型(※)", "items":[
+    {"synergy":"＋12.7cm連装砲A型改二(※2)＋61cm三連装(酸素)魚雷後期型", "items":[
       {"text":"火力+2　雷装+6", "ship_class":"fubuki"},
       {"text":"火力+2　雷装+6", "ship_class":"ayanami"},
       {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋'12.7cm連装砲A型改三(戦時改修)＋高射装置'(※)", "items":[
+    {"synergy":"＋12.7cm連装砲A型改三(戦時改修)＋高射装置(※2)", "items":[
       {"text":"火力+1　雷装+3", "ship_class":"fubuki"},
       {"text":"火力+1　雷装+3", "ship_class":"ayanami"},
       {"text":"火力+1　雷装+3", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋'12.7cm連装砲A型改三(戦時改修)＋高射装置' ＋61cm三連装魚雷（酸素魚雷含む）(※)", "items":[
+    {"synergy":"＋12.7cm連装砲A型改三(戦時改修)＋高射装置(※2)＋61cm三連装魚雷（酸素魚雷含む）", "items":[
       {"text":"火力+2　雷装+5", "ship_class":"fubuki"},
       {"text":"火力+2　雷装+5", "ship_class":"ayanami"},
       {"text":"火力+2　雷装+5", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋'12.7cm連装砲A型改三(戦時改修)＋高射装置' ＋61cm三連装(酸素)魚雷後期型(※)", "items":[
+    {"synergy":"＋12.7cm連装砲A型改三(戦時改修)＋高射装置(※2)＋61cm三連装(酸素)魚雷後期型", "items":[
       {"text":"火力+2　雷装+6", "ship_class":"fubuki"},
       {"text":"火力+2　雷装+6", "ship_class":"ayanami"},
       {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
     ]}
   ]},
   {"id":"125", "type":"魚雷", "title":"61cm三連装(酸素)魚雷", "bonus":[
-    {"synergy":"＋12.7cm連装砲A型改二(※)", "items":[
+    {"synergy":"＋12.7cm連装砲A型改二(※2)", "items":[
       {"text":"火力+1　雷装+3", "ship_class":"fubuki"},
       {"text":"火力+1　雷装+3", "ship_class":"ayanami"},
       {"text":"火力+1　雷装+3", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋12.7cm連装砲A型改二＋61cm三連装魚雷（酸素魚雷含む）(※)", "items":[
+    {"synergy":"＋12.7cm連装砲A型改二(※2)＋61cm三連装魚雷（酸素魚雷含む）", "items":[
       {"text":"火力+2　雷装+5", "ship_class":"fubuki"},
       {"text":"火力+2　雷装+5", "ship_class":"ayanami"},
       {"text":"火力+2　雷装+5", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋12.7cm連装砲A型改二＋61cm三連装(酸素)魚雷後期型(※)", "items":[
+    {"synergy":"＋12.7cm連装砲A型改二(※2)＋61cm三連装(酸素)魚雷後期型", "items":[
       {"text":"火力+2　雷装+6", "ship_class":"fubuki"},
       {"text":"火力+2　雷装+6", "ship_class":"ayanami"},
       {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋'12.7cm連装砲A型改三(戦時改修)＋高射装置'(※)", "items":[
+    {"synergy":"＋12.7cm連装砲A型改三(戦時改修)＋高射装置(※2)", "items":[
       {"text":"火力+1　雷装+3", "ship_class":"fubuki"},
       {"text":"火力+1　雷装+3", "ship_class":"ayanami"},
       {"text":"火力+1　雷装+3", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋'12.7cm連装砲A型改三(戦時改修)＋高射装置' ＋61cm三連装魚雷（酸素魚雷含む）(※)", "items":[
+    {"synergy":"＋12.7cm連装砲A型改三(戦時改修)＋高射装置(※2)＋61cm三連装魚雷（酸素魚雷含む）", "items":[
       {"text":"火力+2　雷装+5", "ship_class":"fubuki"},
       {"text":"火力+2　雷装+5", "ship_class":"ayanami"},
       {"text":"火力+2　雷装+5", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋'12.7cm連装砲A型改三(戦時改修)＋高射装置' ＋61cm三連装(酸素)魚雷後期型(※)", "items":[
+    {"synergy":"＋12.7cm連装砲A型改三(戦時改修)＋高射装置(※2)＋61cm三連装(酸素)魚雷後期型", "items":[
       {"text":"火力+2　雷装+6", "ship_class":"fubuki"},
       {"text":"火力+2　雷装+6", "ship_class":"ayanami"},
       {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
@@ -708,37 +708,37 @@
       {"text":"火力+1　雷装+2　回避+1", "ship_class":"hatsuharu_hatsuharu_2"},
       {"text":"火力+1　雷装+2　回避+1", "ship_class":"hatsuharu_hatsushimo_2"}
     ]},
-    {"synergy":"＋12.7cm連装砲A型改二(※)", "items":[
+    {"synergy":"＋12.7cm連装砲A型改二(※2)", "items":[
       {"text":"火力+1　雷装+4", "ship_class":"fubuki"},
       {"text":"火力+1　雷装+4", "ship_class":"ayanami"},
       {"text":"火力+1　雷装+4", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋12.7cm連装砲A型改二＋61cm三連装魚雷（酸素魚雷含む）(※)", "items":[
+    {"synergy":"＋12.7cm連装砲A型改二(※2)＋61cm三連装魚雷（酸素魚雷含む）", "items":[
       {"text":"火力+2　雷装+6", "ship_class":"fubuki"},
       {"text":"火力+2　雷装+6", "ship_class":"ayanami"},
       {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋12.7cm連装砲A型改二＋61cm三連装(酸素)魚雷後期型(※)", "items":[
+    {"synergy":"＋12.7cm連装砲A型改二(※2)＋61cm三連装(酸素)魚雷後期型", "items":[
       {"text":"火力+2　雷装+6", "ship_class":"fubuki"},
       {"text":"火力+2　雷装+6", "ship_class":"ayanami"},
       {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋'12.7cm連装砲A型改三(戦時改修)＋高射装置'(※)", "items":[
+    {"synergy":"＋12.7cm連装砲A型改三(戦時改修)＋高射装置(※2)", "items":[
       {"text":"火力+1　雷装+4", "ship_class":"fubuki"},
       {"text":"火力+1　雷装+4", "ship_class":"ayanami"},
       {"text":"火力+1　雷装+4", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋'12.7cm連装砲A型改三(戦時改修)＋高射装置' ＋61cm三連装魚雷（酸素魚雷含む）(※)", "items":[
+    {"synergy":"＋12.7cm連装砲A型改三(戦時改修)＋高射装置(※2)＋61cm三連装魚雷（酸素魚雷含む）", "items":[
       {"text":"火力+2　雷装+6", "ship_class":"fubuki"},
       {"text":"火力+2　雷装+6", "ship_class":"ayanami"},
       {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋'12.7cm連装砲A型改三(戦時改修)＋高射装置' ＋61cm三連装(酸素)魚雷後期型(※)", "items":[
+    {"synergy":"＋12.7cm連装砲A型改三(戦時改修)＋高射装置(※2)＋61cm三連装(酸素)魚雷後期型", "items":[
       {"text":"火力+2　雷装+6", "ship_class":"fubuki"},
       {"text":"火力+2　雷装+6", "ship_class":"ayanami"},
       {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
     ]},
-    {"synergy":"＋'12.7cm連装砲B型改四(戦時改修)＋高射装置'(※)", "items":[
+    {"synergy":"＋12.7cm連装砲B型改四(戦時改修)＋高射装置(※2)", "items":[
       {"text":"火力+1　雷装+3", "ship_class":"ayanami"},
       {"text":"火力+1　雷装+3", "ship_class":"akatsuki"},
       {"text":"火力+1　雷装+3", "ship_class":"hatsuharu"}
@@ -798,7 +798,7 @@
       {"text":"火力+1　雷装+2　回避+1", "ship_class":"yuugumo_naganami_2"},
       {"text":"火力+1　雷装+2　回避+1", "ship_class":"yuugumo_asashimo_2"}
     ]},
-    {"synergy":"＋'12.7cm連装砲B型改四(戦時改修)＋高射装置'(※)", "items":[
+    {"synergy":"＋12.7cm連装砲B型改四(戦時改修)＋高射装置(※2)", "items":[
       {"text":"火力+1　雷装+3", "ship_class":"shiratsuyu"}
     ]}
   ]},
