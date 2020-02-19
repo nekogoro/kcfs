@@ -94,6 +94,11 @@ header a {
   opacity: 1;
   border: none;
 }
+
+.link-icon {
+  vertical-align: text-bottom;
+}
+
 /*
 .bonus_firepower {
   background-color: #FFCABF;
