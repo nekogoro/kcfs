@@ -10,7 +10,6 @@
 	<meta name="description" content="「艦これ」における艦娘別装備ボーナスの一覧" />
 	<link href="github.css" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Muli:400|Noto+Sans+JP:900&display=swap&subset=japanese" rel="stylesheet">
-	<link href="https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css" rel="stylesheet" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="output.js"></script>
 	<script type="text/javascript" src="select.js"></script>
@@ -52,6 +51,15 @@
 			{% endfor %}
 		</select>
 
+		<div class="hidden_box">
+			<label for="label1">▼オプション</label>
+			<input type="checkbox" id="option_menu"/>
+			<div class="hidden_show">
+				<!--<input type="checkbox" id="option_color" name="option"/><label for="color">数値色付け</label>-->
+				<input type="checkbox" id="option_minus" name="option"/><label for="option_minus">マイナス値強調</label>
+			</div>
+		</div>
+
 		<h3 id="ship-title"></h3>
 
 		<ul id="output"></ul>
@@ -88,12 +96,12 @@
 		<dl>
 				<dt>対応一覧</dt>
 				<dd>
-					艦娘：駆逐艦、軽巡洋艦（重雷装巡洋艦、練習巡洋艦、防空巡洋艦、兵装実験軽巡）、海防艦、航空母艦、軽空母、戦艦、重巡洋艦（航空巡洋艦）<br />
-					装備：小口径主砲、中口径主砲、大口径主砲、副砲、艦上機、その他（電探・ソナー・タービン・爆雷・機銃・対空強化弾・バルジ・探照灯・回転翼機）
+					艦娘：駆逐艦、軽巡洋艦（重雷装巡洋艦、練習巡洋艦、防空巡洋艦、兵装実験軽巡）、海防艦、航空母艦、軽空母、戦艦、重巡洋艦（航空巡洋艦）、補助艦艇、潜水艦（潜水母艦）<br />
+					装備：小口径主砲、中口径主砲、大口径主砲、副砲、魚雷、艦上機、その他（電探・ソナー・タービン・爆雷・機銃・対空強化弾・バルジ・探照灯・回転翼機）
 				</dd>
 		</dl>
-		<p>Special Thanks: <a href="https://wikiwiki.jp/kancolle/">艦これ wiki</a> & <a href="https://kancolle.social/">艦これ マストドン泊地</a></p>
-		<p>最終更新：2020/02/18 副砲・その他装備の追加</p>
+		<p>Special Thanks: <a href="https://wikiwiki.jp/kancolle/">艦これ wiki</a> & <img src="https://icongr.am/simple/mastodon.svg?size=16&colored=true"/> <a href="https://kancolle.social/">艦これ マストドン泊地</a></p>
+		<p>最終更新：2020/02/19 潜水艦、魚雷の追加</p>
 	</div>
 	<footer>
 		<p>KanColle Experimental Dataset</p>

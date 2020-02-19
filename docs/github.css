@@ -1,3 +1,5 @@
+/* Stylesheet from Github */
+
 body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -13,6 +15,8 @@ body {
 #main {
   margin: 8px;
 }
+
+/* end of Stylesheet from Github */
 
 h1, h2, h3 {
   font-family: "Noto Sans JP", sans-serif;
@@ -53,4 +57,68 @@ header a {
 	background: #F7CED6;
 	border-radius: 20px;
 	cursor: pointer;
+}
+
+.hidden_box {
+  padding: 0;
+}
+
+.hidden_box label {
+  cursor :pointer;
+}
+
+.hidden_box input {
+  display: none;
+}
+
+.hidden_show input {
+  display: inline;
+}
+
+.hidden_box .hidden_show {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.hidden_box #option_menu:checked ~ .hidden_show {
+  height: auto;
+  opacity: 1;
+}
+
+.bonus_firepower {
+  background-color: #FFCABF;
+}
+
+.bonus_torpedo {
+  background-color: #BFE4FF;
+}
+
+.bonus_aa {
+  background-color: #D8F255;
+}
+
+.bonus_asw {
+  
+}
+
+.bonus_los {
+  
+}
+
+.bonus_evasion {
+  
+}
+
+.bonus_armor {
+  background-color: #FFCA80;
+}
+
+.bonus_other {
+  background-color: #C8C8CB;
+}
+
+#option_minus:checked ~ .bonus_minus {
+  color: #ff4b00;
 }

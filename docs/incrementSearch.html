@@ -7,7 +7,6 @@
 	<meta name="description" content="「艦これ」における艦娘別装備ボーナスの一覧　インクリメンタルサーチ版" />
 	<link href="github.css" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Muli:400|Noto+Sans+JP:900&display=swap&subset=japanese" rel="stylesheet">
-	<link href="https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css" rel="stylesheet" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="output.js"></script>
 	<script type="text/javascript" src="incrementSearch.js"></script>
@@ -24,6 +23,15 @@
 
 		<input id="search-box" type="search" name="検索欄"/>
 
+		<div class="hidden_box">
+			<label for="label1">▼オプション</label>
+			<input type="checkbox" id="option_menu"/>
+			<div class="hidden_show">
+				<!--<input type="checkbox" id="option_color" name="option"/><label for="color">数値色付け</label>-->
+				<input type="checkbox" id="option_minus" name="option"/><label for="option_minus">マイナス値強調</label>
+			</div>
+		</div>
+
 		<ul id="suggest"></ul>
 
 		<h3 id="ship-title"></h3>
@@ -31,8 +39,5 @@
 		<ul id="output"></ul>
 
 	</div>
-	<footer>
-		<p>KanColle Experimental Dataset</p>
-	</footer>
 </body>
 </html>
