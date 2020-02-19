@@ -33,4 +33,6 @@ $(function() {
       suggestArray = [];
     });
   });
+  
+  $(document).on('click','input[name="option"]', checkOption());
 });

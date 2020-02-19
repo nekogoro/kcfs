@@ -68,10 +68,6 @@ function checkOption() {
   if (minus) {
     $('.bonus_minus').css('color', '#ff4b00');
   } else {
-    $('.bonus_minus').css('color', '#');
+    $('.bonus_minus').css('color', '');
   }
 }
-
-$(function() {
-  $(document).on('change','input[name="option"]',checkOption());
-});
