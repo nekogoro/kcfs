@@ -20,8 +20,8 @@
 - id: escort
   name: 海防艦
 
-#- id: submarine
-#  name: 潜水艦・潜水母艦
+- id: submarine
+  name: 潜水艦・潜水空母
 
 - id: seaplane_carrier
   name: 水上機母艦
