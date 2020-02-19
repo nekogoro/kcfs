@@ -57,15 +57,18 @@ $(function() {
     var shipId = $shipList.val();
     var shipTitle = $('#ship-list option:selected').text();
     outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId);
+    checkOption();
   });
   
-  $('input[name="option"]').change(function() {
-      var minus = $('#option_minus').prop('checked');
-      
-      if (minus) {
-        $('.bonus_minus').css('color', '#ff4b00');
-      } else {
-        $('.bonus_minus').css('color', '#24292e');
-      }
-  })
+  $('input[name="option"]').change(checkOption());
+  
+  function checkOption() {
+    var minus = $('#option_minus').prop('checked');
+
+    if (minus) {
+      $('.bonus_minus').css('color', '#ff4b00');
+    } else {
+      $('.bonus_minus').css('color', '#24292e');
+    }
+  }
 });
