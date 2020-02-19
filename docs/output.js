@@ -71,3 +71,7 @@ function checkOption() {
     $('.bonus_minus').css('color', '#24292e');
   }
 }
+
+$(function() {
+  $('input[name="option"]').change(checkOption());
+});

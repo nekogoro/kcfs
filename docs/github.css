@@ -98,7 +98,7 @@ header a {
 .link-icon {
   vertical-align: text-bottom;
 }
-
+/*
 #option_minus:checked ~ .bonus_minus {
   color: #ff4b00;
 }

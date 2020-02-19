@@ -59,6 +59,4 @@ $(function() {
     outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId);
     checkOption();
   });
-  
-  $('input[name="option"]').change(checkOption());
 });
