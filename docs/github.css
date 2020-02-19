@@ -127,6 +127,3 @@ header a {
   background-color: #C8C8CB;
 }
 */
-#option_minus:checked ~ .bonus_minus {
-  color: #ff4b00;
-}
