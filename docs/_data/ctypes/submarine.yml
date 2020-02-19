@@ -1,0 +1,30 @@
+
+- id: type-kd6a
+  name: 海大型
+
+- id: type-j3
+  name: 巡潜3型
+
+- id: type-am 
+  name: 巡潜甲型改二
+
+- id: type-b1
+  name: 巡潜乙型
+
+- id: type-b3
+  name: 巡潜乙型改二
+
+- id: sentoku
+  name: 潜特型(伊400型潜水艦)
+
+- id: type-3-submergencetransportvehicle
+  name: 三式潜航輸送艇
+
+- id: type-ixc
+  name: UボートIXC型
+
+- id: ro
+  name: 呂号潜水艦
+
+- id: guglielmomarconi
+  name: Guglielmo Marconi級
