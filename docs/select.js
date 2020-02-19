@@ -59,7 +59,7 @@ $(function() {
     outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId);
     checkOption();
   });
-  
+
   $('input[name="option"]').change(function() {
     var minus = $('#option_minus').prop('checked');
 

@@ -34,5 +34,13 @@ $(function() {
     });
   });
   
-  $(document).on('click','input[name="option"]', checkOption());
+  $('input[name="option"]').change(function() {
+    var minus = $('#option_minus').prop('checked');
+
+    if (minus) {
+      $('.bonus_minus').css('color', '#ff4b00');
+    } else {
+      $('.bonus_minus').css('color', '');
+    }
+  });
 });
