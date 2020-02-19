@@ -61,10 +61,11 @@ header a {
 .hidden_box {
   padding: 0em;
   font-size: 12px;
+  display: inline;
 }
 
 .hidden_box label {
-  padding: 0.1em;
+  padding: 0.1em 0.5em;
   margin: 0.5em;
   cursor :pointer;
   border: solid 1px;
@@ -73,6 +74,7 @@ header a {
 
 .hidden_show label {
   border: none;
+  margin: 0;
 }
 
 .hidden_box input {

@@ -700,7 +700,7 @@
       {"text":"雷装+2　回避+1", "ship_class":"hatsuharu_hatsuharu_2"},
       {"text":"雷装+2　回避+1", "ship_class":"hatsuharu_hatsushimo_2"}
     ]},
-    {"synergy":"単体(★max, 2つまで累積可)", "items":[
+    {"synergy":"単体(★MAX, 2つまで累積可)", "items":[
       {"text":"火力+1　雷装+2　回避+1", "ship_class":"fubuki"},
       {"text":"火力+1　雷装+2　回避+1", "ship_class":"ayanami"},
       {"text":"火力+1　雷装+2　回避+1", "ship_class":"akatsuki"},
