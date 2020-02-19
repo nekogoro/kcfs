@@ -7,7 +7,6 @@ body {
   line-height: 1.5;
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
   font-size: 16px;
-  line-height: 1.5;
   word-wrap: break-word;
   margin: 0;
 }
@@ -60,11 +59,19 @@ header a {
 }
 
 .hidden_box {
-  padding: 0;
+  padding: 0em;
+  font-size: 12px;
 }
 
 .hidden_box label {
+  padding: 0.1em;
   cursor :pointer;
+  border: solid 1px;
+  display: inline-block;
+}
+
+.hidden_show label {
+  border: none;
 }
 
 .hidden_box input {
@@ -85,8 +92,9 @@ header a {
 .hidden_box #option_menu:checked ~ .hidden_show {
   height: auto;
   opacity: 1;
+  border: none;
 }
-
+/*
 .bonus_firepower {
   background-color: #FFCABF;
 }
@@ -118,7 +126,7 @@ header a {
 .bonus_other {
   background-color: #C8C8CB;
 }
-
+*/
 #option_minus:checked ~ .bonus_minus {
   color: #ff4b00;
 }
