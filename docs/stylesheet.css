@@ -108,7 +108,3 @@ header a {
 .link-icon {
   vertical-align: text-bottom;
 }
-
-.link-icon svg {
-  fill: currentColor;
-}
