@@ -21,7 +21,7 @@ $(function() {
           outputMaterialList(ulObj, titleObj, data[i].name, data[i].class, data[i].ship);
         } else if (~data[i].name.toLowerCase().indexOf(input.toLowerCase()) || ~data[i].kana.indexOf(input)) {
           suggestArray.push(data[i]);
-          if (data[i].ship.split().length > 1) {
+          if (data[i].ship.split('_').length > 1) {
             $suggestObj.append($('<li/>').text(data[i].name).addClass(data[i].type).addClass('mod'));
           } else {
             $suggestObj.append($('<li/>').text(data[i].name).addClass(data[i].type).addClass('not_mod'));
