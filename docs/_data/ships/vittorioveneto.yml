@@ -1,6 +1,9 @@
 
 - id: littorio
-  name: Littorio / Italia
+  name: Littorio
+
+- id: littorio_1
+  name: Italia
 
 - id: roma
   name: Roma / Roma改
