@@ -16,6 +16,7 @@ $(function() {
       return;
     }
     $.getJSON('combinedData.json', function(data) {
+      $suggestObj.hide();
       for (var i = 0; i < data.length; i++) {
         if (data[i].name.toLowerCase() === input.toLowerCase()) {
           outputMaterialList(ulObj, titleObj, data[i].name, data[i].class, data[i].ship);
@@ -28,6 +29,8 @@ $(function() {
           }
         }
       }
+      toggleList();
+      $suggestObj.show();
     });
     $(document).on('click', '#suggest li', function() {
       var i = $(this).index();
@@ -49,12 +52,16 @@ $(function() {
   });
 
   $('#option_mod').change(function() {
-    var mod = $('#option_mod').prop('checked');
-
-    if (mod) {
-      $('.not_mod').hide();
-    } else {
-      $('.not_mod').show();
-    }
+    toggleList();
   });
 });
+
+function toggleList() {
+  var mod = $('#option_mod').prop('checked');
+
+  if (mod) {
+    $('.not_mod').hide();
+  } else {
+    $('.not_mod').show();
+  }
+}
