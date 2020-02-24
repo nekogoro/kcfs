@@ -57,10 +57,10 @@ header a {
 	margin-right: 0.5em;
 	line-height: 1.5;
 	vertical-align: middle;
-	background: #F7CED6;
+	/*background: #F7CED6;*/
 	border-radius: 20px;
 	cursor: pointer;
-	color: white;
+	/*color: white;*/
 }
 
 .hidden_box {
@@ -134,37 +134,33 @@ details ul {
 /* colors */
 
 .battleship {
-  background-color: #ff4b00 ;
+  background-color: #ffcabf ;
 }
 
 .aircraft_carrier, .light_carrier {
-  background-color: #fff100 ;
-}
-
-.cud-green{
-  background-color: #03af7a ;
-}
-
-.destroyer {
-  background-color: #005aff ;
-}
-
-.escort {
-  background-color: #4dc4ff ;
-}
-
-.light_cruiser {
-  background-color: #ff8082 ;
+  background-color: #ffff80 ;
 }
 
 .heavy_cruiser {
-  background-color: #f6aa00 ;
+  background-color: #d8f255 ;
+}
+
+.destroyer {
+  background-color: #bfe4ff ;
+}
+
+.escort {
+  background-color: #ffca80 ;
+}
+
+.light_cruiser {
+  background-color: #77d9a8 ;
 }
 
 .submarine {
-  background-color: #990099 ;
+  background-color: #c9ace6 ;
 }
 
 .seaplane_carrier, .fleet_oiler, .other {
-  background-color: #804000 ;
+  background-color: #c8c8cb ;
 }
