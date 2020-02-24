@@ -21,6 +21,9 @@ $(function() {
         if (data[i].name.toLowerCase() === input.toLowerCase()) {
           outputMaterialList(ulObj, titleObj, data[i].name, data[i].class, data[i].ship);
         } else if (~data[i].name.toLowerCase().indexOf(input.toLowerCase()) || ~data[i].kana.indexOf(input)) {
+          if (suggestArray.indexOf(data[i]) !== -1) {
+            continue;
+          }
           suggestArray.push(data[i]);
           if (data[i].ship.split('_').length === 3 || data[i].name.indexOf('改') !== -1) {
             $suggestObj.append($('<li/>').text(data[i].name).addClass(data[i].type).addClass('mod'));
