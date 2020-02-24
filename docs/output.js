@@ -1,5 +1,5 @@
 function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
-  $.getJSON("materials.json" , function(data) {
+  $.getJSON("equipments.json" , function(data) {
     ulObj.empty();
     if (shipTitle !== '') {
       titleObj.text(shipTitle);
