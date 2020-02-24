@@ -60,7 +60,7 @@ header a {
 	/*background: #F7CED6;*/
 	border-radius: 20px;
 	cursor: pointer;
-	/*color: white;*/
+	border: 1px solid #c8c8cb;
 }
 
 .hidden_box {
@@ -104,10 +104,6 @@ header a {
   border: none;
   padding: 0;
   margin: 0;
-}
-
-.link-icon {
-  vertical-align: cud-bottom;
 }
 
 details {
