@@ -21,7 +21,7 @@ $(function() {
           outputMaterialList(ulObj, titleObj, data[i].name, data[i].class, data[i].ship);
         } else if (~data[i].name.toLowerCase().indexOf(input.toLowerCase()) || ~data[i].kana.indexOf(input)) {
           suggestArray.push(data[i]);
-          $suggestObj.append($('<li/>').text(data[i].name)).addClass(data[i].type);
+          $suggestObj.append($('<li/>').text(data[i].name).addClass(data[i].type));
         }
       }
     });
