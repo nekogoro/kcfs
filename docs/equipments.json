@@ -1779,6 +1779,7 @@
       {"text":"火力+1　雷装+2　索敵+3　回避+2", "ship_class":"sendai"},
       {"text":"火力+1　雷装+2　索敵+3　回避+2", "ship_class":"yuubari"},
       {"text":"火力+1　雷装+2　索敵+3　回避+2", "ship_class":"agano"},
+      {"text":"火力+1　雷装+2　索敵+3　回避+2", "ship_class":"katori"},
       {"text":"火力+1　索敵+3　回避+2", "ship_class":"furutaka"},
       {"text":"火力+1　索敵+3　回避+2", "ship_class":"aoba"},
       {"text":"火力+1　索敵+3　回避+2", "ship_class":"myoukou"},
