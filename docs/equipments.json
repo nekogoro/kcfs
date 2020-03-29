@@ -357,7 +357,7 @@
       {"text":"火力+1", "ship_class":"mogami"},
       {"text":"火力+1", "ship_class":"tone"}
     ]},
-    {"synergy":"＋水上電探", "items":[
+    {"synergy":"＋水上電探(※3)", "items":[
       {"text":"火力+3　雷装+2　回避+2", "ship_class":"furutaka"},
       {"text":"火力+3　雷装+2　回避+2", "ship_class":"aoba"}
     ]},
@@ -387,7 +387,7 @@
       {"text":"火力+3　回避+1", "ship_class":"mogami"},
       {"text":"火力+3　回避+1", "ship_class":"tone"}
     ]},
-    {"synergy":"＋水上電探", "items":[
+    {"synergy":"＋水上電探(※3)", "items":[
       {"text":"火力+1　雷装+1　回避+1", "ship_class":"furutaka"},
       {"text":"火力+1　雷装+1　回避+1", "ship_class":"aoba"},
       {"text":"火力+3　雷装+2　回避+2", "ship_class":"myoukou"},
