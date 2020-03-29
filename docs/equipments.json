@@ -1687,12 +1687,13 @@
   ]},
   {"id":"140", "type":"その他", "title":"96式150cm探照灯", "bonus":[
     {"synergy":"単体(累積不可)", "items":[
-      {"text":"火力+3　回避-2", "ship_class":"kongou_hiei_2"},
-      {"text":"火力+3　回避-2", "ship_class":"kongou_hiei_1"},
-      {"text":"火力+3　回避-2", "ship_class":"kongou_hiei"},
-      {"text":"火力+3　回避-2", "ship_class":"kongou_kirishima_2"},
-      {"text":"火力+3　回避-2", "ship_class":"kongou_kirishima_1"},
-      {"text":"火力+3　回避-2", "ship_class":"kongou_kirishima"}
+      {"text":"火力+6　回避-2", "ship_class":"kongou_hiei_2"},
+      {"text":"火力+6　回避-2", "ship_class":"kongou_hiei_1"},
+      {"text":"火力+6　回避-2", "ship_class":"kongou_hiei"},
+      {"text":"火力+6　回避-2", "ship_class":"kongou_kirishima_2"},
+      {"text":"火力+6　回避-2", "ship_class":"kongou_kirishima_1"},
+      {"text":"火力+6　回避-2", "ship_class":"kongou_kirishima"},
+      {"text":"火力+4　回避-1", "ship_class":"kongou_hiei_2"}
     ]}
   ]},
   {"id":"324", "type":"その他", "title":"オ号観測機改", "bonus":[
