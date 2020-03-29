@@ -650,6 +650,7 @@
   {"id":"174", "type":"魚雷", "title":"53cm連装魚雷", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"雷装+1　回避+2", "ship_class":"kamikaze"},
+      {"text":"火力+2　雷装+4　回避+4", "ship_class":"nagara_yura_2"},
       {"text":"火力+2　雷装+4　回避+4", "ship_class":"yuubari_yuubari_2"},
       {"text":"火力+2　雷装+4　回避+4", "ship_class":"yuubari_yuubari_2d"},
       {"text":"火力+2　雷装+4　回避+4", "ship_class":"yuubari_yuubari_2s"},
