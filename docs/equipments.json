@@ -492,15 +492,15 @@
     {"synergy":"単体", "items":[
       {"text":"火力+1", "ship_class":"fusou_fusou_2"},
       {"text":"火力+1", "ship_class":"fusou_yamashiro_2"},
-      {"text":"火力+3　対空+2　回避+1", "ship_class":"ise_ise_2"},
-      {"text":"火力+3　対空+2　回避+2", "ship_class":"ise_hyuuga_2"},
+      {"text":"火力+3　対空+2　回避+1　命中+3", "ship_class":"ise_ise_2"},
+      {"text":"火力+3　対空+2　回避+2　命中+3", "ship_class":"ise_hyuuga_2"},
       {"text":"火力+2　対空+2　回避+1", "ship_class":"ise_ise_1"},
       {"text":"火力+2　対空+2　回避+1", "ship_class":"ise_hyuuga_1"}
     ]},
     {"synergy":"＋41cm連装砲改二", "items":[
-      {"text":"火力+2　回避+2　装甲+1", "ship_class":"nagato_nagato_2"},
-      {"text":"火力+2　回避+2　装甲+1", "ship_class":"nagato_mutsu_2"},
-      {"text":"火力+1　回避+2　装甲+1", "ship_class":"ise_hyuuga_2"},
+      {"text":"火力+2　回避+2　装甲+1　命中+1", "ship_class":"nagato_nagato_2"},
+      {"text":"火力+2　回避+2　装甲+1　命中+1", "ship_class":"nagato_mutsu_2"},
+      {"text":"火力+1　回避+2　装甲+1　命中+1", "ship_class":"ise_hyuuga_2"},
       {"text":"回避+2　装甲+1", "ship_class":"ise_ise_2"},
       {"text":"回避+2　装甲+1", "ship_class":"ise_ise_1"},
       {"text":"回避+2　装甲+1", "ship_class":"ise_hyuuga_1"}
@@ -512,26 +512,26 @@
   ]},
   {"id":"318", "type":"大口径主砲", "title":"41cm連装砲改二", "bonus":[
     {"synergy":"単体", "items":[
-      {"text":"火力+3　対空+2　回避+1", "ship_class":"nagato_nagato_2"},
-      {"text":"火力+3　対空+2　回避+1", "ship_class":"nagato_mutsu_2"},
-      {"text":"火力+3　対空+2　回避+2", "ship_class":"ise_hyuuga_2"},
-      {"text":"火力+2　対空+2　回避+2", "ship_class":"ise_ise_2"},
+      {"text":"火力+3　対空+2　回避+1　命中+2", "ship_class":"nagato_nagato_2"},
+      {"text":"火力+3　対空+2　回避+1　命中+2", "ship_class":"nagato_mutsu_2"},
+      {"text":"火力+3　対空+2　回避+2　命中+3", "ship_class":"ise_hyuuga_2"},
+      {"text":"火力+2　対空+2　回避+2　命中+3", "ship_class":"ise_ise_2"},
       {"text":"火力+2　対空+2　回避+2", "ship_class":"ise_ise_1"},
       {"text":"火力+2　対空+2　回避+2", "ship_class":"ise_hyuuga_1"},
       {"text":"火力+1", "ship_class":"fusou_fusou_2"},
       {"text":"火力+1", "ship_class":"fusou_yamashiro_2"}
     ]},
     {"synergy":"＋41cm三連装砲改二", "items":[
-      {"text":"火力+2　回避+2　装甲+1", "ship_class":"nagato_nagato_2"},
-      {"text":"火力+2　回避+2　装甲+1", "ship_class":"nagato_mutsu_2"},
-      {"text":"火力+1　回避+2　装甲+1", "ship_class":"ise_hyuuga_2"},
+      {"text":"火力+2　回避+2　装甲+1　命中+1", "ship_class":"nagato_nagato_2"},
+      {"text":"火力+2　回避+2　装甲+1　命中+1", "ship_class":"nagato_mutsu_2"},
+      {"text":"火力+1　回避+2　装甲+1　命中+1", "ship_class":"ise_hyuuga_2"},
       {"text":"回避+2　装甲+1", "ship_class":"ise_ise_2"},
       {"text":"回避+2　装甲+1", "ship_class":"ise_ise_1"},
       {"text":"回避+2　装甲+1", "ship_class":"ise_hyuuga_1"}
     ]},
     {"synergy":"＋対空電探", "items":[
-      {"text":"対空+2　回避+3", "ship_class":"ise_ise_2"},
-      {"text":"対空+2　回避+3", "ship_class":"ise_hyuuga_2"}
+      {"text":"対空+2　回避+3　命中+1", "ship_class":"ise_ise_2"},
+      {"text":"対空+2　回避+3　命中+1", "ship_class":"ise_hyuuga_2"}
     ]}
   ]},
   {"id":"104", "type":"大口径主砲", "title":"35.6cm連装砲(ダズル迷彩)", "bonus":[
@@ -1361,28 +1361,28 @@
   ]},
   {"id":"061", "type":"艦上機", "title":"二式艦上偵察機", "bonus":[
     {"synergy":"★0(累積不可)", "items":[
-      {"text":"射程1段階延長", "ship_class":"souryuu_souryuu_2"},
-      {"text":"射程1段階延長", "ship_class":"hiryuu_hiryuu_2"}
+      {"text":"射程1段階延長　命中+5", "ship_class":"souryuu_souryuu_2"},
+      {"text":"射程1段階延長　命中+5", "ship_class":"hiryuu_hiryuu_2"}
     ]},
     {"synergy":"★0～1(累積不可)", "items":[
-      {"text":"火力+3　回避+2　装甲+1　射程1段階延長", "ship_class":"ise_ise_2"},
-      {"text":"火力+3　回避+3　装甲+3　射程1段階延長", "ship_class":"ise_hyuuga_2"}
+      {"text":"火力+3　回避+2　装甲+1　射程1段階延長　命中+5", "ship_class":"ise_ise_2"},
+      {"text":"火力+3　回避+3　装甲+3　射程1段階延長　命中+5", "ship_class":"ise_hyuuga_2"}
     ]},
     {"synergy":"★1(累積不可)", "items":[
-      {"text":"火力+3　索敵+3　射程1段階延長", "ship_class":"souryuu_souryuu_2"},
+      {"text":"火力+3　索敵+3　射程1段階延長　命中+5", "ship_class":"souryuu_souryuu_2"},
       {"text":"火力+3　索敵+3", "ship_class":"souryuu"},
-      {"text":"火力+2　索敵+2　射程1段階延長", "ship_class":"hiryuu_hiryuu_2"},
+      {"text":"火力+2　索敵+2　射程1段階延長　命中+5", "ship_class":"hiryuu_hiryuu_2"},
       {"text":"火力+2　索敵+2", "ship_class":"hiryuu"},
       {"text":"火力+1　索敵+1", "ship_class":"shouhou_zuihou_2b"},
       {"text":"火力+1　索敵+1", "ship_class":"mogami-v_suzuya_v2"},
       {"text":"火力+1　索敵+1", "ship_class":"mogami-v_kumano_v2"}
     ]},
     {"synergy":"★2～3(累積不可)", "items":[
-      {"text":"火力+3　回避+2　装甲+1　索敵+1　射程1段階延長", "ship_class":"ise_ise_2"},
-      {"text":"火力+3　回避+3　装甲+3　索敵+1　射程1段階延長", "ship_class":"ise_hyuuga_2"},
-      {"text":"火力+3　索敵+4　射程1段階延長", "ship_class":"souryuu_souryuu_2"},
+      {"text":"火力+3　回避+2　装甲+1　索敵+1　射程1段階延長　命中+5", "ship_class":"ise_ise_2"},
+      {"text":"火力+3　回避+3　装甲+3　索敵+1　射程1段階延長　命中+5", "ship_class":"ise_hyuuga_2"},
+      {"text":"火力+3　索敵+4　射程1段階延長　命中+5", "ship_class":"souryuu_souryuu_2"},
       {"text":"火力+3　索敵+4", "ship_class":"souryuu"},
-      {"text":"火力+2　索敵+3　射程1段階延長", "ship_class":"hiryuu_hiryuu_2"},
+      {"text":"火力+2　索敵+3　射程1段階延長　命中+5", "ship_class":"hiryuu_hiryuu_2"},
       {"text":"火力+2　索敵+3", "ship_class":"hiryuu"},
       {"text":"火力+1　索敵+2", "ship_class":"shouhou_zuihou_2b"},
       {"text":"火力+1　索敵+2", "ship_class":"mogami-v_suzuya_v2"},
@@ -1406,16 +1406,14 @@
       {"text":"索敵+1", "ship_class":"taiyou_taiyou_2"},
       {"text":"索敵+1", "ship_class":"taiyou_shinyou_2"},
       {"text":"索敵+1", "ship_class":"mogami-v"},
-      {"text":"索敵+1", "ship_class":"casablanca"},
-      {"text":"索敵+1", "ship_class":"ise_ise_2"},
-      {"text":"索敵+1", "ship_class":"ise_hyuuga_2"}
+      {"text":"索敵+1", "ship_class":"casablanca"}
     ]},
     {"synergy":"★4～5(累積不可)", "items":[
-      {"text":"火力+4　回避+2　装甲+1　索敵+1　射程1段階延長", "ship_class":"ise_ise_2"},
-      {"text":"火力+4　回避+3　装甲+3　索敵+1　射程1段階延長", "ship_class":"ise_hyuuga_2"},
-      {"text":"火力+4　索敵+4　射程1段階延長", "ship_class":"souryuu_souryuu_2"},
+      {"text":"火力+4　回避+2　装甲+1　索敵+1　射程1段階延長　命中+5", "ship_class":"ise_ise_2"},
+      {"text":"火力+4　回避+3　装甲+3　索敵+1　射程1段階延長　命中+5", "ship_class":"ise_hyuuga_2"},
+      {"text":"火力+4　索敵+4　射程1段階延長　命中+5", "ship_class":"souryuu_souryuu_2"},
       {"text":"火力+4　索敵+4", "ship_class":"souryuu"},
-      {"text":"火力+3　索敵+3　射程1段階延長", "ship_class":"hiryuu_hiryuu_2"},
+      {"text":"火力+3　索敵+3　射程1段階延長　命中+5", "ship_class":"hiryuu_hiryuu_2"},
       {"text":"火力+3　索敵+3", "ship_class":"hiryuu"},
       {"text":"火力+2　索敵+2", "ship_class":"shouhou_zuihou_2b"},
       {"text":"火力+2　索敵+2", "ship_class":"mogami-v_suzuya_v2"},
@@ -1439,16 +1437,14 @@
       {"text":"火力+1　索敵+1", "ship_class":"taiyou_taiyou_2"},
       {"text":"火力+1　索敵+1", "ship_class":"taiyou_shinyou_2"},
       {"text":"火力+1　索敵+1", "ship_class":"mogami-v"},
-      {"text":"火力+1　索敵+1", "ship_class":"casablanca"},
-      {"text":"火力+1　索敵+1", "ship_class":"ise_ise_2"},
-      {"text":"火力+1　索敵+1", "ship_class":"ise_hyuuga_2"}
+      {"text":"火力+1　索敵+1", "ship_class":"casablanca"}
     ]},
     {"synergy":"★6～9(累積不可)", "items":[
-      {"text":"火力+4　回避+2　装甲+1　索敵+2　射程1段階延長", "ship_class":"ise_ise_2"},
-      {"text":"火力+4　回避+3　装甲+3　索敵+2　射程1段階延長", "ship_class":"ise_hyuuga_2"},
-      {"text":"火力+4　索敵+5　射程1段階延長", "ship_class":"souryuu_souryuu_2"},
+      {"text":"火力+4　回避+2　装甲+1　索敵+2　射程1段階延長　命中+5", "ship_class":"ise_ise_2"},
+      {"text":"火力+4　回避+3　装甲+3　索敵+2　射程1段階延長　命中+5", "ship_class":"ise_hyuuga_2"},
+      {"text":"火力+4　索敵+5　射程1段階延　命中+5長", "ship_class":"souryuu_souryuu_2"},
       {"text":"火力+4　索敵+5", "ship_class":"souryuu"},
-      {"text":"火力+3　索敵+4　射程1段階延長", "ship_class":"hiryuu_hiryuu_2"},
+      {"text":"火力+3　索敵+4　射程1段階延長　命中+5", "ship_class":"hiryuu_hiryuu_2"},
       {"text":"火力+3　索敵+4", "ship_class":"hiryuu"},
       {"text":"火力+2　索敵+3", "ship_class":"shouhou_zuihou_2b"},
       {"text":"火力+2　索敵+3", "ship_class":"mogami-v_suzuya_v2"},
@@ -1472,16 +1468,14 @@
       {"text":"火力+1　索敵+2", "ship_class":"taiyou_taiyou_2"},
       {"text":"火力+1　索敵+2", "ship_class":"taiyou_shinyou_2"},
       {"text":"火力+1　索敵+2", "ship_class":"mogami-v"},
-      {"text":"火力+1　索敵+2", "ship_class":"casablanca"},
-      {"text":"火力+1　索敵+2", "ship_class":"ise_ise_2"},
-      {"text":"火力+1　索敵+2", "ship_class":"ise_hyuuga_2"}
+      {"text":"火力+1　索敵+2", "ship_class":"casablanca"}
     ]},
     {"synergy":"★MAX(累積不可)", "items":[
-      {"text":"火力+5　回避+2　装甲+1　索敵+3　射程1段階延長", "ship_class":"ise_ise_2"},
-      {"text":"火力+5　回避+3　装甲+3　索敵+2　射程1段階延長", "ship_class":"ise_hyuuga_2"},
-      {"text":"火力+6　索敵+7　射程1段階延長", "ship_class":"souryuu_souryuu_2"},
+      {"text":"火力+5　回避+2　装甲+1　索敵+3　射程1段階延長　命中+5", "ship_class":"ise_ise_2"},
+      {"text":"火力+5　回避+3　装甲+3　索敵+2　射程1段階延長　命中+5", "ship_class":"ise_hyuuga_2"},
+      {"text":"火力+6　索敵+7　射程1段階延長　命中+5", "ship_class":"souryuu_souryuu_2"},
       {"text":"火力+6　索敵+7", "ship_class":"souryuu"},
-      {"text":"火力+4　索敵+5　射程1段階延長", "ship_class":"hiryuu_hiryuu_2"},
+      {"text":"火力+4　索敵+5　射程1段階延長　命中+5", "ship_class":"hiryuu_hiryuu_2"},
       {"text":"火力+4　索敵+5", "ship_class":"hiryuu"},
       {"text":"火力+3　索敵+4", "ship_class":"shouhou_zuihou_2b"},
       {"text":"火力+3　索敵+4", "ship_class":"mogami-v_suzuya_v2"},
@@ -1505,9 +1499,7 @@
       {"text":"火力+2　索敵+3", "ship_class":"taiyou_taiyou_2"},
       {"text":"火力+2　索敵+3", "ship_class":"taiyou_shinyou_2"},
       {"text":"火力+2　索敵+3", "ship_class":"mogami-v"},
-      {"text":"火力+2　索敵+3", "ship_class":"casablanca"},
-      {"text":"火力+2　索敵+3", "ship_class":"ise_ise_2"},
-      {"text":"火力+2　索敵+3", "ship_class":"ise_hyuuga_2"}
+      {"text":"火力+2　索敵+3", "ship_class":"casablanca"}
     ]}
   ]},
   {"id":"033", "type":"その他", "title":"改良型艦本式タービン", "bonus":[
