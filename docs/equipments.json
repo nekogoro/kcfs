@@ -841,6 +841,7 @@
       {"text":"雷装+2　回避+1", "ship_class":"yuugumo_makigumo_2"},
       {"text":"雷装+2　回避+1", "ship_class":"yuugumo_kazagumo_2"},
       {"text":"雷装+2　回避+1", "ship_class":"yuugumo_naganami_2"},
+      {"text":"雷装+2　回避+1", "ship_class":"yuugumo_okinami_2"},
       {"text":"雷装+2　回避+1", "ship_class":"yuugumo_asashimo_2"}
     ]},
     {"synergy":"単体(★+5, 2つまで累積可)", "items":[
@@ -870,6 +871,7 @@
       {"text":"火力+1　雷装+2　回避+1", "ship_class":"yuugumo_makigumo_2"},
       {"text":"火力+1　雷装+2　回避+1", "ship_class":"yuugumo_kazagumo_2"},
       {"text":"火力+1　雷装+2　回避+1", "ship_class":"yuugumo_naganami_2"},
+      {"text":"火力+1　雷装+2　回避+1", "ship_class":"yuugumo_okinami_2"},
       {"text":"火力+1　雷装+2　回避+1", "ship_class":"yuugumo_asashimo_2"}
     ]},
     {"synergy":"＋12.7cm連装砲B型改四(戦時改修)＋高射装置(※2)", "items":[
