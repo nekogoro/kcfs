@@ -1057,6 +1057,24 @@
       {"text":"回避+1　索敵+2", "ship_class":"kamoi-s"}
     ]}
   ]},
+  {"id":"367", "type":"水上機", "title":"Swordfish(水上機型)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2　対潜+1　索敵+1　回避+1", "ship_class":"gotland"}
+      {"text":"火力+1　対潜+1　索敵+1　回避+1", "ship_class":"commandantteste"},
+      {"text":"火力+1　索敵+1　回避+1", "ship_class":"mizuho"},
+      {"text":"火力+1　索敵+1　回避+1", "ship_class":"kamoi"},
+      {"text":"火力+1　索敵+1　回避+1", "ship_class":"kamoi-s"}
+    ]}
+  ]},
+  {"id":"368", "type":"水上機", "title":"Swordfish Mk.III改(水上機型)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+4　対潜+3　回避+2", "ship_class":"gotland"}
+      {"text":"火力+2　対潜+3　回避+1", "ship_class":"commandantteste"},
+      {"text":"火力+1　索敵+1　回避+1", "ship_class":"mizuho"},
+      {"text":"火力+1　索敵+2　回避+1", "ship_class":"kamoi"},
+      {"text":"火力+1　索敵+2　回避+1", "ship_class":"kamoi-s"}
+    ]}
+  ]},
   {"id":"019", "type":"艦上機", "title":"九六式艦戦", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2　対空+3　対潜+2　回避+3", "ship_class":"houshou"},
