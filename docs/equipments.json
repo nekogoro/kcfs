@@ -1071,9 +1071,6 @@
       {"text":"火力+4　対潜+2　索敵+6　回避+3", "ship_class":"gotland_gotland"},
       {"text":"火力+6　対潜+2　索敵+9　回避+5", "ship_class":"gotland_gotland_2"},
       {"text":"火力+2　対潜+1　索敵+4　回避+2", "ship_class":"commandantteste"},
-      // {"text":"火力+　対潜+　索敵+　回避+", "ship_class":"mizuho"},
-      // {"text":"火力+　対潜+　索敵+　回避+", "ship_class":"kamoi"},
-      // {"text":"火力+　対潜+　索敵+　回避+", "ship_class":"kamoi-s"},
       {"text":"火力+3　対潜+1　索敵+3　回避+2", "ship_class":"queenelizabeth"},
       {"text":"火力+6　対潜+1　索敵+5　回避+1", "ship_class":"nelson"},
       {"text":"火力+2　索敵+3　回避+1", "ship_class":"richelieu"}
