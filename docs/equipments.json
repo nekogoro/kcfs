@@ -611,6 +611,7 @@
   {"id":"328", "type":"大口径主砲", "title":"35.6cm連装砲改", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+3　雷装+1　回避+1", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+3　対空+1　回避+1", "ship_class":"kongou_hiei_2c"},
       {"text":"火力+2　回避+1", "ship_class":"kongou_kongou_2"},
       {"text":"火力+2　回避+1", "ship_class":"kongou_hiei_2"},
       {"text":"火力+2　回避+1", "ship_class":"kongou_haruna_2"},
@@ -627,6 +628,7 @@
   {"id":"329", "type":"大口径主砲", "title":"35.6cm連装砲改二", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+4　雷装+2　対空+1　回避+1", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+4　雷装+2　対空+1　回避+1", "ship_class":"kongou_hiei_2c"},
       {"text":"火力+3　対空+1　回避+1", "ship_class":"kongou_kongou_2"},
       {"text":"火力+3　対空+1　回避+1", "ship_class":"kongou_hiei_2"},
       {"text":"火力+3　対空+1　回避+1", "ship_class":"kongou_haruna_2"},
@@ -690,7 +692,8 @@
       {"text":"火力+2　雷装+4　回避+4", "ship_class":"yuubari_yuubari_2"},
       {"text":"火力+2　雷装+4　回避+4", "ship_class":"yuubari_yuubari_2d"},
       {"text":"火力+2　雷装+4　回避+4", "ship_class":"yuubari_yuubari_2s"},
-      {"text":"雷装+6　回避+3", "ship_class":"kongou_kongou_2c"}
+      {"text":"雷装+6　回避+3", "ship_class":"kongou_kongou_2c"},
+      {"text":"雷装+6　回避+3", "ship_class":"kongou_hiei_2c"}
     ]},
     {"synergy":"＋12cm単装砲改二(※2)", "items":[
       {"text":"火力+2　雷装+4", "ship_class":"kamikaze"},
@@ -699,6 +702,9 @@
     {"synergy":"＋12cm単装砲改二(※2)＋53cm連装魚雷", "items":[
       {"text":"火力+3　雷装+7", "ship_class":"kamikaze"},
       {"text":"火力+3　雷装+7", "ship_class":"mutsuki"}
+    ]},
+    {"synergy":"＋96式150cm探照灯(※4)", "items":[
+      {"text":"雷装+5", "ship_class":"kongou_hiei_2c"}
     ]}
   ]},
   {"id":"013", "type":"魚雷", "title":"61cm三連装魚雷", "bonus":[
@@ -956,7 +962,8 @@
       {"text":"雷装-5", "ship_class":"atlanta"},
       {"text":"雷装-5", "ship_class":"katori"},
       {"text":"雷装-5", "ship_class":"bismarck_bismarck_3"},
-      {"text":"雷装-5", "ship_class":"kongou_kongou_2c"}
+      {"text":"雷装-5", "ship_class":"kongou_kongou_2c"},
+      {"text":"雷装-5", "ship_class":"kongou_hiei_2c"}
     ]}
   ]},
   {"id":"364", "type":"魚雷", "title":"甲標的 丁型改(蛟龍改)", "bonus":[
@@ -1048,6 +1055,30 @@
       {"text":"火力+1　対潜+2　回避+2", "ship_class":"gotland"}
     ]}
   ]},
+  {"id":"370", "type":"水上機", "title":"Swordfish Mk.II改(水偵型)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　対潜+3　索敵+2　回避+1", "ship_class":"gotland"},
+      {"text":"火力+1　対潜+3　索敵+2　回避+1", "ship_class":"commandantteste"},
+      {"text":"火力+1　対潜+3　索敵+2　回避+1", "ship_class":"mizuho"},
+      {"text":"火力+1　対潜+3　索敵+2　回避+1", "ship_class":"kamoi"},
+      {"text":"火力+1　対潜+3　索敵+2　回避+1", "ship_class":"kamoi-s"},
+      {"text":"火力+6　対潜+3　索敵+3　回避+3", "ship_class":"queenelizabeth"},
+      {"text":"火力+2　対潜+3　索敵+2　回避+2", "ship_class":"nelson"}
+    ]}
+  ]},
+  {"id":"371", "type":"水上機", "title":"Fairey Seafox改", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+4　対潜+2　索敵+6　回避+3", "ship_class":"gotland_gotland"},
+      {"text":"火力+6　対潜+2　索敵+9　回避+5", "ship_class":"gotland_gotland_2"},
+      {"text":"火力+2　対潜+1　索敵+4　回避+2", "ship_class":"commandantteste"},
+      // {"text":"火力+　対潜+　索敵+　回避+", "ship_class":"mizuho"},
+      // {"text":"火力+　対潜+　索敵+　回避+", "ship_class":"kamoi"},
+      // {"text":"火力+　対潜+　索敵+　回避+", "ship_class":"kamoi-s"},
+      {"text":"火力+3　対潜+1　索敵+3　回避+2", "ship_class":"queenelizabeth"},
+      {"text":"火力+6　対潜+1　索敵+5　回避+1", "ship_class":"nelson"},
+      {"text":"火力+2　索敵+3　回避+1", "ship_class":"richelieu"}
+    ]}
+  ]},
   {"id":"194", "type":"水上機", "title":"Late 298B", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1　回避+2　索敵+2", "ship_class":"richelieu_richelieu_1"},
@@ -1068,11 +1099,27 @@
   ]},
   {"id":"368", "type":"水上機", "title":"Swordfish Mk.III改(水上機型)", "bonus":[
     {"synergy":"単体", "items":[
-      {"text":"火力+4　対潜+3　回避+2", "ship_class":"gotland"},
-      {"text":"火力+2　対潜+3　回避+1", "ship_class":"commandantteste"},
-      {"text":"火力+1　索敵+1　回避+1", "ship_class":"mizuho"},
-      {"text":"火力+1　索敵+2　回避+1", "ship_class":"kamoi"},
-      {"text":"火力+1　索敵+2　回避+1", "ship_class":"kamoi-s"}
+      {"text":"火力+4　対潜+3　索敵+3　回避+2", "ship_class":"gotland_gotland"},
+      {"text":"火力+2　対潜+3　索敵+2　回避+1", "ship_class":"commandantteste"},
+      {"text":"火力+1　索敵+2　索敵+2　回避+1", "ship_class":"mizuho"},
+      {"text":"火力+1　索敵+2　索敵+2　回避+1", "ship_class":"kamoi"},
+      {"text":"火力+1　索敵+2　索敵+2　回避+1", "ship_class":"kamoi-s"}
+    ]},
+    {"synergy":"単体(累積不可)", "items":[
+      {"text":"火力+6　雷装+2　対潜+3　索敵+4　回避+3", "ship_class":"gotland_gotland_2"}
+    ]},
+    {"synergy":"＋SF Mk.III改(水上機型)", "items":[
+      {"text":"火力+4　対潜+3　索敵+3　回避+2", "ship_class":"gotland_gotland_2"}
+    ]}
+  ]},
+  {"id":"369", "type":"水上機", "title":"Swordfish Mk.III改(水上機型／熟練)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+5　対潜+4　索敵+3　回避+4", "ship_class":"gotland_gotland"},
+      {"text":"火力+8　雷装+3　対潜+4　索敵+5　回避+6", "ship_class":"gotland_gotland_2"},
+      {"text":"火力+3　対潜+3　索敵+3　回避+2", "ship_class":"commandantteste"},
+      {"text":"火力+2　索敵+2　索敵+2　回避+1", "ship_class":"mizuho"},
+      {"text":"火力+2　索敵+2　索敵+2　回避+1", "ship_class":"kamoi"},
+      {"text":"火力+2　索敵+2　索敵+2　回避+1", "ship_class":"kamoi-s"}
     ]}
   ]},
   {"id":"019", "type":"艦上機", "title":"九六式艦戦", "bonus":[
@@ -1565,6 +1612,20 @@
       {"text":"速力:高速(缶不要)", "ship_class":"yuubari_yuubari_2s"}
     ]}
   ]},
+  {"id":"087", "type":"その他", "title":"新型高温高圧缶", "bonus":[
+    {"synergy":"★0～5(累積不可)", "items":[
+      {"text":"雷装+1　回避+2", "ship_class":"kongou_kongou_2c"},
+      {"text":"雷装+1　回避+2", "ship_class":"kongou_hiei_2c"}
+    ]},
+    {"synergy":"★8(累積不可)", "items":[
+      {"text":"雷装+2　回避+3", "ship_class":"kongou_kongou_2c"},
+      {"text":"雷装+2　回避+3", "ship_class":"kongou_hiei_2c"}
+    ]},
+    {"synergy":"★MAX(累積不可)", "items":[
+      {"text":"火力+1　雷装+2　回避+3", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+1　雷装+2　回避+3", "ship_class":"kongou_hiei_2c"}
+    ]}
+  ]},
   {"id":"106", "type":"その他", "title":"13号対空電探改", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1　対空+2　回避+3　装甲+1", "ship_class":"ayanami_ushio_2"},
@@ -1670,6 +1731,7 @@
     {"synergy":"単体(累積不可)", "items":[
       {"text":"火力+1　対空+1", "ship_class":"kongou_kongou_2"},
       {"text":"火力+1　対空+1", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+1　対空+1", "ship_class":"kongou_hiei_2c"},
       {"text":"対空+1", "ship_class":"kongou_hiei_2"},
       {"text":"対空+1　回避+1", "ship_class":"kongou_haruna_2"},
       {"text":"火力+1", "ship_class":"kongou_kirishima_2"}
@@ -1679,6 +1741,7 @@
     {"synergy":"単体(累積不可)", "items":[
       {"text":"火力+3　対空+3", "ship_class":"kongou_kongou_2"},
       {"text":"火力+3　対空+3", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+3　対空+3", "ship_class":"kongou_hiei_2c"},
       {"text":"火力+2　対空+2", "ship_class":"kongou_hiei_2"},
       {"text":"火力+2　対空+2　回避+1", "ship_class":"kongou_haruna_2"},
       {"text":"火力+3　対空+2", "ship_class":"kongou_kirishima_2"},
@@ -1690,6 +1753,7 @@
   {"id":"365", "type":"その他", "title":"一式徹甲弾改", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+3", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+3", "ship_class":"kongou_hiei_2c"},
       {"text":"火力+2", "ship_class":"yamato_yamato_1"},
       {"text":"火力+2", "ship_class":"yamato_musashi_2"},
       {"text":"火力+2", "ship_class":"nagato_nagato_2"},
@@ -1750,7 +1814,11 @@
       {"text":"火力+6　回避-2", "ship_class":"kongou_kirishima_2"},
       {"text":"火力+6　回避-2", "ship_class":"kongou_kirishima_1"},
       {"text":"火力+6　回避-2", "ship_class":"kongou_kirishima"},
-      {"text":"火力+4　回避-1", "ship_class":"kongou_hiei_2"}
+      {"text":"火力+9　雷装+3　回避-2", "ship_class":"kongou_hiei_2c"},
+      {"text":"火力+4　回避-1", "ship_class":"yamato"}
+    ]},
+    {"synergy":"＋53cm連装魚雷(※1)", "items":[
+      {"text":"雷装+5", "ship_class":"kongou_hiei_2c"}
     ]}
   ]},
   {"id":"324", "type":"その他", "title":"オ号観測機改", "bonus":[
@@ -1775,6 +1843,20 @@
     {"synergy":"単体", "items":[
       {"text":"火力+1　対潜+3　回避+1", "ship_class":"ise_ise_2"},
       {"text":"火力+2　対潜+4　回避+2", "ship_class":"ise_hyuuga_2"}
+    ]}
+  ]},
+  {"id":"204", "type":"その他", "title":"艦本新設計 増設バルジ(大型艦)", "bonus":[
+    {"synergy":"★0～4(累積不可)", "items":[
+      {"text":"雷装+1　装甲+1", "ship_class":"kongou_kongou_2c"},
+      {"text":"雷装+1　装甲+1", "ship_class":"kongou_hiei_2c"}
+    ]},
+    {"synergy":"★7(累積不可)", "items":[
+      {"text":"雷装+1　装甲+2", "ship_class":"kongou_kongou_2c"},
+      {"text":"雷装+1　装甲+2", "ship_class":"kongou_hiei_2c"}
+    ]},
+    {"synergy":"★MAX(累積不可)", "items":[
+      {"text":"雷装+2　装甲+2", "ship_class":"kongou_kongou_2c"},
+      {"text":"雷装+2　装甲+2", "ship_class":"kongou_hiei_2c"}
     ]}
   ]},
   {"id":"129", "type":"その他", "title":"熟練見張員", "bonus":[
