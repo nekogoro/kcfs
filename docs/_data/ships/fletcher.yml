@@ -2,5 +2,11 @@
 - id: fletcher
   name: Fletcher / Fletcher改
 
+- id: fletcher_1b
+  name: Fletcher改 Mod.2
+
+- id: fletcher_2
+  name: Fletcher Mk.II
+
 - id: johnston
   name: Johnston / Johnston改
