@@ -1119,6 +1119,20 @@
       {"text":"火力+2　索敵+2　索敵+2　回避+1", "ship_class":"kamoi-s"}
     ]}
   ]},
+  {"id":"171", "type":"水上機", "title":"OS2U", "bonus":[
+    {"synergy":"単体(★6～9)", "items":[
+      {"text":"回避+1", "ship_class":"colorado"},
+      {"text":"回避+1", "ship_class":"iowa"},
+      {"text":"回避+1", "ship_class":"northampton"},
+      {"text":"回避+1", "ship_class":"atlanta"}
+    ]},
+    {"synergy":"単体(★MAX)", "items":[
+      {"text":"火力+1　回避+1", "ship_class":"colorado"},
+      {"text":"火力+1　回避+1", "ship_class":"iowa"},
+      {"text":"火力+1　回避+1", "ship_class":"northampton"},
+      {"text":"火力+1　回避+1", "ship_class":"atlanta"}
+    ]}
+  ]},
   {"id":"019", "type":"艦上機", "title":"九六式艦戦", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2　対空+3　対潜+2　回避+3", "ship_class":"houshou"},
@@ -1405,6 +1419,55 @@
       {"text":"火力+3　回避+3　対潜+2", "ship_class":"shouhou_zuihou_2b"},
       {"text":"火力+3　回避+1", "ship_class":"akagi_akagi_2e"},
       {"text":"火力+3　回避+1　対潜+1", "ship_class":"shouhou_shouhou_1"}
+    ]}
+  ]},
+  {"id":"373", "type":"艦上機", "title":"天山一二型甲改(空六号電探改装備機)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2　雷装+2　回避+2", "ship_class":"shoukaku_shoukaku_2a"},
+      {"text":"火力+2　雷装+2　回避+2", "ship_class":"shoukaku_shoukaku_2"},
+      {"text":"火力+2　雷装+2　回避+2", "ship_class":"shoukaku_shoukaku_1"},
+      {"text":"火力+2　雷装+2　回避+2", "ship_class":"shoukaku_shoukaku"},
+      {"text":"火力+1　雷装+2　回避+3", "ship_class":"shoukaku_zuikaku_2a"},
+      {"text":"火力+1　雷装+2　回避+3", "ship_class":"shoukaku_zuikaku_2"},
+      {"text":"火力+1　雷装+2　回避+3", "ship_class":"shoukaku_zuikaku_1"},
+      {"text":"火力+1　雷装+2　回避+3", "ship_class":"shoukaku_zuikaku"},
+      {"text":"火力+1　雷装+2　回避+2", "ship_class":"taihou"},
+      {"text":"火力+1　雷装+2　回避+2", "ship_class":"mogami-v_suzuya_v2"},
+      {"text":"火力+1　雷装+2　回避+2", "ship_class":"mogami-v_kumano_v2"},
+      {"text":"雷装+1　対潜+1", "ship_class":"shouhou_shouhou"},
+      {"text":"雷装+1　対潜+1", "ship_class":"shouhou_zuihou"},
+      {"text":"火力+1　雷装+1　対潜+1", "ship_class":"shouhou_shouhou_1"},
+      {"text":"火力+1　雷装+1　対潜+1", "ship_class":"shouhou_zuihou_1"},
+      {"text":"火力+1　雷装+1　対潜+1", "ship_class":"ryuuhou_ryuuhou"},
+      {"text":"火力+1　雷装+1　対潜+2　回避+1", "ship_class":"shouhou_zuihou_2b"},
+      {"text":"火力+1　雷装+1　対潜+2　回避+1", "ship_class":"shouhou_zuihou_2"},
+      {"text":"火力+1　雷装+1　対潜+2　回避+1", "ship_class":"ryuuhou_ryuuhou_1"},
+      {"text":"火力+1", "ship_class":"chitose-v_chitose"},
+      {"text":"火力+1", "ship_class":"chitose-v_chiyoda"},
+      {"text":"火力+1　雷装+1", "ship_class":"chitose-v_chitose_v1"},
+      {"text":"火力+1　雷装+1", "ship_class":"chitose-v_chiyoda_v1"},
+      {"text":"火力+1　雷装+1　回避+1", "ship_class":"chitose-v_chitose_v2"},
+      {"text":"火力+1　雷装+1　回避+1", "ship_class":"chitose-v_chiyoda_v2"},
+      {"text":"火力+1　雷装+1　回避+1", "ship_class":"hiyou"}
+    ]}
+  ]},
+  {"id":"374", "type":"艦上機", "title":"天山一二型甲改(熟練／空六号電探改装備機)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+3　雷装+3　回避+3", "ship_class":"shoukaku_shoukaku_2a"},
+      {"text":"火力+3　雷装+3　回避+3", "ship_class":"shoukaku_shoukaku_2"},
+      {"text":"火力+2　雷装+3　回避+4", "ship_class":"shoukaku_zuikaku_2a"},
+      {"text":"火力+2　雷装+3　回避+4", "ship_class":"shoukaku_zuikaku_2"},
+      {"text":"火力+2　雷装+3　回避+2", "ship_class":"taihou_taihou_1"},
+      {"text":"火力+1　雷装+1　対潜+3　回避+2", "ship_class":"shouhou_zuihou_2b"},
+      {"text":"火力+1　雷装+1　対潜+3　回避+2", "ship_class":"shouhou_zuihou_2"},
+      {"text":"火力+1　雷装+1　対潜+3　回避+2", "ship_class":"ryuuhou_ryuuhou_1"},
+      {"text":"火力+1　雷装+2　対潜+2　回避+3", "ship_class":"mogami-v_suzuya_v2"},
+      {"text":"火力+1　雷装+2　対潜+2　回避+3", "ship_class":"mogami-v_kumano_v2"},
+      {"text":"火力+1　雷装+1　対潜+1　回避+1", "ship_class":"chitose-v_chitose_v2"},
+      {"text":"火力+1　雷装+1　対潜+1　回避+1", "ship_class":"chitose-v_chiyoda_v2"},
+      {"text":"火力+1　雷装+2　回避+2", "ship_class":"hiyou_hiyou_1"},
+      {"text":"火力+1　雷装+2　回避+2", "ship_class":"hiyou_junyou_2"},
+      {"text":"火力+1　雷装+1　対潜+2　回避+1", "ship_class":"shouhou_shouhou_1"}
     ]}
   ]},
   {"id":"054", "type":"艦上機", "title":"彩雲", "bonus":[
