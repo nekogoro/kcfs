@@ -1461,10 +1461,6 @@
       {"text":"火力+1　雷装+1　回避+1", "ship_class":"hiyou"}
     ]}
   ]},
-  {"id":"373", "type":"艦上機", "title":"天山一二型甲改(空六号電探改装備機)", "bonus":[
-    {"synergy":"単体", "items":[
-    ]}
-  ]},
   {"id":"374", "type":"艦上機", "title":"天山一二型甲改(熟練／空六号電探改装備機)", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+3　雷装+3　回避+3", "ship_class":"shoukaku_shoukaku_2a"},
@@ -1482,6 +1478,19 @@
       {"text":"火力+1　雷装+2　回避+2", "ship_class":"hiyou_hiyou_1"},
       {"text":"火力+1　雷装+2　回避+2", "ship_class":"hiyou_junyou_2"},
       {"text":"火力+1　雷装+1　対潜+2　回避+1", "ship_class":"shouhou_shouhou_1"}
+    ]}
+  ]},
+  {"id":"372", "type":"艦上機", "title":"天山一二型甲", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　雷装+1", "ship_class":"shoukaku"},
+      {"text":"火力+1　雷装+1", "ship_class":"taihou"},
+      {"text":"火力+1", "ship_class":"hiyou"},
+      {"text":"火力+1", "ship_class":"chitose-v"},
+      {"text":"火力+1　対潜+1", "ship_class":"shouhou_zuihou_2"},
+      {"text":"火力+1　対潜+1", "ship_class":"shouhou_zuihou_2b"},
+      {"text":"火力+1　対潜+1", "ship_class":"ryuuhou_ryuuhou_1"},
+      {"text":"対潜+1", "ship_class":"shouhou"},
+      {"text":"対潜+1", "ship_class":"ryuuhou"}
     ]}
   ]},
   {"id":"054", "type":"艦上機", "title":"彩雲", "bonus":[
