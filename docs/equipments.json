@@ -182,6 +182,47 @@
       {"text":"火力+2　回避+1", "ship_class":"commandantteste"}
     ]}
   ]},
+  {"id":"382", "type":"小口径主砲", "title":"12cm単装高角砲E型", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"対空+2　対潜+1　回避+2", "ship_class":"shimushu"},
+      {"text":"対空+2　対潜+1　回避+2", "ship_class":"etorofu"},
+      {"text":"対空+2　対潜+1　回避+2", "ship_class":"mikura"},
+      {"text":"対空+2　対潜+1　回避+2", "ship_class":"hiburi"},
+      {"text":"対空+2　回避+1", "ship_class":"kamikaze"},
+      {"text":"対空+2　回避+1", "ship_class":"mutsuki"},
+      {"text":"対空+1　回避+1", "ship_class":"nagara_yura_2"},
+      {"text":"対空+1　回避+1", "ship_class":"nagara_yura_1"},
+      {"text":"対空+1　回避+1", "ship_class":"nagara_kinu_2"},
+      {"text":"対空+1　回避+1", "ship_class":"nagara_yura_1"},
+      {"text":"対空+1　回避+1", "ship_class":"sendai_naka_2"},
+      {"text":"対空+1　回避+1", "ship_class":"sendai_naka_1"},
+      {"text":"対空+1", "ship_class":"nagara_yura"},
+      {"text":"対空+1", "ship_class":"nagara_kinu"},
+      {"text":"対空+1", "ship_class":"sendai_naka"}
+    ]},
+    {"synergy":"＋水上電探", "items":[
+      {"text":"火力+2　回避+3", "ship_class":"shimushu"},
+      {"text":"火力+2　回避+3", "ship_class":"etorofu"},
+      {"text":"火力+2　回避+3", "ship_class":"mikura"},
+      {"text":"火力+2　回避+3", "ship_class":"hiburi"},
+      {"text":"火力+1　回避+2", "ship_class":"kamikaze"},
+      {"text":"火力+1　回避+2", "ship_class":"mutsuki"},
+      {"text":"火力+1　回避+1", "ship_class":"nagara_yura_2"},
+      {"text":"火力+1　回避+1", "ship_class":"nagara_kinu_2"},
+      {"text":"火力+1　回避+1", "ship_class":"sendai_naka_2"}
+    ]},
+    {"synergy":"＋対空電探", "items":[
+      {"text":"対空+2　回避+3", "ship_class":"shimushu"},
+      {"text":"対空+2　回避+3", "ship_class":"etorofu"},
+      {"text":"対空+2　回避+3", "ship_class":"mikura"},
+      {"text":"対空+2　回避+3", "ship_class":"hiburi"},
+      {"text":"対空+1　回避+2", "ship_class":"kamikaze"},
+      {"text":"対空+1　回避+2", "ship_class":"mutsuki"},
+      {"text":"対空+1　回避+2", "ship_class":"nagara_yura_2"},
+      {"text":"対空+1　回避+2", "ship_class":"nagara_kinu_2"},
+      {"text":"対空+1　回避+2", "ship_class":"sendai_naka_2"}
+    ]}
+  ]},
   {"id":"297", "type":"小口径主砲", "title":"12.7cm連装砲A型", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"回避+2", "ship_class":"fubuki"},
