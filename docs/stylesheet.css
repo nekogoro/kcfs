@@ -160,3 +160,19 @@ details ul {
 .seaplane_carrier, .fleet_oiler, .other {
   background-color: #c8c8cb ;
 }
+
+.tab_wrap {
+  width: 100%;
+  margin: 0;
+}
+
+.panel_area{
+  background: #fff;
+}
+
+.tab_panel{
+  display: none;
+}
+
+#tab1:checked ~ .panel_area #panel1 {display: block;}
+#tab2:checked ~ .panel_area #panel2 {display: block;}

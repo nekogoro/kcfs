@@ -15,6 +15,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="output.js"></script>
 	<script type="text/javascript" src="select.js"></script>
+	<script type="text/javascript" src="incrementSearch.js"></script>
 </head>
 <body>
 	<header>
@@ -24,41 +25,55 @@
 
 		<h2>装備ボーナスソート</h2>
 
-		<p><a href="./incrementSearch.html">インクリメントサーチ版[Beta]</a></p>
+		<div class="tab_wrap">
+			<input id="tab1" type="radio" name="tab_btn" checked><label class="tab1_label" for="tab1">選択式</label>
+			<input id="tab2" type="radio" name="tab_btn"><label class="tab2_label" for="tab2">入力式</label>
 
-		<select id="type-list">
-			<option selected="selected">--艦種選択--</option>
-			{% for stype in site.data.stypes %}
-				<option value="{{ stype.id }}">{{ stype.name }}</option>
-			{% endfor %}
-		</select>
+			<div class="hidden_box">
+				<label for="option_menu">▼オプション</label>
+				<input type="checkbox" id="option_menu"/>
+				<div class="hidden_show">
+					<!--<input type="checkbox" id="option_color" name="option"/><label for="color">数値色付け</label>-->
+					<input type="checkbox" id="option_minus" name="option"/><label for="option_minus">マイナス値強調</label>
+					<input type="checkbox" id="option_mod" name="option"/><label for="option_mod">改以上のみ表示（入力式）</label>
+				</div>
+			</div>
 
-		<select id="class-list" disabled>
-			<option selected="custom_selected">--クラス選択--</option>
-			{% for stype in site.data.stypes %}
-				{% for ctype in site.data.ctypes[stype.id] %}
-					<option value="{{ ctype.id }}"  data-val="{{ stype.id }}">{{ ctype.name }}</option>
-				{% endfor %}
-			{% endfor %}
-		</select>
+			<div class="panel_area">
+				<div id="panel1" class="tab_panel">
+					<select id="type-list">
+						<option selected="selected">--艦種選択--</option>
+						{% for stype in site.data.stypes %}
+							<option value="{{ stype.id }}">{{ stype.name }}</option>
+						{% endfor %}
+					</select>
 
-		<select id="ship-list" disabled>
-			<option selected="custom_selected">--艦名選択--</option>
-			{% for stype in site.data.stypes %}
-				{% for ctype in site.data.ctypes[stype.id] %}
-					{% for ship in site.data.ships[ctype.id] %}
-						<option value="{{ ctype.id }}_{{ ship.id }}" data-val="{{ ctype.id }}">{{ ship.name }}</option>
-					{% endfor %}
-				{% endfor %}
-			{% endfor %}
-		</select>
+					<select id="class-list" disabled>
+						<option selected="custom_selected">--クラス選択--</option>
+						{% for stype in site.data.stypes %}
+							{% for ctype in site.data.ctypes[stype.id] %}
+								<option value="{{ ctype.id }}"  data-val="{{ stype.id }}">{{ ctype.name }}</option>
+							{% endfor %}
+						{% endfor %}
+					</select>
 
-		<div class="hidden_box">
-			<label for="option_menu">▼オプション</label>
-			<input type="checkbox" id="option_menu"/>
-			<div class="hidden_show">
-				<!--<input type="checkbox" id="option_color" name="option"/><label for="color">数値色付け</label>-->
-				<input type="checkbox" id="option_minus" name="option"/><label for="option_minus">マイナス値強調</label>
+					<select id="ship-list" disabled>
+						<option selected="custom_selected">--艦名選択--</option>
+						{% for stype in site.data.stypes %}
+							{% for ctype in site.data.ctypes[stype.id] %}
+								{% for ship in site.data.ships[ctype.id] %}
+									<option value="{{ ctype.id }}_{{ ship.id }}" data-val="{{ ctype.id }}">{{ ship.name }}</option>
+								{% endfor %}
+							{% endfor %}
+						{% endfor %}
+					</select>
+
+				</div>
+				<div id="panel2" class="tab_panel">
+					<input id="search-box" type="search" name="検索欄"/>
+
+					<ul id="suggest"></ul>
+				</div>
 			</div>
 		</div>
 
@@ -70,7 +85,7 @@
 
 		<dl>
 			<dt>これは何？</dt>
-			<dd>2020年4月時点における装備ボーナス（フィット砲）を、艦娘ごとに出力するページです。名前等は図鑑内表記に準拠しています。
+			<dd>2020年6月時点における装備ボーナス（フィット砲）を、艦娘ごとに出力するページです。名前等は図鑑内表記に準拠しています。
 				<a href="https://wikiwiki.jp/kancolle/">艦これ wiki</a> の情報を参考にしています。<br />
 				さまざまな呼び名がありますが、<a href="https://wikiwiki.jp/kancolle/装備#bonus">艦これ wiki</a> に習い「装備ボーナス」と呼ぶことにします。
 			</dd>
@@ -119,7 +134,7 @@
 			</dd>
 		</dl>
 		<p>Special Thanks: <a href="https://wikiwiki.jp/kancolle/">艦これ wiki</a> & <img src="https://icongr.am/simple/mastodon.svg?size=16&colored=true"/> <a href="https://kancolle.social/">艦これ マストドン泊地</a></p>
-		<p>最終更新：2020/6/14　<a href="https://github.com/nekogoro/kcfs/issues/9">2020/4/30</a>,<a href="https://github.com/nekogoro/kcfs/issues/10">2020/5/20</a>,<a href="https://github.com/nekogoro/kcfs/issues/11">2020/5/29</a> 実装分について更新</p>
+		<p>最終更新：2020/6/26　2020/6/19 実装分について更新、インクリメントサーチ版の統合</p>
 	</div>
 	<footer>
 		<p>KanColle Experimental Dataset</p>
