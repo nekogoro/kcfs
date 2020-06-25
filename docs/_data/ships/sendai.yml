@@ -6,7 +6,10 @@
   name: 川内改二
 
 - id: naka
-  name: 那珂 / 那珂改
+  name: 那珂
+
+- id: naka_1
+  name: 那珂改
 
 - id: naka_2
   name: 那珂改二
