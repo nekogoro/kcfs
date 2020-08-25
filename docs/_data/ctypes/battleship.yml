@@ -26,6 +26,9 @@
 - id: iowa
   name: Iowa級
 
+- id: southdakota
+  name: South Dakota級
+
 - id: queenelizabeth
   name: Queen Elizabeth級
 

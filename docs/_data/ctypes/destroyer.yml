@@ -35,6 +35,9 @@
 - id: shimakaze
   name: 島風型
 
+- id: matsu
+  name: 松型
+
 - id: z1
   name: Z1型（独）
 
