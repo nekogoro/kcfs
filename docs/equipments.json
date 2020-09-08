@@ -837,7 +837,7 @@
       {"text":"火力+1", "ship_class":"colorado"}
     ]}
   ]},
-  {"id":"318", "type":"大口径主砲", "title":"16inch三連装砲 Mk.6", "bonus":[
+  {"id":"381", "type":"大口径主砲", "title":"16inch三連装砲 Mk.6", "bonus":[
     {"synergy":"単体(★0〜5?)", "items":[
       {"text":"火力+1", "ship_class":"colorado"},
       {"text":"火力+1", "ship_class":"iowa"}
