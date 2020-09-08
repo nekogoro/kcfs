@@ -1909,6 +1909,9 @@
       {"text":"対空+1　回避+3　装甲+1", "ship_class":"akatsuki_hibiki"},
       {"text":"対空+1　回避+3　装甲+1", "ship_class":"akatsuki_hibiki_2"},
       {"text":"対空+1　回避+3　装甲+1", "ship_class":"katori_kashima"}
+    ]},
+    {"synergy":"単体(累積不可)", "items":[
+      {"text":"火力+1　対空+2　回避+3", "ship_class":"yuugumo_okinami_2"}
     ]}
   ]},
   {"id":"307", "type":"その他", "title":"GFCS Mk.37", "bonus":[
@@ -1922,6 +1925,9 @@
       {"text":"火力+1　対空+1　回避+1", "ship_class":"johncbutler"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"northampton"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"atlanta"}
+    ]},
+    {"synergy":"単体(累積不可)", "items":[
+      {"text":"火力+1　対空+2　回避+3", "ship_class":"yuugumo_okinami_2"}
     ]}
   ]},
   {"id":"315", "type":"その他", "title":"SG レーダー(初期型)", "bonus":[
@@ -1934,8 +1940,10 @@
       {"text":"火力+2　回避+3　索敵+4", "ship_class":"essex"},
       {"text":"火力+2　回避+3　索敵+4", "ship_class":"casablanca"},
       {"text":"火力+2　回避+3　索敵+4", "ship_class":"northampton"},
-      {"text":"火力+2　回避+3　索敵+4", "ship_class":"atlanta"},
-      {"text":"火力+1　対空+2　回避+3累積不可", "ship_class":"yuugumo_okinami_2"}
+      {"text":"火力+2　回避+3　索敵+4", "ship_class":"atlanta"}
+    ]},
+    {"synergy":"単体(累積不可)", "items":[
+      {"text":"火力+1　対空+2　回避+3", "ship_class":"yuugumo_okinami_2"}
     ]}
   ]},
   {"id":"278", "type":"その他", "title":"SKレーダー", "bonus":[
