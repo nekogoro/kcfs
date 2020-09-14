@@ -32,5 +32,8 @@
 - id: essex
   name: Essex級
 
+- id: yorktown
+  name: Yorktown級
+
 - id: arkroyal
   name: Ark Royal級

@@ -14,6 +14,9 @@
 - id: type-b3
   name: 巡潜乙型改二
 
+- id: type-c
+  name: 巡潜丙型
+
 - id: sentoku
   name: 潜特型(伊400型潜水艦)
 

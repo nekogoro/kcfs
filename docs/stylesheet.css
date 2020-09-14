@@ -43,6 +43,26 @@ header a {
   color: white;
 }
 
+table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+
+table th, table td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+table tr {
+  background-color: #fff;
+  border-top: 1px solid #c6cbd1;
+}
+
+table thead th {
+  background-color: #f6f8fa;
+}
+
 #suggest ul {
   position: relative;
   padding: 0;
