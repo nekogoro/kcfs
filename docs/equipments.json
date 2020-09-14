@@ -2136,7 +2136,7 @@
       {"text":"火力+1　対潜+2", "ship_class":"ise_hyuuga_2"},
       {"text":"火力+1　対潜+2", "ship_class":"kaga_kaga_2g"}
     ]},
-    {"synergy":"＋(TBM-3W ＋ 3S)(※6)", "items":[
+    {"synergy":"＋(TBM-3W ＋ 3S)(※1)", "items":[
       {"text":"火力+3　対潜+6", "ship_class":"kaga_kaga_2g"}
     ]}
   ]},
@@ -2146,7 +2146,7 @@
       {"text":"火力+2　対潜+3　回避+1", "ship_class":"ise_hyuuga_2"},
       {"text":"火力+2　対潜+3　回避+1", "ship_class":"kaga_kaga_2g"}
     ]},
-    {"synergy":"＋(TBM-3W ＋ 3S)(※6)", "items":[
+    {"synergy":"＋(TBM-3W ＋ 3S)(※1)", "items":[
       {"text":"火力+3　対潜+6", "ship_class":"kaga_kaga_2g"}
     ]}
   ]},
@@ -2156,7 +2156,7 @@
       {"text":"火力+2　対潜+3　回避+1", "ship_class":"ise_hyuuga_2"},
       {"text":"火力+2　対潜+3　回避+1", "ship_class":"kaga_kaga_2g"}
     ]},
-    {"synergy":"＋(TBM-3W ＋ 3S)(※6)", "items":[
+    {"synergy":"＋(TBM-3W ＋ 3S)(※1)", "items":[
       {"text":"火力+3　対潜+6", "ship_class":"kaga_kaga_2g"}
     ]}
   ]},
@@ -2166,7 +2166,7 @@
       {"text":"火力+3　対潜+4　回避+2", "ship_class":"ise_hyuuga_2"},
       {"text":"火力+3　対潜+5　回避+3", "ship_class":"kaga_kaga_2g"}
     ]},
-    {"synergy":"＋(TBM-3W ＋ 3S)(※6)", "items":[
+    {"synergy":"＋(TBM-3W ＋ 3S)(※1)", "items":[
       {"text":"火力+8　対潜+10", "ship_class":"kaga_kaga_2g"}
     ]}
   ]},
@@ -2176,7 +2176,7 @@
       {"text":"火力+4　対潜+5　回避+2", "ship_class":"ise_hyuuga_2"},
       {"text":"火力+5　対潜+6　回避+4", "ship_class":"kaga_kaga_2g"}
     ]},
-    {"synergy":"＋(TBM-3W ＋ 3S)(※6)", "items":[
+    {"synergy":"＋(TBM-3W ＋ 3S)(※1)", "items":[
       {"text":"火力+8　対潜+10", "ship_class":"kaga_kaga_2g"}
     ]}
   ]},
