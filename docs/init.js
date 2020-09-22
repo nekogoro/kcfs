@@ -19,10 +19,9 @@ $(function() {
     $('input[id=tab1]:radio').prop('checked', true);
   }
 
-  var param_ship = arg.id;
-  $.getJSON('combinedData.json', function(data) {
+  $.getJSON('combinedDataTest.json', function(data) {
     for (var i = 0; i < data.length; i++) {
-      if (equalsIgnoreCase(data[i].ship, param_ship)) {
+      if (equalsIgnoreCase(data[i].ship, arg.id)) {
         outputMaterialList(ulObj, titleObj, data[i].name, data[i].class, data[i].ship);
         break;
       }
