@@ -18,13 +18,11 @@ $(function() {
   } else {
     $('input[id=tab1]:radio').prop('checked', true);
   }
-  
-  var params = arg.id.split('_');
-  var param_class = params[0];
-  var param_ship = params.length === 3 ? params[1] + '_' + params[2] : params[1];
+
+  var param_ship = arg.id;
   $.getJSON('combinedData.json', function(data) {
     for (var i = 0; i < data.length; i++) {
-      if (equalsIgnoreCase(data[i].class, param_class) && equalsIgnoreCase(data[i].ship, param_ship)) {
+      if (equalsIgnoreCase(data[i].ship, param_ship)) {
         outputMaterialList(ulObj, titleObj, data[i].name, data[i].class, data[i].ship);
         break;
       }
