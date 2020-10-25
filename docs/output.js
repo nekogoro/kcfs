@@ -2,7 +2,7 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
   $.getJSON("equipments.json" , function(data) {
     ulObj.empty();
     if (shipTitle !== '') {
-      titleObj.text(shipTitle);
+      titleObj.text(shipTitle).append(' <a href="./?id=' + shipId + '"><i class="fas fa-link"></i></a>');
     } else {
       titleObj.empty();
     }
