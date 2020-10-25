@@ -2,7 +2,7 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
   $.getJSON("equipments.json" , function(data) {
     ulObj.empty();
     if (shipTitle !== '') {
-      titleObj.html(shipTitle + ' <a href="./?id=' + shipId + '"><i class="fas fa-link"></i></a>');
+      titleObj.text(shipTitle);
     } else {
       titleObj.empty();
     }
@@ -59,6 +59,7 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
     if (isEmpty) {
       ulObj.append($('<li/>').html('この艦に適用される装備ボーナスは登録されていません'));
     }
+    pushShipIdUrl(shipId);
   });
 }
 
