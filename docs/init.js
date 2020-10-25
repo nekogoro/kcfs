@@ -18,6 +18,7 @@ $(function() {
   } else {
     $('input[id=tab1]:radio').prop('checked', true);
   }
+  pushTypeUrl();
 
   $.getJSON('combinedData.json', function(data) {
     for (var i = 0; i < data.length; i++) {

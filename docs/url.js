@@ -1,4 +1,4 @@
-var type;
+var type = '';
 
 $(function() {
   $('input[name="tab_btn"]').change(function() {
@@ -9,19 +9,26 @@ $(function() {
     } else if (result === 'tab2') {
       type = TAB2;
     } else {
-      type = "";
+      type = '';
     }
     
-    if (type.length !== 0) {
-      history.pushState(null, null, './?t=' + type);
-    }
+    pushTypeUrl();
   })
 });
 
-function pushShipIdUrl (shipId) {
-  if (shipId === '') {
+function pushTypeUrl() {
+  if (type === '') {
     return;
   }
+
+  history.pushState(null, null, './?t=' + type);
+}
+
+function pushShipIdUrl (shipId) {
+  if (shipId === '') {
+    pushTypeUrl();
+  }
+
   if (type.length === 0) {
     history.pushState(null, null, './?id=' + shipId);
   } else {
