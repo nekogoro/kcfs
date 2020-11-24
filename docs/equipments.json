@@ -540,6 +540,23 @@
       {"text":"火力+2　装甲+1", "ship_class":"yuubari"}
     ]}
   ]},
+  {"id":"147", "type":"小口径主砲", "title":"120mm／50 連装砲", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　回避+1", "ship_class":"maestrale"}
+    ]}
+  ]},
+  {"id":"393", "type":"小口径主砲", "title":"120mm／50 連装砲 mod.1936", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2　対空+1　回避+1", "ship_class":"maestrale"}
+    ]}
+  ]},
+  {"id":"394", "type":"小口径主砲", "title":"120mm／50 連装砲改 A.mod.1937", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2　対空+1　回避+3", "ship_class":"maestrale_grecale"},
+      {"text":"火力+2　対空+1　回避+2", "ship_class":"maestrale_maestrale"},
+      {"text":"火力+2　対空+1　回避+2", "ship_class":"maestrale_libeccio"}
+    ]}
+  ]},
   {"id":"090", "type":"中口径主砲", "title":"20.3cm(2号)連装砲", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2", "ship_class":"furutaka_furutaka_2"},
