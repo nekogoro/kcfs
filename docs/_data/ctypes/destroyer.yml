@@ -18,13 +18,13 @@
   name: 初春型
 
 - id: shiratsuyu
-  name: 白露型・改白露型
+  name: 白露型（派生含む）
 
 - id: asashio
   name: 朝潮型
 
 - id: kagerou
-  name: 陽炎型
+  name: 陽炎型（派生含む）
 
 - id: yuugumo
   name: 夕雲型
