@@ -29,6 +29,12 @@
 - id: yukikaze_1
   name: 雪風改
 
+- id: yukikaze_danyang
+  name: 丹陽
+
+- id: yukikaze_2
+  name: 雪風改二
+
 - id: amatsukaze
   name: 天津風 / 天津風改
 
