@@ -5,6 +5,12 @@
 - id: kuma_1
   name: 球磨改
 
+- id: kuma_2
+  name: 球磨改二
+
+- id: kuma_2d
+  name: 球磨改二丁
+
 - id: tama
   name: 多摩
   
