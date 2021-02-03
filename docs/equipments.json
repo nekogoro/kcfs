@@ -739,7 +739,7 @@
       {"text":"火力+1　対空+1　回避+1", "ship_class":"gotland"}
     ]}
   ]},
-  {"id":"359", "type":"中口径主砲", "title":"6inch連装速射砲 Mk.XXI", "bonus":[
+  {"id":"359", "type":"中口径主砲", "title":"6inch 連装速射砲 Mk.XXI", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2　対空+2　回避+1", "ship_class":"perth"},
       {"text":"火力+2　対空+2　回避+1", "ship_class":"yuubari_yuubari_2"},
