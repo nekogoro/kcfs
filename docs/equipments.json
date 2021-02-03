@@ -80,6 +80,8 @@
       {"text":"火力+1　対空+2", "ship_class":"etorofu"},
       {"text":"火力+1　対空+2", "ship_class":"mikura"},
       {"text":"火力+1　対空+2", "ship_class":"hiburi"},
+      {"text":"火力+3　対空+3", "ship_class":"kagerou_yukikaze_danyang"},
+      {"text":"火力+3　対空+3　対潜+2　回避+3", "ship_class":"kagerou_yukikaze_danyang"},
       {"text":"火力+1　対空+2　対潜+2", "ship_class":"tenryuu_tenryuu_2"},
       {"text":"火力+1　対空+2　対潜+2", "ship_class":"tenryuu_tatsuta_2"},
       {"text":"火力+1", "ship_class":"tenryuu"},
@@ -95,6 +97,7 @@
       {"text":"火力+2　対空+3　対潜+2", "ship_class":"sendai_naka_2"},
       {"text":"火力+2　対空+4　対潜+2", "ship_class":"nagara_yura_2"},
       {"text":"火力+2　対空+3　対潜+1", "ship_class":"nagara_yura_1"},
+      {"text":"火力+2　対空+2", "ship_class":"kuma_kuma_2"},
       {"text":"火力+2　対空+2", "ship_class":"kuma_kitakami"},
       {"text":"火力+2　対空+2", "ship_class":"kuma_kitakami_1"},
       {"text":"火力+2　対空+2", "ship_class":"kuma_kitakami_2"},
@@ -124,6 +127,7 @@
       {"text":"火力+2　回避+3", "ship_class":"nagara_isuzu_2"},
       {"text":"火力+2　回避+3", "ship_class":"nagara_kinu_2"},
       {"text":"火力+2　回避+3", "ship_class":"sendai_naka_2"},
+      {"text":"火力+2　回避+3", "ship_class":"kuma_kuma_2"},
       {"text":"火力+2　回避+3", "ship_class":"kuma_kitakami_2"},
       {"text":"火力+2　回避+3", "ship_class":"kuma_ooi_2"},
       {"text":"火力+1　回避+4", "ship_class":"shimushu"},
@@ -138,6 +142,7 @@
       {"text":"火力+1　回避+2", "ship_class":"sendai"},
       {"text":"火力+1　回避+2", "ship_class":"agano"},
       {"text":"火力+1　回避+2", "ship_class":"ldsddabruzzi"},
+      {"text":"火力+1　回避+2", "ship_class":"town"},
       {"text":"火力+1　回避+2", "ship_class":"gotland"},
       {"text":"火力+1　回避+2", "ship_class":"deruyter"},
       {"text":"火力+1　回避+2", "ship_class":"perth"},
@@ -150,7 +155,13 @@
       {"text":"火力+1　回避+2", "ship_class":"nisshin"},
       {"text":"火力+1　回避+2", "ship_class":"akitsushima"},
       {"text":"火力+1　回避+2", "ship_class":"commandantteste"},
-      {"text":"火力+4　回避+3", "ship_class":"matsu"}
+      {"text":"火力+4　回避+3", "ship_class":"matsu"},
+      {"text":"火力+2　回避+2", "ship_class":"kagerou_yukikaze_danyang"},
+      {"text":"火力+2　回避+2", "ship_class":"kagerou_yukikaze_2"}
+    ]},
+    {"synergy":"＋対空電探", "items":[
+      {"text":"対空+3　回避+2", "ship_class":"kagerou_yukikaze_danyang"},
+      {"text":"対空+3　回避+2", "ship_class":"kagerou_yukikaze_2"}
     ]}
   ]},
   {"id":"380", "type":"小口径主砲", "title":"12.7cm連装高角砲改二", "bonus":[
@@ -164,8 +175,13 @@
       {"text":"火力+1　対潜+1", "ship_class":"yuubari_yuubari_1"},
       {"text":"火力+1　対空+2　対潜+1", "ship_class":"yuubari_yuubari_2"},
       {"text":"火力+1　対空+2　対潜+3", "ship_class":"yuubari_yuubari_2d"},
+      {"text":"火力+3　対空+2", "ship_class":"kuma_kuma_2"},
       {"text":"火力+3　対空+2", "ship_class":"kuma_kitakami_2"},
+      {"text":"火力+3　対空+2", "ship_class":"kuma_kitakami_1"},
+      {"text":"火力+3　対空+2", "ship_class":"kuma_kitakami"},
       {"text":"火力+3　対空+2", "ship_class":"kuma_ooi_2"},
+      {"text":"火力+3　対空+2", "ship_class":"kuma_ooi_1"},
+      {"text":"火力+3　対空+2", "ship_class":"kuma_ooi"},
       {"text":"火力+1　対空+2", "ship_class":"katori"},
       {"text":"火力+1　対空+2", "ship_class":"kamoi_kamoi_1"},
       {"text":"火力+1　対空+2", "ship_class":"chitose"},
@@ -173,6 +189,8 @@
       {"text":"火力+1　対空+2", "ship_class":"nisshin"},
       {"text":"火力+1　対空+2", "ship_class":"akitsushima"},
       {"text":"火力+1　対空+2", "ship_class":"commandantteste"},
+      {"text":"火力+3　対空+3", "ship_class":"kagerou_yukikaze_danyang"},
+      {"text":"火力+3　対空+3", "ship_class":"kagerou_yukikaze_2"},
       {"text":"火力+3　対空+4", "ship_class":"matsu"}
     ]},
     {"synergy":"＋水上電探", "items":[
@@ -181,6 +199,7 @@
       {"text":"火力+3　回避+3", "ship_class":"kuma_kitakami_2"},
       {"text":"火力+3　回避+3", "ship_class":"kuma_ooi_2"},
       {"text":"火力+3　回避+3", "ship_class":"nagara_yura_2"},
+      {"text":"火力+3　回避+4", "ship_class":"kuma_kuma_2"},
       {"text":"火力+2　回避+1", "ship_class":"yuubari"},
       {"text":"火力+2　回避+1", "ship_class":"tenryuu"},
       {"text":"火力+2　回避+1", "ship_class":"kuma"},
@@ -188,6 +207,7 @@
       {"text":"火力+2　回避+1", "ship_class":"sendai"},
       {"text":"火力+2　回避+1", "ship_class":"agano"},
       {"text":"火力+2　回避+1", "ship_class":"ldsddabruzzi"},
+      {"text":"火力+2　回避+1", "ship_class":"town"},
       {"text":"火力+2　回避+1", "ship_class":"gotland"},
       {"text":"火力+2　回避+1", "ship_class":"deruyter"},
       {"text":"火力+2　回避+1", "ship_class":"perth"},
@@ -200,6 +220,8 @@
       {"text":"火力+2　回避+1", "ship_class":"nisshin"},
       {"text":"火力+2　回避+1", "ship_class":"akitsushima"},
       {"text":"火力+2　回避+1", "ship_class":"commandantteste"},
+      {"text":"火力+1　回避+2", "ship_class":"kagerou_yukikaze_danyang"},
+      {"text":"火力+1　回避+2", "ship_class":"kagerou_yukikaze_2"},
       {"text":"火力+4　回避+3", "ship_class":"matsu"}
     ]}
   ]},
@@ -573,6 +595,8 @@
     {"synergy":"単体", "items":[
       {"text":"火力+2　対空+1　回避+1", "ship_class":"fletcher"},
       {"text":"火力+2　対空+1　回避+1", "ship_class":"johncbutler"},
+      {"text":"火力+2　対空+1　回避+1", "ship_class":"kagerou_yukikaze_danyang"},
+      {"text":"火力+2　対空+1　回避+1", "ship_class":"kagerou_yukikaze_2"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"atlanta"},
       {"text":"火力+1", "ship_class":"kamikaze"},
       {"text":"火力+1", "ship_class":"mutsuki"},
@@ -603,6 +627,10 @@
       {"text":"火力+2　装甲+1", "ship_class":"tashkent"},
       {"text":"火力+2　装甲+1", "ship_class":"akatsuki_hibiki_2"},
       {"text":"火力+2　装甲+1", "ship_class":"yuubari"}
+    ]},
+    {"synergy":"＋533mm 三連装魚雷(53-39型)(※1)", "items":[
+      {"text":"火力+2", "ship_class":"tashkent"},
+      {"text":"火力+2", "ship_class":"akatsuki_hibiki_2"}
     ]}
   ]},
   {"id":"147", "type":"小口径主砲", "title":"120mm／50 連装砲", "bonus":[
@@ -619,7 +647,8 @@
     {"synergy":"単体", "items":[
       {"text":"火力+2　対空+1　回避+3", "ship_class":"maestrale_grecale"},
       {"text":"火力+2　対空+1　回避+2", "ship_class":"maestrale_maestrale"},
-      {"text":"火力+2　対空+1　回避+2", "ship_class":"maestrale_libeccio"}
+      {"text":"火力+2　対空+1　回避+2", "ship_class":"maestrale_libeccio"},
+      {"text":"火力+2　対空+1　回避+2", "ship_class":"maestrale_scirocco"}
     ]}
   ]},
   {"id":"090", "type":"中口径主砲", "title":"20.3cm(2号)連装砲", "bonus":[
@@ -722,7 +751,7 @@
       {"text":"火力+1　対空+1　回避+1", "ship_class":"gotland"}
     ]}
   ]},
-  {"id":"359", "type":"中口径主砲", "title":"6inch連装速射砲 Mk.XXI", "bonus":[
+  {"id":"359", "type":"中口径主砲", "title":"6inch 連装速射砲 Mk.XXI", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2　対空+2　回避+1", "ship_class":"perth"},
       {"text":"火力+2　対空+2　回避+1", "ship_class":"yuubari_yuubari_2"},
@@ -831,6 +860,14 @@
       {"text":"火力+3", "ship_class":"atlanta"},
       {"text":"火力+3", "ship_class":"northampton"},
       {"text":"火力+3", "ship_class":"colorado"}
+    ]}
+  ]},
+  {"id":"399", "type":"中口径主砲", "title":"6inch Mk.XXIII三連装砲", "bonus":[
+    {"synergy":"単体(★0)", "items":[
+      {"text":"火力+1　回避+2", "ship_class":"town"}
+    ]},
+    {"synergy":"単体(★3～4)", "items":[
+      {"text":"火力+2　回避+2", "ship_class":"town"}
     ]}
   ]},
   {"id":"289", "type":"大口径主砲", "title":"35.6cm三連装砲改(ダズル迷彩仕様)", "bonus":[
@@ -997,11 +1034,13 @@
     {"synergy":"単体(★0〜5?)", "items":[
       {"text":"火力+2", "ship_class":"southdakota"},
       {"text":"火力+1", "ship_class":"colorado"},
+      {"text":"火力+1", "ship_class":"northcarolina"},
       {"text":"火力+1", "ship_class":"iowa"}
     ]},
     {"synergy":"単体(★6)", "items":[
       {"text":"火力+3", "ship_class":"southdakota"},
       {"text":"火力+2", "ship_class":"colorado"},
+      {"text":"火力+2", "ship_class":"northcarolina"},
       {"text":"火力+2", "ship_class":"iowa"}
     ]}
   ]},
@@ -1015,18 +1054,48 @@
     ]},
     {"synergy":"単体(★0〜2)", "items":[
       {"text":"火力+3　装甲+1", "ship_class":"southdakota"},
+      {"text":"火力+3　装甲+1", "ship_class":"northcarolina"},
       {"text":"火力+2", "ship_class":"colorado_colorado_1"},
       {"text":"火力+2", "ship_class":"iowa_iowa_1"}
     ]},
     {"synergy":"単体(★6)", "items":[
       {"text":"火力+4　装甲+1", "ship_class":"southdakota"},
+      {"text":"火力+4　装甲+1", "ship_class":"northcarolina"},
       {"text":"火力+3", "ship_class":"colorado_colorado_1"},
       {"text":"火力+3", "ship_class":"iowa_iowa_1"}
     ]},
     {"synergy":"単体(★MAX)", "items":[
       {"text":"火力+4　装甲+2", "ship_class":"southdakota"},
+      {"text":"火力+4　装甲+2", "ship_class":"northcarolina"},
       {"text":"火力+3　装甲+1", "ship_class":"colorado_colorado_1"},
       {"text":"火力+3　装甲+1", "ship_class":"iowa_iowa_1"}
+    ]}
+  ]},
+  {"id":"390", "type":"大口径主砲", "title":"16inch三連装砲 Mk.6＋GFCS", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1", "ship_class":"kongou"},
+      {"text":"火力+1", "ship_class":"bismarck"},
+      {"text":"火力+1", "ship_class":"vittorioveneto"},
+      {"text":"火力+1", "ship_class":"richelieu"},
+      {"text":"火力+1", "ship_class":"gangut"}
+    ]},
+    {"synergy":"単体(★0〜2)", "items":[
+      {"text":"火力+3　装甲+1", "ship_class":"southdakota"},
+      {"text":"火力+3　装甲+1", "ship_class":"northcarolina"},
+      {"text":"火力+2", "ship_class":"colorado_colorado_1"},
+      {"text":"火力+2", "ship_class":"iowa_iowa_1"}
+    ]},
+    {"synergy":"単体(★3～5)", "items":[
+      {"text":"火力+4　装甲+1", "ship_class":"southdakota"},
+      {"text":"火力+4　装甲+1", "ship_class":"northcarolina"},
+      {"text":"火力+3", "ship_class":"colorado_colorado_1"},
+      {"text":"火力+3", "ship_class":"iowa_iowa_1"}
+    ]},
+    {"synergy":"単体(★6～9?)", "items":[
+      {"text":"火力+4　装甲+1　回避+1", "ship_class":"southdakota"},
+      {"text":"火力+4　装甲+1　回避+1", "ship_class":"northcarolina"},
+      {"text":"火力+3　回避+1", "ship_class":"colorado_colorado_1"},
+      {"text":"火力+3　回避+1", "ship_class":"iowa_iowa_1"}
     ]}
   ]},
   {"id":"358", "type":"副砲", "title":"5inch 単装高角砲群", "bonus":[
@@ -1034,6 +1103,7 @@
       {"text":"火力+2　対空+3　回避+3", "ship_class":"northampton"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"colorado"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"southdakota"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"northcarolina"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"iowa"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"lexington"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"yorktown"},
@@ -1305,6 +1375,16 @@
       {"text":"雷装+3　回避+2", "ship_class":"guglielmomarconi"}
     ]}
   ]},
+  {"id":"400", "type":"魚雷", "title":"533mm 三連装魚雷(53-39型)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　雷装+5　装甲+1　回避+2", "ship_class":"tashkent"},
+      {"text":"火力+1　雷装+5　装甲+1　回避+2", "ship_class":"akatsuki_hibiki_2"}
+    ]},
+    {"synergy":"＋130mm B-13連装砲(※1)", "items":[
+      {"text":"火力+2", "ship_class":"tashkent"},
+      {"text":"火力+2", "ship_class":"akatsuki_hibiki_2"}
+    ]}
+  ]},
   {"id":"283", "type":"魚雷", "title":"533mm 三連装魚雷", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1　雷装+3　装甲+1", "ship_class":"tashkent"},
@@ -1325,6 +1405,7 @@
       {"text":"火力+2　雷装+4", "ship_class":"northampton"},
       {"text":"火力+2　雷装+4", "ship_class":"stlouis"},
       {"text":"火力+1　雷装+2", "ship_class":"hms-j"},
+      {"text":"火力+1　雷装+2", "ship_class":"town"},
       {"text":"火力+1　雷装+1", "ship_class":"perth"}
     ]}
   ]},
@@ -1385,13 +1466,28 @@
       {"text":"雷装-5", "ship_class":"zara"},
       {"text":"雷装-5", "ship_class":"northampton"},
       {"text":"雷装-5", "ship_class":"tenryuu"},
-      {"text":"雷装-5", "ship_class":"kuma"},
+      {"text":"雷装+1", "ship_class":"kuma_kuma_2"},
+      {"text":"雷装+1", "ship_class":"kuma_kuma_1"},
+      {"text":"雷装+1", "ship_class":"kuma_kuma"},
+      {"text":"雷装+1", "ship_class":"kuma_tama_2"},
+      {"text":"雷装+1", "ship_class":"kuma_tama_1"},
+      {"text":"雷装+1", "ship_class":"kuma_tama"},
+      {"text":"雷装+1", "ship_class":"kuma_kitakami_2"},
+      {"text":"雷装+1", "ship_class":"kuma_kitakami_1"},
+      {"text":"雷装+1", "ship_class":"kuma_kitakami"},
+      {"text":"雷装+1", "ship_class":"kuma_ooi_2"},
+      {"text":"雷装+1", "ship_class":"kuma_ooi_1"},
+      {"text":"雷装+1", "ship_class":"kuma_ooi"},
+      {"text":"雷装+1", "ship_class":"kuma_kiso_2"},
+      {"text":"雷装+1", "ship_class":"kuma_kiso_1"},
+      {"text":"雷装+1", "ship_class":"kuma_kiso"},
       {"text":"雷装-5", "ship_class":"nagara"},
       {"text":"雷装-5", "ship_class":"sendai"},
       {"text":"雷装-5", "ship_class":"yuubari"},
       {"text":"雷装-5", "ship_class":"agano"},
       {"text":"雷装-5", "ship_class":"ooyodo"},
       {"text":"雷装-5", "ship_class":"ldsddabruzzi"},
+      {"text":"雷装-5", "ship_class":"town"},
       {"text":"雷装-5", "ship_class":"gotland"},
       {"text":"雷装-5", "ship_class":"deruyter"},
       {"text":"雷装-5", "ship_class":"perth"},
@@ -1407,6 +1503,7 @@
     {"synergy":"単体", "items":[
       {"text":"火力+1　雷装+4　回避-2", "ship_class":"yuubari_yuubari_2s"},
       {"text":"雷装+2　回避-2", "ship_class":"kuma_kitakami_2"},
+      {"text":"雷装+1　回避-2", "ship_class":"kuma_kuma_2d"},
       {"text":"雷装+1　回避-2", "ship_class":"kuma_ooi_2"},
       {"text":"雷装+1　回避-2", "ship_class":"nisshin_nisshin_a"},
       {"text":"火力-1　回避-7", "ship_class":"kuma_kiso_2"},
@@ -1501,6 +1598,7 @@
       {"text":"火力+1　対潜+3　索敵+2　回避+1", "ship_class":"kamoi"},
       {"text":"火力+1　対潜+3　索敵+2　回避+1", "ship_class":"kamoi-s"},
       {"text":"火力+6　対潜+3　索敵+3　回避+3", "ship_class":"queenelizabeth"},
+      {"text":"火力+2　対潜+3　索敵+2　回避+2", "ship_class":"town"},
       {"text":"火力+2　対潜+3　索敵+2　回避+2", "ship_class":"nelson"}
     ]}
   ]},
@@ -1510,6 +1608,7 @@
       {"text":"火力+6　対潜+2　索敵+9　回避+5", "ship_class":"gotland_gotland_2"},
       {"text":"火力+2　対潜+1　索敵+4　回避+2", "ship_class":"commandantteste"},
       {"text":"火力+3　対潜+1　索敵+3　回避+2", "ship_class":"queenelizabeth"},
+      {"text":"火力+3　対潜+1　索敵+3　回避+2", "ship_class":"town"},
       {"text":"火力+6　対潜+1　索敵+5　回避+1", "ship_class":"nelson"},
       {"text":"火力+2　索敵+3　回避+1", "ship_class":"richelieu"}
     ]}
@@ -1561,6 +1660,7 @@
     {"synergy":"単体(★5～9)", "items":[
       {"text":"回避+1", "ship_class":"colorado"},
       {"text":"回避+1", "ship_class":"southdakota"},
+      {"text":"回避+1", "ship_class":"northcarolina"},
       {"text":"回避+1", "ship_class":"iowa"},
       {"text":"回避+1", "ship_class":"northampton"},
       {"text":"回避+1", "ship_class":"stlouis"},
@@ -1569,6 +1669,7 @@
     {"synergy":"単体(★MAX)", "items":[
       {"text":"火力+1　回避+1", "ship_class":"colorado"},
       {"text":"火力+1　回避+1", "ship_class":"southdakota"},
+      {"text":"火力+1　回避+1", "ship_class":"northcarolina"},
       {"text":"火力+1　回避+1", "ship_class":"iowa"},
       {"text":"火力+1　回避+1", "ship_class":"northampton"},
       {"text":"火力+1　回避+1", "ship_class":"stlouis"},
@@ -2372,6 +2473,7 @@
     {"synergy":"単体", "items":[
       {"text":"火力+1　対空+1　回避+1", "ship_class":"colorado"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"southdakota"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"northcarolina"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"iowa"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"lexington"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"yorktown"},
@@ -2418,6 +2520,7 @@
       {"text":"対空+1　回避+2", "ship_class":"queenelizabeth"},
       {"text":"対空+1　回避+2", "ship_class":"nelson"},
       {"text":"対空+1　回避+2", "ship_class":"arkroyal"},
+      {"text":"対空+1　回避+2", "ship_class":"town"},
       {"text":"対空+1　回避+1", "ship_class":"perth"}
     ]}
   ]},
@@ -2432,6 +2535,7 @@
       {"text":"火力+1　対空+1　回避+3　索敵+1", "ship_class":"queenelizabeth"},
       {"text":"火力+1　対空+1　回避+3　索敵+1", "ship_class":"nelson"},
       {"text":"火力+1　対空+1　回避+3　索敵+1", "ship_class":"arkroyal"},
+      {"text":"火力+1　対空+1　回避+3　索敵+1", "ship_class":"town"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"perth"}
     ]}
   ]},
@@ -2490,8 +2594,11 @@
       {"text":"回避+1　対潜+2", "ship_class":"johncbutler"},
       {"text":"回避+1　対潜+2", "ship_class":"fletcher"},
       {"text":"回避+1　対潜+2", "ship_class":"atlanta"},
+      {"text":"回避+2　対潜+1", "ship_class":"kagerou_yukikaze_danyang"},
+      {"text":"回避+2　対潜+1", "ship_class":"kagerou_yukikaze_2"},
       {"text":"回避+1　対潜+1", "ship_class":"hms-j"},
-      {"text":"回避+1　対潜+1", "ship_class":"perth"}
+      {"text":"回避+1　対潜+1", "ship_class":"perth"},
+      {"text":"回避+1　対潜+1", "ship_class":"town"}
     ]}
   ]},
   {"id":"378", "type":"その他", "title":"対潜短魚雷(試作初期型)", "bonus":[
@@ -2502,7 +2609,10 @@
       {"text":"回避+1　対潜+3", "ship_class":"stlouis"},
       {"text":"回避+1　対潜+3", "ship_class":"atlanta"},
       {"text":"回避+1　対潜+2", "ship_class":"hms-j"},
-      {"text":"回避+1　対潜+1", "ship_class":"perth"}
+      {"text":"回避+1　対潜+2", "ship_class":"town"},
+      {"text":"回避+1　対潜+1", "ship_class":"perth"},
+      {"text":"回避+1　対潜+1", "ship_class":"kagerou_yukikaze_danyang"},
+      {"text":"回避+1　対潜+1", "ship_class":"kagerou_yukikaze_2"}
     ]}
   ]},
   {"id":"035", "type":"その他", "title":"三式弾", "bonus":[
@@ -2548,7 +2658,8 @@
       {"text":"対空+2　回避+2　装甲+1", "ship_class":"queenelizabeth"},
       {"text":"対空+2　回避+2　装甲+1", "ship_class":"nelson"},
       {"text":"対空+2　回避+2　装甲+1", "ship_class":"arkroyal"},
-      {"text":"対空+2　回避+2　装甲+1", "ship_class":"hms-j"}
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"hms-j"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"town"}
     ]}
   ]},
   {"id":"268", "type":"その他", "title":"北方迷彩(＋北方装備)", "bonus":[

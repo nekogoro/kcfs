@@ -26,6 +26,9 @@
 - id: stlouis
   name: St. Louis級
 
+- id: town
+  name: Town級
+
 - id: gotland
   name: Gotland級 #軽（航空）巡洋艦含む
 
