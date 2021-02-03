@@ -627,6 +627,10 @@
       {"text":"火力+2　装甲+1", "ship_class":"tashkent"},
       {"text":"火力+2　装甲+1", "ship_class":"akatsuki_hibiki_2"},
       {"text":"火力+2　装甲+1", "ship_class":"yuubari"}
+    ]},
+    {"synergy":"＋533mm 三連装魚雷(53-39型)(※1)", "items":[
+      {"text":"火力+2", "ship_class":"tashkent"},
+      {"text":"火力+2", "ship_class":"akatsuki_hibiki_2"}
     ]}
   ]},
   {"id":"147", "type":"小口径主砲", "title":"120mm／50 連装砲", "bonus":[
@@ -1369,6 +1373,16 @@
       {"text":"雷装+3　回避+2", "ship_class":"type-ixc"},
       {"text":"雷装+3　回避+2", "ship_class":"ro"},
       {"text":"雷装+3　回避+2", "ship_class":"guglielmomarconi"}
+    ]}
+  ]},
+  {"id":"400", "type":"魚雷", "title":"533mm 三連装魚雷(53-39型)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　雷装+5　装甲+1　回避+2", "ship_class":"tashkent"},
+      {"text":"火力+1　雷装+5　装甲+1　回避+2", "ship_class":"akatsuki_hibiki_2"}
+    ]},
+    {"synergy":"＋130mm B-13連装砲(※1)", "items":[
+      {"text":"火力+2", "ship_class":"tashkent"},
+      {"text":"火力+2", "ship_class":"akatsuki_hibiki_2"}
     ]}
   ]},
   {"id":"283", "type":"魚雷", "title":"533mm 三連装魚雷", "bonus":[
