@@ -8,8 +8,13 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
     }
     var isEmpty = true;
     for(var i = 0; i < data.length; i++) {
-      var subObj = $('<li/>').html('<a href="https://akashi-list.me/#w' + data[i].id + '" title="「明石の工廠早見表」装備ページ" target="_blank" rel="noopener">' + data[i].title + '</a>'
-        + ' <a href="https://wikiwiki.jp/kancolle/' + data[i].title + '" title="「艦これ wiki」装備ページ" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i></a>');
+      var subObj;
+      if (data[i].title.indexOf('その他') == -1) {
+        subObj = $('<li/>').html('<a href="https://akashi-list.me/#w' + data[i].id + '" title="「明石の工廠早見表」装備ページ" target="_blank" rel="noopener">' + data[i].title + '</a>'
+          + ' <a href="https://wikiwiki.jp/kancolle/' + data[i].title + '" title="「艦これ wiki」装備ページ" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i></a>');
+      } else {
+        subObj = $('<li/>').text(data[i].title);
+      }
       var isBonusFound = false;
       for(var j = 0; j < data[i].bonus.length; j++) {
         for(var k = 0; k < data[i].bonus[j].items.length; k++) {
