@@ -2792,9 +2792,9 @@
   ]},
   {"id":"074", "type":"その他", "title":"探照灯", "bonus":[
     {"synergy":"単体(累積不可)", "items":[
-      {"text":"火力+8　雷装+6　回避-1", "ship_class":"sendai_jintsuu_2"},
-      {"text":"火力+8　雷装+6　回避-1", "ship_class":"sendai_jintsuu_1"},
-      {"text":"火力+8　雷装+6　回避-1", "ship_class":"sendai_jintsuu"},
+      {"text":"火力+8　雷装+8　回避-1", "ship_class":"sendai_jintsuu_2"},
+      {"text":"火力+8　雷装+8　回避-1", "ship_class":"sendai_jintsuu_1"},
+      {"text":"火力+8　雷装+8　回避-1", "ship_class":"sendai_jintsuu"},
       {"text":"火力+4　雷装+2", "ship_class":"agano_noshiro_2"},
       {"text":"火力+4　回避-1", "ship_class":"kongou_hiei_2"},
       {"text":"火力+4　回避-1", "ship_class":"kongou_hiei_1"},
@@ -2814,6 +2814,12 @@
       {"text":"火力+2", "ship_class":"kagerou_akigumo"},
       {"text":"火力+1　対空+1", "ship_class":"kagerou_yukikaze_1"},
       {"text":"火力+1　対空+1", "ship_class":"kagerou_yukikaze"}
+    ]},
+    {"synergy":"＋12.7cm連装砲D型改二(※1)", "items":[
+      {"text":"火力+3　回避-3", "ship_class":"kagerou_akigumo_2"}
+    ]},
+    {"synergy":"＋12.7cm連装砲D型改三(※1)", "items":[
+      {"text":"火力+3　回避-3", "ship_class":"kagerou_akigumo_2"}
     ]}
   ]},
   {"id":"140", "type":"その他", "title":"96式150cm探照灯", "bonus":[
