@@ -725,6 +725,12 @@
       {"text":"火力+2　対空+1", "ship_class":"agano_noshiro_2"}
     ]}
   ]},
+  {"id":"235", "type":"中口径主砲", "title":"15.5cm三連装砲改", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1", "ship_class":"ooyodo"},
+      {"text":"火力+1", "ship_class":"mogami"}
+    ]}
+  ]},
   {"id":"310", "type":"中口径主砲", "title":"14cm連装砲改", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+4　対空+1　回避+2　対潜+1", "ship_class":"yuubari_yuubari_2"},
@@ -754,6 +760,19 @@
     ]},
     {"synergy":"＋水上電探", "items":[
       {"text":"火力+2　雷装+2　回避+2", "ship_class":"agano_noshiro_2"}
+    ]}
+  ]},
+  {"id":"235", "type":"中口径主砲", "title":"15.5cm三連装砲改", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2　対空+1　回避+1", "ship_class":"ooyodo_ooyodo_1"},
+      {"text":"火力+1　対空+1", "ship_class":"ooyodo"},
+      {"text":"火力+1　対空+1", "ship_class":"mogami"}
+    ]},
+    {"synergy":"＋対空電探", "items":[
+      {"text":"対空+3　回避+3", "ship_class":"ooyodo"}
+    ]},
+    {"synergy":"＋水上電探", "items":[
+      {"text":"火力+3　回避+2", "ship_class":"ooyodo"}
     ]}
   ]},
   {"id":"340", "type":"中口径主砲", "title":"152mm／55 三連装速射砲", "bonus":[
