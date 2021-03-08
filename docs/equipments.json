@@ -2154,6 +2154,24 @@
       {"text":"対潜+1", "ship_class":"ryuuhou"}
     ]}
   ]},
+  {"id":"242", "type":"艦上機", "title":"Swordfish", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2　回避+1", "ship_class":"arkroyal"},
+      {"text":"火力+1", "ship_class":"houshou"}
+    ]}
+  ]},
+  {"id":"243", "type":"艦上機", "title":"Swordfish Mk.II(熟練)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+3　回避+2", "ship_class":"arkroyal"},
+      {"text":"火力+2", "ship_class":"houshou"}
+    ]}
+  ]},
+  {"id":"244", "type":"艦上機", "title":"Swordfish Mk.III(熟練)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+4　回避+2", "ship_class":"arkroyal"},
+      {"text":"火力+3", "ship_class":"houshou"}
+    ]}
+  ]},
   {"id":"054", "type":"艦上機", "title":"彩雲", "bonus":[
     {"synergy":"単体(★2)", "items":[
       {"text":"索敵+1", "ship_class":"akagi"},
