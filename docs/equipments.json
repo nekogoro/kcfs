@@ -2899,5 +2899,35 @@
       {"text":"火力+1　索敵+3　回避+2", "ship_class":"mogami"},
       {"text":"火力+1　索敵+3　回避+2", "ship_class":"tone"}
     ]}
+  ]},
+  {"id":"408", "type":"その他", "title":"装甲艇(AB艇)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2　索敵+2　回避+2", "ship_class":"amphibiousassaultship_shinshuumaru"},
+      {"text":"火力+1　対潜+1　索敵+1　回避+1", "ship_class":"amphibiousassaultship_akitsumaru"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"mutsuki_mutsuki_2"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"mutsuki_kisaragi_2"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"mutsuki_satsuki_2"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"mutsuki_fumiduki_2"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"mutsuki_mikaduki_1"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"akatsuki_hibiki_2"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"hatsuharu_ariake_1"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"shiratsuyu_murasame_2"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"shiratsuyu_umikaze_2"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"shiratsuyu_kawakaze_2"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"asashio_asashio_2d"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"asashio_ooshio_2"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"asashio_michishio_2"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"asashio_arashio_2"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"asashio_arare_2"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"asashio_kasumi_2"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"asashio_kasumi_2b"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"yuugumo_makigumo_2"}
+    ]}
+  ]},
+  {"id":"409", "type":"その他", "title":"武装大発", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2　索敵+2　回避+3", "ship_class":"amphibiousassaultship_shinshuumaru"},
+      {"text":"火力+1　対潜+1　索敵+1　回避+1", "ship_class":"amphibiousassaultship_akitsumaru"}
+    ]}
   ]}
 ]
