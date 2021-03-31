@@ -752,10 +752,17 @@
       {"text":"火力+2　回避+1", "ship_class":"katori"},
       {"text":"火力+3　雷装+2　対空+1　回避+1", "ship_class":"nisshin"}
     ]},
-    {"synergy":"単体(★8以上)", "items":[
+    {"synergy":"単体(★7〜9)", "items":[
       {"text":"火力+5　雷装+1　対空+1　回避+2　対潜+1", "ship_class":"yuubari_yuubari_2"},
       {"text":"火力+5　雷装+1　対空+1　回避+2　対潜+1", "ship_class":"yuubari_yuubari_2s"},
       {"text":"火力+5　雷装+1　対空+1　回避+2　対潜+1", "ship_class":"yuubari_yuubari_2d"}
+    ]},
+    {"synergy":"単体(★MAX)", "items":[
+      {"text":"火力+7　雷装+1　対空+1　回避+2　対潜+1", "ship_class":"yuubari_yuubari_2"},
+      {"text":"火力+7　雷装+1　対空+1　回避+2　対潜+1", "ship_class":"yuubari_yuubari_2s"},
+      {"text":"火力+7　雷装+1　対空+1　回避+2　対潜+1", "ship_class":"yuubari_yuubari_2d"},
+      {"text":"火力+4　回避+3", "ship_class":"katori"},
+      {"text":"火力+4　雷装+3　対空+1　回避+1", "ship_class":"nisshin"}
     ]},
     {"synergy":"＋水上電探", "items":[
       {"text":"火力+3　雷装+2　回避+2", "ship_class":"yuubari_yuubari_2"},
@@ -1733,6 +1740,22 @@
       {"text":"火力+2　索敵+2　索敵+2　回避+1", "ship_class":"kamoi-s"}
     ]}
   ]},
+  {"id":"118", "type":"水上機", "title":"紫雲", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　索敵+2　回避+2", "ship_class":"ooyodo"}
+    ]},
+    {"synergy":"単体(★MAX)", "items":[
+      {"text":"火力+3　索敵+3　回避+2", "ship_class":"ooyodo"}
+    ]}
+  ]},
+  {"id":"115", "type":"水上機", "title":"Ar196改", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2　索敵+2　回避+1", "ship_class":"ooyodo"}
+    ]},
+    {"synergy":"単体(★MAX)", "items":[
+      {"text":"火力+3　索敵+2　回避+2", "ship_class":"ooyodo"}
+    ]}
+  ]},
   {"id":"171", "type":"水上機", "title":"OS2U", "bonus":[
     {"synergy":"単体(★5～9)", "items":[
       {"text":"回避+1", "ship_class":"colorado"},
@@ -2697,6 +2720,16 @@
       {"text":"回避+4　対潜+2", "ship_class":"agano_noshiro_2"}
     ]}
   ]},
+  {"id":"044", "type":"その他", "title":"九四式爆雷投射機", "bonus":[
+    {"synergy":"単体(累積不可)", "items":[
+      {"text":"回避+2　対潜+3", "ship_class":"katori"}
+    ]}
+  ]},
+  {"id":"045", "type":"その他", "title":"三式爆雷投射機", "bonus":[
+    {"synergy":"単体(累積不可)", "items":[
+      {"text":"回避+2　対潜+3", "ship_class":"katori"}
+    ]}
+  ]},
   {"id":"287", "type":"その他", "title":"三式爆雷投射機 集中配備", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"回避+1　対潜+1", "ship_class":"kagerou_yukikaze_2"},
@@ -2704,7 +2737,8 @@
       {"text":"回避+1　対潜+1", "ship_class":"nagara_yura_2"},
       {"text":"回避+1　対潜+1", "ship_class":"sendai_naka_2"},
       {"text":"回避+1　対潜+1", "ship_class":"yuubari_yuubari_2d"},
-      {"text":"対潜+3", "ship_class":"agano_noshiro_2"}
+      {"text":"対潜+3", "ship_class":"agano_noshiro_2"},
+      {"text":"回避+2　対潜+3", "ship_class":"katori"}
     ]}
   ]},
   {"id":"288", "type":"その他", "title":"試製15cm9連装対潜噴進砲", "bonus":[
@@ -2715,7 +2749,8 @@
       {"text":"回避+1　対潜+2", "ship_class":"nagara_yura_2"},
       {"text":"回避+1　対潜+2", "ship_class":"sendai_naka_2"},
       {"text":"回避+1　対潜+2", "ship_class":"yuubari_yuubari_2"},
-      {"text":"回避+1　対潜+4", "ship_class":"agano_noshiro_2"}
+      {"text":"回避+1　対潜+4", "ship_class":"agano_noshiro_2"},
+      {"text":"回避+2　対潜+3", "ship_class":"katori"}
     ]}
   ]},
   {"id":"377", "type":"その他", "title":"RUR-4A Weapon Alpha改", "bonus":[
