@@ -39,7 +39,10 @@
   name: 菊月 / 菊月改
 
 - id: mikaduki
-  name: 三日月 / 三日月改
+  name: 三日月
+
+- id: mikaduki_1
+  name: 三日月改
 
 - id: mochiduki
   name: 望月 / 望月改
