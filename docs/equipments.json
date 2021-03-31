@@ -191,7 +191,13 @@
       {"text":"火力+1　対空+2", "ship_class":"commandantteste"},
       {"text":"火力+3　対空+3", "ship_class":"kagerou_yukikaze_danyang"},
       {"text":"火力+3　対空+3", "ship_class":"kagerou_yukikaze_2"},
-      {"text":"火力+3　対空+4", "ship_class":"matsu"}
+      {"text":"火力+3　対空+4", "ship_class":"matsu"},
+      {"text":"火力+3　対空+3　回避+2", "ship_class":"ayanami_akebono_2"},
+      {"text":"火力+3　対空+3　回避+2", "ship_class":"ayanami_ushio_2"}
+    ]},
+    {"synergy":"＋12.7cm連装高角砲改二", "items":[
+      {"text":"火力+2　対空+2", "ship_class":"ayanami_akebono_2"},
+      {"text":"火力+2　対空+2", "ship_class":"ayanami_ushio_2"}
     ]},
     {"synergy":"＋水上電探", "items":[
       {"text":"火力+3　回避+3", "ship_class":"nagara_isuzu_2"},
@@ -222,7 +228,13 @@
       {"text":"火力+2　回避+1", "ship_class":"commandantteste"},
       {"text":"火力+1　回避+2", "ship_class":"kagerou_yukikaze_danyang"},
       {"text":"火力+1　回避+2", "ship_class":"kagerou_yukikaze_2"},
-      {"text":"火力+4　回避+3", "ship_class":"matsu"}
+      {"text":"火力+4　回避+3", "ship_class":"matsu"},
+      {"text":"火力+2　回避+1", "ship_class":"ayanami_akebono_2"},
+      {"text":"火力+2　回避+1", "ship_class":"ayanami_ushio_2"}
+    ]},
+    {"synergy":"＋水上電探", "items":[
+      {"text":"火力+1　対空+2　回避+1", "ship_class":"ayanami_akebono_2"},
+      {"text":"火力+1　対空+2　回避+1", "ship_class":"ayanami_ushio_2"}
     ]}
   ]},
   {"id":"382", "type":"小口径主砲", "title":"12cm単装高角砲E型", "bonus":[
