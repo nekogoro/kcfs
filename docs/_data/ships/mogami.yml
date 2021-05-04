@@ -2,6 +2,12 @@
 - id: mogami
   name: 最上 / 最上改
 
+- id: mogami_2
+  name: 最上改二
+
+- id: mogami_2s
+  name: 最上改二特
+
 - id: mikuma
   name: 三隈 / 三隈改
 
