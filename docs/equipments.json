@@ -2102,6 +2102,30 @@
       {"text":"火力+4", "ship_class":"ise_hyuuga_2"}
     ]}
   ]},
+  {"id":"060", "type":"艦上機", "title":"零式艦戦62型(爆戦)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"shouhou"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"ryuuhou"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"hiyou"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"chitose-v"}
+    ]}
+  ]},
+  {"id":"219", "type":"艦上機", "title":"零式艦戦63型(爆戦)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"shouhou"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"ryuuhou"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"hiyou"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"chitose-v"}
+    ]}
+  ]},
+  {"id":"154", "type":"艦上機", "title":"零戦62型(爆戦／岩井隊)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"shouhou"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"ryuuhou"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"hiyou"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"chitose-v"}
+    ]}
+  ]},
   {"id":"305", "type":"艦上機", "title":"Ju87C改二(KMX搭載機)", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1　回避+1", "ship_class":"aquila"},
