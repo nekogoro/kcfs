@@ -3297,13 +3297,7 @@
       {"text":"火力+3　雷装+3　索敵+3　回避+2", "ship_class":"sendai"},
       {"text":"火力+3　雷装+3　索敵+3　回避+2", "ship_class":"yuubari"},
       {"text":"火力+3　雷装+3　索敵+3　回避+2", "ship_class":"agano"},
-      {"text":"火力+3　雷装+3　索敵+3　回避+2", "ship_class":"katori"},
-      {"text":"火力+1　索敵+1　回避+1", "ship_class":"furutaka"},
-      {"text":"火力+1　索敵+1　回避+1", "ship_class":"aoba"},
-      {"text":"火力+1　索敵+1　回避+1", "ship_class":"myoukou"},
-      {"text":"火力+1　索敵+1　回避+1", "ship_class":"takao"},
-      {"text":"火力+1　索敵+1　回避+1", "ship_class":"mogami"},
-      {"text":"火力+1　索敵+1　回避+1", "ship_class":"tone"}
+      {"text":"火力+3　雷装+3　索敵+3　回避+2", "ship_class":"katori"}
     ]},
     {"synergy":"単体(★1〜)", "items":[
       {"text":"火力+1　索敵+1　回避+1", "ship_class":"furutaka"},
