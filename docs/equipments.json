@@ -285,6 +285,9 @@
     ]}
   ]},
   {"id":"122", "type":"小口径主砲", "title":"10cm高角砲＋高射装置", "bonus":[
+    {"synergy":"単体(累積可)", "items":[
+      {"text":"火力+1　対空+2　回避+1", "ship_class":"akiduki"}
+    ]},
     {"synergy":"単体(★+4以上)", "items":[
       {"text":"火力+5　対空+3　回避+2", "ship_class":"kagerou_yukikaze_2"}
     ]},
@@ -430,6 +433,11 @@
       {"text":"対空+1", "ship_class":"ayanami"},
       {"text":"対空+1", "ship_class":"akatsuki"},
       {"text":"対空+1", "ship_class":"hatsuharu"}
+    ]}
+  ]},
+  {"id":"003", "type":"小口径主砲", "title":"10cm連装高角砲", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　対空+2　回避+1", "ship_class":"akiduki"}
     ]}
   ]},
   {"id":"296", "type":"小口径主砲", "title":"12.7cm連装砲B型改四(戦時改修)＋高射装置", "bonus":[
@@ -2600,7 +2608,8 @@
   {"id":"030", "type":"その他", "title":"21号対空電探", "bonus":[
     {"synergy":"単体(累積不可)", "items":[
       {"text":"対空+3　索敵+2　回避+2", "ship_class":"mogami_mogami_2"},
-      {"text":"対空+3　索敵+2　回避+2", "ship_class":"mogami_mogami_2s"}
+      {"text":"対空+3　索敵+2　回避+2", "ship_class":"mogami_mogami_2s"},
+      {"text":"対空+3　索敵+2　回避+2", "ship_class":"akiduki"}
     ]},
     {"synergy":"＋3号砲(※2)", "items":[
       {"text":"火力+1　対空+3　回避+2", "ship_class":"mogami_mogami_2"},
@@ -2843,6 +2852,45 @@
       {"text":"火力+1　対空+1　回避+1", "ship_class":"perth"}
     ]}
   ]},
+  {"id":"411", "type":"その他", "title":"42号対空電探改二", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+3　対空+4", "ship_class":"kongou_haruna_2"},
+      {"text":"火力+3　対空+4", "ship_class":"fusou_fusou_2"},
+      {"text":"火力+3　対空+4", "ship_class":"fusou_yamashiro_2"},
+      {"text":"火力+2　対空+2", "ship_class":"nagato_nagato_2"},
+      {"text":"火力+2　対空+2", "ship_class":"nagato_mutsu_2"},
+      {"text":"火力+2　対空+2", "ship_class":"ise_ise_2"},
+      {"text":"火力+2　対空+2", "ship_class":"ise_hyuuga_2"},
+      {"text":"回避-5", "ship_class":"furutaka"},
+      {"text":"回避-5", "ship_class":"aoba"},
+      {"text":"回避-5", "ship_class":"myoukou"},
+      {"text":"回避-5", "ship_class":"takao"},
+      {"text":"回避-5", "ship_class":"mogami"},
+      {"text":"回避-5", "ship_class":"tone"},
+      {"text":"回避-5", "ship_class":"admiralhipper"},
+      {"text":"回避-5", "ship_class":"zara"},
+      {"text":"回避-5", "ship_class":"northampton"},
+      {"text":"回避-6", "ship_class":"katori"},
+      {"text":"回避-7", "ship_class":"tenryuu_tenryuu"},
+      {"text":"回避-7", "ship_class":"tenryuu_tatsuta"},
+      {"text":"回避-7", "ship_class":"kuma"},
+      {"text":"回避-7", "ship_class":"nagara"},
+      {"text":"回避-7", "ship_class":"sendai"},
+      {"text":"回避-7", "ship_class":"yuubari_yuubari"},
+      {"text":"回避-7", "ship_class":"yuubari_yuubari_1"},
+      {"text":"回避-7", "ship_class":"yuubari_yuubari_2"},
+      {"text":"回避-7", "ship_class":"agano"},
+      {"text":"回避-7", "ship_class":"ldsddabruzzi"},
+      {"text":"回避-7", "ship_class":"stlouis"},
+      {"text":"回避-7", "ship_class":"town"},
+      {"text":"回避-7", "ship_class":"gotland"},
+      {"text":"回避-7", "ship_class":"deruyter"},
+      {"text":"回避-7", "ship_class":"perth"},
+      {"text":"回避-7", "ship_class":"atlanta"},
+      {"text":"回避-9", "ship_class":"asashio_kasumi_2b"},
+      {"text":"回避-9", "ship_class":"akiduki"}
+    ]}
+  ]},
   {"id":"047", "type":"その他", "title":"三式水中探信儀", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1　回避+2　対潜+3", "ship_class":"kamikaze_kamikaze"},
@@ -3067,6 +3115,14 @@
     ]},
     {"synergy":"＋53cm連装魚雷(※1)", "items":[
       {"text":"雷装+5", "ship_class":"kongou_hiei_2c"}
+    ]}
+  ]},
+  {"id":"121", "type":"その他", "title":"94式高射装置", "bonus":[
+    {"synergy":"単体(累積不可)", "items":[
+      {"text":"対空+4　回避+2", "ship_class":"akiduki"}
+    ]},
+    {"synergy":"＋対空電探", "items":[
+      {"text":"対空+2　回避+2", "ship_class":"akiduki"}
     ]}
   ]},
   {"id":"204", "type":"その他", "title":"艦本新設計 増設バルジ(大型艦)", "bonus":[
