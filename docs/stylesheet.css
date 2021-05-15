@@ -209,94 +209,94 @@ ul {
   border-radius: 7.5px;
 }
 
-.fill-red {
+.fill_red {
     background: #ff4b00;
     color: white;
 }
 
-.fill-yellow {
+.fill_yellow {
     box-shadow: 0 0 0 1.5px #84919E inset;
     background: #fff100;
     color: black;
 }
 
-.fill-green {
+.fill_green {
     background: #03AF7A;
     color: white;
 }
 
-.fill-blue {
+.fill_blue {
     background: #005AFF;
     color: white;
 }
 
-.fill-sky {
+.fill_sky {
     background: #4DC4FF;
     color: white;
 }
 
-.fill-orange {
+.fill_orange {
     background: #F6AA00;
     color: white;
 }
 
-.fill-purple {
+.fill_purple {
     background: #990099;
     color: white;
 }
 
-.fill-brown {
+.fill_brown {
     background: #804000;
     color: white;
 }
 
-.fill-gray {
+.fill_gray {
     background: #84919E;
     color: white;
 }
 
-.stroke-red {
+.stroke_red {
   color: #ff4b00;
   box-shadow: 0 0 0 1.5px #ff4b00 inset;
 }
 
-.stroke-green {
+.stroke_green {
   color: #03AF7A;
   box-shadow: 0 0 0 1.5px #03AF7A inset;
 }
 
-.stroke-blue {
+.stroke_blue {
   color: #005AFF;
   box-shadow: 0 0 0 1.5px #005AFF inset;
 }
 
-.stroke-sky {
+.stroke_sky {
   color: #4DC4FF;
   box-shadow: 0 0 0 1.5px #4DC4FF inset;
 }
 
-.stroke-orange {
+.stroke_orange {
   color: #F6AA00;
   box-shadow: 0 0 0 1.5px #F6AA00 inset;
 }
 
-.stroke-purple {
+.stroke_purple {
   color: #990099;
   box-shadow: 0 0 0 1.5px #990099 inset;
 }
 
-.stroke-brown {
+.stroke_brown {
   color: #804000;
   box-shadow: 0 0 0 1.5px #804000 inset;
 }
 
-.fill-lightgreen {
+.fill_lightgreen {
   box-shadow: 0 0 0 1.5px #84919E inset;
   color: black;
   background: #d8f255;
 }
 
-.fill-cream {
+.fill_cream {
   box-shadow: 0 0 0 1.5px #84919E inset;
   color: black;
   background: #ffff80;
