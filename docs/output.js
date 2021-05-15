@@ -14,7 +14,7 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId, isCompa
         subObj = $('<li/>').html(label + '<a href="https://akashi-list.me/#w' + data[i].id + '" title="「明石の工廠早見表」装備ページ" target="_blank" rel="noopener">' + data[i].title + '</a>'
           + ' <a href="https://wikiwiki.jp/kancolle/' + data[i].title + '" title="「艦これ wiki」装備ページ" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i></a>');
       } else {
-        subObj = $('<li/>').text(data[i].title);
+        subObj = $('<li/>').text(label + data[i].title);
       }
       var isBonusFound = false;
       for(var j = 0; j < data[i].bonus.length; j++) {

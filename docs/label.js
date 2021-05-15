@@ -42,6 +42,7 @@ function generateMainLabel(type) {
       str += 'fill_blue';
       break;
     case '艦上戦闘機':
+    case '対空機銃':
       str += 'fill_green';
       break;
     case '対潜':
@@ -73,6 +74,7 @@ function generateSubLabel (subType) {
       str += 'stroke_red';
       break;
     case '高角砲':
+    case '特殊高角砲':
     case '水上戦闘機':
     case '対空強化弾':
       str += 'stroke_green';
