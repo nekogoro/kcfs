@@ -25,6 +25,18 @@ $(function() {
       $('.label_wrap').hide();
     }
   })
+
+  $('#option_compact').change(function() {
+    var compact = $('#option_compact').prop('checked');
+
+    if (compact) {
+      $('.label_full').hide();
+      $('.label_compact').show();
+    } else {
+      $('.label_full').show();
+      $('.label_compact').hide();
+    }
+  })
 });
 
 function pushTypeUrl() {
