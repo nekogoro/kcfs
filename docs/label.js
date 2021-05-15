@@ -23,81 +23,82 @@ function generateLabelsForList(_type) {
 }
 
 function generateMainLabel(type) {
-  var label = TAG_BEGIN;
+  var str = TAG_BEGIN;
   switch (type) {
     case '小口径主砲':
     case '中口径主砲':
     case '大口径主砲':
     case '艦上爆撃機':
-      label += 'fill_red';
+      str += 'fill_red';
       break;
     case '副砲':
     case '艦上偵察機':
-      label += 'fill_yellow';
+      str += 'fill_yellow';
       break;
     case '艦上攻撃機':
     case '魚雷':
-      label += 'fill_blue';
+      str += 'fill_blue';
       break;
     case '艦上戦闘機':
-      label += 'fill_green';
+      str += 'fill_green';
       break;
     case '対潜':
-      label += 'fill_sky';
+      str += 'fill_sky';
       break;
     case '小型電探':
     case '大型電探':
-        label += 'fill_orange';
+        str += 'fill_orange';
       break
     case '上陸用舟艇':
-      label += 'fill_brown';
+      str += 'fill_brown';
       break;
     case '水上機':
-      label += 'fill_lightgreen';
+      str += 'fill_lightgreen';
       break;
     default:
-      label += 'fill_gray';
+      str += 'fill_gray';
       break;
   }
-  return label + TAG_END;
+  return str + TAG_END;
 }
 
 function generateSubLabel (subType) {
-  var label = TAG_BEGIN;
+  var str = TAG_BEGIN;
   switch (subType) {
     case '水上爆撃機':
     case '対艦強化弾':
-      label += 'stroke_red';
+      str += 'stroke_red';
       break;
     case '高角砲':
     case '水上戦闘機':
     case '対空強化弾':
-      label += 'stroke_green';
+      str += 'stroke_green';
       break;
     case '特殊潜航艇':
-      label += 'stroke_blue';
+      str += 'stroke_blue';
       break;
     case 'ソナー':
     case '爆雷':
     case '潜水艦装備':
-      label += 'stroke_sky';
+      str += 'stroke_sky';
       break;
     case '対空':
     case '両用':
     case '探照灯':
-      label += 'stroke_orange';
+      str += 'stroke_orange';
       break;
     case '夜戦':
     case '夜攻':
     case 'バルジ':
-      label += 'stroke_purple';
+      str += 'stroke_purple';
       break;
     case '水上偵察機':
-      label += 'fill_cream';
+    case '機関部強化':
+      str += 'fill_cream';
       break;
     default:
   }
-  return label + TAG_END;
+  return str + TAG_END;
 }
 
 function shortType (type) {
