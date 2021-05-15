@@ -81,9 +81,9 @@ function checkOption() {
   }
 
   if (label) {
-    $('.label_all').show();
+    $('.label_wrap').show();
   } else {
-    $('.label_all').hide();
+    $('.label_wrap').hide();
   }
 
   if (compact) {

@@ -1,4 +1,4 @@
-const TAG_ALL = '<span class="label_all">';
+const TAG_WRAP = '<span class="label_wrap">';
 const TAG_BEGIN = '<span class="label ';
 const TAG_END = '">';
 const TAG_CLOSE = '</span>';
@@ -8,17 +8,18 @@ const TAG_COMPACT = '<span class="label_compact">';
 function generateLabelsForList(_type) {
   var types = _type.split('：');
 
-  var label = TAG_ALL
-              + TAG_FULL + generateMainLabel(types[0]) + types[0] + TAG_CLOSE
-              + TAG_COMPACT + generateMainLabel(type[0]) + shortType(types[0]) + TAG_CLOSE
+  var label = TAG_WRAP
+              + TAG_FULL + generateMainLabel(types[0]) + types[0] + TAG_CLOSE + TAG_CLOSE
+              + TAG_COMPACT + generateMainLabel(type[0]) + shortType(types[0]) + TAG_CLOSE + TAG_CLOSE
               + ' ';
   if (types.length === 1) {
     return label + TAG_CLOSE + TAG_CLOSE;
   }
   return label 
-          + TAG_FULL + generateSubLabel(types[1]) + types[1] + TAG_CLOSE
-          + TAG_COMPACT + generateSubLabel(types[1]) + shortType(types[1]) + TAG_CLOSE
-          + ' ' + TAG_CLOSE + TAG_CLOSE;
+          + TAG_FULL + generateSubLabel(types[1]) + types[1] + TAG_CLOSE + TAG_CLOSE
+          + TAG_COMPACT + generateSubLabel(types[1]) + shortType(types[1]) + TAG_CLOSE + TAG_CLOSE
+          + ' '
+          + TAG_CLOSE; // TAG_WRAP
 }
 
 function generateMainLabel(type) {
