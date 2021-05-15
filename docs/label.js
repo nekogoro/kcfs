@@ -1,28 +1,28 @@
-const TAG0 = '<span class="label_all">';
-const TAG1 = '<span class="label ';
-const TAG2 = '">';
-const TAG3 = '</span>';
+const TAG_ALL = '<span class="label_all">';
+const TAG_BEGIN = '<span class="label ';
+const TAG_END = '">';
+const TAG_CLOSE = '</span>';
 const TAG_FULL = '<span class="label_full">';
 const TAG_COMPACT = '<span class="label_compact">';
 
 function generateLabelsForList(_type) {
   var types = _type.split('：');
 
-  var label = TAG0 
-              + TAG_FULL + generateMainLabel(types[0]) + types[0] + TAG3
-              + TAG_COMPACT + generateMainLabel(type[0]) + shortType(types[0]) + TAG3
+  var label = TAG_ALL
+              + TAG_FULL + generateMainLabel(types[0]) + types[0] + TAG_CLOSE
+              + TAG_COMPACT + generateMainLabel(type[0]) + shortType(types[0]) + TAG_CLOSE
               + ' ';
   if (types.length === 1) {
-    return label + TAG3;
+    return label + TAG_CLOSE + TAG_CLOSE;
   }
   return label 
-          + TAG_FULL + generateSubLabel(types[1]) + types[1] + TAG3
-          + TAG_COMPACT + generateSubLabel(types[1]) + shortType(types[1]) + TAG3
-          + ' ' + TAG3;
+          + TAG_FULL + generateSubLabel(types[1]) + types[1] + TAG_CLOSE
+          + TAG_COMPACT + generateSubLabel(types[1]) + shortType(types[1]) + TAG_CLOSE
+          + ' ' + TAG_CLOSE + TAG_CLOSE;
 }
 
 function generateMainLabel(type) {
-  var label = TAG1;
+  var label = TAG_BEGIN;
   switch (type) {
     case '小口径主砲':
     case '中口径主砲':
@@ -58,11 +58,11 @@ function generateMainLabel(type) {
       label += 'fill_gray';
       break;
   }
-  return label + TAG2;
+  return label + TAG_END;
 }
 
 function generateSubLabel (subType) {
-  var label = TAG1;
+  var label = TAG_BEGIN;
   switch (subType) {
     case '水上爆撃機':
     case '対艦強化弾':
@@ -96,7 +96,7 @@ function generateSubLabel (subType) {
       break;
     default:
   }
-  return label + TAG2;
+  return label + TAG_END;
 }
 
 function shortType (type) {
