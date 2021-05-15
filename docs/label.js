@@ -5,19 +5,21 @@ const TAG_CLOSE = '</span>';
 const TAG_FULL = '<span class="label_full">';
 const TAG_COMPACT = '<span class="label_compact">';
 
-function generateLabelsForList(_type) {
-  var types = _type.split('：');
+function generateLabelsForList(type) {
+  var types = type.split('：');
+  var mainLabel = generateMainLabel(types[0]);
 
   var label = TAG_WRAP
-              + TAG_FULL + generateMainLabel(types[0]) + types[0] + TAG_CLOSE + TAG_CLOSE
-              + TAG_COMPACT + generateMainLabel(type[0]) + shortType(types[0]) + TAG_CLOSE + TAG_CLOSE
+              + TAG_FULL + mainLabel + types[0] + TAG_CLOSE + TAG_CLOSE
+              + TAG_COMPACT + mainLabel + shortType(types[0]) + TAG_CLOSE + TAG_CLOSE
               + ' ';
   if (types.length === 1) {
     return label + TAG_CLOSE + TAG_CLOSE;
   }
+  var subLabel = generateSubLabel(types[1]);
   return label 
-          + TAG_FULL + generateSubLabel(types[1]) + types[1] + TAG_CLOSE + TAG_CLOSE
-          + TAG_COMPACT + generateSubLabel(types[1]) + shortType(types[1]) + TAG_CLOSE + TAG_CLOSE
+          + TAG_FULL + subLabel + types[1] + TAG_CLOSE + TAG_CLOSE
+          + TAG_COMPACT + subLabel + shortType(types[1]) + TAG_CLOSE + TAG_CLOSE
           + ' '
           + TAG_CLOSE; // TAG_WRAP
 }
@@ -43,6 +45,7 @@ function generateMainLabel(type) {
       str += 'fill_green';
       break;
     case '対潜':
+    case '回転翼機':
       str += 'fill_sky';
       break;
     case '小型電探':
