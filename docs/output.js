@@ -1,4 +1,4 @@
-function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId, isCompact) {
+function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
   $.getJSON("equipments.json" , function(data) {
     ulObj.empty();
     if (shipTitle !== '') {
@@ -9,12 +9,12 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId, isCompa
     var isEmpty = true;
     for(var i = 0; i < data.length; i++) {
       var subObj;
-      var label = generateLabelsForList(data[i].type, isCompact);
+      var label = generateLabelsForList(data[i].type);
       if (data[i].title.indexOf('その他') == -1) {
         subObj = $('<li/>').html(label + '<a href="https://akashi-list.me/#w' + data[i].id + '" title="「明石の工廠早見表」装備ページ" target="_blank" rel="noopener">' + data[i].title + '</a>'
           + ' <a href="https://wikiwiki.jp/kancolle/' + data[i].title + '" title="「艦これ wiki」装備ページ" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i></a>');
       } else {
-        subObj = $('<li/>').text(label + data[i].title);
+        subObj = $('<li/>').html(label + data[i].title);
       }
       var isBonusFound = false;
       for(var j = 0; j < data[i].bonus.length; j++) {
@@ -81,16 +81,16 @@ function checkOption() {
   }
 
   if (label) {
-    $('.label_wrap').show();
+    $('.label_wrap').css('display', 'block');
   } else {
-    $('.label_wrap').hide();
+    $('.label_wrap').css('display', 'none');
   }
 
   if (compact) {
-    $('.label_full').hide();
-    $('.label_compact').show();
+    $('.label_full').css('display', 'none');
+    $('.label_compact').css('display', 'block');
   } else {
-    $('.label_full').show();
-    $('.label_compact').hide();
+    $('.label_full').css('display', 'block');
+    $('.label_compact').css('display', 'none');
   }
 }
