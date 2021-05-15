@@ -1,4 +1,4 @@
-function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
+function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId, isCompact) {
   $.getJSON("equipments.json" , function(data) {
     ulObj.empty();
     if (shipTitle !== '') {
@@ -9,8 +9,9 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
     var isEmpty = true;
     for(var i = 0; i < data.length; i++) {
       var subObj;
+      var label = generateLabelsForList(data[i].type, isCompact);
       if (data[i].title.indexOf('その他') == -1) {
-        subObj = $('<li/>').html('<a href="https://akashi-list.me/#w' + data[i].id + '" title="「明石の工廠早見表」装備ページ" target="_blank" rel="noopener">' + data[i].title + '</a>'
+        subObj = $('<li/>').html(label + '<a href="https://akashi-list.me/#w' + data[i].id + '" title="「明石の工廠早見表」装備ページ" target="_blank" rel="noopener">' + data[i].title + '</a>'
           + ' <a href="https://wikiwiki.jp/kancolle/' + data[i].title + '" title="「艦これ wiki」装備ページ" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i></a>');
       } else {
         subObj = $('<li/>').text(data[i].title);
@@ -70,10 +71,26 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
 
 function checkOption() {
   var minus = $('#option_minus').prop('checked');
+  var label = $('#option_label').prop('checked');
+  var compact = $('#option_compact').prop('checked');
 
   if (minus) {
     $('.bonus_minus').css('color', '#ff4b00');
   } else {
     $('.bonus_minus').css('color', '');
+  }
+
+  if (label) {
+    $('.label_all').show();
+  } else {
+    $('.label_all').hide();
+  }
+
+  if (compact) {
+    $('.label_full').hide();
+    $('.label_compact').show();
+  } else {
+    $('.label_full').show();
+    $('.label_compact').hide();
   }
 }
