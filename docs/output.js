@@ -81,16 +81,16 @@ function checkOption() {
   }
 
   if (label) {
-    $('.label_wrap').css('display', 'block');
+    $('.label_wrap').show();
   } else {
-    $('.label_wrap').css('display', 'none');
+    $('.label_wrap').hide();
   }
 
   if (compact) {
-    $('.label_full').css('display', 'none');
-    $('.label_compact').css('display', 'block');
+    $('.label_full').hide();
+    $('.label_compact').show();
   } else {
-    $('.label_full').css('display', 'block');
-    $('.label_compact').css('display', 'none');
+    $('.label_full').show();
+    $('.label_compact').hide();
   }
 }
