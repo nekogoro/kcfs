@@ -99,6 +99,7 @@ table thead th {
 
 .hidden_show label {
   border: none;
+  padding: 0;
   margin: 0;
 }
 
@@ -124,6 +125,10 @@ table thead th {
   border: none;
   padding: 0;
   margin: 0;
+}
+
+.check_item {
+  padding: 0;
 }
 
 details {
@@ -300,4 +305,17 @@ ul {
   box-shadow: 0 0 0 1.5px #84919E inset;
   color: black;
   background: #ffff80;
+}
+
+.listcheck {
+  list-style: none;
+}
+
+.listcheck input[type=checkbox] {
+  display: none;
+}
+
+.box {
+  margin-left: -1.5em;
+  margin-right: 0.5em;
 }
