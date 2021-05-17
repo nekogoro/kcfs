@@ -318,6 +318,7 @@ ul {
 
 .icon-export {
   content: url(./svg/export.svg);
+  vertical-align: bottom;
 }
 
 /* show/hide equipments */
