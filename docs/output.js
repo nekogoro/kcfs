@@ -1,5 +1,3 @@
-const CHEVRON ='<li class="parent no1"><input type="checkbox" id="ch1" checked/><label class="box" for="ch1"></label>'
-
 function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
   $.getJSON("equipments.json" , function(data) {
     ulObj.empty();
@@ -14,10 +12,10 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
       var label = generateLabelsForList(data[i].type);
       var markorId = generateListMarkor(data[i].id);
       if (data[i].title.indexOf('その他') == -1) {
-        subObj = $('<li/>').html(markorId + label + '<a href="https://akashi-list.me/#w' + data[i].id + '" title="「明石の工廠早見表」装備ページ" target="_blank" rel="noopener">' + data[i].title + '</a>'
+        subObj = $('<li/>').attr('class','list_parent').html(markorId + label + '<a href="https://akashi-list.me/#w' + data[i].id + '" title="「明石の工廠早見表」装備ページ" target="_blank" rel="noopener">' + data[i].title + '</a>'
           + ' <a href="https://wikiwiki.jp/kancolle/' + data[i].title + '" title="「艦これ wiki」装備ページ" target="_blank" rel="noopener"><i class="icon icon-export"></i></a>');
       } else {
-        subObj = $('<li/>').html(markorId + label + data[i].title);
+        subObj = $('<li/>').attr('class','list_parent').html(markorId + label + data[i].title);
       }
       var isBonusFound = false;
       for(var j = 0; j < data[i].bonus.length; j++) {
@@ -25,8 +23,8 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
           if (data[i].bonus[j].items[k].ship_class == shipId) {
             var synergyItem = generateListMarkor(data[i].id + '-' + k) + data[i].bonus[j].synergy;
             subObj.append($('<ul/>')
-              .append($('<li/>').append(synergyItem).css('list-style', 'none')
-                .append($('<ul/>')
+              .append($('<li/>').attr('class','list_parent').append(synergyItem)
+                .append($('<ul/>').attr('class', 'list_child')
                   .append($('<li>').append(data[i].bonus[j].items[k].text.replace(/(..)(-[0-9])/g, '$1<span class="bonus_minus">$2</span>'))))
                     // .replace(/(火力.[0-9]+)/g, '<span class="bonus_firepower">$1</span>')
                     // .replace(/(雷装.[0-9]+)/g, '<span class="bonus_torpedo">$1</span>')
@@ -43,8 +41,8 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
           } else if (data[i].bonus[j].items[k].ship_class == classId) {
             var synergyItem = generateListMarkor(data[i].id + '-' + k) + data[i].bonus[j].synergy;
             subObj.append($('<ul/>').attr('class', 'list_child')
-              .append($('<li/>').append(synergyItem).css('list-style', 'none')
-                .append($('<ul/>')
+              .append($('<li/>').attr('class','list_parent').append(synergyItem)
+                .append($('<ul/>').attr('class', 'list_child')
                   .append($('<li>').append(data[i].bonus[j].items[k].text.replace(/(..)(-[0-9])/g, '$1<span class="bonus_minus">$2</span>'))))
                     // .replace(/(火力.[0-9]+)/g, '<span class="bonus_firepower">$1</span>')
                     // .replace(/(雷装.[0-9]+)/g, '<span class="bonus_torpedo">$1</span>')
@@ -103,7 +101,7 @@ function checkOption() {
 
 function generateListMarkor(id) {
   var markorId = 'i-' + id;
-  return '<li class="list_parent"><input type="checkbox" id="' + markorId
+  return '<input type="checkbox" id="' + markorId
         + '"/><label class="box" for="' + markorId
         + '"></label>';
 }
