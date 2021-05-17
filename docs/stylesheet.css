@@ -353,6 +353,6 @@ ul {
   display: block;
 }
  */
-.list_parent input[type=checkbox]:checked + label::before {
+/* .list_parent input[type=checkbox]:checked + label::before {
   content: url(./svg/chevron-right.svg);
-}
+} */
