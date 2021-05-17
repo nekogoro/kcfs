@@ -25,7 +25,7 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
           if (data[i].bonus[j].items[k].ship_class == shipId) {
             var synergyItem = generateListMarkor(data[i].id + '-' + k) + data[i].bonus[j].synergy;
             subObj.append($('<ul/>')
-              .append($('<li/>').append(synergyItem)
+              .append($('<li/>').append(synergyItem).css('list-style', 'none')
                 .append($('<ul/>')
                   .append($('<li>').append(data[i].bonus[j].items[k].text.replace(/(..)(-[0-9])/g, '$1<span class="bonus_minus">$2</span>'))))
                     // .replace(/(火力.[0-9]+)/g, '<span class="bonus_firepower">$1</span>')
@@ -43,7 +43,7 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
           } else if (data[i].bonus[j].items[k].ship_class == classId) {
             var synergyItem = generateListMarkor(data[i].id + '-' + k) + data[i].bonus[j].synergy;
             subObj.append($('<ul/>').attr('class', 'list_child')
-              .append($('<li/>').append(synergyItem)
+              .append($('<li/>').append(synergyItem).css('list-style', 'none')
                 .append($('<ul/>')
                   .append($('<li>').append(data[i].bonus[j].items[k].text.replace(/(..)(-[0-9])/g, '$1<span class="bonus_minus">$2</span>'))))
                     // .replace(/(火力.[0-9]+)/g, '<span class="bonus_firepower">$1</span>')
@@ -65,6 +65,7 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
         isEmpty = false;
         ulObj.append(subObj);
         checkOption();
+        showChild(); // init
       }
     }
     if (isEmpty) {
@@ -103,6 +104,10 @@ function checkOption() {
 function generateListMarkor(id) {
   var markorId = 'i-' + id;
   return '<li class="list_parent"><input type="checkbox" id="' + markorId
-        + '" checked/><label class="box" for="' + markorId
+        + '"/><label class="box" for="' + markorId
         + '"></label>';
+}
+
+function showChild() {
+  $('.list_child').show();
 }
