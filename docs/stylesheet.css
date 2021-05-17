@@ -349,9 +349,9 @@ ul {
   content: url(./svg/chevron-down.svg);
 }
 
-.list_child {
+/* .list_child {
   display: none;
-}
+} */
 
 /* .list_parent input[type=checkbox]:checked ~ .list_child {
   display: block;
