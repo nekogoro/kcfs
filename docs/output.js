@@ -22,9 +22,9 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
         for(var k = 0; k < data[i].bonus[j].items.length; k++) {
           if (data[i].bonus[j].items[k].ship_class == shipId) {
             var synergyItem = generateListMarkor(data[i].id, j, k) + data[i].bonus[j].synergy;
-            subObj.append($('<ul/>').attr('class', 'list_child')
-              .append($('<li/>').attr('class','list_parent').append(synergyItem)
-                .append($('<ul/>').attr('class', 'list_child')
+            subObj.append($('<ul class="list_child"/>')
+              .append($('<li class="list_parent"/>').append(synergyItem)
+                .append($('<ul class="list_child"/>')
                   .append($('<li>').append(data[i].bonus[j].items[k].text.replace(/(..)(-[0-9])/g, '$1<span class="bonus_minus">$2</span>'))))
                     // .replace(/(火力.[0-9]+)/g, '<span class="bonus_firepower">$1</span>')
                     // .replace(/(雷装.[0-9]+)/g, '<span class="bonus_torpedo">$1</span>')
@@ -40,9 +40,9 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
             break;
           } else if (data[i].bonus[j].items[k].ship_class == classId) {
             var synergyItem = generateListMarkor(data[i].id, j, k) + data[i].bonus[j].synergy;
-            subObj.append($('<ul/>').attr('class', 'list_child')
-              .append($('<li/>').attr('class','list_parent').append(synergyItem)
-                .append($('<ul/>').attr('class', 'list_child')
+            subObj.append($('<ul class="list_child/>')
+              .append($('<li class="list_parent"/>').append(synergyItem)
+                .append($('<ul class="list_child/>').attr('class', 'list_child')
                   .append($('<li>').append(data[i].bonus[j].items[k].text.replace(/(..)(-[0-9])/g, '$1<span class="bonus_minus">$2</span>'))))
                     // .replace(/(火力.[0-9]+)/g, '<span class="bonus_firepower">$1</span>')
                     // .replace(/(雷装.[0-9]+)/g, '<span class="bonus_torpedo">$1</span>')
