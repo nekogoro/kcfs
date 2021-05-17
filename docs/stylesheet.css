@@ -307,17 +307,50 @@ ul {
   background: #ffff80;
 }
 
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.icon-export {
+  content: url(./svg/export.svg);
+}
+
 /* show/hide equipments */
 
-.listcheck {
+.parent {
   list-style: none;
 }
 
-.listcheck input[type=checkbox] {
+.parent ul {
+  display: none;
+}
+
+.parent input {
   display: none;
 }
 
 .box {
-  margin-left: -1.5em;
-  margin-right: 0.5em;
+  margin: 0 0.3em 0 -18px;
+  vertical-align: middle;
+}
+
+.box::before {
+  content: url(./svg/chevron-right.svg);
+}
+
+.child {
+  display: none;
+}
+
+.parent input[type=checkbox]:checked ~ .childul {
+  display: block;
+}
+
+.parent input[type=checkbox]:checked + label::before {
+  content: url(./svg/chevron-down.svg);
 }
