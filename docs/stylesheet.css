@@ -322,15 +322,15 @@ ul {
 
 /* show/hide equipments */
 
-.parent {
+.list_parent {
   list-style: none;
 }
 
-.parent ul {
+.list_parent ul {
   display: none;
 }
 
-.parent input {
+.list_parent input {
   display: none;
 }
 
@@ -343,14 +343,14 @@ ul {
   content: url(./svg/chevron-right.svg);
 }
 
-.child {
+.list_child {
   display: none;
 }
 
-.parent input[type=checkbox]:checked ~ .childul {
+.list_parent input[type=checkbox]:checked ~ .list_child {
   display: block;
 }
 
-.parent input[type=checkbox]:checked + label::before {
+.list_parent input[type=checkbox]:checked + label::before {
   content: url(./svg/chevron-down.svg);
 }

@@ -42,7 +42,7 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
             break;
           } else if (data[i].bonus[j].items[k].ship_class == classId) {
             var synergyItem = generateListMarkor(data[i].id + '-' + k) + data[i].bonus[j].synergy;
-            subObj.append($('<ul/>')
+            subObj.append($('<ul/>').attr('class', 'list_child')
               .append($('<li/>').append(synergyItem)
                 .append($('<ul/>')
                   .append($('<li>').append(data[i].bonus[j].items[k].text.replace(/(..)(-[0-9])/g, '$1<span class="bonus_minus">$2</span>'))))
@@ -102,7 +102,7 @@ function checkOption() {
 
 function generateListMarkor(id) {
   var markorId = 'i-' + id;
-  return '<li class="parent"><input type="checkbox" id="' + markorId
+  return '<li class="list_parent"><input type="checkbox" id="' + markorId
         + '" checked/><label class="box" for="' + markorId
         + '"></label>';
 }
