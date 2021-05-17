@@ -22,7 +22,7 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
         for(var k = 0; k < data[i].bonus[j].items.length; k++) {
           if (data[i].bonus[j].items[k].ship_class == shipId) {
             var synergyItem = generateListMarkor(data[i].id, j, k) + data[i].bonus[j].synergy;
-            subObj.append($('<ul/>')
+            subObj.append($('<ul/>').attr('class', 'list_child')
               .append($('<li/>').attr('class','list_parent').append(synergyItem)
                 .append($('<ul/>').attr('class', 'list_child')
                   .append($('<li>').append(data[i].bonus[j].items[k].text.replace(/(..)(-[0-9])/g, '$1<span class="bonus_minus">$2</span>'))))
