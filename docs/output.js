@@ -98,7 +98,7 @@ function checkOption() {
 }
 
 function generateListMarkor(id, j, k) {
-  generateListMarkor(id + '-' + j + '-' + k);
+  return generateListMarkor(id + '-' + j + '-' + k);
 }
 
 function generateListMarkor(id) {
