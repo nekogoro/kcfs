@@ -63,7 +63,7 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
         isEmpty = false;
         ulObj.append(subObj);
         checkOption();
-        showChild(); // init
+        // showChild(); // init
       }
     }
     if (isEmpty) {
