@@ -21,7 +21,7 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
       for(var j = 0; j < data[i].bonus.length; j++) {
         for(var k = 0; k < data[i].bonus[j].items.length; k++) {
           if (data[i].bonus[j].items[k].ship_class == shipId) {
-            var synergyItem = generateListMarkor(data[i].id + '-' + k) + data[i].bonus[j].synergy;
+            var synergyItem = generateListMarkor(data[i].id, j, k) + data[i].bonus[j].synergy;
             subObj.append($('<ul/>')
               .append($('<li/>').attr('class','list_parent').append(synergyItem)
                 .append($('<ul/>').attr('class', 'list_child')
@@ -39,7 +39,7 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
             isBonusFound = true;
             break;
           } else if (data[i].bonus[j].items[k].ship_class == classId) {
-            var synergyItem = generateListMarkor(data[i].id + '-' + k) + data[i].bonus[j].synergy;
+            var synergyItem = generateListMarkor(data[i].id, j, k) + data[i].bonus[j].synergy;
             subObj.append($('<ul/>').attr('class', 'list_child')
               .append($('<li/>').attr('class','list_parent').append(synergyItem)
                 .append($('<ul/>').attr('class', 'list_child')
@@ -99,10 +99,14 @@ function checkOption() {
   }
 }
 
+function generateListMarkor(id, j, k) {
+  generateListMarkor(id + '-' + j + '-' + k);
+}
+
 function generateListMarkor(id) {
   var markorId = 'i-' + id;
   return '<input type="checkbox" id="' + markorId
-        + '"/><label class="box" for="' + markorId
+        + '" checked/><label class="box" for="' + markorId
         + '"></label>';
 }
 

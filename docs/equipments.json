@@ -1932,7 +1932,7 @@
       {"text":"火力+2　雷装+1　回避+1", "ship_class":"mogami_mogami_2s"}
     ]}
   ]},
-  {"id":"0", "type":"水上機：水上偵察機", "title":"その他水上偵察機", "bonus":[
+  {"id":"9000", "type":"水上機：水上偵察機", "title":"その他水上偵察機", "bonus":[
     {"synergy":"単体(累積不可)", "items":[
       {"text":"火力+2　対潜+3　回避+1", "ship_class":"agano_noshiro_2"},
       {"text":"火力+2　対潜+3　回避+1", "ship_class":"agano_yahagi_2"},
@@ -1941,7 +1941,7 @@
       {"text":"火力+2", "ship_class":"mogami_mogami_2s"}
     ]}
   ]},
-  {"id":"0", "type":"水上機：水上爆撃機", "title":"その他水上爆撃機", "bonus":[
+  {"id":"9001", "type":"水上機：水上爆撃機", "title":"その他水上爆撃機", "bonus":[
     {"synergy":"単体(累積不可)", "items":[
       {"text":"火力+1　対潜+1　回避+1", "ship_class":"agano_noshiro_2"},
       {"text":"火力+1　対潜+1　回避+1", "ship_class":"agano_yahagi_2"},
@@ -1950,7 +1950,7 @@
       {"text":"火力+1　回避+1", "ship_class":"mogami_mogami_2s"}
     ]}
   ]},
-  {"id":"0", "type":"水上機：水上爆撃機", "title":"その他水上爆撃機（日本）", "bonus":[
+  {"id":"9002", "type":"水上機：水上爆撃機", "title":"その他水上爆撃機（日本）", "bonus":[
     {"synergy":"単体(累積不可)", "items":[
       {"text":"火力+3　対潜+1　回避+2", "ship_class":"agano_noshiro_2"},
       {"text":"火力+2　対潜+1　回避+3", "ship_class":"agano_yahagi_2"},
