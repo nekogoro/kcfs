@@ -306,7 +306,7 @@ ul {
   color: black;
   background: #ffff80;
 }
-/* 
+
 .icon {
   display: inline-block;
   width: 1em;
@@ -322,12 +322,17 @@ ul {
 }
 
 /* show/hide equipments */
-/*
+
 .list_parent {
   list-style: none;
 }
 
-.list_parent ul {
+/* .list_parent ul {
+  display: none;
+}
+ */
+
+.inactive {
   display: none;
 }
 
@@ -341,17 +346,17 @@ ul {
 }
 
 .box::before {
-  content: url(./svg/chevron-right.svg);
+  content: url(./svg/chevron-down.svg);
 }
 
 .list_child {
   display: none;
 }
 
-.list_parent input[type=checkbox]:checked ~ .list_child {
+/* .list_parent input[type=checkbox]:checked ~ .list_child {
   display: block;
 }
-
+ */
 .list_parent input[type=checkbox]:checked + label::before {
-  content: url(./svg/chevron-down.svg);
-} */
+  content: url(./svg/chevron-right.svg);
+}
