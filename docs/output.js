@@ -1,5 +1,17 @@
 const LIST_MARKOR = '<label class="box"><input type="checkbox"/></label>'
 
+$(function() {
+  $('.parent input[type=checkbox]').change(function() {
+    if ($(this).prop('checked')) {
+      console.log('checked');
+      $(this).closest('li').children('ul').hide();
+    } else {
+      console.log('not checked');
+      $(this).closest('li').children('ul').show();
+    }
+  })
+})
+
 function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
   $.getJSON("equipments.json" , function(data) {
     ulObj.empty();
@@ -96,16 +108,3 @@ function checkOption() {
     $('.label_compact').hide();
   }
 }
-
-$(function() {
-  $('.box input[type=checkbox]').change(function() {
-    if ($(this).prop('checked')) {
-      console.log('checked');
-      $(this).closest('li').children('ul').hide();
-    } else {
-      console.log('not checked');
-      $(this).closest('li').children('ul').show();
-    }
-    // $(this).closest('li').children('ul').toggleClass('inactive');
-  })
-})

@@ -332,10 +332,6 @@ ul {
 }
  */
 
-.inactive {
-  display: none;
-}
-
 .list_parent input {
   display: none;
 }
