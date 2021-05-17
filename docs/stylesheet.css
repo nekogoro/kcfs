@@ -306,8 +306,7 @@ ul {
   color: black;
   background: #ffff80;
 }
-
-<<<<<<< HEAD
+/* 
 .icon {
   display: inline-block;
   width: 1em;
@@ -323,10 +322,7 @@ ul {
 }
 
 /* show/hide equipments */
-=======
-/* show/hide equipments*/
->>>>>>> parent of b385d33... ラベル表示のデフォルト化
-
+/*
 .list_parent {
   list-style: none;
 }
@@ -358,4 +354,4 @@ ul {
 
 .list_parent input[type=checkbox]:checked + label::before {
   content: url(./svg/chevron-down.svg);
-}
+} */

@@ -10,19 +10,19 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
     for(var i = 0; i < data.length; i++) {
       var subObj;
       var label = generateLabelsForList(data[i].type);
-      var markorId = generateListMarkor(data[i].id);
+      // var markorId = generateListMarkor(data[i].id);
       if (data[i].title.indexOf('その他') == -1) {
-        subObj = $('<li/>').attr('class','list_parent').html(markorId + label + '<a href="https://akashi-list.me/#w' + data[i].id + '" title="「明石の工廠早見表」装備ページ" target="_blank" rel="noopener">' + data[i].title + '</a>'
+        subObj = $('<li/>').attr('class','list_parent').html(/*markorId + */label + '<a href="https://akashi-list.me/#w' + data[i].id + '" title="「明石の工廠早見表」装備ページ" target="_blank" rel="noopener">' + data[i].title + '</a>'
           + ' <a href="https://wikiwiki.jp/kancolle/' + data[i].title + '" title="「艦これ wiki」装備ページ" target="_blank" rel="noopener"><i class="icon icon-export"></i></a>');
       } else {
-        subObj = $('<li/>').attr('class','list_parent').html(markorId + label + data[i].title);
+        subObj = $('<li/>').attr('class','list_parent').html(/*markorId + */label + data[i].title);
       }
       var isBonusFound = false;
       for(var j = 0; j < data[i].bonus.length; j++) {
         for(var k = 0; k < data[i].bonus[j].items.length; k++) {
           if (data[i].bonus[j].items[k].ship_class == shipId) {
             subObj.append($('<ul class="list_child"/>')
-              .append($('<li class="list_parent"/>').append(generateListMarkor(data[i].id, j, k) + data[i].bonus[j].synergy)
+              .append($('<li class="list_parent"/>').append(/*generateListMarkor(data[i].id, j, k) + */data[i].bonus[j].synergy)
                 .append($('<ul class="list_child"/>')
                   .append($('<li>').append(data[i].bonus[j].items[k].text.replace(/(..)(-[0-9])/g, '$1<span class="bonus_minus">$2</span>'))))
                     // .replace(/(火力.[0-9]+)/g, '<span class="bonus_firepower">$1</span>')
@@ -39,7 +39,7 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
             break;
           } else if (data[i].bonus[j].items[k].ship_class == classId) {
             subObj.append($('<ul class="list_child/>')
-              .append($('<li class="list_parent"/>').append(generateListMarkor(data[i].id, j, k) + data[i].bonus[j].synergy)
+              .append($('<li class="list_parent"/>').append(/*generateListMarkor(data[i].id, j, k) + */data[i].bonus[j].synergy)
                 .append($('<ul class="list_child/>').attr('class', 'list_child')
                   .append($('<li>').append(data[i].bonus[j].items[k].text.replace(/(..)(-[0-9])/g, '$1<span class="bonus_minus">$2</span>'))))
                     // .replace(/(火力.[0-9]+)/g, '<span class="bonus_firepower">$1</span>')
