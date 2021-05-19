@@ -344,3 +344,8 @@ ul {
 .list_parent input[type=checkbox]:checked + .box::before {
   content: url(./svg/chevron-right.svg);
 }
+
+#hidden_imgs {
+  display: none;
+  user-select: none;
+}
