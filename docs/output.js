@@ -110,8 +110,10 @@ function checkList() {
   $('.list_parent input[type=checkbox]').change(function() {
     if ($(this).prop('checked')) {
       $(this).closest('li').children('ul').hide();
+      $(this).closest('label::before').addClass('list_closed');
     } else {
       $(this).closest('li').children('ul').show();
+      $(this).closest('label::before').removeClass('list_closed');
     }
   });
 }

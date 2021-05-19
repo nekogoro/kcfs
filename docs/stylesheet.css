@@ -345,6 +345,10 @@ ul {
   content: url(./svg/chevron-down.svg);
 }
 
+.list_closed {
+  content: url(./svg/chevron-right.svg);
+}
+
 /* .list_child {
   display: none;
 } */
