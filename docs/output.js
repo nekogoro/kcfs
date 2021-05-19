@@ -21,7 +21,7 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
           .html(LIST_MARKOR + TYPE_LABEL + '<a href="https://akashi-list.me/#w' + data[i].id + '" title="「明石の工廠早見表」装備ページ" target="_blank" rel="noopener">' + data[i].title + '</a>'
           + ' <a href="https://wikiwiki.jp/kancolle/' + data[i].title + '" title="「艦これ wiki」装備ページ" target="_blank" rel="noopener"><i class="icon icon-export"></i></a>');
       } else {
-        subObj = $('<li"/>')
+        subObj = $('<li/>')
           .addClass(LIST_PARENT)
           .addClass(LIST_PAIRING)
           .html(LIST_MARKOR + TYPE_LABEL + data[i].title);
