@@ -345,8 +345,9 @@ ul {
   content: url(./svg/chevron-down.svg);
 }
 
-.list_closed {
+.box::after {
   content: url(./svg/chevron-right.svg);
+  display: none;
 }
 
 /* .list_child {
