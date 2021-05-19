@@ -341,6 +341,10 @@ ul {
   vertical-align: top;
 }
 
+ul > li > ul > li .box {
+  vertical-align: middle;
+}
+
 .list_parent input[type=checkbox]:checked + .box::before {
   content: url(./svg/chevron-right.svg);
 }
