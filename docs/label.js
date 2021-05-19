@@ -45,7 +45,7 @@ function generateMainLabel(type) {
     case '対空機銃':
       str += 'fill_green';
       break;
-    case '対潜':
+    case '対潜装備':
       str += 'fill_sky';
       break;
     case '小型電探':
@@ -123,6 +123,10 @@ function shortType (type) {
       return '艦攻'
     case '艦上戦闘機':
       return '艦戦'
+    case '対空機銃':
+      return '機銃';
+    case '対潜装備':
+      return '対潜';
     case '小型電探':
     case '大型電探':
       return '電探'
@@ -131,11 +135,17 @@ function shortType (type) {
     case '水上爆撃機':
       return '水爆';
     case '対艦強化弾':
-      return '徹甲弾';
+      return '徹甲';
     case '水上戦闘機':
       return '水戦';
     case '対空強化弾':
-      return '三式弾';
+      return '三式';
+    case '高角砲':
+      return '高角';
+    case '特殊高角砲':
+      return '特殊高角';
+    case '特殊機銃':
+      return '特殊';
     case '特殊潜航艇':
       return '甲標的';
     case '水上偵察機':
