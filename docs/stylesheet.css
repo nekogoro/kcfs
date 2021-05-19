@@ -321,16 +321,11 @@ ul {
   vertical-align: middle;
 }
 
-/* show/hide equipments */
+/* show/hide equipments list */
 
 .list_parent {
   list-style: none;
 }
-
-/* .list_parent ul {
-  display: none;
-}
- */
 
 .list_parent input {
   display: none;
@@ -345,19 +340,6 @@ ul {
   content: url(./svg/chevron-down.svg);
 }
 
-.box::after {
+.list_parent input[type=checkbox]:checked + .box::before {
   content: url(./svg/chevron-right.svg);
-  display: none;
 }
-
-/* .list_child {
-  display: none;
-} */
-
-/* .list_parent input[type=checkbox]:checked ~ .list_child {
-  display: block;
-}
- */
-/* .list_parent input[type=checkbox]:checked + label::before {
-  content: url(./svg/chevron-right.svg);
-} */
