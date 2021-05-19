@@ -12,7 +12,7 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
     for(var i = 0; i < data.length; i++) {
       var subObj;
       const LABEL = generateLabelsForList(data[i].type);
-      const LIST_PAIRING = 'i-' + data[i].id;
+      const LIST_PAIRING = String('i-' + data[i].id);
       if (data[i].title.indexOf('その他') == -1) {
         subObj = $('<li class="list_parent"/>')
           .addClass(LIST_PAIRING)
