@@ -150,6 +150,8 @@ function shortType (type) {
       return '甲標的';
     case '水上偵察機':
       return '水偵';
+    case '機関部強化':
+      return '機関部';
     default:
       return type;
   }
