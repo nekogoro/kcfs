@@ -70,6 +70,7 @@ function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
         isEmpty = false;
         ulObj.append(subObj);
         checkOption();
+        checkList();
       }
     }
     if (isEmpty) {
@@ -103,4 +104,14 @@ function checkOption() {
     $('.label_full').show();
     $('.label_compact').hide();
   }
+}
+
+function checkList() {
+  $('.list_parent input[type=checkbox]').change(function() {
+    if ($(this).prop('checked')) {
+      $(this).closest('li').children('ul').hide();
+    } else {
+      $(this).closest('li').children('ul').show();
+    }
+  });
 }
