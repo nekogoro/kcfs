@@ -338,6 +338,7 @@ ul {
 
 .box::before {
   content: url(./svg/chevron-down.svg);
+  vertical-align: middle;
 }
 
 .list_parent input[type=checkbox]:checked + .box::before {
