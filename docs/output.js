@@ -1,4 +1,4 @@
-const LIST_MARKOR = '<label class="box"><input type="checkbox"/></label>';
+const LIST_MARKOR = '<label><input type="checkbox"/><span class="box"></span></label>';
 const LIST_PARENT = 'list_parent';
 
 function outputMaterialList(ulObj, titleObj, shipTitle, classId, shipId) {
@@ -110,12 +110,8 @@ function checkList() {
   $('.list_parent input[type=checkbox]').change(function() {
     if ($(this).prop('checked')) {
       $(this).closest('li').children('ul').hide();
-      $(this).closest('.box::before').hide();
-      $(this).closest('.box::after').show();
     } else {
       $(this).closest('li').children('ul').show();
-      $(this).closest('.box::before').show();
-      $(this).closest('.box::after').hide();
     }
   });
 }
