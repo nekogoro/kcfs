@@ -333,12 +333,12 @@ ul {
 
 .box {
   margin: 0 0.3em 0 -18px;
-  vertical-align: middle;
+  vertical-align: text-top;
 }
 
 .box::before {
   content: url(./svg/chevron-down.svg);
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 .list_parent input[type=checkbox]:checked + .box::before {
