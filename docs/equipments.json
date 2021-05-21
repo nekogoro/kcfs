@@ -2998,6 +2998,11 @@
       {"text":"回避-9", "ship_class":"akiduki"}
     ]}
   ]},
+  {"id":"046", "type":"対潜装備：ソナー", "title":"九三式水中聴音機", "bonus":[
+    {"synergy":"単体(累積不可、他の国産ソナーと合算)", "items":[
+      {"text":"回避+3　対潜+2", "ship_class":"katori"}
+    ]}
+  ]},
   {"id":"047", "type":"対潜装備：ソナー", "title":"三式水中探信儀", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1　回避+2　対潜+3", "ship_class":"kamikaze_kamikaze"},
@@ -3017,6 +3022,9 @@
       {"text":"回避+2　対潜+2", "ship_class":"kagerou_hamakaze"},
       {"text":"回避+2　対潜+2", "ship_class":"kagerou_hamakaze_b1"},
       {"text":"回避+2　対潜+2", "ship_class":"yuugumo_kishinami"}
+    ]},
+    {"synergy":"単体(累積不可、他の国産ソナーと合算)", "items":[
+      {"text":"回避+3　対潜+2", "ship_class":"katori"}
     ]}
   ]},
   {"id":"149", "type":"対潜装備：ソナー", "title":"四式水中聴音機", "bonus":[
@@ -3029,15 +3037,18 @@
       {"text":"回避+3　対潜+1", "ship_class":"yuubari_yuubari_2s"},
       {"text":"回避+5　対潜+3", "ship_class":"yuubari_yuubari_2d"},
       {"text":"回避+4　対潜+2", "ship_class":"agano_noshiro_2"}
+    ]},
+    {"synergy":"単体(累積不可、他の国産ソナーと合算)", "items":[
+      {"text":"回避+3　対潜+2", "ship_class":"katori"}
     ]}
   ]},
   {"id":"044", "type":"対潜装備：爆雷", "title":"九四式爆雷投射機", "bonus":[
-    {"synergy":"単体(累積不可)", "items":[
+    {"synergy":"単体", "items":[
       {"text":"回避+2　対潜+3", "ship_class":"katori"}
     ]}
   ]},
   {"id":"045", "type":"対潜装備：爆雷", "title":"三式爆雷投射機", "bonus":[
-    {"synergy":"単体(累積不可)", "items":[
+    {"synergy":"単体", "items":[
       {"text":"回避+2　対潜+3", "ship_class":"katori"}
     ]}
   ]},
