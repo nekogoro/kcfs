@@ -2998,7 +2998,7 @@
       {"text":"回避-9", "ship_class":"akiduki"}
     ]}
   ]},
-  {"id":"047", "type":"対潜：ソナー", "title":"三式水中探信儀", "bonus":[
+  {"id":"047", "type":"対潜装備：ソナー", "title":"三式水中探信儀", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1　回避+2　対潜+3", "ship_class":"kamikaze_kamikaze"},
       {"text":"火力+1　回避+2　対潜+3", "ship_class":"kamikaze_harukaze"},
@@ -3019,7 +3019,7 @@
       {"text":"回避+2　対潜+2", "ship_class":"yuugumo_kishinami"}
     ]}
   ]},
-  {"id":"149", "type":"対潜：ソナー", "title":"四式水中聴音機", "bonus":[
+  {"id":"149", "type":"対潜装備：ソナー", "title":"四式水中聴音機", "bonus":[
     {"synergy":"単体(累積不可)", "items":[
       {"text":"回避+2　対潜+1", "ship_class":"akiduki"},
       {"text":"回避+3　対潜+1", "ship_class":"nagara_isuzu_2"},
@@ -3031,17 +3031,17 @@
       {"text":"回避+4　対潜+2", "ship_class":"agano_noshiro_2"}
     ]}
   ]},
-  {"id":"044", "type":"対潜：爆雷", "title":"九四式爆雷投射機", "bonus":[
+  {"id":"044", "type":"対潜装備：爆雷", "title":"九四式爆雷投射機", "bonus":[
     {"synergy":"単体(累積不可)", "items":[
       {"text":"回避+2　対潜+3", "ship_class":"katori"}
     ]}
   ]},
-  {"id":"045", "type":"対潜：爆雷", "title":"三式爆雷投射機", "bonus":[
+  {"id":"045", "type":"対潜装備：爆雷", "title":"三式爆雷投射機", "bonus":[
     {"synergy":"単体(累積不可)", "items":[
       {"text":"回避+2　対潜+3", "ship_class":"katori"}
     ]}
   ]},
-  {"id":"287", "type":"対潜：爆雷", "title":"三式爆雷投射機 集中配備", "bonus":[
+  {"id":"287", "type":"対潜装備：爆雷", "title":"三式爆雷投射機 集中配備", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"回避+1　対潜+1", "ship_class":"kagerou_yukikaze_2"},
       {"text":"回避+1　対潜+1", "ship_class":"nagara_isuzu_2"},
@@ -3052,7 +3052,7 @@
       {"text":"回避+2　対潜+3", "ship_class":"katori"}
     ]}
   ]},
-  {"id":"288", "type":"対潜：爆雷", "title":"試製15cm9連装対潜噴進砲", "bonus":[
+  {"id":"288", "type":"対潜装備：爆雷", "title":"試製15cm9連装対潜噴進砲", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1　回避+5　対潜+3", "ship_class":"yuubari_yuubari_2d"},
       {"text":"回避+1　対潜+2", "ship_class":"kagerou_yukikaze_2"},
@@ -3064,7 +3064,7 @@
       {"text":"回避+2　対潜+3", "ship_class":"katori"}
     ]}
   ]},
-  {"id":"377", "type":"対潜：爆雷", "title":"RUR-4A Weapon Alpha改", "bonus":[
+  {"id":"377", "type":"対潜装備：爆雷", "title":"RUR-4A Weapon Alpha改", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"回避+3　対潜+3", "ship_class":"fletcher_fletcher_2"},
       {"text":"回避+2　対潜+2", "ship_class":"stlouis"},
@@ -3078,7 +3078,7 @@
       {"text":"回避+1　対潜+1", "ship_class":"town"}
     ]}
   ]},
-  {"id":"378", "type":"対潜：爆雷", "title":"対潜短魚雷(試作初期型)", "bonus":[
+  {"id":"378", "type":"対潜装備：爆雷", "title":"対潜短魚雷(試作初期型)", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"回避+2　対潜+4", "ship_class":"fletcher_fletcher_2"},
       {"text":"回避+1　対潜+3", "ship_class":"johncbutler"},
