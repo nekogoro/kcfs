@@ -879,6 +879,7 @@
   {"id":"362", "type":"中口径主砲：特殊高角砲", "title":"5inch連装両用砲(集中配備)", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1　対空+3　回避+2", "ship_class":"atlanta"},
+      {"text":"対空+1　回避+1", "ship_class":"brooklyn"},
       {"text":"対空+1　回避+1", "ship_class":"stlouis"},
       {"text":"対空+1　回避+1", "ship_class":"northampton"},
       {"text":"対空+1　回避+1", "ship_class":"colorado"},
@@ -897,6 +898,7 @@
   {"id":"363", "type":"中口径主砲：特殊高角砲", "title":"GFCS Mk.37＋5inch連装両用砲(集中配備)", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1　対空+3　回避+2", "ship_class":"atlanta"},
+      {"text":"対空+1　回避+1", "ship_class":"brooklyn"},
       {"text":"対空+1　回避+1", "ship_class":"stlouis"},
       {"text":"対空+1　回避+1", "ship_class":"northampton"},
       {"text":"対空+1　回避+1", "ship_class":"colorado"},
@@ -914,18 +916,21 @@
   ]},
   {"id":"386", "type":"中口径主砲", "title":"6inch三連装速射砲 Mk.16", "bonus":[
     {"synergy":"単体(★0～1)", "items":[
+      {"text":"火力+1", "ship_class":"brooklyn"},
       {"text":"火力+1", "ship_class":"stlouis"},
       {"text":"火力+1", "ship_class":"atlanta"},
       {"text":"火力+1", "ship_class":"northampton"},
       {"text":"火力+1", "ship_class":"colorado"}
     ]},
     {"synergy":"単体(★2～6)", "items":[
+      {"text":"火力+2", "ship_class":"brooklyn"},
       {"text":"火力+2", "ship_class":"stlouis"},
       {"text":"火力+2", "ship_class":"atlanta"},
       {"text":"火力+2", "ship_class":"northampton"},
       {"text":"火力+2", "ship_class":"colorado"}
     ]},
     {"synergy":"単体(★7以上)", "items":[
+      {"text":"火力+3", "ship_class":"brooklyn"},
       {"text":"火力+3", "ship_class":"stlouis"},
       {"text":"火力+3", "ship_class":"atlanta"},
       {"text":"火力+3", "ship_class":"northampton"},
@@ -934,18 +939,21 @@
   ]},
   {"id":"387", "type":"中口径主砲", "title":"6inch三連装速射砲 Mk.16 mod.2", "bonus":[
     {"synergy":"単体(★0～1)", "items":[
+      {"text":"火力+1", "ship_class":"brooklyn"},
       {"text":"火力+1", "ship_class":"stlouis"},
       {"text":"火力+1", "ship_class":"atlanta"},
       {"text":"火力+1", "ship_class":"northampton"},
       {"text":"火力+1", "ship_class":"colorado"}
     ]},
     {"synergy":"単体(★2～6)", "items":[
+      {"text":"火力+2", "ship_class":"brooklyn"},
       {"text":"火力+2", "ship_class":"stlouis"},
       {"text":"火力+2", "ship_class":"atlanta"},
       {"text":"火力+2", "ship_class":"northampton"},
       {"text":"火力+2", "ship_class":"colorado"}
     ]},
     {"synergy":"単体(★7以上)", "items":[
+      {"text":"火力+3", "ship_class":"brooklyn"},
       {"text":"火力+3", "ship_class":"stlouis"},
       {"text":"火力+3", "ship_class":"atlanta"},
       {"text":"火力+3", "ship_class":"northampton"},
@@ -1222,6 +1230,7 @@
   ]},
   {"id":"358", "type":"副砲：高角砲", "title":"5inch 単装高角砲群", "bonus":[
     {"synergy":"単体", "items":[
+      {"text":"火力+2　対空+3　回避+3", "ship_class":"brooklyn"},
       {"text":"火力+2　対空+3　回避+3", "ship_class":"northampton"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"colorado"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"southdakota"},
@@ -1538,6 +1547,7 @@
       {"text":"火力+2　雷装+4", "ship_class":"fletcher"},
       {"text":"火力+2　雷装+4", "ship_class":"atlanta"},
       {"text":"火力+2　雷装+4", "ship_class":"northampton"},
+      {"text":"火力+2　雷装+4", "ship_class":"brooklyn"},
       {"text":"火力+2　雷装+4", "ship_class":"stlouis"},
       {"text":"火力+1　雷装+2", "ship_class":"hms-j"},
       {"text":"火力+1　雷装+2", "ship_class":"town"},
@@ -1627,6 +1637,7 @@
       {"text":"雷装-5", "ship_class":"deruyter"},
       {"text":"雷装-5", "ship_class":"perth"},
       {"text":"雷装-5", "ship_class":"atlanta"},
+      {"text":"雷装-5", "ship_class":"brooklyn"},
       {"text":"雷装-5", "ship_class":"stlouis"},
       {"text":"雷装-5", "ship_class":"katori"},
       {"text":"雷装-5", "ship_class":"bismarck_bismarck_3"},
@@ -1786,6 +1797,7 @@
   {"id":"414", "type":"水上機：水上偵察機", "title":"SOC Seagull", "bonus":[
     {"synergy":"単体(★0,累積不可)", "items":[
       {"text":"火力+1　索敵+2", "ship_class":"northampton"},
+      {"text":"火力+1　索敵+2", "ship_class":"brooklyn"},
       {"text":"火力+1　索敵+2", "ship_class":"stlouis"},
       {"text":"火力+1　索敵+2", "ship_class":"atlanta"},
       {"text":"索敵+1", "ship_class":"colorado"},
@@ -1795,6 +1807,7 @@
     ]},
     {"synergy":"単体(★4,累積不可)", "items":[
       {"text":"火力+1　索敵+3", "ship_class":"northampton"},
+      {"text":"火力+1　索敵+3", "ship_class":"brooklyn"},
       {"text":"火力+1　索敵+3", "ship_class":"stlouis"},
       {"text":"火力+1　索敵+3", "ship_class":"atlanta"},
       {"text":"索敵+1", "ship_class":"colorado"},
@@ -1804,6 +1817,7 @@
     ]},
     {"synergy":"単体(★8,累積不可)", "items":[
       {"text":"火力+1　索敵+3　回避+2", "ship_class":"northampton"},
+      {"text":"火力+1　索敵+3　回避+2", "ship_class":"brooklyn"},
       {"text":"火力+1　索敵+3　回避+2", "ship_class":"stlouis"},
       {"text":"火力+1　索敵+3　回避+2", "ship_class":"atlanta"},
       {"text":"索敵+1　回避+1", "ship_class":"colorado"},
@@ -1813,6 +1827,7 @@
     ]},
     {"synergy":"単体(★max,累積不可)", "items":[
       {"text":"火力+2　索敵+3　回避+2", "ship_class":"northampton"},
+      {"text":"火力+2　索敵+3　回避+2", "ship_class":"brooklyn"},
       {"text":"火力+2　索敵+3　回避+2", "ship_class":"stlouis"},
       {"text":"火力+2　索敵+3　回避+2", "ship_class":"atlanta"},
       {"text":"索敵+1　回避+1", "ship_class":"colorado"},
@@ -1911,6 +1926,7 @@
       {"text":"回避+1", "ship_class":"northcarolina"},
       {"text":"回避+1", "ship_class":"iowa"},
       {"text":"回避+1", "ship_class":"northampton"},
+      {"text":"回避+1", "ship_class":"brooklyn"},
       {"text":"回避+1", "ship_class":"stlouis"},
       {"text":"回避+1", "ship_class":"atlanta"}
     ]},
@@ -1920,6 +1936,7 @@
       {"text":"火力+1　回避+1", "ship_class":"northcarolina"},
       {"text":"火力+1　回避+1", "ship_class":"iowa"},
       {"text":"火力+1　回避+1", "ship_class":"northampton"},
+      {"text":"火力+1　回避+1", "ship_class":"brooklyn"},
       {"text":"火力+1　回避+1", "ship_class":"stlouis"},
       {"text":"火力+1　回避+1", "ship_class":"atlanta"}
     ]}
@@ -2910,6 +2927,7 @@
       {"text":"火力+1　対空+1　回避+1", "ship_class":"johncbutler"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"northampton"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"atlanta"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"brooklyn"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"stlouis"}
     ]},
     {"synergy":"単体(累積不可)", "items":[
@@ -2995,6 +3013,7 @@
       {"text":"回避-7", "ship_class":"yuubari_yuubari_2"},
       {"text":"回避-7", "ship_class":"agano"},
       {"text":"回避-7", "ship_class":"ldsddabruzzi"},
+      {"text":"回避-7", "ship_class":"brooklyn"},
       {"text":"回避-7", "ship_class":"stlouis"},
       {"text":"回避-7", "ship_class":"town"},
       {"text":"回避-7", "ship_class":"gotland"},
@@ -3085,6 +3104,7 @@
   {"id":"377", "type":"対潜装備：爆雷", "title":"RUR-4A Weapon Alpha改", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"回避+3　対潜+3", "ship_class":"fletcher_fletcher_2"},
+      {"text":"回避+2　対潜+2", "ship_class":"brooklyn"},
       {"text":"回避+2　対潜+2", "ship_class":"stlouis"},
       {"text":"回避+1　対潜+2", "ship_class":"johncbutler"},
       {"text":"回避+1　対潜+2", "ship_class":"fletcher"},
@@ -3101,6 +3121,7 @@
       {"text":"回避+2　対潜+4", "ship_class":"fletcher_fletcher_2"},
       {"text":"回避+1　対潜+3", "ship_class":"johncbutler"},
       {"text":"回避+1　対潜+3", "ship_class":"fletcher"},
+      {"text":"回避+1　対潜+3", "ship_class":"brooklyn"},
       {"text":"回避+1　対潜+3", "ship_class":"stlouis"},
       {"text":"回避+1　対潜+3", "ship_class":"atlanta"},
       {"text":"回避+1　対潜+2", "ship_class":"hms-j"},
