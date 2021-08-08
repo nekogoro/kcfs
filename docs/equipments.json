@@ -1843,6 +1843,18 @@
       {"text":"索敵+1　回避+1", "ship_class":"iowa"}
     ]}
   ]},
+  {"id":"415", "type":"水上機：水上偵察機", "title":"SO3C Seamew改", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　対潜+1　索敵+2", "ship_class":"northampton"},
+      {"text":"火力+1　対潜+1　索敵+2", "ship_class":"brooklyn"},
+      {"text":"火力+1　対潜+1　索敵+2", "ship_class":"stlouis"},
+      {"text":"火力+1　対潜+1　索敵+2", "ship_class":"atlanta"},
+      {"text":"対潜+1　索敵+1", "ship_class":"colorado"},
+      {"text":"対潜+1　索敵+1", "ship_class":"northcarolina"},
+      {"text":"対潜+1　索敵+1", "ship_class":"southdakota"},
+      {"text":"対潜+1　索敵+1", "ship_class":"iowa"}
+    ]}
+  ]},
   {"id":"194", "type":"水上機：水上爆撃機", "title":"Late 298B", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1　回避+2　索敵+2", "ship_class":"richelieu_richelieu_1"},
