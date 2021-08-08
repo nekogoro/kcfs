@@ -17,6 +17,9 @@
 - id: kazagumo_2
   name: 風雲改二
 
+- id: makinami
+  name: 巻波 / 巻波改
+
 - id: naganami
   name: 長波 / 長波改
 
@@ -25,6 +28,12 @@
 
 - id: takanami
   name: 高波 / 高波改
+
+- id: takanami_2
+  name: 高波改二
+
+- id: suzunami
+  name: 涼波 / 涼波改
 
 - id: fujinami
   name: 藤波 / 藤波改

@@ -20,6 +20,9 @@
 - id: sentoku
   name: 潜特型(伊400型潜水艦)
 
+- id: sentaka
+  name: 潜高型
+
 - id: type-3-submergencetransportvehicle
   name: 三式潜航輸送艇
 

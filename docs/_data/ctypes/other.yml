@@ -7,3 +7,12 @@
 
 - id: amphibiousassaultship
   name: 揚陸艦
+
+- id: auxiliaryshiputility
+  name: 特務艦
+
+- id: lighthousetender
+  name: 灯台補給艦
+
+- id: auxiliaryicebreaker
+  name: 南極観測船
