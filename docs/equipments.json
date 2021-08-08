@@ -1926,16 +1926,18 @@
     {"synergy":"単体", "items":[
       {"text":"火力+1　索敵+2　回避+2", "ship_class":"ooyodo"}
     ]},
-    {"synergy":"単体(★MAX)", "items":[
+    {"synergy":"単体(★max)", "items":[
       {"text":"火力+3　索敵+3　回避+2", "ship_class":"ooyodo"}
     ]}
   ]},
   {"id":"115", "type":"水上機：水上偵察機", "title":"Ar196改", "bonus":[
     {"synergy":"単体", "items":[
-      {"text":"火力+2　索敵+2　回避+1", "ship_class":"ooyodo"}
+      {"text":"火力+2　索敵+2　回避+1", "ship_class":"bismarck"},
+      {"text":"火力+2　索敵+2　回避+1", "ship_class":"admiralhipper"}
     ]},
-    {"synergy":"単体(★MAX)", "items":[
-      {"text":"火力+3　索敵+2　回避+2", "ship_class":"ooyodo"}
+    {"synergy":"単体(★max)", "items":[
+      {"text":"火力+3　索敵+2　回避+2", "ship_class":"bismarck"},
+      {"text":"火力+3　索敵+2　回避+2", "ship_class":"admiralhipper"}
     ]}
   ]},
   {"id":"171", "type":"水上機：水上偵察機", "title":"OS2U", "bonus":[
