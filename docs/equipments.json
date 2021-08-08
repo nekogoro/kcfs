@@ -2245,6 +2245,94 @@
       {"text":"火力+4　対空+1　回避+1", "ship_class":"aquila"}
     ]}
   ]},
+  {"id":"195", "type":"艦上爆撃機", "title":"SBD", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1", "ship_class":"lexington"},
+      {"text":"火力+1", "ship_class":"yorktown"},
+      {"text":"火力+1", "ship_class":"essex"},
+      {"text":"火力+1", "ship_class":"casablanca"}
+    ]}
+  ]},
+  {"id":"419", "type":"艦上爆撃機", "title":"SBD-5", "bonus":[
+    {"synergy":"単体(★0〜1)", "items":[
+      {"text":"火力+2", "ship_class":"lexington"},
+      {"text":"火力+2", "ship_class":"yorktown"},
+      {"text":"火力+2", "ship_class":"essex"},
+      {"text":"火力+2", "ship_class":"casablanca"}
+    ]},
+    {"synergy":"単体(★2〜6)", "items":[
+      {"text":"火力+3", "ship_class":"lexington"},
+      {"text":"火力+3", "ship_class":"yorktown"},
+      {"text":"火力+3", "ship_class":"essex"},
+      {"text":"火力+3", "ship_class":"casablanca"}
+    ]},
+    {"synergy":"単体(★7〜max)", "items":[
+      {"text":"火力+4", "ship_class":"lexington"},
+      {"text":"火力+4", "ship_class":"yorktown"},
+      {"text":"火力+4", "ship_class":"essex"},
+      {"text":"火力+4", "ship_class":"casablanca"}
+    ]}
+  ]},
+  {"id":"420", "type":"艦上爆撃機", "title":"SB2C-3", "bonus":[
+    {"synergy":"単体(★0〜)", "items":[
+      {"text":"火力+2", "ship_class":"essex"},
+      {"text":"火力+1", "ship_class":"lexington"},
+      {"text":"火力+1", "ship_class":"yorktown"},
+      {"text":"火力-1　装甲-2　回避-1", "ship_class":"casablanca"}
+    ]},
+    {"synergy":"単体(★3〜5)", "items":[
+      {"text":"火力+3", "ship_class":"essex"},
+      {"text":"火力+2", "ship_class":"lexington"},
+      {"text":"火力+2", "ship_class":"yorktown"},
+      {"text":"火力+1", "ship_class":"arkroyal"},
+      {"text":"装甲-2　回避-1", "ship_class":"casablanca"}
+    ]},
+    {"synergy":"単体", "items":[
+      {"text":"火力-2　装甲-2　回避-1", "ship_class":"houshou"},
+      {"text":"火力-2　装甲-2　回避-1", "ship_class":"ryuujou"},
+      {"text":"火力-2　装甲-2　回避-1", "ship_class":"ryuuhou"},
+      {"text":"火力-2　装甲-2　回避-1", "ship_class":"shouhou"},
+      {"text":"火力-2　装甲-2　回避-1", "ship_class":"hiyou"},
+      {"text":"火力-2　装甲-2　回避-1", "ship_class":"chitose-v"},
+      {"text":"火力-2　装甲-2　回避-1", "ship_class":"mogami-v"},
+      {"text":"火力-2　装甲-2　回避-1", "ship_class":"taiyou"}
+    ]}
+  ]},
+  {"id":"421", "type":"艦上爆撃機", "title":"SB2C-5", "bonus":[
+    {"synergy":"単体(★0〜)", "items":[
+      {"text":"火力+3", "ship_class":"essex"},
+      {"text":"火力+2", "ship_class":"lexington"},
+      {"text":"火力+2", "ship_class":"yorktown"},
+      {"text":"火力+1", "ship_class":"arkroyal"},
+      {"text":"装甲-2　回避-1", "ship_class":"casablanca"}
+    ]},
+    {"synergy":"単体(★5)", "items":[
+      {"text":"火力+4", "ship_class":"essex"},
+      {"text":"火力+3", "ship_class":"lexington"},
+      {"text":"火力+3", "ship_class":"yorktown"},
+      {"text":"火力+2", "ship_class":"arkroyal"},
+      {"text":"火力+1　装甲-2　回避-1", "ship_class":"casablanca"}
+    ]},
+    {"synergy":"単体", "items":[
+      {"text":"火力-2　装甲-2　回避-1", "ship_class":"houshou"},
+      {"text":"火力-2　装甲-2　回避-1", "ship_class":"ryuujou"},
+      {"text":"火力-2　装甲-2　回避-1", "ship_class":"ryuuhou"},
+      {"text":"火力-2　装甲-2　回避-1", "ship_class":"shouhou"},
+      {"text":"火力-2　装甲-2　回避-1", "ship_class":"hiyou"},
+      {"text":"火力-2　装甲-2　回避-1", "ship_class":"chitose-v"},
+      {"text":"火力-2　装甲-2　回避-1", "ship_class":"mogami-v"},
+      {"text":"火力-2　装甲-2　回避-1", "ship_class":"taiyou"}
+    ]}
+  ]},
+  {"id":"277", "type":"艦上爆撃機", "title":"FM-2", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2　対空+1　回避+2", "ship_class":"casablanca"},
+      {"text":"火力+1　回避+1", "ship_class":"lexington"},
+      {"text":"火力+1　回避+1", "ship_class":"yorktown"},
+      {"text":"火力+1　回避+1", "ship_class":"essex"},
+      {"text":"火力+1　回避+1", "ship_class":"arkroyal"}
+    ]}
+  ]},
   {"id":"018", "type":"艦上攻撃機", "title":"流星", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1", "ship_class":"akagi_akagi_1"},
