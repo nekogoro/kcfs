@@ -1031,6 +1031,57 @@
       {"text":"対空+2　回避+3　命中+1", "ship_class":"ise_hyuuga_2"}
     ]}
   ]},
+  {"id":"426", "type":"大口径主砲", "title":"305mm／46 連装砲", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+3　回避+1", "ship_class":"contedicavour"},
+      {"text":"火力+2　回避+1", "ship_class":"gangut"}
+    ]},
+    {"synergy":"＋305mm／46 連装砲(2個目以降)", "items":[
+      {"text":"火力+1　回避+1", "ship_class":"contedicavour"},
+      {"text":"火力+1", "ship_class":"gangut"}
+    ]},
+    {"synergy":"＋305mm／46 三連装砲", "items":[
+      {"text":"火力+1　回避+1", "ship_class":"contedicavour"},
+      {"text":"火力+1", "ship_class":"gangut"}
+    ]}
+  ]},
+  {"id":"427", "type":"大口径主砲", "title":"305mm／46 三連装砲", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2", "ship_class":"contedicavour"},
+      {"text":"火力+1", "ship_class":"gangut"}
+    ]},
+    {"synergy":"＋305mm／46 連装砲", "items":[
+      {"text":"火力+1　回避+1", "ship_class":"contedicavour"},
+      {"text":"火力+1", "ship_class":"gangut"}
+    ]}
+  ]},
+  {"id":"428", "type":"大口径主砲", "title":"320mm／44 連装砲", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+3　回避+1", "ship_class":"contedicavour"},
+      {"text":"火力+1　回避+2", "ship_class":"vittorioveneto"},
+      {"text":"火力+2　回避+1", "ship_class":"gangut"}
+    ]},
+    {"synergy":"＋320mm／44 連装砲(2個目以降)", "items":[
+      {"text":"火力+1　回避+1", "ship_class":"contedicavour"},
+      {"text":"火力+2　回避+1", "ship_class":"vittorioveneto"},
+      {"text":"火力+1", "ship_class":"gangut"}
+    ]},
+    {"synergy":"＋320mm／44 三連装砲", "items":[
+      {"text":"火力+1　回避+1", "ship_class":"contedicavour"},
+      {"text":"火力+1　回避+1", "ship_class":"vittorioveneto"},
+      {"text":"火力+1", "ship_class":"gangut"}
+    ]}
+  ]},
+  {"id":"429", "type":"大口径主砲", "title":"320mm／44 三連装砲", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2", "ship_class":"contedicavour"},
+      {"text":"火力+1", "ship_class":"gangut"}
+    ]},
+    {"synergy":"＋320mm／44 連装砲", "items":[
+      {"text":"火力+1　回避+1", "ship_class":"contedicavour"},
+      {"text":"火力+1", "ship_class":"gangut"}
+    ]}
+  ]},
   {"id":"104", "type":"大口径主砲", "title":"35.6cm連装砲(ダズル迷彩)", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2", "ship_class":"kongou_kongou_2"},
@@ -1250,6 +1301,15 @@
       {"text":"火力+1　対空+1　回避+1", "ship_class":"queenelizabeth"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"nelson"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"arkroyal"}
+    ]}
+  ]},
+  {"id":"430", "type":"副砲：高角砲", "title":"65mm／64 単装速射砲改", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"対空+3　回避+2", "ship_class":"contedicavour"},
+      {"text":"対空+2　回避+1", "ship_class":"vittorioveneto"},
+      {"text":"対空+2　回避+1", "ship_class":"aquila"},
+      {"text":"対空+2　回避+1", "ship_class":"zara"},
+      {"text":"対空+2　回避+1", "ship_class":"ldsddabruzzi"}
     ]}
   ]},
   {"id":"174", "type":"魚雷", "title":"53cm連装魚雷", "bonus":[
