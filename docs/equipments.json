@@ -2167,15 +2167,6 @@
       {"text":"火力+1　対空+2　回避+2", "ship_class":"kaga_kaga_1"}
     ]}
   ]},
-  {"id":"375", "type":"艦上戦闘機", "title":"XF5U", "bonus":[
-    {"synergy":"単体", "items":[
-      {"text":"火力+3　対空+3　対潜+3　回避+3", "ship_class":"lexington"},
-      {"text":"火力+3　対空+3　対潜+3　回避+3", "ship_class":"yorktown"},
-      {"text":"火力+3　対空+3　対潜+3　回避+3", "ship_class":"essex"},
-      {"text":"火力+3　対空+3　対潜+3　回避+3", "ship_class":"casablanca"},
-      {"text":"火力+1　対空+1　対潜+1　回避+1", "ship_class":"kaga"}
-    ]}
-  ]},
   {"id":"184", "type":"艦上戦闘機", "title":"Re.2001 OR改", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1　対空+2　回避+3", "ship_class":"aquila"}
@@ -2186,6 +2177,45 @@
       {"text":"対空+1　回避+2", "ship_class":"aquila"},
       {"text":"対空+1　回避+2", "ship_class":"grafzeppelin"}
     ]}
+  ]},
+  {"id":"375", "type":"艦上戦闘機", "title":"XF5U", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+3　対空+3　対潜+3　回避+3", "ship_class":"lexington"},
+      {"text":"火力+3　対空+3　対潜+3　回避+3", "ship_class":"yorktown"},
+      {"text":"火力+3　対空+3　対潜+3　回避+3", "ship_class":"essex"},
+      {"text":"火力+3　対空+3　対潜+3　回避+3", "ship_class":"casablanca"},
+      {"text":"火力+1　対空+1　対潜+1　回避+1", "ship_class":"kaga"}
+    ]}
+  ]},
+  {"id":"422", "type":"艦上戦闘機", "title":"FR-1 Fireball", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+3　対空+2　回避+3", "ship_class":"casablanca"},
+      {"text":"火力+2　対空+1　回避+1", "ship_class":"essex"},
+      {"text":"火力+1　回避+1", "ship_class":"lexington"},
+      {"text":"火力+1　回避+1", "ship_class":"yorktown"},
+      {"text":"火力+1　回避+1", "ship_class":"arkroyal"},
+      {"text":"火力+1　回避+1", "ship_class":"illustrious"}
+    ]}  
+  ]},
+  {"id":"434", "type":"艦上戦闘機", "title":"Corsair Mk.II", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2　対空+3　回避+5", "ship_class":"illustrious"},
+      {"text":"火力+1　対空+2　回避+3", "ship_class":"arkroyal"},
+      {"text":"火力+1　対空+1　回避+2", "ship_class":"essex"},
+      {"text":"火力+1　対空+1　回避+2", "ship_class":"lexington"},
+      {"text":"火力+1　対空+1　回避+2", "ship_class":"yorktown"},
+      {"text":"火力+1　対空+1　回避+2", "ship_class":"casablanca"}
+    ]}  
+  ]},
+  {"id":"434", "type":"艦上戦闘機", "title":"Corsair Mk.II(Ace)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2　対空+3　回避+5", "ship_class":"illustrious"},
+      {"text":"火力+1　対空+2　回避+3", "ship_class":"arkroyal"},
+      {"text":"火力+1　対空+1　回避+2", "ship_class":"essex"},
+      {"text":"火力+1　対空+1　回避+2", "ship_class":"lexington"},
+      {"text":"火力+1　対空+1　回避+2", "ship_class":"yorktown"},
+      {"text":"火力+1　対空+1　回避+2", "ship_class":"casablanca"}
+    ]}  
   ]},
   {"id":"024", "type":"艦上爆撃機", "title":"彗星", "bonus":[
     {"synergy":"単体", "items":[
@@ -2340,12 +2370,14 @@
       {"text":"火力+2", "ship_class":"essex"},
       {"text":"火力+1", "ship_class":"lexington"},
       {"text":"火力+1", "ship_class":"yorktown"},
+      {"text":"火力+1", "ship_class":"illustrious"},
       {"text":"火力-1　装甲-2　回避-1", "ship_class":"casablanca"}
     ]},
     {"synergy":"単体(★3〜5)", "items":[
       {"text":"火力+3", "ship_class":"essex"},
       {"text":"火力+2", "ship_class":"lexington"},
       {"text":"火力+2", "ship_class":"yorktown"},
+      {"text":"火力+2", "ship_class":"illustrious"},
       {"text":"火力+1", "ship_class":"arkroyal"},
       {"text":"装甲-2　回避-1", "ship_class":"casablanca"}
     ]},
@@ -2366,6 +2398,7 @@
       {"text":"火力+3", "ship_class":"essex"},
       {"text":"火力+2", "ship_class":"lexington"},
       {"text":"火力+2", "ship_class":"yorktown"},
+      {"text":"火力+2", "ship_class":"illustrious"},
       {"text":"火力+1", "ship_class":"arkroyal"},
       {"text":"装甲-2　回避-1", "ship_class":"casablanca"}
     ]},
@@ -2373,6 +2406,7 @@
       {"text":"火力+4", "ship_class":"essex"},
       {"text":"火力+3", "ship_class":"lexington"},
       {"text":"火力+3", "ship_class":"yorktown"},
+      {"text":"火力+3", "ship_class":"illustrious"},
       {"text":"火力+2", "ship_class":"arkroyal"},
       {"text":"火力+1　装甲-2　回避-1", "ship_class":"casablanca"}
     ]},
@@ -2655,6 +2689,30 @@
       {"text":"火力+3", "ship_class":"houshou"}
     ]}
   ]},
+  {"id":"424", "type":"艦上攻撃機", "title":"Barracuda Mk.II", "bonus":[
+    {"synergy":"単体(★0〜1)", "items":[
+      {"text":"火力+2　雷装+3", "ship_class":"arkroyal"},
+      {"text":"火力+2　雷装+3", "ship_class":"illustrious"}
+    ]},
+    {"synergy":"単体(★2〜5)", "items":[
+      {"text":"火力+2　雷装+3", "ship_class":"arkroyal"},
+      {"text":"火力+3　雷装+3", "ship_class":"illustrious"}
+    ]},
+    {"synergy":"単体(★6)", "items":[
+      {"text":"火力+4　雷装+3", "ship_class":"arkroyal"},
+      {"text":"火力+4　雷装+3", "ship_class":"illustrious"}
+    ]}
+  ]},
+  {"id":"425", "type":"艦上攻撃機", "title":"Barracuda Mk.III", "bonus":[
+    {"synergy":"単体(★2)", "items":[
+      {"text":"火力+2　雷装+1　対潜+3　回避+1", "ship_class":"arkroyal"},
+      {"text":"火力+2　雷装+1　対潜+3　回避+1", "ship_class":"illustrious"}
+    ]},
+    {"synergy":"単体(★6)", "items":[
+      {"text":"火力+3　雷装+1　対潜+4　回避+1", "ship_class":"arkroyal"},
+      {"text":"火力+3　雷装+1　対潜+4　回避+1", "ship_class":"illustrious"}
+    ]}
+  ]},
   {"id":"054", "type":"艦上偵察機", "title":"彩雲", "bonus":[
     {"synergy":"単体(★2)", "items":[
       {"text":"索敵+1", "ship_class":"akagi"},
@@ -2669,6 +2727,7 @@
       {"text":"索敵+1", "ship_class":"yorktown"},
       {"text":"索敵+1", "ship_class":"essex"},
       {"text":"索敵+1", "ship_class":"arkroyal"},
+      {"text":"索敵+1", "ship_class":"illustrious"},
       {"text":"索敵+1", "ship_class":"houshou"},
       {"text":"索敵+1", "ship_class":"ryuujou"},
       {"text":"索敵+1", "ship_class":"ryuuhou"},
@@ -2723,6 +2782,7 @@
       {"text":"索敵+1", "ship_class":"yorktown"},
       {"text":"索敵+1", "ship_class":"essex"},
       {"text":"索敵+1", "ship_class":"arkroyal"},
+      {"text":"索敵+1", "ship_class":"illustrious"},
       {"text":"索敵+1", "ship_class":"houshou"},
       {"text":"索敵+1", "ship_class":"ryuujou"},
       {"text":"索敵+1", "ship_class":"ryuuhou"},
@@ -2776,6 +2836,7 @@
       {"text":"索敵+1", "ship_class":"yorktown"},
       {"text":"索敵+1", "ship_class":"essex"},
       {"text":"索敵+1", "ship_class":"arkroyal"},
+      {"text":"索敵+1", "ship_class":"illustrious"},
       {"text":"索敵+1", "ship_class":"houshou"},
       {"text":"索敵+1", "ship_class":"ryuujou"},
       {"text":"索敵+1", "ship_class":"ryuuhou"},
@@ -2808,6 +2869,7 @@
       {"text":"火力+1　索敵+1", "ship_class":"yorktown"},
       {"text":"火力+1　索敵+1", "ship_class":"essex"},
       {"text":"火力+1　索敵+1", "ship_class":"arkroyal"},
+      {"text":"火力+1　索敵+1", "ship_class":"illustrious"},
       {"text":"火力+1　索敵+1", "ship_class":"houshou"},
       {"text":"火力+1　索敵+1", "ship_class":"ryuujou"},
       {"text":"火力+1　索敵+1", "ship_class":"ryuuhou"},
@@ -2840,6 +2902,7 @@
       {"text":"火力+1　索敵+2", "ship_class":"yorktown"},
       {"text":"火力+1　索敵+2", "ship_class":"essex"},
       {"text":"火力+1　索敵+2", "ship_class":"arkroyal"},
+      {"text":"火力+1　索敵+2", "ship_class":"illustrious"},
       {"text":"火力+1　索敵+2", "ship_class":"houshou"},
       {"text":"火力+1　索敵+2", "ship_class":"ryuujou"},
       {"text":"火力+1　索敵+2", "ship_class":"ryuuhou"},
@@ -2872,6 +2935,7 @@
       {"text":"火力+2　索敵+3", "ship_class":"yorktown"},
       {"text":"火力+2　索敵+3", "ship_class":"essex"},
       {"text":"火力+2　索敵+3", "ship_class":"arkroyal"},
+      {"text":"火力+2　索敵+3", "ship_class":"illustrious"},
       {"text":"火力+2　索敵+3", "ship_class":"houshou"},
       {"text":"火力+2　索敵+3", "ship_class":"ryuujou"},
       {"text":"火力+2　索敵+3", "ship_class":"ryuuhou"},
@@ -2882,6 +2946,124 @@
       {"text":"火力+2　索敵+3", "ship_class":"taiyou_shinyou_2"},
       {"text":"火力+2　索敵+3", "ship_class":"mogami-v"},
       {"text":"火力+2　索敵+3", "ship_class":"casablanca"}
+    ]}
+  ]},
+  {"id":"423", "type":"艦上偵察機", "title":"Fulmar(戦闘偵察／熟練)", "bonus":[
+    {"synergy":"単体(累積可, 特定艦娘適用分)", "items":[
+      {"text":"火力+4　対空+4　索敵+4　回避+4", "ship_class":"arkroyal"},
+      {"text":"火力+4　対空+4　索敵+4　回避+4", "ship_class":"illustrious"},
+      {"text":"火力+1　対空+1　索敵+1　回避+1", "ship_class":"lexington"},
+      {"text":"火力+1　対空+1　索敵+1　回避+1", "ship_class":"yorktown"},
+      {"text":"火力+1　対空+1　索敵+1　回避+1", "ship_class":"essex"},
+      {"text":"火力+1　対空+1　索敵+1　回避+1", "ship_class":"casablanca"}
+    ]},
+    {"synergy":"単体(★2〜3, 累積不可, 艦娘共通分)", "items":[
+      {"text":"索敵+1", "ship_class":"akagi"},
+      {"text":"索敵+1", "ship_class":"kaga"},
+      {"text":"索敵+1", "ship_class":"souryuu"},
+      {"text":"索敵+1", "ship_class":"hiryuu"},
+      {"text":"索敵+1", "ship_class":"shoukaku"},
+      {"text":"索敵+1", "ship_class":"unryuu"},
+      {"text":"索敵+1", "ship_class":"grafzeppelin"},
+      {"text":"索敵+1", "ship_class":"aquila"},
+      {"text":"索敵+1", "ship_class":"lexington"},
+      {"text":"索敵+1", "ship_class":"yorktown"},
+      {"text":"索敵+1", "ship_class":"essex"},
+      {"text":"索敵+1", "ship_class":"arkroyal"},
+      {"text":"索敵+1", "ship_class":"illustrious"},
+      {"text":"索敵+1", "ship_class":"houshou"},
+      {"text":"索敵+1", "ship_class":"ryuujou"},
+      {"text":"索敵+1", "ship_class":"ryuuhou"},
+      {"text":"索敵+1", "ship_class":"shouhou"},
+      {"text":"索敵+1", "ship_class":"hiyou"},
+      {"text":"索敵+1", "ship_class":"chitose-v"},
+      {"text":"索敵+1", "ship_class":"taiyou_taiyou_2"},
+      {"text":"索敵+1", "ship_class":"taiyou_shinyou_2"},
+      {"text":"索敵+1", "ship_class":"mogami-v"},
+      {"text":"索敵+1", "ship_class":"casablanca"},
+      {"text":"索敵+1", "ship_class":"ise_ise_2"},
+      {"text":"索敵+1", "ship_class":"ise_hyuuga_2"}
+    ]},
+    {"synergy":"単体(★4〜5, 累積不可, 艦娘共通分)", "items":[
+      {"text":"火力+1　索敵+1", "ship_class":"akagi"},
+      {"text":"火力+1　索敵+1", "ship_class":"kaga"},
+      {"text":"火力+1　索敵+1", "ship_class":"souryuu"},
+      {"text":"火力+1　索敵+1", "ship_class":"hiryuu"},
+      {"text":"火力+1　索敵+1", "ship_class":"shoukaku"},
+      {"text":"火力+1　索敵+1", "ship_class":"unryuu"},
+      {"text":"火力+1　索敵+1", "ship_class":"grafzeppelin"},
+      {"text":"火力+1　索敵+1", "ship_class":"aquila"},
+      {"text":"火力+1　索敵+1", "ship_class":"lexington"},
+      {"text":"火力+1　索敵+1", "ship_class":"yorktown"},
+      {"text":"火力+1　索敵+1", "ship_class":"essex"},
+      {"text":"火力+1　索敵+1", "ship_class":"arkroyal"},
+      {"text":"火力+1　索敵+1", "ship_class":"illustrious"},
+      {"text":"火力+1　索敵+1", "ship_class":"houshou"},
+      {"text":"火力+1　索敵+1", "ship_class":"ryuujou"},
+      {"text":"火力+1　索敵+1", "ship_class":"ryuuhou"},
+      {"text":"火力+1　索敵+1", "ship_class":"shouhou"},
+      {"text":"火力+1　索敵+1", "ship_class":"hiyou"},
+      {"text":"火力+1　索敵+1", "ship_class":"chitose-v"},
+      {"text":"火力+1　索敵+1", "ship_class":"taiyou_taiyou_2"},
+      {"text":"火力+1　索敵+1", "ship_class":"taiyou_shinyou_2"},
+      {"text":"火力+1　索敵+1", "ship_class":"mogami-v"},
+      {"text":"火力+1　索敵+1", "ship_class":"casablanca"},
+      {"text":"火力+1　索敵+1", "ship_class":"ise_ise_2"},
+      {"text":"火力+1　索敵+1", "ship_class":"ise_hyuuga_2"}
+    ]},
+    {"synergy":"単体(★6〜9, 累積不可)", "items":[
+      {"text":"火力+1　索敵+2", "ship_class":"akagi"},
+      {"text":"火力+1　索敵+2", "ship_class":"kaga"},
+      {"text":"火力+1　索敵+2", "ship_class":"souryuu"},
+      {"text":"火力+1　索敵+2", "ship_class":"hiryuu"},
+      {"text":"火力+1　索敵+2", "ship_class":"shoukaku"},
+      {"text":"火力+1　索敵+2", "ship_class":"unryuu"},
+      {"text":"火力+1　索敵+2", "ship_class":"grafzeppelin"},
+      {"text":"火力+1　索敵+2", "ship_class":"aquila"},
+      {"text":"火力+1　索敵+2", "ship_class":"lexington"},
+      {"text":"火力+1　索敵+2", "ship_class":"yorktown"},
+      {"text":"火力+1　索敵+2", "ship_class":"essex"},
+      {"text":"火力+1　索敵+2", "ship_class":"arkroyal"},
+      {"text":"火力+1　索敵+2", "ship_class":"illustrious"},
+      {"text":"火力+1　索敵+2", "ship_class":"houshou"},
+      {"text":"火力+1　索敵+2", "ship_class":"ryuujou"},
+      {"text":"火力+1　索敵+2", "ship_class":"ryuuhou"},
+      {"text":"火力+1　索敵+2", "ship_class":"shouhou"},
+      {"text":"火力+1　索敵+2", "ship_class":"hiyou"},
+      {"text":"火力+1　索敵+2", "ship_class":"chitose-v"},
+      {"text":"火力+1　索敵+2", "ship_class":"taiyou_taiyou_2"},
+      {"text":"火力+1　索敵+2", "ship_class":"taiyou_shinyou_2"},
+      {"text":"火力+1　索敵+2", "ship_class":"mogami-v"},
+      {"text":"火力+1　索敵+2", "ship_class":"casablanca"},
+      {"text":"火力+1　索敵+2", "ship_class":"ise_ise_2"},
+      {"text":"火力+1　索敵+2", "ship_class":"ise_hyuuga_2"}
+    ]},
+    {"synergy":"単体(★MAX, 累積不可)", "items":[
+      {"text":"火力+2　索敵+3", "ship_class":"akagi"},
+      {"text":"火力+2　索敵+3", "ship_class":"kaga"},
+      {"text":"火力+2　索敵+3", "ship_class":"souryuu"},
+      {"text":"火力+2　索敵+3", "ship_class":"hiryuu"},
+      {"text":"火力+2　索敵+3", "ship_class":"shoukaku"},
+      {"text":"火力+2　索敵+3", "ship_class":"unryuu"},
+      {"text":"火力+2　索敵+3", "ship_class":"grafzeppelin"},
+      {"text":"火力+2　索敵+3", "ship_class":"aquila"},
+      {"text":"火力+2　索敵+3", "ship_class":"lexington"},
+      {"text":"火力+2　索敵+3", "ship_class":"yorktown"},
+      {"text":"火力+2　索敵+3", "ship_class":"essex"},
+      {"text":"火力+2　索敵+3", "ship_class":"arkroyal"},
+      {"text":"火力+2　索敵+3", "ship_class":"illustrious"},
+      {"text":"火力+2　索敵+3", "ship_class":"houshou"},
+      {"text":"火力+2　索敵+3", "ship_class":"ryuujou"},
+      {"text":"火力+2　索敵+3", "ship_class":"ryuuhou"},
+      {"text":"火力+2　索敵+3", "ship_class":"shouhou"},
+      {"text":"火力+2　索敵+3", "ship_class":"hiyou"},
+      {"text":"火力+2　索敵+3", "ship_class":"chitose-v"},
+      {"text":"火力+2　索敵+3", "ship_class":"taiyou_taiyou_2"},
+      {"text":"火力+2　索敵+3", "ship_class":"taiyou_shinyou_2"},
+      {"text":"火力+2　索敵+3", "ship_class":"mogami-v"},
+      {"text":"火力+2　索敵+3", "ship_class":"casablanca"},
+      {"text":"火力+2　索敵+3", "ship_class":"ise_ise_2"},
+      {"text":"火力+2　索敵+3", "ship_class":"ise_hyuuga_2"}
     ]}
   ]},
   {"id":"033", "type":"その他：機関部強化", "title":"改良型艦本式タービン", "bonus":[
