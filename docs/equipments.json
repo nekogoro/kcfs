@@ -2217,6 +2217,20 @@
       {"text":"火力+1　対空+1　回避+2", "ship_class":"casablanca"}
     ]}  
   ]},
+  {"id":"437", "type":"艦上戦闘機", "title":"試製 陣風", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+3　対空+3　回避+4", "ship_class":"houshou"},
+      {"text":"火力+2　対空+2　回避+3", "ship_class":"souryuu_souryuu_2"},
+      {"text":"火力+2　対空+2　回避+3", "ship_class":"hiryuu_hiryuu_2"},
+      {"text":"火力+2　対空+2　回避+2", "ship_class":"mogami-v_suzuya_v2"},
+      {"text":"火力+2　対空+2　回避+2", "ship_class":"mogami-v_kumano_v2"},
+      {"text":"火力+2　対空+2　回避+2", "ship_class":"kaga_kaga_2g"},
+      {"text":"火力+1　対空+2　回避+2", "ship_class":"ryuuhou_ryuuhou_2e"},
+      {"text":"火力+1　対空+2　回避+2", "ship_class":"ryuuhou_ryuuhou_2"},
+      {"text":"火力+1　対空+2　回避+2", "ship_class":"ise_ise_2"},
+      {"text":"火力+1　対空+2　回避+2", "ship_class":"ise_hyuuga_2"}
+    ]}  
+  ]},
   {"id":"024", "type":"艦上爆撃機", "title":"彗星", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2", "ship_class":"ise_ise_2"},
