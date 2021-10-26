@@ -41,6 +41,12 @@
 - id: yamakaze
   name: 山風 / 山風改
 
+- id: yamakaze_2
+  name: 山風改二
+
+- id: yamakaze_2d
+  name: 山風改二丁
+
 - id: kawakaze
   name: 江風 / 江風改
 

@@ -1,12 +1,18 @@
 
 - id: kamikaze
-  name: 神風 / 神風改
+  name: 神風
+
+- id: kamikaze_1
+  name: 神風改
 
 - id: asakaze
   name: 朝風 / 朝風改
 
 - id: harukaze
-  name: 春風 / 春風改
+  name: 春風
+
+- id: harukaze_1
+  name: 春風改
 
 - id: matsukaze
   name: 松風 / 松風改
