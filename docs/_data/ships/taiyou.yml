@@ -8,6 +8,15 @@
 - id: taiyou_2
   name: 大鷹改二
 
+- id: unyou
+  name: 雲鷹
+
+- id: unyou_1
+  name: 雲鷹改
+
+- id: unyou_2
+  name: 雲鷹改二
+
 - id: shinyou
   name: 神鷹
 
