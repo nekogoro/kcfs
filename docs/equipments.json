@@ -1758,6 +1758,26 @@
       {"text":"火力-1　回避-7", "ship_class":"mizuho"}
     ]}
   ]},
+  {"id":"440", "type":"魚雷", "title":"21inch艦首魚雷発射管6門(初期型)", "bonus":[
+    {"synergy":"単体(累積不可)", "items":[
+      {"text":"雷装+2", "ship_class":"gato"}
+    ]}
+  ]},
+  {"id":"441", "type":"魚雷", "title":"21inch艦首魚雷発射管6門(後期型)", "bonus":[
+    {"synergy":"単体(累積不可)", "items":[
+      {"text":"雷装+2", "ship_class":"gato"}
+    ]}
+  ]},
+  {"id":"442", "type":"魚雷", "title":"潜水艦後部魚雷発射管4門(初期型)", "bonus":[
+    {"synergy":"単体(累積不可)", "items":[
+      {"text":"雷装+2", "ship_class":"gato"}
+    ]}
+  ]},
+  {"id":"443", "type":"魚雷", "title":"潜水艦後部魚雷発射管4門(後期型)", "bonus":[
+    {"synergy":"単体(累積不可)", "items":[
+      {"text":"雷装+2", "ship_class":"gato"}
+    ]}
+  ]},
   {"id":"079", "type":"水上機：水上爆撃機", "title":"瑞雲(六三四空)", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2", "ship_class":"fusou_fusou_1"},
