@@ -2365,24 +2365,20 @@
     {"synergy":"単体", "items":[
       {"text":"火力+1　回避+1", "ship_class":"aquila"},
       {"text":"火力+1　回避+1", "ship_class":"grafzeppelin"},
-      {"text":"対潜+1　回避+1", "ship_class":"taiyou_taiyou"},
-      {"text":"対潜+1　回避+1", "ship_class":"taiyou_taiyou_1"},
-      {"text":"対潜+1　回避+1", "ship_class":"taiyou_taiyou_2"},
       {"text":"対潜+3　回避+2", "ship_class":"taiyou_shinyou"},
       {"text":"対潜+3　回避+2", "ship_class":"taiyou_shinyou_1"},
-      {"text":"対潜+3　回避+2", "ship_class":"taiyou_shinyou_2"}
+      {"text":"対潜+3　回避+2", "ship_class":"taiyou_shinyou_2"},
+      {"text":"対潜+1　回避+1", "ship_class":"taiyou"}
     ]}
   ]},
   {"id":"306", "type":"艦上爆撃機", "title":"Ju87C改二(KMX搭載機／熟練)", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1　回避+1", "ship_class":"aquila"},
       {"text":"火力+1　回避+1", "ship_class":"grafzeppelin"},
-      {"text":"対潜+1　回避+1", "ship_class":"taiyou_taiyou"},
-      {"text":"対潜+1　回避+1", "ship_class":"taiyou_taiyou_1"},
-      {"text":"対潜+1　回避+1", "ship_class":"taiyou_taiyou_2"},
       {"text":"対潜+3　回避+2", "ship_class":"taiyou_shinyou"},
       {"text":"対潜+3　回避+2", "ship_class":"taiyou_shinyou_1"},
-      {"text":"対潜+3　回避+2", "ship_class":"taiyou_shinyou_2"}
+      {"text":"対潜+3　回避+2", "ship_class":"taiyou_shinyou_2"},
+      {"text":"対潜+1　回避+1", "ship_class":"taiyou"}
     ]}
   ]},
   {"id":"316", "type":"艦上爆撃機", "title":"Re.2001 CB改", "bonus":[
@@ -2621,6 +2617,7 @@
       {"text":"火力+2　対潜+2", "ship_class":"shouhou_zuihou_2"},
       {"text":"火力+2　対潜+2", "ship_class":"shouhou_zuihou_2b"},
       {"text":"火力+3", "ship_class":"akagi_akagi_2e"},
+      {"text":"火力+3", "ship_class":"kaga_kaga_2e"},
       {"text":"火力+2　対潜+1", "ship_class":"shouhou_shouhou_1"}
     ]}
   ]},
@@ -2632,6 +2629,7 @@
       {"text":"火力+3　回避+3　対潜+2", "ship_class":"shouhou_zuihou_2"},
       {"text":"火力+3　回避+3　対潜+2", "ship_class":"shouhou_zuihou_2b"},
       {"text":"火力+3　回避+1", "ship_class":"akagi_akagi_2e"},
+      {"text":"火力+3　回避+1", "ship_class":"kaga_kaga_2e"},
       {"text":"火力+3　回避+1　対潜+1", "ship_class":"shouhou_shouhou_1"}
     ]}
   ]},
