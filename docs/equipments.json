@@ -2361,6 +2361,15 @@
       {"text":"火力+1　対空+1　回避+1", "ship_class":"chitose-v"}
     ]}
   ]},
+  {"id":"447", "type":"艦上爆撃機", "title":"零式艦戦64型(複座KMX搭載機)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+2　対潜+2　回避+3", "ship_class":"taiyou_unyou_2"},
+      {"text":"火力+1　対潜+1　回避+2", "ship_class":"taiyou_taiyou_2"},
+      {"text":"火力+1　対潜+1　回避+2", "ship_class":"taiyou_shinyou_2"},
+      {"text":"火力+1　対潜+2　回避+1", "ship_class":"houshou_houshou_1"},
+      {"text":"火力+1　対潜+2　回避+1", "ship_class":"ryuuhou_ryuuhou_2"}
+    ]}
+  ]},
   {"id":"305", "type":"艦上爆撃機", "title":"Ju87C改二(KMX搭載機)", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1　回避+1", "ship_class":"aquila"},
