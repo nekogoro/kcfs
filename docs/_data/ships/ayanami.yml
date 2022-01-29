@@ -14,6 +14,12 @@
 - id: amagiri
   name: 天霧 / 天霧改
 
+- id: amagiri_2
+  name: 天霧改二
+
+- id: amagiri_2d
+  name: 天霧改二丁
+
 - id: sagiri
   name: 狭霧 / 狭霧改
 
