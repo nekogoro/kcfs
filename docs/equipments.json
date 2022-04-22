@@ -1417,6 +1417,16 @@
       {"text":"火力+1　雷装+3", "ship_class":"ayanami"},
       {"text":"火力+1　雷装+3", "ship_class":"akatsuki"}
     ]},
+    {"synergy":"＋試製 長12.7cm連装砲A型改四(※1)＋61cm三連装魚雷（酸素魚雷含む）", "items":[
+      {"text":"火力+2　雷装+5", "ship_class":"fubuki"},
+      {"text":"火力+2　雷装+5", "ship_class":"ayanami"},
+      {"text":"火力+2　雷装+5", "ship_class":"akatsuki"}
+    ]},
+    {"synergy":"＋試製 長12.7cm連装砲A型改四(※1)＋61cm三連装(酸素)魚雷後期型", "items":[
+      {"text":"火力+2　雷装+6", "ship_class":"fubuki"},
+      {"text":"火力+2　雷装+6", "ship_class":"ayanami"},
+      {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
+    ]},
     {"synergy":"＋12.7cm連装砲A型改三(戦時改修)＋高射装置(※1)＋61cm三連装魚雷（酸素魚雷含む）", "items":[
       {"text":"火力+2　雷装+5", "ship_class":"fubuki"},
       {"text":"火力+2　雷装+5", "ship_class":"ayanami"},
@@ -1449,6 +1459,16 @@
       {"text":"火力+1　雷装+3", "ship_class":"ayanami"},
       {"text":"火力+1　雷装+3", "ship_class":"akatsuki"}
     ]},
+    {"synergy":"＋試製 長12.7cm連装砲A型改四(※1)＋61cm三連装魚雷（酸素魚雷含む）", "items":[
+      {"text":"火力+2　雷装+5", "ship_class":"fubuki"},
+      {"text":"火力+2　雷装+5", "ship_class":"ayanami"},
+      {"text":"火力+2　雷装+5", "ship_class":"akatsuki"}
+    ]},
+    {"synergy":"＋試製 長12.7cm連装砲A型改四(※1)＋61cm三連装(酸素)魚雷後期型", "items":[
+      {"text":"火力+2　雷装+6", "ship_class":"fubuki"},
+      {"text":"火力+2　雷装+6", "ship_class":"ayanami"},
+      {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
+    ]},
     {"synergy":"＋12.7cm連装砲A型改三(戦時改修)＋高射装置(※1)＋61cm三連装魚雷（酸素魚雷含む）", "items":[
       {"text":"火力+2　雷装+5", "ship_class":"fubuki"},
       {"text":"火力+2　雷装+5", "ship_class":"ayanami"},
@@ -1464,6 +1484,7 @@
     {"synergy":"単体(★0〜9, 2つまで累積可)", "items":[
       {"text":"雷装+2　回避+1", "ship_class":"fubuki_fubuki_2"},
       {"text":"雷装+2　回避+1", "ship_class":"fubuki_murakumo_2"},
+      {"text":"雷装+2　回避+1", "ship_class":"fubuki_uranami_2"},
       {"text":"雷装+2　回避+1", "ship_class":"ayanami_ayanami_2"},
       {"text":"雷装+2　回避+1", "ship_class":"ayanami_shikinami_2"},
       {"text":"雷装+2　回避+1", "ship_class":"ayanami_amagiri_2"},
@@ -1477,6 +1498,7 @@
     {"synergy":"単体(★MAX, 1つ目)", "items":[
       {"text":"火力+1　雷装+3　回避+1", "ship_class":"fubuki_fubuki_2"},
       {"text":"火力+1　雷装+3　回避+1", "ship_class":"fubuki_murakumo_2"},
+      {"text":"火力+1　雷装+3　回避+1", "ship_class":"fubuki_uranami_2"},
       {"text":"火力+1　雷装+3　回避+1", "ship_class":"ayanami_ayanami_2"},
       {"text":"火力+1　雷装+3　回避+1", "ship_class":"ayanami_shikinami_2"},
       {"text":"火力+1　雷装+3　回避+1", "ship_class":"ayanami_amagiri_2"},
@@ -1490,6 +1512,7 @@
     {"synergy":"単体(★MAX, 2つ目)", "items":[
       {"text":"火力+1　雷装+2　回避+1", "ship_class":"fubuki_fubuki_2"},
       {"text":"火力+1　雷装+2　回避+1", "ship_class":"fubuki_murakumo_2"},
+      {"text":"火力+1　雷装+2　回避+1", "ship_class":"fubuki_uranami_2"},
       {"text":"火力+1　雷装+2　回避+1", "ship_class":"ayanami_ayanami_2"},
       {"text":"火力+1　雷装+2　回避+1", "ship_class":"ayanami_shikinami_2"},
       {"text":"火力+1　雷装+4　回避+1", "ship_class":"ayanami_amagiri_2"},
@@ -1503,6 +1526,7 @@
     {"synergy":"単体(★MAX, 3つ目)", "items":[
       {"text":"雷装+3", "ship_class":"fubuki_fubuki_2"},
       {"text":"雷装+3", "ship_class":"fubuki_murakumo_2"},
+      {"text":"雷装+3", "ship_class":"fubuki_uranami_2"},
       {"text":"雷装+3", "ship_class":"ayanami_ayanami_2"},
       {"text":"雷装+3", "ship_class":"ayanami_shikinami_2"},
       {"text":"雷装+5", "ship_class":"ayanami_amagiri_2"},
@@ -1539,6 +1563,16 @@
       {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
     ]},
     {"synergy":"＋12.7cm連装砲A型改三(戦時改修)＋高射装置(※1)＋61cm三連装(酸素)魚雷後期型", "items":[
+      {"text":"火力+2　雷装+6", "ship_class":"fubuki"},
+      {"text":"火力+2　雷装+6", "ship_class":"ayanami"},
+      {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
+    ]},
+    {"synergy":"＋試製 長12.7cm連装砲A型改四(※1)＋61cm三連装魚雷（酸素魚雷含む）", "items":[
+      {"text":"火力+2　雷装+5", "ship_class":"fubuki"},
+      {"text":"火力+2　雷装+5", "ship_class":"ayanami"},
+      {"text":"火力+2　雷装+5", "ship_class":"akatsuki"}
+    ]},
+    {"synergy":"＋試製 長12.7cm連装砲A型改四(※1)＋61cm三連装(酸素)魚雷後期型", "items":[
       {"text":"火力+2　雷装+6", "ship_class":"fubuki"},
       {"text":"火力+2　雷装+6", "ship_class":"ayanami"},
       {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
