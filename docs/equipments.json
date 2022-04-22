@@ -421,6 +421,55 @@
       {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
     ]}
   ]},
+  {"id":"455", "type":"小口径主砲", "title":"試製 長12.7cm連装砲A型改四", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+5　雷装+1　対空+1　対潜+1　回避+1", "ship_class":"fubuki_uranami_2"},
+      {"text":"火力+4　対空+1", "ship_class":"fubuki_uranami_2"},
+      {"text":"火力+3　対空+1", "ship_class":"fubuki"},
+      {"text":"火力+2　対空+1", "ship_class":"ayanami"},
+      {"text":"火力+2　対空+1", "ship_class":"akatsuki"}
+    ]},
+    {"synergy":"＋水上電探", "items":[
+      {"text":"火力+3　雷装+1　回避+2", "ship_class":"fubuki"},
+      {"text":"火力+3　雷装+1　回避+2", "ship_class":"ayanami"},
+      {"text":"火力+3　雷装+1　回避+2", "ship_class":"akatsuki"}
+    ]},
+    {"synergy":"＋対空電探", "items":[
+      {"text":"対空+4", "ship_class":"fubuki"},
+      {"text":"対空+4", "ship_class":"ayanami"},
+      {"text":"対空+4", "ship_class":"akatsuki"}
+    ]},
+    {"synergy":"＋水上電探＋対空電探（または双方の条件を満たす電探）", "items":[
+      {"text":"火力+3　雷装+1　対空+4　回避+2", "ship_class":"fubuki"},
+      {"text":"火力+3　雷装+1　対空+4　回避+2", "ship_class":"ayanami"},
+      {"text":"火力+3　雷装+1　対空+4　回避+2", "ship_class":"akatsuki"}
+    ]},
+    {"synergy":"＋61cm三連装魚雷（酸素魚雷含む）(※1)", "items":[
+      {"text":"火力+1　雷装+3", "ship_class":"fubuki"},
+      {"text":"火力+1　雷装+3", "ship_class":"ayanami"},
+      {"text":"火力+1　雷装+3", "ship_class":"akatsuki"}
+    ]},
+    {"synergy":"＋61cm三連装魚雷（酸素魚雷含む）×2(※1)", "items":[
+      {"text":"火力+2　雷装+5", "ship_class":"fubuki"},
+      {"text":"火力+2　雷装+5", "ship_class":"ayanami"},
+      {"text":"火力+2　雷装+5", "ship_class":"akatsuki"}
+    ]},
+    {"synergy":"＋61cm三連装(酸素)魚雷後期型(※1)", "items":[
+      {"text":"火力+1　雷装+4", "ship_class":"fubuki"},
+      {"text":"火力+1　雷装+4", "ship_class":"ayanami"},
+      {"text":"火力+1　雷装+4", "ship_class":"akatsuki"}
+    ]},
+    {"synergy":"＋61cm三連装(酸素)魚雷後期型＋61cm三連装魚雷（酸素魚雷含む）(※1)", "items":[
+      {"text":"火力+2　雷装+6", "ship_class":"fubuki"},
+      {"text":"火力+2　雷装+6", "ship_class":"ayanami"},
+      {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
+    ]},
+    {"synergy":"＋61cm三連装(酸素)魚雷後期型×2(※1)", "items":[
+      {"text":"火力+2　雷装+6", "ship_class":"fubuki"},
+      {"text":"火力+2　雷装+6", "ship_class":"ayanami"},
+      {"text":"火力+2　雷装+6", "ship_class":"akatsuki"}
+    ]}
+  ]},
   {"id":"063", "type":"小口径主砲", "title":"12.7cm連装砲B型改二", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1　対空+1", "ship_class":"ayanami_shikinami_2"},
@@ -3155,9 +3204,51 @@
       {"text":"火力+1　対空+4　回避+4　装甲+2", "ship_class":"agano_yahagi_2b"},
       {"text":"火力+1　対空+3　回避+3　装甲+2", "ship_class":"agano_yahagi_2"}
     ]},
-    {"synergy":"＋13号対空電探改(2個目以降)", "items":[
-      {"text":"空+2　回避+2　装甲+1", "ship_class":"agano_yahagi_2b"},
-      {"text":"空+2　回避+2　装甲+1", "ship_class":"agano_yahagi_2"}
+    {"synergy":"＋13号対空電探改・後期型(2個目以降)", "items":[
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"agano_yahagi_2b"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"agano_yahagi_2"}
+    ]}
+  ]},
+  {"id":"450", "type":"小型電探：対空", "title":"13号対空電探改(後期型)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　対空+2　回避+3　装甲+1", "ship_class":"matsu"},
+      {"text":"対空+1　回避+2　装甲+1", "ship_class":"shimushu"},
+      {"text":"対空+1　回避+2　装甲+1", "ship_class":"etorofu"},
+      {"text":"対空+1　回避+2　装甲+1", "ship_class":"mikura"},
+      {"text":"対空+1　回避+2　装甲+1", "ship_class":"hiburi"},
+      {"text":"対空+1　回避+2　装甲+1", "ship_class":"type-d"},
+      {"text":"火力+1　対空+2　回避+3　装甲+1", "ship_class":"ayanami_ushio_2"},
+      {"text":"火力+1　対空+2　回避+3　装甲+1", "ship_class":"shiratsuyu_shigure_2"},
+      {"text":"火力+1　対空+2　回避+3　装甲+1", "ship_class":"hatsuharu_hatsushimo_2"},
+      {"text":"火力+1　対空+2　回避+3　装甲+1", "ship_class":"kongou_haruna_2"},
+      {"text":"火力+1　対空+2　回避+3　装甲+1", "ship_class":"nagato_nagato_2"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"agano_yahagi"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"asashio_kasumi"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"asashio_kasumi_2"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"asashio_kasumi_2b"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"kagerou_yukikaze"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"kagerou_yukikaze_1"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"kagerou_isokaze"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"kagerou_isokaze_b1"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"kagerou_hamakaze"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"kagerou_hamakaze_b1"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"yuugumo_asashimo"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"yuugumo_asashimo_2"},
+      {"text":"対空+1　回避+2　装甲+1", "ship_class":"akiduki_sudutsuki"},
+      {"text":"対空+1　回避+3　装甲+1", "ship_class":"ooyodo_ooyodo"},
+      {"text":"対空+1　回避+3　装甲+1", "ship_class":"akatsuki_hibiki"},
+      {"text":"対空+1　回避+3　装甲+1", "ship_class":"akatsuki_hibiki_2"},
+      {"text":"対空+1　回避+3　装甲+1", "ship_class":"katori_kashima"}
+    ]},
+    {"synergy":"単体(累積不可)", "items":[
+      {"text":"火力+1　対空+2　回避+3", "ship_class":"kagerou_akigumo_2"},
+      {"text":"火力+1　対空+2　回避+3", "ship_class":"yuugumo_okinami_2"},
+      {"text":"火力+1　対空+4　回避+4　装甲+2", "ship_class":"agano_yahagi_2b"},
+      {"text":"火力+1　対空+3　回避+3　装甲+2", "ship_class":"agano_yahagi_2"}
+    ]},
+    {"synergy":"＋13号対空電探改・後期型(2個目以降)", "items":[
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"agano_yahagi_2b"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"agano_yahagi_2"}
     ]}
   ]},
   {"id":"307", "type":"小型電探：両用", "title":"GFCS Mk.37", "bonus":[
@@ -3871,6 +3962,7 @@
       {"text":"火力+1　索敵+1　回避-5", "ship_class":"mutsuki_satsuki_2"},
       {"text":"火力+1　索敵+1　回避-5", "ship_class":"mutsuki_fumiduki_2"},
       {"text":"火力+1　索敵+1　回避-5", "ship_class":"mutsuki_mikaduki_1"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"fubuki_uranami_2"},
       {"text":"火力+1　索敵+1　回避-5", "ship_class":"ayanami_amagiri_2d"},
       {"text":"火力+1　索敵+1　回避-5", "ship_class":"akatsuki_hibiki_2"},
       {"text":"火力+1　索敵+1　回避-5", "ship_class":"hatsuharu_hatsushimo_2"},
@@ -3893,6 +3985,17 @@
     {"synergy":"単体", "items":[
       {"text":"火力+2　索敵+2　回避+3", "ship_class":"amphibiousassaultship_shinshuumaru"},
       {"text":"火力+1　対潜+1　索敵+1　回避+1", "ship_class":"amphibiousassaultship_akitsumaru"}
+    ]}
+  ]},
+  {"id":"070", "type":"水上機：対潜哨戒機", "title":"三式指揮連絡機(対潜)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　対潜+1", "ship_class":"type-2tl"}
+    ]}
+  ]},
+  {"id":"451", "type":"水上機：対潜哨戒機", "title":"三式指揮連絡機改", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　対潜+3", "ship_class":"type-2tl"},
+      {"text":"火力+1　対潜+2", "ship_class":"amphibiousassaultship_akitsumaru"}
     ]}
   ]}
 ]
