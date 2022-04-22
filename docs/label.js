@@ -87,7 +87,7 @@ function generateSubLabel (subType) {
     case '潜水艦装備':
     case '回転翼機':
     case '対潜哨戒機':
-        str += 'stroke_sky';
+      str += 'stroke_sky';
       break;
     case '対空':
     case '両用':
