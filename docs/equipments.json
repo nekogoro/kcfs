@@ -3324,8 +3324,8 @@
   ]},
   {"id":"315", "type":"小型電探：両用", "title":"SG レーダー(初期型)", "bonus":[
     {"synergy":"単体", "items":[
-      {"text":"火力+3　回避+3　索敵+4　射程:長", "ship_class":"fletcher"},
-      {"text":"火力+3　回避+3　索敵+4　射程:長", "ship_class":"johncbutler"},
+      {"text":"火力+3　回避+3　索敵+4　射程+1", "ship_class":"fletcher"},
+      {"text":"火力+3　回避+3　索敵+4　射程+1", "ship_class":"johncbutler"},
       {"text":"火力+2　回避+3　索敵+4", "ship_class":"colorado"},
       {"text":"火力+2　回避+3　索敵+4", "ship_class":"iowa"},
       {"text":"火力+2　回避+3　索敵+4", "ship_class":"lexington"},
@@ -3335,8 +3335,34 @@
       {"text":"火力+2　回避+3　索敵+4", "ship_class":"atlanta"}
     ]},
     {"synergy":"単体(累積不可)", "items":[
-      {"text":"火力+2　回避+2　索敵+3　射程:長", "ship_class":"kagerou_yukikaze_danyang"},
-      {"text":"火力+2　回避+2　索敵+3　射程:長", "ship_class":"kagerou_yukikaze_2"},
+      {"text":"火力+2　回避+2　索敵+3　射程+1", "ship_class":"kagerou_yukikaze_danyang"},
+      {"text":"火力+2　回避+2　索敵+3　射程+1", "ship_class":"kagerou_yukikaze_2"},
+      {"text":"火力+1　対空+2　回避+3", "ship_class":"kagerou_akigumo_2"},
+      {"text":"火力+1　対空+2　回避+3", "ship_class":"yuugumo_okinami_2"}
+    ]}
+  ]},
+  {"id":"456", "type":"小型電探：両用", "title":"SG レーダー(後期型)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+4　回避+4　索敵+4　射程+1", "ship_class":"fletcher"},
+      {"text":"火力+4　回避+4　索敵+4　射程+1", "ship_class":"johncbutler"},
+      {"text":"火力+3　回避+4　索敵+4", "ship_class":"colorado"},
+      {"text":"火力+3　回避+4　索敵+4", "ship_class":"iowa"},
+      {"text":"火力+3　回避+4　索敵+4", "ship_class":"lexington"},
+      {"text":"火力+3　回避+4　索敵+4", "ship_class":"essex"},
+      {"text":"火力+3　回避+4　索敵+4", "ship_class":"casablanca"},
+      {"text":"火力+3　回避+4　索敵+4", "ship_class":"northampton"},
+      {"text":"火力+3　回避+4　索敵+4", "ship_class":"atlanta"},
+      {"text":"火力+2　回避+2　索敵+2", "ship_class":"nelson"},
+      {"text":"火力+2　回避+2　索敵+2", "ship_class":"queenelizabeth"},
+      {"text":"火力+2　回避+2　索敵+2", "ship_class":"arkroyal"},
+      {"text":"火力+2　回避+2　索敵+2", "ship_class":"illustrious"},
+      {"text":"火力+2　回避+2　索敵+2", "ship_class":"town"},
+      {"text":"火力+2　回避+2　索敵+2", "ship_class":"perth"},
+      {"text":"火力+2　回避+2　索敵+2", "ship_class":"hms-j"}
+    ]},
+    {"synergy":"単体(累積不可)", "items":[
+      {"text":"火力+2　回避+2　索敵+3　射程+1", "ship_class":"kagerou_yukikaze_danyang"},
+      {"text":"火力+2　回避+2　索敵+3　射程+1", "ship_class":"kagerou_yukikaze_2"},
       {"text":"火力+1　対空+2　回避+3", "ship_class":"kagerou_akigumo_2"},
       {"text":"火力+1　対空+2　回避+3", "ship_class":"yuugumo_okinami_2"}
     ]}
