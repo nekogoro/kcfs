@@ -376,6 +376,7 @@
   ]},
   {"id":"295", "type":"小口径主砲：特殊高角砲", "title":"12.7cm連装砲A型改三(戦時改修)＋高射装置", "bonus":[
     {"synergy":"単体", "items":[
+      {"text":"火力+3　対空+3　対潜+1", "ship_class":"fubuki_isonami_2"},
       {"text":"火力+2　対空+2", "ship_class":"fubuki"},
       {"text":"火力+2　対空+2", "ship_class":"ayanami"},
       {"text":"火力+2　対空+2", "ship_class":"akatsuki"}
@@ -423,8 +424,9 @@
   ]},
   {"id":"455", "type":"小口径主砲", "title":"試製 長12.7cm連装砲A型改四", "bonus":[
     {"synergy":"単体", "items":[
+      {"text":"火力+4　対空+1　対潜+1", "ship_class":"fubuki_isonami_2"},
       {"text":"火力+5　雷装+1　対空+1　対潜+1　回避+1", "ship_class":"fubuki_uranami_2"},
-      {"text":"火力+4　対空+1", "ship_class":"fubuki_uranami_2"},
+      {"text":"火力+4　対空+1", "ship_class":"fubuki_uranami"},
       {"text":"火力+3　対空+1", "ship_class":"fubuki"},
       {"text":"火力+2　対空+1", "ship_class":"ayanami"},
       {"text":"火力+2　対空+1", "ship_class":"akatsuki"}
@@ -1494,6 +1496,7 @@
     {"synergy":"単体(★0〜9, 2つまで累積可)", "items":[
       {"text":"雷装+2　回避+1", "ship_class":"fubuki_fubuki_2"},
       {"text":"雷装+2　回避+1", "ship_class":"fubuki_murakumo_2"},
+      {"text":"雷装+2　回避+1", "ship_class":"fubuki_isonami_2"},
       {"text":"雷装+2　回避+1", "ship_class":"fubuki_uranami_2"},
       {"text":"雷装+2　回避+1", "ship_class":"ayanami_ayanami_2"},
       {"text":"雷装+2　回避+1", "ship_class":"ayanami_shikinami_2"},
@@ -1508,6 +1511,7 @@
     {"synergy":"単体(★MAX, 1つ目)", "items":[
       {"text":"火力+1　雷装+3　回避+1", "ship_class":"fubuki_fubuki_2"},
       {"text":"火力+1　雷装+3　回避+1", "ship_class":"fubuki_murakumo_2"},
+      {"text":"火力+1　雷装+3　回避+1", "ship_class":"fubuki_isonami_2"},
       {"text":"火力+1　雷装+3　回避+1", "ship_class":"fubuki_uranami_2"},
       {"text":"火力+1　雷装+3　回避+1", "ship_class":"ayanami_ayanami_2"},
       {"text":"火力+1　雷装+3　回避+1", "ship_class":"ayanami_shikinami_2"},
@@ -1522,6 +1526,7 @@
     {"synergy":"単体(★MAX, 2つ目)", "items":[
       {"text":"火力+1　雷装+2　回避+1", "ship_class":"fubuki_fubuki_2"},
       {"text":"火力+1　雷装+2　回避+1", "ship_class":"fubuki_murakumo_2"},
+      {"text":"火力+1　雷装+2　回避+1", "ship_class":"fubuki_isonami_2"},
       {"text":"火力+1　雷装+2　回避+1", "ship_class":"fubuki_uranami_2"},
       {"text":"火力+1　雷装+2　回避+1", "ship_class":"ayanami_ayanami_2"},
       {"text":"火力+1　雷装+2　回避+1", "ship_class":"ayanami_shikinami_2"},
@@ -1536,6 +1541,7 @@
     {"synergy":"単体(★MAX, 3つ目)", "items":[
       {"text":"雷装+3", "ship_class":"fubuki_fubuki_2"},
       {"text":"雷装+3", "ship_class":"fubuki_murakumo_2"},
+      {"text":"雷装+3", "ship_class":"fubuki_isonami_2"},
       {"text":"雷装+3", "ship_class":"fubuki_uranami_2"},
       {"text":"雷装+3", "ship_class":"ayanami_ayanami_2"},
       {"text":"雷装+3", "ship_class":"ayanami_shikinami_2"},
@@ -4037,6 +4043,7 @@
       {"text":"火力+1　索敵+1　回避-5", "ship_class":"mutsuki_satsuki_2"},
       {"text":"火力+1　索敵+1　回避-5", "ship_class":"mutsuki_fumiduki_2"},
       {"text":"火力+1　索敵+1　回避-5", "ship_class":"mutsuki_mikaduki_1"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"fubuki_isonami_2"},
       {"text":"火力+1　索敵+1　回避-5", "ship_class":"fubuki_uranami_2"},
       {"text":"火力+1　索敵+1　回避-5", "ship_class":"ayanami_amagiri_2d"},
       {"text":"火力+1　索敵+1　回避-5", "ship_class":"akatsuki_hibiki_2"},
