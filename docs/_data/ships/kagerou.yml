@@ -23,6 +23,12 @@
 - id: oyashio_2
   name: 親潮改二
 
+- id: hayashio
+  name: 早潮 / 早潮改
+
+- id: hayashio_2
+  name: 早潮改二
+
 - id: hatsukaze
   name: 初風 / 初風改
 
