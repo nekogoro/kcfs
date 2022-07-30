@@ -2048,6 +2048,22 @@
       {"text":"雷装+2", "ship_class":"gato"}
     ]}
   ]},
+  {"id":"457", "type":"魚雷", "title":"後期型艦首魚雷(4門)", "bonus":[
+    {"synergy":"単体(累積不可,熟練聴音員＋後期型艦首魚雷(4門)と共用)", "items":[
+      {"text":"雷装+3　回避+3", "ship_class":"sentaka"},
+      {"text":"雷装+2　回避+2", "ship_class":"type-am"},
+      {"text":"雷装+2　回避+2", "ship_class":"type-c"},
+      {"text":"雷装+1　回避+4", "ship_class":"sentoku"}
+    ]}
+  ]},
+  {"id":"461", "type":"魚雷", "title":"熟練聴音員＋後期型艦首魚雷(4門)", "bonus":[
+    {"synergy":"単体(累積不可,後期型艦首魚雷(4門)と共用)", "items":[
+      {"text":"雷装+3　回避+3", "ship_class":"sentaka"},
+      {"text":"雷装+2　回避+2", "ship_class":"type-am"},
+      {"text":"雷装+2　回避+2", "ship_class":"type-c"},
+      {"text":"雷装+1　回避+4", "ship_class":"sentoku"}
+    ]}
+  ]},
   {"id":"079", "type":"水上機：水上爆撃機", "title":"瑞雲(六三四空)", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2", "ship_class":"fusou_fusou_1"},
@@ -2220,6 +2236,20 @@
       {"text":"対潜+1　索敵+1", "ship_class":"northcarolina"},
       {"text":"対潜+1　索敵+1", "ship_class":"southdakota"},
       {"text":"対潜+1　索敵+1", "ship_class":"iowa"}
+    ]}
+  ]},
+  {"id":"471", "type":"水上機：水上偵察機", "title":"Loire 130M", "bonus":[
+    {"synergy":"単体(★2)", "items":[
+      {"text":"火力+4　回避+2　命中+3", "ship_class":"richelieu"},
+      {"text":"火力+2　回避+2　命中+2", "ship_class":"commandantteste"}
+    ]},
+    {"synergy":"単体(★6)", "items":[
+      {"text":"火力+4　回避+3　命中+4", "ship_class":"richelieu"},
+      {"text":"火力+2　回避+3　命中+3", "ship_class":"commandantteste"}
+    ]},
+    {"synergy":"単体(★8)", "items":[
+      {"text":"火力+5　回避+4　命中+5", "ship_class":"richelieu"},
+      {"text":"火力+3　回避+4　命中+4", "ship_class":"commandantteste"}
     ]}
   ]},
   {"id":"194", "type":"水上機：水上爆撃機", "title":"Late 298B", "bonus":[
