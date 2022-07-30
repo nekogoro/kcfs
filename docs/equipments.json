@@ -547,6 +547,7 @@
       {"text":"火力+2（累積不可）", "ship_class":"kagerou_shiranui_2"},
       {"text":"火力+2（累積不可）", "ship_class":"kagerou_kuroshio_2"},
       {"text":"火力+2（累積不可）", "ship_class":"kagerou_oyashio_2"},
+      {"text":"火力+2（累積不可）", "ship_class":"kagerou_hayashio_2"},
       {"text":"火力+2（累積不可）", "ship_class":"kagerou_yukikaze_2"},
       {"text":"火力+1　回避+1", "ship_class":"kagerou_yukikaze_danyang"},
       {"text":"火力+1　回避+1", "ship_class":"kagerou_yukikaze_1"},
@@ -558,6 +559,7 @@
       {"text":"火力+5（累積不可）", "ship_class":"kagerou_shiranui_2"},
       {"text":"火力+5（累積不可）", "ship_class":"kagerou_kuroshio_2"},
       {"text":"火力+5（累積不可）", "ship_class":"kagerou_oyashio_2"},
+      {"text":"火力+5（累積不可）", "ship_class":"kagerou_hayashio_2"},
       {"text":"火力+5（累積不可）", "ship_class":"kagerou_yukikaze_2"}
     ]},
     {"synergy":"＋C型改二×2", "items":[
@@ -565,12 +567,72 @@
       {"text":"火力+6（累積不可）", "ship_class":"kagerou_shiranui_2"},
       {"text":"火力+6（累積不可）", "ship_class":"kagerou_kuroshio_2"},
       {"text":"火力+6（累積不可）", "ship_class":"kagerou_oyashio_2"},
+      {"text":"火力+6（累積不可）", "ship_class":"kagerou_hayashio_2"},
       {"text":"火力+6（累積不可）", "ship_class":"kagerou_yukikaze_2"}
     ]},
     {"synergy":"＋水上電探", "items":[
       {"text":"火力+1　雷装+3　回避+1", "ship_class":"shiratsuyu"},
       {"text":"火力+1　雷装+3　回避+1", "ship_class":"asashio"},
       {"text":"火力+2　雷装+3　回避+1", "ship_class":"kagerou"}
+    ]}
+  ]},
+  {"id":"470", "type":"小口径主砲", "title":"12.7cm連装砲C型改三", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+3", "ship_class":"kagerou_kagerou_2"},
+      {"text":"火力+3", "ship_class":"kagerou_shiranui_2"},
+      {"text":"火力+3", "ship_class":"kagerou_kuroshio_2"},
+      {"text":"火力+3", "ship_class":"kagerou_oyashio_2"},
+      {"text":"火力+3", "ship_class":"kagerou_hayashio_2"},
+      {"text":"火力+3　回避+2", "ship_class":"kagerou_yukikaze_2"},
+      {"text":"火力+2　回避+2", "ship_class":"kagerou_yukikaze_danyang"},
+      {"text":"火力+2　回避+2", "ship_class":"kagerou_yukikaze_1"},
+      {"text":"火力+2　回避+2", "ship_class":"kagerou_yukikaze"},
+      {"text":"火力+2　回避+2", "ship_class":"kagerou_isokaze_b1"},
+      {"text":"火力+2　回避+2", "ship_class":"shiratsuyu_shigure_2"},
+      {"text":"火力+1　回避+2", "ship_class":"shiratsuyu_shigure"},
+      {"text":"火力+2", "ship_class":"kagerou"},
+      {"text":"火力+1", "ship_class":"shiratsuyu"},
+      {"text":"火力+1", "ship_class":"asashio"}
+    ]},
+    {"synergy":"単体(★5～7)", "items":[
+      {"text":"火力+3　命中+1", "ship_class":"kagerou_kagerou_2"},
+      {"text":"火力+3　命中+1", "ship_class":"kagerou_shiranui_2"},
+      {"text":"火力+3　命中+1", "ship_class":"kagerou_kuroshio_2"},
+      {"text":"火力+3　命中+1", "ship_class":"kagerou_oyashio_2"},
+      {"text":"火力+3　命中+1", "ship_class":"kagerou_hayashio_2"},
+      {"text":"火力+3　回避+2　命中+1", "ship_class":"kagerou_yukikaze_2"},
+      {"text":"火力+2　回避+2　命中+1", "ship_class":"shiratsuyu_shigure_2"}
+    ]},
+    {"synergy":"単体(★8～9)", "items":[
+      {"text":"火力+4　命中+1", "ship_class":"kagerou_kagerou_2"},
+      {"text":"火力+4　命中+1", "ship_class":"kagerou_shiranui_2"},
+      {"text":"火力+4　命中+1", "ship_class":"kagerou_kuroshio_2"},
+      {"text":"火力+4　命中+1", "ship_class":"kagerou_oyashio_2"},
+      {"text":"火力+4　命中+1", "ship_class":"kagerou_hayashio_2"},
+      {"text":"火力+4　回避+2　命中+1", "ship_class":"kagerou_yukikaze_2"},
+      {"text":"火力+3　回避+2　命中+1", "ship_class":"shiratsuyu_shigure_2"}
+    ]},
+    {"synergy":"単体(★max)", "items":[
+      {"text":"火力+4　命中+2", "ship_class":"kagerou_kagerou_2"},
+      {"text":"火力+4　命中+2", "ship_class":"kagerou_shiranui_2"},
+      {"text":"火力+4　命中+2", "ship_class":"kagerou_kuroshio_2"},
+      {"text":"火力+4　命中+2", "ship_class":"kagerou_oyashio_2"},
+      {"text":"火力+4　命中+2", "ship_class":"kagerou_hayashio_2"},
+      {"text":"火力+4　回避+2　命中+2", "ship_class":"kagerou_yukikaze_2"},
+      {"text":"火力+2　回避+2　命中+2", "ship_class":"shiratsuyu_shigure_2"}
+    ]},
+    {"synergy":"＋C型改二", "items":[
+      {"text":"火力+2", "ship_class":"kagerou_kagerou_2"},
+      {"text":"火力+2", "ship_class":"kagerou_shiranui_2"},
+      {"text":"火力+2", "ship_class":"kagerou_kuroshio_2"},
+      {"text":"火力+2", "ship_class":"kagerou_oyashio_2"},
+      {"text":"火力+2", "ship_class":"kagerou_hayashio_2"},
+      {"text":"火力+2　回避+2", "ship_class":"kagerou_yukikaze_2"}
+    ]},
+    {"synergy":"＋水上電探", "items":[
+      {"text":"火力+1　雷装+3　回避+1　命中+1", "ship_class":"shiratsuyu"},
+      {"text":"火力+1　雷装+3　回避+1　命中+1", "ship_class":"asashio"},
+      {"text":"火力+2　雷装+3　回避+1　命中+3", "ship_class":"kagerou"}
     ]}
   ]},
   {"id":"267", "type":"小口径主砲", "title":"12.7cm連装砲D型改二", "bonus":[
@@ -589,6 +651,7 @@
       {"text":"火力+2　回避+1（累積不可）", "ship_class":"kagerou_shiranui_2"},
       {"text":"火力+2　回避+1（累積不可）", "ship_class":"kagerou_kuroshio_2"},
       {"text":"火力+2　回避+1（累積不可）", "ship_class":"kagerou_oyashio_2"},
+      {"text":"火力+2　回避+1（累積不可）", "ship_class":"kagerou_hayashio_2"},
       {"text":"火力+2　回避+1（累積不可）", "ship_class":"kagerou_yukikaze_2"},
       {"text":"火力+1　回避+1", "ship_class":"kagerou"}
     ]},
@@ -597,13 +660,15 @@
       {"text":"火力+3　回避+2（累積不可）", "ship_class":"kagerou_shiranui_2"},
       {"text":"火力+3　回避+2（累積不可）", "ship_class":"kagerou_kuroshio_2"},
       {"text":"火力+3　回避+2（累積不可）", "ship_class":"kagerou_oyashio_2"},
+      {"text":"火力+3　回避+2（累積不可）", "ship_class":"kagerou_hayashio_2"},
       {"text":"火力+3　回避+2（累積不可）", "ship_class":"kagerou_yukikaze_2"}
     ]},
     {"synergy":"＋D型改二×2", "items":[
       {"text":"火力+4　回避+3（累積不可）", "ship_class":"kagerou_kagerou_2"},
       {"text":"火力+4　回避+3（累積不可）", "ship_class":"kagerou_shiranui_2"},
       {"text":"火力+4　回避+3（累積不可）", "ship_class":"kagerou_kuroshio_2"},
-      {"text":"火力+4　回避+3（累積不可）", "ship_class":"kagerou_koyashio_2"},
+      {"text":"火力+4　回避+3（累積不可）", "ship_class":"kagerou_oyashio_2"},
+      {"text":"火力+4　回避+3（累積不可）", "ship_class":"kagerou_hayashio_2"},
       {"text":"火力+4　回避+3（累積不可）", "ship_class":"kagerou_yukikaze_2"}
     ]},
     {"synergy":"＋水上電探", "items":[
@@ -645,6 +710,7 @@
       {"text":"火力+2　対空+2　回避+1", "ship_class":"kagerou_shiranui_2"},
       {"text":"火力+2　対空+2　回避+1", "ship_class":"kagerou_kuroshio_2"},
       {"text":"火力+2　対空+2　回避+1", "ship_class":"kagerou_oyashio_2"},
+      {"text":"火力+2　対空+2　回避+1", "ship_class":"kagerou_hayashio_2"},
       {"text":"火力+2　対空+2　回避+1", "ship_class":"kagerou_yukikaze_2"},
       {"text":"火力+1　回避+1", "ship_class":"kagerou"}
     ]},
@@ -1682,6 +1748,7 @@
       {"text":"雷装+2　回避+1", "ship_class":"kagerou_shiranui_2"},
       {"text":"雷装+2　回避+1", "ship_class":"kagerou_kuroshio_2"},
       {"text":"雷装+2　回避+1", "ship_class":"kagerou_oyashio_2"},
+      {"text":"雷装+2　回避+1", "ship_class":"kagerou_hayashio_2"},
       {"text":"雷装+2　回避+1", "ship_class":"kagerou_yukikaze_danyang"},
       {"text":"雷装+2　回避+1", "ship_class":"kagerou_yukikaze_2"},
       {"text":"雷装+2　回避+1", "ship_class":"kagerou_akigumo_2"},
@@ -1698,6 +1765,7 @@
       {"text":"雷装+3　回避+1", "ship_class":"kagerou_shiranui_2"},
       {"text":"雷装+3　回避+1", "ship_class":"kagerou_kuroshio_2"},
       {"text":"雷装+3　回避+1", "ship_class":"kagerou_oyashio_2"},
+      {"text":"雷装+3　回避+1", "ship_class":"kagerou_hayashio_2"},
       {"text":"雷装+3　回避+1", "ship_class":"kagerou_yukikaze_danyang"},
       {"text":"雷装+3　回避+1", "ship_class":"kagerou_yukikaze_2"},
       {"text":"雷装+3　回避+1", "ship_class":"kagerou_akigumo_2"}
@@ -1707,6 +1775,7 @@
       {"text":"火力+1　雷装+3　回避+1", "ship_class":"kagerou_shiranui_2"},
       {"text":"火力+1　雷装+3　回避+1", "ship_class":"kagerou_kuroshio_2"},
       {"text":"火力+1　雷装+3　回避+1", "ship_class":"kagerou_oyashio_2"},
+      {"text":"火力+1　雷装+3　回避+1", "ship_class":"kagerou_hayashio_2"},
       {"text":"火力+1　雷装+3　回避+1", "ship_class":"kagerou_yukikaze_danyang"},
       {"text":"火力+1　雷装+3　回避+1", "ship_class":"kagerou_yukikaze_2"},
       {"text":"火力+1　雷装+3　回避+1", "ship_class":"kagerou_akigumo_2"},
@@ -1843,6 +1912,7 @@
       {"text":"雷装+2", "ship_class":"kagerou_shiranui_2"},
       {"text":"雷装+2", "ship_class":"kagerou_kuroshio_2"},
       {"text":"雷装+2", "ship_class":"kagerou_oyashio_2"},
+      {"text":"雷装+2", "ship_class":"kagerou_hayashio_2"},
       {"text":"雷装+2", "ship_class":"kagerou_yukikaze_danyang"},
       {"text":"雷装+2", "ship_class":"kagerou_yukikaze_2"},
       {"text":"雷装+2", "ship_class":"kagerou_akigumo_2"}
@@ -4091,6 +4161,14 @@
       {"text":"索敵+1　回避+1", "ship_class":"takao"},
       {"text":"索敵+1　回避+1", "ship_class":"mogami"},
       {"text":"索敵+1　回避+1", "ship_class":"tone"}
+    ]}
+  ]},
+  {"id":"458", "type":"その他：潜水艦装備", "title":"後期型電探＆逆探＋シュノーケル装備", "bonus":[
+    {"synergy":"単体(累積不可)", "items":[
+      {"text":"雷装+3　回避+6", "ship_class":"sentaka"},
+      {"text":"雷装+3　回避+4", "ship_class":"type-am"},
+      {"text":"雷装+3　回避+4", "ship_class":"type-c"},
+      {"text":"雷装+3　回避+3", "ship_class":"sentoku"}
     ]}
   ]},
   {"id":"408", "type":"上陸用舟艇", "title":"装甲艇(AB艇)", "bonus":[
