@@ -1095,6 +1095,60 @@
       {"text":"対空+2　回避+3　命中+1", "ship_class":"ise_hyuuga_2"}
     ]}
   ]},
+  {"id":"128", "type":"大口径主砲", "title":"試製51cm連装砲", "bonus":[
+    {"synergy":"単体(累積可)", "items":[
+      {"text":"火力+1　命中+1", "ship_class":"yamato_yamato_2"},
+      {"text":"火力+1　命中+1", "ship_class":"yamato_yamato_2h"},
+      {"text":"火力+1　命中+1", "ship_class":"yamato_musashi_2"}
+    ]},
+    {"synergy":"＋ 15m二重測距儀＋21号電探改二", "items":[
+      {"text":"火力+1　命中+2", "ship_class":"yamato_yamato_2"},
+      {"text":"火力+1　命中+2", "ship_class":"yamato_yamato_2h"},
+      {"text":"火力+1　命中+2", "ship_class":"yamato_musashi_2"},
+      {"text":"火力+1　命中+2", "ship_class":"yamato"}
+    ]},
+    {"synergy":"＋ 15m二重測距儀改＋21号電探改二＋熟練射撃指揮所", "items":[
+      {"text":"火力+1　回避+1　命中+3", "ship_class":"yamato_yamato_2"},
+      {"text":"火力+1　回避+1　命中+3", "ship_class":"yamato_yamato_2h"},
+      {"text":"火力+1　回避+1　命中+3", "ship_class":"yamato_musashi_2"},
+      {"text":"火力+1　命中+2", "ship_class":"yamato"}
+    ]}
+  ]},
+  {"id":"281", "type":"大口径主砲", "title":"51cm連装砲", "bonus":[
+    {"synergy":"単体(累積可)", "items":[
+      {"text":"火力+1　命中+1", "ship_class":"yamato_yamato_2"},
+      {"text":"火力+1　命中+1", "ship_class":"yamato_yamato_2h"},
+      {"text":"火力+1　命中+1", "ship_class":"yamato_musashi_2"}
+    ]},
+    {"synergy":"＋ 15m二重測距儀＋21号電探改二", "items":[
+      {"text":"火力+1　命中+2", "ship_class":"yamato_yamato_2"},
+      {"text":"火力+1　命中+2", "ship_class":"yamato_yamato_2h"},
+      {"text":"火力+1　命中+2", "ship_class":"yamato_musashi_2"},
+      {"text":"火力+1　命中+2", "ship_class":"yamato"}
+    ]},
+    {"synergy":"＋ 15m二重測距儀改＋21号電探改二＋熟練射撃指揮所", "items":[
+      {"text":"火力+1　回避+1　命中+3", "ship_class":"yamato_yamato_2"},
+      {"text":"火力+1　回避+1　命中+3", "ship_class":"yamato_yamato_2h"},
+      {"text":"火力+1　回避+1　命中+3", "ship_class":"yamato_musashi_2"},
+      {"text":"火力+1　命中+2", "ship_class":"yamato"}
+    ]}
+  ]},
+  {"id":"465", "type":"大口径主砲", "title":"試製51cm三連装砲", "bonus":[
+    {"synergy":"単体(累積可)", "items":[
+      {"text":"火力+2　回避+8　命中+2", "ship_class":"yamato_yamato_2h"},
+      {"text":"火力+1　回避+2　命中+1", "ship_class":"yamato_yamato_2"},
+      {"text":"火力+1　回避+2　命中+1", "ship_class":"yamato_musashi_2"}
+    ]},
+    {"synergy":"＋ 15m二重測距儀＋21号電探改二", "items":[
+      {"text":"火力+2　命中+2", "ship_class":"yamato"}
+    ]},
+    {"synergy":"＋ 15m二重測距儀改＋21号電探改二＋熟練射撃指揮所", "items":[
+      {"text":"火力+2　回避+2　命中+3", "ship_class":"yamato_yamato_2h"},
+      {"text":"火力+2　回避+1　命中+3", "ship_class":"yamato_yamato_2"},
+      {"text":"火力+2　回避+1　命中+3", "ship_class":"yamato_musashi_2"},
+      {"text":"火力+1　命中+2", "ship_class":"yamato"}
+    ]}
+  ]},
   {"id":"426", "type":"大口径主砲", "title":"305mm／46 連装砲", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+3　回避+1", "ship_class":"contedicavour"},
@@ -1265,6 +1319,7 @@
   {"id":"385", "type":"大口径主砲", "title":"16inch三連装砲 Mk.6 mod.2", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1", "ship_class":"kongou"},
+      {"text":"火力+1", "ship_class":"yamato_yamato_2"},
       {"text":"火力+1", "ship_class":"bismarck"},
       {"text":"火力+1", "ship_class":"vittorioveneto"},
       {"text":"火力+1", "ship_class":"richelieu"},
@@ -1292,6 +1347,7 @@
   {"id":"390", "type":"大口径主砲", "title":"16inch三連装砲 Mk.6＋GFCS", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1", "ship_class":"kongou"},
+      {"text":"火力+1", "ship_class":"yamato_yamato_2"},
       {"text":"火力+1", "ship_class":"bismarck"},
       {"text":"火力+1", "ship_class":"vittorioveneto"},
       {"text":"火力+1", "ship_class":"richelieu"},
@@ -3732,8 +3788,11 @@
     {"synergy":"単体", "items":[
       {"text":"火力+3", "ship_class":"kongou_kongou_2c"},
       {"text":"火力+3", "ship_class":"kongou_hiei_2c"},
+      {"text":"火力+2", "ship_class":"yamato_yamato_2h"},
+      {"text":"火力+2", "ship_class":"yamato_yamato_2"},
       {"text":"火力+2", "ship_class":"yamato_yamato_1"},
       {"text":"火力+2", "ship_class":"yamato_musashi_2"},
+      {"text":"火力+2", "ship_class":"yamato_musashi_1"},
       {"text":"火力+2", "ship_class":"nagato_nagato_2"},
       {"text":"火力+2", "ship_class":"nagato_mutsu_2"},
       {"text":"火力+1", "ship_class":"kongou"},

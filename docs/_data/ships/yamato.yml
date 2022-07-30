@@ -5,6 +5,12 @@
 - id: yamato_1
   name: 大和改
 
+- id: yamato_2
+  name: 大和改二
+
+- id: yamato_2h
+  name: 大和改二重
+
 - id: musashi
   name: 武蔵
 
