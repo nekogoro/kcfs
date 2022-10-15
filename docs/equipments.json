@@ -3755,6 +3755,78 @@
       {"text":"回避+3　対潜+2", "ship_class":"katori"}
     ]}
   ]},
+  {"id":"132", "type":"対潜装備：ソナー", "title":"零式水中聴音機", "bonus":[
+    {"synergy":"単体(累積不可)", "items":[
+      {"text":"回避+2", "ship_class":"taihou_taihou_1"},
+      {"text":"回避+2", "ship_class":"shoukaku_shoukaku_2"},
+      {"text":"回避+2", "ship_class":"shoukaku_shoukaku_2a"},
+      {"text":"回避+2", "ship_class":"shoukaku_zuikaku_2"},
+      {"text":"回避+2", "ship_class":"shoukaku_zuikaku_2a"},
+      {"text":"回避+1", "ship_class":"yamato_yamato_2"},
+      {"text":"回避+1", "ship_class":"yamato_yamato_2h"},
+      {"text":"回避+1", "ship_class":"yamato_musashi_2"}
+    ]},
+    {"synergy":"単体(★3～4,累積不可)", "items":[
+      {"text":"回避+3", "ship_class":"taihou_taihou_1"},
+      {"text":"回避+3", "ship_class":"shoukaku_shoukaku_2"},
+      {"text":"回避+3", "ship_class":"shoukaku_shoukaku_2a"},
+      {"text":"回避+3", "ship_class":"shoukaku_zuikaku_2"},
+      {"text":"回避+3", "ship_class":"shoukaku_zuikaku_2a"},
+      {"text":"回避+2", "ship_class":"yamato_yamato_2"},
+      {"text":"回避+2", "ship_class":"yamato_yamato_2h"},
+      {"text":"回避+2", "ship_class":"yamato_musashi_2"}
+    ]},
+    {"synergy":"単体(★5～6,累積不可)", "items":[
+      {"text":"対潜+1　回避+3", "ship_class":"taihou_taihou_1"},
+      {"text":"対潜+1　回避+3", "ship_class":"shoukaku_shoukaku_2"},
+      {"text":"対潜+1　回避+3", "ship_class":"shoukaku_shoukaku_2a"},
+      {"text":"対潜+1　回避+3", "ship_class":"shoukaku_zuikaku_2"},
+      {"text":"対潜+1　回避+3", "ship_class":"shoukaku_zuikaku_2a"},
+      {"text":"対潜+1　回避+2", "ship_class":"yamato_yamato_2"},
+      {"text":"対潜+1　回避+2", "ship_class":"yamato_yamato_2h"},
+      {"text":"対潜+1　回避+2", "ship_class":"yamato_musashi_2"}
+    ]},
+    {"synergy":"単体(★+7,累積不可)", "items":[
+      {"text":"対潜+1　回避+4", "ship_class":"taihou_taihou_1"},
+      {"text":"対潜+1　回避+4", "ship_class":"shoukaku_shoukaku_2"},
+      {"text":"対潜+1　回避+4", "ship_class":"shoukaku_shoukaku_2a"},
+      {"text":"対潜+1　回避+4", "ship_class":"shoukaku_zuikaku_2"},
+      {"text":"対潜+1　回避+4", "ship_class":"shoukaku_zuikaku_2a"},
+      {"text":"対潜+1　回避+3", "ship_class":"yamato_yamato_2"},
+      {"text":"対潜+1　回避+3", "ship_class":"yamato_yamato_2h"},
+      {"text":"対潜+1　回避+3", "ship_class":"yamato_musashi_2"}
+    ]},
+    {"synergy":"単体(★+8,累積不可)", "items":[
+      {"text":"対潜+2　回避+4", "ship_class":"taihou_taihou_1"},
+      {"text":"対潜+2　回避+4", "ship_class":"shoukaku_shoukaku_2"},
+      {"text":"対潜+2　回避+4", "ship_class":"shoukaku_shoukaku_2a"},
+      {"text":"対潜+2　回避+4", "ship_class":"shoukaku_zuikaku_2"},
+      {"text":"対潜+2　回避+4", "ship_class":"shoukaku_zuikaku_2a"},
+      {"text":"対潜+2　回避+3", "ship_class":"yamato_yamato_2"},
+      {"text":"対潜+2　回避+3", "ship_class":"yamato_yamato_2h"},
+      {"text":"対潜+2　回避+3", "ship_class":"yamato_musashi_2"}
+    ]},
+    {"synergy":"単体(★+9,累積不可)", "items":[
+      {"text":"対潜+2　回避+4　命中+1", "ship_class":"taihou_taihou_1"},
+      {"text":"対潜+2　回避+4　命中+1", "ship_class":"shoukaku_shoukaku_2"},
+      {"text":"対潜+2　回避+4　命中+1", "ship_class":"shoukaku_shoukaku_2a"},
+      {"text":"対潜+2　回避+4　命中+1", "ship_class":"shoukaku_zuikaku_2"},
+      {"text":"対潜+2　回避+4　命中+1", "ship_class":"shoukaku_zuikaku_2a"},
+      {"text":"対潜+2　回避+3　命中+1", "ship_class":"yamato_yamato_2"},
+      {"text":"対潜+2　回避+3　命中+1", "ship_class":"yamato_yamato_2h"},
+      {"text":"対潜+2　回避+3　命中+1", "ship_class":"yamato_musashi_2"}
+    ]},
+    {"synergy":"単体(★max,累積不可)", "items":[
+      {"text":"対潜+3　回避+4　命中+1", "ship_class":"taihou_taihou_1"},
+      {"text":"対潜+3　回避+4　命中+1", "ship_class":"shoukaku_shoukaku_2"},
+      {"text":"対潜+3　回避+4　命中+1", "ship_class":"shoukaku_shoukaku_2a"},
+      {"text":"対潜+3　回避+4　命中+1", "ship_class":"shoukaku_zuikaku_2"},
+      {"text":"対潜+3　回避+4　命中+1", "ship_class":"shoukaku_zuikaku_2a"},
+      {"text":"対潜+3　回避+3　命中+1", "ship_class":"yamato_yamato_2"},
+      {"text":"対潜+3　回避+3　命中+1", "ship_class":"yamato_yamato_2h"},
+      {"text":"対潜+3　回避+3　命中+1", "ship_class":"yamato_musashi_2"}
+    ]}
+  ]},
   {"id":"044", "type":"対潜装備：爆雷", "title":"九四式爆雷投射機", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"回避+2　対潜+3", "ship_class":"katori"}
@@ -3801,6 +3873,23 @@
       {"text":"回避+1　対潜+1", "ship_class":"hms-j"},
       {"text":"回避+1　対潜+1", "ship_class":"perth"},
       {"text":"回避+1　対潜+1", "ship_class":"town"}
+    ]}
+  ]},
+  {"id":"472", "type":"対潜装備：爆雷", "title":"Mk.32 対潜魚雷(Mk.2落射機)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"回避+1　対潜+3　命中+1", "ship_class":"johncbutler_samuel_2"},
+      {"text":"対潜+2", "ship_class":"fletcher"},
+      {"text":"対潜+2", "ship_class":"johncbutler"},
+      {"text":"対潜+2", "ship_class":"brooklyn"},
+      {"text":"対潜+2", "ship_class":"stlouis"},
+      {"text":"対潜+2", "ship_class":"atlanta"},
+      {"text":"対潜+1", "ship_class":"hms-j"},
+      {"text":"対潜+1", "ship_class":"town"},
+      {"text":"回避+1", "ship_class":"shimushu"},
+      {"text":"回避+1", "ship_class":"etorofu"},
+      {"text":"回避+1", "ship_class":"mikura"},
+      {"text":"回避+1", "ship_class":"hiburi"},
+      {"text":"回避+1", "ship_class":"type-d"}
     ]}
   ]},
   {"id":"378", "type":"対潜装備：爆雷", "title":"対潜短魚雷(試作初期型)", "bonus":[
