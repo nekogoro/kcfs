@@ -1402,6 +1402,7 @@
   {"id":"332", "type":"大口径主砲", "title":"16inch Mk.VIII連装砲改", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2　回避+1", "ship_class":"colorado_colorado_1"},
+      {"text":"火力+2　回避+1", "ship_class":"colorado_maryland_1"},
       {"text":"火力+2", "ship_class":"nelson_nelson_1"},
       {"text":"火力+2", "ship_class":"nagato_nagato_2"},
       {"text":"火力+2", "ship_class":"nagato_mutsu_2"},
@@ -3005,6 +3006,28 @@
       {"text":"火力+2　回避+1", "ship_class":"kaga_kaga_2e"}
     ]}
   ]},
+  {"id":"466", "type":"艦上攻撃機", "title":"流星改(熟練)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　命中+1", "ship_class":"akagi_akagi_1"},
+      {"text":"火力+1　命中+1", "ship_class":"kaga_kaga_1"},
+      {"text":"火力+1　命中+1", "ship_class":"hiryuu_hiryuu_1"},
+      {"text":"火力+1　命中+1", "ship_class":"souryuu_souryuu_1"},
+      {"text":"火力+1　命中+1", "ship_class":"shoukaku_shoukaku_1"},
+      {"text":"火力+1　命中+1", "ship_class":"shoukaku_zuikaku_1"},
+      {"text":"火力+1　命中+1", "ship_class":"taihou_taihou_1"},
+      {"text":"火力+2　回避+2　命中+1", "ship_class":"shoukaku_shoukaku_2"},
+      {"text":"火力+2　回避+2　命中+1", "ship_class":"shoukaku_shoukaku_2a"},
+      {"text":"火力+2　回避+2　命中+1", "ship_class":"shoukaku_zuikaku_2"},
+      {"text":"火力+2　回避+2　命中+1", "ship_class":"shoukaku_zuikaku_2a"},
+      {"text":"火力+1　回避+1　命中+2", "ship_class":"akagi_akagi_2"},
+      {"text":"火力+1　回避+1　命中+2", "ship_class":"kaga_kaga_2"},
+      {"text":"火力+1　回避+1　命中+2", "ship_class":"kaga_kaga_2g"},
+      {"text":"火力+2　回避+1　命中+2", "ship_class":"akagi_akagi_2e"},
+      {"text":"火力+2　回避+1　命中+2", "ship_class":"kaga_kaga_2e"},
+      {"text":"火力+2　回避+1　命中+2", "ship_class":"hiryuu_hiryuu_2"},
+      {"text":"火力+2　回避+1　命中+2", "ship_class":"souryuu_souryuu_2"}
+    ]}
+  ]},
   {"id":"342", "type":"艦上攻撃機", "title":"流星改(一航戦)", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1", "ship_class":"akagi_akagi_1"},
@@ -4190,6 +4213,34 @@
       {"text":"火力+1　対空+1", "ship_class":"kongou"},
       {"text":"火力+1　対空+2", "ship_class":"nagato_nagato_2"},
       {"text":"火力+2　対空+2　回避+1", "ship_class":"nagato_mutsu_2"}
+    ]}
+  ]},
+  {"id":"483", "type":"その他：対空強化弾", "title":"三式弾改二", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+4　対空+4　回避+1", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+3　対空+3　回避+2", "ship_class":"kongou_hiei_2c"},
+      {"text":"火力+3　対空+3", "ship_class":"kongou_kongou_2"},
+      {"text":"火力+3　対空+3", "ship_class":"kongou_kirishima_2"},
+      {"text":"火力+2　対空+2", "ship_class":"kongou_hiei_2"},
+      {"text":"火力+2　対空+3　回避+2", "ship_class":"kongou_haruna_2"},
+      {"text":"火力+1　対空+1", "ship_class":"kongou"},
+      {"text":"火力+2　対空+2　回避+2", "ship_class":"yamato_yamato_2"},
+      {"text":"火力+2　対空+2　回避+2", "ship_class":"yamato_yamato_2h"},
+      {"text":"火力+2　対空+2　回避+2", "ship_class":"yamato_musashi_2"},
+      {"text":"火力+1　対空+2", "ship_class":"nagato_nagato_2"},
+      {"text":"火力+1　対空+2", "ship_class":"fusou_fusou_2"},
+      {"text":"火力+1　対空+2", "ship_class":"fusou_yamashiro_2"},
+      {"text":"火力+2　対空+2　回避+1", "ship_class":"nagato_mutsu_2"},
+      {"text":"火力+1　対空+2　回避+1", "ship_class":"ise_ise_2"},
+      {"text":"火力+1　対空+2　回避+1", "ship_class":"ise_hyuuga_2"}
+    ]},
+    {"synergy":"単体(★+8)", "items":[
+      {"text":"火力+4　対空+4　回避+1　命中+1", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+3　対空+3　回避+2　命中+1", "ship_class":"kongou_hiei_2c"},
+      {"text":"火力+3　対空+3　命中+1", "ship_class":"kongou_kongou_2"},
+      {"text":"火力+3　対空+3　命中+1", "ship_class":"kongou_kirishima_2"},
+      {"text":"火力+2　対空+2　命中+1", "ship_class":"kongou_hiei_2"},
+      {"text":"火力+2　対空+3　回避+2　命中+1", "ship_class":"kongou_haruna_2"}
     ]}
   ]},
   {"id":"365", "type":"その他：対艦強化弾", "title":"一式徹甲弾改", "bonus":[
