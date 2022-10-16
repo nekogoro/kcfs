@@ -49,6 +49,8 @@
       {"text":"火力+1　対空+1", "ship_class":"etorofu"},
       {"text":"火力+1　対空+1", "ship_class":"mikura"},
       {"text":"火力+1　対空+1", "ship_class":"hiburi"},
+      {"text":"火力+1　対空+1", "ship_class":"ukuru"},
+      {"text":"火力+1　対空+1", "ship_class":"type-d"},
       {"text":"火力+2　対空+3", "ship_class":"nagara_yura_2"},
       {"text":"火力+2　対空+2", "ship_class":"nagara_kinu_2"}
     ]},
@@ -68,6 +70,8 @@
       {"text":"火力+1　回避+4", "ship_class":"etorofu"},
       {"text":"火力+1　回避+4", "ship_class":"mikura"},
       {"text":"火力+1　回避+4", "ship_class":"hiburi"},
+      {"text":"火力+1　回避+4", "ship_class":"ukuru"},
+      {"text":"火力+1　回避+4", "ship_class":"type-d"},
       {"text":"火力+3　回避+2", "ship_class":"nagara_yura_2"},
       {"text":"火力+3　回避+2", "ship_class":"nagara_kinu_2"}
     ]}
@@ -80,6 +84,8 @@
       {"text":"火力+1　対空+2", "ship_class":"etorofu"},
       {"text":"火力+1　対空+2", "ship_class":"mikura"},
       {"text":"火力+1　対空+2", "ship_class":"hiburi"},
+      {"text":"火力+1　対空+2", "ship_class":"ukuru"},
+      {"text":"火力+1　対空+2", "ship_class":"type-d"},
       {"text":"火力+3　対空+3", "ship_class":"kagerou_yukikaze_danyang"},
       {"text":"火力+3　対空+3　対潜+2　回避+3", "ship_class":"kagerou_yukikaze_2"},
       {"text":"火力+1　対空+2　対潜+2", "ship_class":"tenryuu_tenryuu_2"},
@@ -134,6 +140,8 @@
       {"text":"火力+1　回避+4", "ship_class":"etorofu"},
       {"text":"火力+1　回避+4", "ship_class":"mikura"},
       {"text":"火力+1　回避+4", "ship_class":"hiburi"},
+      {"text":"火力+1　回避+4", "ship_class":"ukuru"},
+      {"text":"火力+1　回避+4", "ship_class":"type-d"},
       {"text":"火力+3　回避+4", "ship_class":"nagara_yura_2"},
       {"text":"火力+3　回避+5", "ship_class":"yuubari"},
       {"text":"火力+3　回避+5", "ship_class":"tenryuu"},
@@ -243,6 +251,7 @@
       {"text":"対空+2　対潜+1　回避+2", "ship_class":"etorofu"},
       {"text":"対空+2　対潜+1　回避+2", "ship_class":"mikura"},
       {"text":"対空+2　対潜+1　回避+2", "ship_class":"hiburi"},
+      {"text":"対空+2　対潜+1　回避+2", "ship_class":"ukuru"},
       {"text":"対空+2　対潜+1　回避+2", "ship_class":"type-d"},
       {"text":"対空+2　回避+1", "ship_class":"kamikaze"},
       {"text":"対空+2　回避+1", "ship_class":"mutsuki"},
@@ -262,6 +271,7 @@
       {"text":"火力+2　回避+3", "ship_class":"etorofu"},
       {"text":"火力+2　回避+3", "ship_class":"mikura"},
       {"text":"火力+2　回避+3", "ship_class":"hiburi"},
+      {"text":"火力+2　回避+3", "ship_class":"ukuru"},
       {"text":"火力+2　回避+3", "ship_class":"type-d"},
       {"text":"火力+1　回避+2", "ship_class":"kamikaze"},
       {"text":"火力+1　回避+2", "ship_class":"mutsuki"},
@@ -275,6 +285,7 @@
       {"text":"対空+2　回避+3", "ship_class":"etorofu"},
       {"text":"対空+2　回避+3", "ship_class":"mikura"},
       {"text":"対空+2　回避+3", "ship_class":"hiburi"},
+      {"text":"対空+2　回避+3", "ship_class":"ukuru"},
       {"text":"対空+2　回避+3", "ship_class":"type-d"},
       {"text":"対空+1　回避+2", "ship_class":"kamikaze"},
       {"text":"対空+1　回避+2", "ship_class":"mutsuki"},
@@ -780,6 +791,7 @@
       {"text":"対空+1　回避+1", "ship_class":"etorofu"},
       {"text":"対空+1　回避+1", "ship_class":"mikura"},
       {"text":"対空+1　回避+1", "ship_class":"hiburi"},
+      {"text":"対空+1　回避+1", "ship_class":"ukuru"},
       {"text":"対空+1　回避+1", "ship_class":"type-d"}
     ]}
   ]},
@@ -1215,6 +1227,36 @@
       {"text":"火力+1　命中+2", "ship_class":"yamato"}
     ]}
   ]},
+  {"id":"245", "type":"大口径主砲", "title":"38cm四連装砲", "bonus":[
+    {"synergy":"単体(累積可)", "items":[
+      {"text":"火力+2　命中+1", "ship_class":"richelieu"}
+    ]},
+    {"synergy":"＋15.2cm三連装砲(※1,累積可)", "items":[
+      {"text":"火力+2　回避+2　命中+2", "ship_class":"richelieu"}
+    ]}
+  ]},
+  {"id":"246", "type":"大口径主砲", "title":"38cm四連装砲改", "bonus":[
+    {"synergy":"単体(累積可)", "items":[
+      {"text":"火力+2　命中+1", "ship_class":"richelieu"}
+    ]},
+    {"synergy":"＋15.2cm三連装砲(※1,累積可)", "items":[
+      {"text":"火力+2　回避+2　命中+2", "ship_class":"richelieu"}
+    ]}
+  ]},
+  {"id":"468", "type":"大口径主砲", "title":"38cm四連装砲改 deux", "bonus":[
+    {"synergy":"単体(★0〜)", "items":[
+      {"text":"火力+3　命中+1", "ship_class":"richelieu"}
+    ]},
+    {"synergy":"単体(★4〜)", "items":[
+      {"text":"火力+4　命中+2", "ship_class":"richelieu"}
+    ]},
+    {"synergy":"単体(★8〜)", "items":[
+      {"text":"火力+5　命中+3", "ship_class":"richelieu"}
+    ]},
+    {"synergy":"＋15.2cm三連装砲(※1,累積可)", "items":[
+      {"text":"火力+2　回避+2　命中+2", "ship_class":"richelieu"}
+    ]}
+  ]},
   {"id":"426", "type":"大口径主砲", "title":"305mm／46 連装砲", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+3　回避+1", "ship_class":"contedicavour"},
@@ -1360,6 +1402,7 @@
   {"id":"332", "type":"大口径主砲", "title":"16inch Mk.VIII連装砲改", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2　回避+1", "ship_class":"colorado_colorado_1"},
+      {"text":"火力+2　回避+1", "ship_class":"colorado_maryland_1"},
       {"text":"火力+2", "ship_class":"nelson_nelson_1"},
       {"text":"火力+2", "ship_class":"nagato_nagato_2"},
       {"text":"火力+2", "ship_class":"nagato_mutsu_2"},
@@ -1470,6 +1513,107 @@
       {"text":"対空+4　回避+5", "ship_class":"mogami_mogami_2s"}
     ]}
   ]},
+  {"id":"247", "type":"副砲", "title":"15.2cm三連装砲", "bonus":[
+    {"synergy":"単体(累積可)", "items":[
+      {"text":"火力+2　命中+2", "ship_class":"richelieu"},
+      {"text":"火力+2　命中+2", "ship_class":"commandantteste"}
+    ]},
+    {"synergy":"＋38cm四連装砲(※1)", "items":[
+      {"text":"火力+2　回避+2　命中+2", "ship_class":"richelieu"}
+    ]},
+    {"synergy":"＋38cm四連装砲＋15.2cm三連装砲(※1)", "items":[
+      {"text":"火力+2　回避+2　命中+2", "ship_class":"richelieu"}
+    ]},
+    {"synergy":"＋38cm四連装砲＋15.2cm三連装砲＋15.2cm三連装砲(※1)", "items":[
+      {"text":"火力+2　回避+2　命中+2", "ship_class":"richelieu"}
+    ]},
+    {"synergy":"＋38cm四連装砲改(※1)", "items":[
+      {"text":"火力+2　回避+2　命中+2", "ship_class":"richelieu"}
+    ]},
+    {"synergy":"＋38cm四連装砲改＋15.2cm三連装砲(※1)", "items":[
+      {"text":"火力+2　回避+2　命中+2", "ship_class":"richelieu"}
+    ]},
+    {"synergy":"＋38cm四連装砲改＋15.2cm三連装砲＋15.2cm三連装砲(※1)", "items":[
+      {"text":"火力+2　回避+2　命中+2", "ship_class":"richelieu"}
+    ]},
+    {"synergy":"＋38cm四連装砲改 deux(※1)", "items":[
+      {"text":"火力+2　回避+2　命中+2", "ship_class":"richelieu"}
+    ]},
+    {"synergy":"＋38cm四連装砲改 deux＋15.2cm三連装砲(※1)", "items":[
+      {"text":"火力+2　回避+2　命中+2", "ship_class":"richelieu"}
+    ]},
+    {"synergy":"＋38cm四連装砲改 deux＋15.2cm三連装砲＋15.2cm三連装砲(※1)", "items":[
+      {"text":"火力+2　回避+2　命中+2", "ship_class":"richelieu"}
+    ]}
+  ]},
+  {"id":"467", "type":"副砲：高角砲", "title":"5inch連装砲(副砲配置)集中配備", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　対空+3　回避+3", "ship_class":"colorado"},
+      {"text":"火力+1　対空+3　回避+3", "ship_class":"southdakota"},
+      {"text":"火力+1　対空+3　回避+3", "ship_class":"northcarolina"},
+      {"text":"火力+1　対空+3　回避+3", "ship_class":"iowa"},
+      {"text":"火力+1　対空+1　回避+2", "ship_class":"northampton"},
+      {"text":"火力+1　対空+1　回避+2", "ship_class":"lexington"},
+      {"text":"火力+1　対空+1　回避+2", "ship_class":"yorktown"},
+      {"text":"火力+1　対空+1　回避+2", "ship_class":"essex"},
+      {"text":"火力+1　対空+1　回避+2", "ship_class":"ranger"}
+    ]},
+    {"synergy":"＋SKレーダー", "items":[
+      {"text":"対空+2　回避+2", "ship_class":"colorado"},
+      {"text":"対空+2　回避+2", "ship_class":"southdakota"},
+      {"text":"対空+2　回避+2", "ship_class":"northcarolina"},
+      {"text":"対空+2　回避+2", "ship_class":"iowa"},
+      {"text":"対空+2　回避+2", "ship_class":"northampton"},
+      {"text":"対空+2　回避+2", "ship_class":"lexington"},
+      {"text":"対空+2　回避+2", "ship_class":"yorktown"},
+      {"text":"対空+2　回避+2", "ship_class":"essex"},
+      {"text":"対空+2　回避+2", "ship_class":"ranger"}
+    ]},
+    {"synergy":"＋ SK＋SGレーダー", "items":[
+      {"text":"火力+1　対空+3　回避+3　命中+2", "ship_class":"colorado"},
+      {"text":"火力+1　対空+3　回避+3　命中+2", "ship_class":"southdakota"},
+      {"text":"火力+1　対空+3　回避+3　命中+2", "ship_class":"northcarolina"},
+      {"text":"火力+1　対空+3　回避+3　命中+2", "ship_class":"iowa"},
+      {"text":"火力+1　対空+3　回避+3　命中+2", "ship_class":"northampton"},
+      {"text":"火力+1　対空+3　回避+3　命中+2", "ship_class":"lexington"},
+      {"text":"火力+1　対空+3　回避+3　命中+2", "ship_class":"yorktown"},
+      {"text":"火力+1　対空+3　回避+3　命中+2", "ship_class":"essex"},
+      {"text":"火力+1　対空+3　回避+3　命中+2", "ship_class":"ranger"}
+    ]},
+    {"synergy":"＋GFCS Mk.37", "items":[
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"colorado"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"southdakota"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"northcarolina"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"iowa"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"northampton"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"lexington"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"yorktown"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"essex"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"ranger"}
+    ]},
+    {"synergy":"＋SG レーダー(初期型)", "items":[
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"colorado"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"southdakota"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"northcarolina"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"iowa"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"northampton"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"lexington"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"yorktown"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"essex"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"ranger"}
+    ]},
+    {"synergy":"＋SG レーダー(後期型)", "items":[
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"colorado"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"southdakota"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"northcarolina"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"iowa"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"northampton"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"lexington"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"yorktown"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"essex"},
+      {"text":"火力+1　対空+1　回避+1　命中+2", "ship_class":"ranger"}
+    ]}
+  ]},
   {"id":"358", "type":"副砲：高角砲", "title":"5inch 単装高角砲群", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2　対空+3　回避+3", "ship_class":"brooklyn"},
@@ -1481,12 +1625,15 @@
       {"text":"火力+1　対空+1　回避+1", "ship_class":"lexington"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"yorktown"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"essex"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"ranger"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"casablanca"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"independence"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"stlouis"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"atlanta"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"queenelizabeth"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"nelson"},
-      {"text":"火力+1　対空+1　回避+1", "ship_class":"arkroyal"}
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"arkroyal"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"illustrious"}
     ]}
   ]},
   {"id":"430", "type":"副砲：高角砲", "title":"65mm／64 単装速射砲改", "bonus":[
@@ -2255,6 +2402,7 @@
   {"id":"194", "type":"水上機：水上爆撃機", "title":"Late 298B", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+1　回避+2　索敵+2", "ship_class":"richelieu_richelieu_1"},
+      {"text":"火力+1　回避+2　索敵+2", "ship_class":"richelieu_jeanbart_1"},
       {"text":"火力+3　回避+2　索敵+2", "ship_class":"commandantteste"},
       {"text":"回避+1　索敵+2", "ship_class":"mizuho"},
       {"text":"回避+1　索敵+2", "ship_class":"kamoi"},
@@ -2412,9 +2560,11 @@
       {"text":"火力+3　回避+2", "ship_class":"kaga_kaga_2e"},
       {"text":"火力+4　対潜+4　回避+3", "ship_class":"kaga_kaga_2g"},
       {"text":"火力+2　対潜+3　回避+1", "ship_class":"casablanca"},
+      {"text":"火力+2　対潜+3　回避+1", "ship_class":"independence"},
       {"text":"火力+2　対潜+3　回避+1", "ship_class":"lexington"},
       {"text":"火力+2　対潜+3　回避+1", "ship_class":"yorktown"},
-      {"text":"火力+2　対潜+3　回避+1", "ship_class":"essex"}
+      {"text":"火力+2　対潜+3　回避+1", "ship_class":"essex"},
+      {"text":"火力+2　対潜+3　回避+1", "ship_class":"ranger"}
     ]},
     {"synergy":"＋カ号観測機", "items":[
       {"text":"火力+3　対潜+6", "ship_class":"kaga_kaga_2g"}
@@ -2444,7 +2594,8 @@
       {"text":"対空+1　回避+1", "ship_class":"hiyou"},
       {"text":"対空+1　回避+1", "ship_class":"chitose-v"},
       {"text":"対空+1　回避+1", "ship_class":"mogami-v"},
-      {"text":"対空+1　回避+1", "ship_class":"casablanca"}
+      {"text":"対空+1　回避+1", "ship_class":"casablanca"},
+      {"text":"対空+1　回避+1", "ship_class":"independence"}
     ]}
   ]},
   {"id":"228", "type":"艦上戦闘機", "title":"九六式艦戦改", "bonus":[
@@ -2459,7 +2610,8 @@
       {"text":"対空+1　対潜+2　回避+1", "ship_class":"hiyou"},
       {"text":"対空+1　対潜+2　回避+1", "ship_class":"chitose-v"},
       {"text":"対空+1　対潜+2　回避+1", "ship_class":"mogami-v"},
-      {"text":"対空+1　対潜+2　回避+1", "ship_class":"casablanca"}
+      {"text":"対空+1　対潜+2　回避+1", "ship_class":"casablanca"},
+      {"text":"対空+1　対潜+2　回避+1", "ship_class":"independence"}
     ]}
   ]},
   {"id":"335", "type":"艦上戦闘機", "title":"烈風改(試製艦載型)", "bonus":[
@@ -2522,15 +2674,19 @@
       {"text":"火力+3　対空+3　対潜+3　回避+3", "ship_class":"lexington"},
       {"text":"火力+3　対空+3　対潜+3　回避+3", "ship_class":"yorktown"},
       {"text":"火力+3　対空+3　対潜+3　回避+3", "ship_class":"essex"},
+      {"text":"火力+3　対空+3　対潜+3　回避+3", "ship_class":"ranger"},
       {"text":"火力+3　対空+3　対潜+3　回避+3", "ship_class":"casablanca"},
+      {"text":"火力+3　対空+3　対潜+3　回避+3", "ship_class":"independence"},
       {"text":"火力+1　対空+1　対潜+1　回避+1", "ship_class":"kaga"}
     ]}
   ]},
   {"id":"422", "type":"艦上戦闘機", "title":"FR-1 Fireball", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+3　対空+2　回避+3", "ship_class":"casablanca"},
+      {"text":"火力+3　対空+2　回避+3", "ship_class":"independence"},
       {"text":"火力+2　対空+1　回避+1", "ship_class":"essex"},
       {"text":"火力+1　回避+1", "ship_class":"lexington"},
+      {"text":"火力+1　回避+1", "ship_class":"ranger"},
       {"text":"火力+1　回避+1", "ship_class":"yorktown"},
       {"text":"火力+1　回避+1", "ship_class":"arkroyal"},
       {"text":"火力+1　回避+1", "ship_class":"illustrious"}
@@ -2541,9 +2697,11 @@
       {"text":"火力+2　対空+3　回避+5", "ship_class":"illustrious"},
       {"text":"火力+1　対空+2　回避+3", "ship_class":"arkroyal"},
       {"text":"火力+1　対空+1　回避+2", "ship_class":"essex"},
+      {"text":"火力+1　対空+1　回避+2", "ship_class":"ranger"},
       {"text":"火力+1　対空+1　回避+2", "ship_class":"lexington"},
       {"text":"火力+1　対空+1　回避+2", "ship_class":"yorktown"},
-      {"text":"火力+1　対空+1　回避+2", "ship_class":"casablanca"}
+      {"text":"火力+1　対空+1　回避+2", "ship_class":"casablanca"},
+      {"text":"火力+1　対空+1　回避+2", "ship_class":"independence"}
     ]}  
   ]},
   {"id":"434", "type":"艦上戦闘機", "title":"Corsair Mk.II(Ace)", "bonus":[
@@ -2551,9 +2709,11 @@
       {"text":"火力+2　対空+3　回避+5", "ship_class":"illustrious"},
       {"text":"火力+1　対空+2　回避+3", "ship_class":"arkroyal"},
       {"text":"火力+1　対空+1　回避+2", "ship_class":"essex"},
+      {"text":"火力+1　対空+1　回避+2", "ship_class":"ranger"},
       {"text":"火力+1　対空+1　回避+2", "ship_class":"lexington"},
       {"text":"火力+1　対空+1　回避+2", "ship_class":"yorktown"},
-      {"text":"火力+1　対空+1　回避+2", "ship_class":"casablanca"}
+      {"text":"火力+1　対空+1　回避+2", "ship_class":"casablanca"},
+      {"text":"火力+1　対空+1　回避+2", "ship_class":"independence"}
     ]}  
   ]},
   {"id":"437", "type":"艦上戦闘機", "title":"試製 陣風", "bonus":[
@@ -2700,7 +2860,9 @@
       {"text":"火力+1", "ship_class":"lexington"},
       {"text":"火力+1", "ship_class":"yorktown"},
       {"text":"火力+1", "ship_class":"essex"},
-      {"text":"火力+1", "ship_class":"casablanca"}
+      {"text":"火力+1", "ship_class":"ranger"},
+      {"text":"火力+1", "ship_class":"casablanca"},
+      {"text":"火力+1", "ship_class":"independence"}
     ]}
   ]},
   {"id":"419", "type":"艦上爆撃機", "title":"SBD-5", "bonus":[
@@ -2708,19 +2870,25 @@
       {"text":"火力+2", "ship_class":"lexington"},
       {"text":"火力+2", "ship_class":"yorktown"},
       {"text":"火力+2", "ship_class":"essex"},
-      {"text":"火力+2", "ship_class":"casablanca"}
+      {"text":"火力+2", "ship_class":"ranger"},
+      {"text":"火力+2", "ship_class":"casablanca"},
+      {"text":"火力+2", "ship_class":"independence"}
     ]},
     {"synergy":"単体(★2〜6)", "items":[
       {"text":"火力+3", "ship_class":"lexington"},
       {"text":"火力+3", "ship_class":"yorktown"},
       {"text":"火力+3", "ship_class":"essex"},
-      {"text":"火力+3", "ship_class":"casablanca"}
+      {"text":"火力+3", "ship_class":"ranger"},
+      {"text":"火力+3", "ship_class":"casablanca"},
+      {"text":"火力+3", "ship_class":"independence"}
     ]},
     {"synergy":"単体(★7〜max)", "items":[
       {"text":"火力+4", "ship_class":"lexington"},
       {"text":"火力+4", "ship_class":"yorktown"},
       {"text":"火力+4", "ship_class":"essex"},
-      {"text":"火力+4", "ship_class":"casablanca"}
+      {"text":"火力+4", "ship_class":"ranger"},
+      {"text":"火力+4", "ship_class":"casablanca"},
+      {"text":"火力+4", "ship_class":"independence"}
     ]}
   ]},
   {"id":"420", "type":"艦上爆撃機", "title":"SB2C-3", "bonus":[
@@ -2728,16 +2896,20 @@
       {"text":"火力+2", "ship_class":"essex"},
       {"text":"火力+1", "ship_class":"lexington"},
       {"text":"火力+1", "ship_class":"yorktown"},
+      {"text":"火力+1", "ship_class":"ranger"},
       {"text":"火力+1", "ship_class":"illustrious"},
-      {"text":"火力-1　装甲-2　回避-1", "ship_class":"casablanca"}
+      {"text":"火力-1　装甲-2　回避-1", "ship_class":"casablanca"},
+      {"text":"火力-1　装甲-2　回避-1", "ship_class":"independence"}
     ]},
     {"synergy":"単体(★3〜5)", "items":[
       {"text":"火力+3", "ship_class":"essex"},
       {"text":"火力+2", "ship_class":"lexington"},
       {"text":"火力+2", "ship_class":"yorktown"},
+      {"text":"火力+2", "ship_class":"ranger"},
       {"text":"火力+2", "ship_class":"illustrious"},
       {"text":"火力+1", "ship_class":"arkroyal"},
-      {"text":"装甲-2　回避-1", "ship_class":"casablanca"}
+      {"text":"装甲-2　回避-1", "ship_class":"casablanca"},
+      {"text":"装甲-2　回避-1", "ship_class":"independence"}
     ]},
     {"synergy":"単体", "items":[
       {"text":"火力-2　装甲-2　回避-1", "ship_class":"houshou"},
@@ -2757,17 +2929,21 @@
       {"text":"火力+3", "ship_class":"essex"},
       {"text":"火力+2", "ship_class":"lexington"},
       {"text":"火力+2", "ship_class":"yorktown"},
+      {"text":"火力+2", "ship_class":"ranger"},
       {"text":"火力+2", "ship_class":"illustrious"},
       {"text":"火力+1", "ship_class":"arkroyal"},
-      {"text":"装甲-2　回避-1", "ship_class":"casablanca"}
+      {"text":"装甲-2　回避-1", "ship_class":"casablanca"},
+      {"text":"装甲-2　回避-1", "ship_class":"independence"}
     ]},
     {"synergy":"単体(★5)", "items":[
       {"text":"火力+4", "ship_class":"essex"},
       {"text":"火力+3", "ship_class":"lexington"},
       {"text":"火力+3", "ship_class":"yorktown"},
+      {"text":"火力+3", "ship_class":"ranger"},
       {"text":"火力+3", "ship_class":"illustrious"},
       {"text":"火力+2", "ship_class":"arkroyal"},
-      {"text":"火力+1　装甲-2　回避-1", "ship_class":"casablanca"}
+      {"text":"火力+1　装甲-2　回避-1", "ship_class":"casablanca"},
+      {"text":"火力+1　装甲-2　回避-1", "ship_class":"independence"}
     ]},
     {"synergy":"単体", "items":[
       {"text":"火力-2　装甲-2　回避-1", "ship_class":"houshou"},
@@ -2785,10 +2961,25 @@
   {"id":"277", "type":"艦上爆撃機", "title":"FM-2", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+2　対空+1　回避+2", "ship_class":"casablanca"},
+      {"text":"火力+1　回避+1", "ship_class":"independence"},
       {"text":"火力+1　回避+1", "ship_class":"lexington"},
       {"text":"火力+1　回避+1", "ship_class":"yorktown"},
       {"text":"火力+1　回避+1", "ship_class":"essex"},
+      {"text":"火力+1　回避+1", "ship_class":"ranger"},
       {"text":"火力+1　回避+1", "ship_class":"arkroyal"}
+    ]}
+  ]},
+  {"id":"474", "type":"艦上爆撃機", "title":"F4U-4", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+3　対空+1　回避+2", "ship_class":"casablanca_gambierbay_2"},
+      {"text":"火力+3　対空+1　回避+2", "ship_class":"independence_langley_1"},
+      {"text":"火力+2　対空+1　回避+1", "ship_class":"lexington"},
+      {"text":"火力+2　対空+1　回避+1", "ship_class":"yorktown"},
+      {"text":"火力+2　対空+1　回避+1", "ship_class":"essex"},
+      {"text":"火力+2　対空+1　回避+1", "ship_class":"ranger"},
+      {"text":"火力+2　対空+1　回避+1", "ship_class":"casablanca"},
+      {"text":"火力+2　対空+1　回避+1", "ship_class":"independence"},
+      {"text":"火力+2　対空+1　回避+1", "ship_class":"arkroyal"}
     ]}
   ]},
   {"id":"018", "type":"艦上攻撃機", "title":"流星", "bonus":[
@@ -2813,6 +3004,28 @@
       {"text":"火力+1　回避+1", "ship_class":"kaga_kaga_2g"},
       {"text":"火力+2　回避+1", "ship_class":"akagi_akagi_2e"},
       {"text":"火力+2　回避+1", "ship_class":"kaga_kaga_2e"}
+    ]}
+  ]},
+  {"id":"466", "type":"艦上攻撃機", "title":"流星改(熟練)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+1　命中+1", "ship_class":"akagi_akagi_1"},
+      {"text":"火力+1　命中+1", "ship_class":"kaga_kaga_1"},
+      {"text":"火力+1　命中+1", "ship_class":"hiryuu_hiryuu_1"},
+      {"text":"火力+1　命中+1", "ship_class":"souryuu_souryuu_1"},
+      {"text":"火力+1　命中+1", "ship_class":"shoukaku_shoukaku_1"},
+      {"text":"火力+1　命中+1", "ship_class":"shoukaku_zuikaku_1"},
+      {"text":"火力+1　命中+1", "ship_class":"taihou_taihou_1"},
+      {"text":"火力+2　回避+2　命中+1", "ship_class":"shoukaku_shoukaku_2"},
+      {"text":"火力+2　回避+2　命中+1", "ship_class":"shoukaku_shoukaku_2a"},
+      {"text":"火力+2　回避+2　命中+1", "ship_class":"shoukaku_zuikaku_2"},
+      {"text":"火力+2　回避+2　命中+1", "ship_class":"shoukaku_zuikaku_2a"},
+      {"text":"火力+1　回避+1　命中+2", "ship_class":"akagi_akagi_2"},
+      {"text":"火力+1　回避+1　命中+2", "ship_class":"kaga_kaga_2"},
+      {"text":"火力+1　回避+1　命中+2", "ship_class":"kaga_kaga_2g"},
+      {"text":"火力+2　回避+1　命中+2", "ship_class":"akagi_akagi_2e"},
+      {"text":"火力+2　回避+1　命中+2", "ship_class":"kaga_kaga_2e"},
+      {"text":"火力+2　回避+1　命中+2", "ship_class":"hiryuu_hiryuu_2"},
+      {"text":"火力+2　回避+1　命中+2", "ship_class":"souryuu_souryuu_2"}
     ]}
   ]},
   {"id":"342", "type":"艦上攻撃機", "title":"流星改(一航戦)", "bonus":[
@@ -3088,6 +3301,7 @@
       {"text":"索敵+1", "ship_class":"lexington"},
       {"text":"索敵+1", "ship_class":"yorktown"},
       {"text":"索敵+1", "ship_class":"essex"},
+      {"text":"索敵+1", "ship_class":"ranger"},
       {"text":"索敵+1", "ship_class":"arkroyal"},
       {"text":"索敵+1", "ship_class":"illustrious"},
       {"text":"索敵+1", "ship_class":"houshou"},
@@ -3100,6 +3314,7 @@
       {"text":"索敵+1", "ship_class":"taiyou_shinyou_2"},
       {"text":"索敵+1", "ship_class":"mogami-v"},
       {"text":"索敵+1", "ship_class":"casablanca"},
+      {"text":"索敵+1", "ship_class":"independence"},
       {"text":"索敵+1", "ship_class":"ise_ise_2"},
       {"text":"索敵+1", "ship_class":"ise_hyuuga_2"}
     ]},
@@ -3115,6 +3330,7 @@
       {"text":"火力+1　索敵+1", "ship_class":"lexington"},
       {"text":"火力+1　索敵+1", "ship_class":"yorktown"},
       {"text":"火力+1　索敵+1", "ship_class":"essex"},
+      {"text":"火力+1　索敵+1", "ship_class":"ranger"},
       {"text":"火力+1　索敵+1", "ship_class":"arkroyal"},
       {"text":"火力+1　索敵+1", "ship_class":"illustrious"},
       {"text":"火力+1　索敵+1", "ship_class":"houshou"},
@@ -3127,6 +3343,7 @@
       {"text":"火力+1　索敵+1", "ship_class":"taiyou_shinyou_2"},
       {"text":"火力+1　索敵+1", "ship_class":"mogami-v"},
       {"text":"火力+1　索敵+1", "ship_class":"casablanca"},
+      {"text":"火力+1　索敵+1", "ship_class":"independence"},
       {"text":"火力+1　索敵+1", "ship_class":"ise_ise_2"},
       {"text":"火力+1　索敵+1", "ship_class":"ise_hyuuga_2"}
     ]},
@@ -3142,6 +3359,7 @@
       {"text":"火力+1　索敵+2", "ship_class":"lexington"},
       {"text":"火力+1　索敵+2", "ship_class":"yorktown"},
       {"text":"火力+1　索敵+2", "ship_class":"essex"},
+      {"text":"火力+1　索敵+2", "ship_class":"ranger"},
       {"text":"火力+1　索敵+2", "ship_class":"arkroyal"},
       {"text":"火力+1　索敵+2", "ship_class":"illustrious"},
       {"text":"火力+1　索敵+2", "ship_class":"houshou"},
@@ -3154,6 +3372,7 @@
       {"text":"火力+1　索敵+2", "ship_class":"taiyou_shinyou_2"},
       {"text":"火力+1　索敵+2", "ship_class":"mogami-v"},
       {"text":"火力+1　索敵+2", "ship_class":"casablanca"},
+      {"text":"火力+1　索敵+2", "ship_class":"independence"},
       {"text":"火力+1　索敵+2", "ship_class":"ise_ise_2"},
       {"text":"火力+1　索敵+2", "ship_class":"ise_hyuuga_2"}
     ]},
@@ -3169,6 +3388,7 @@
       {"text":"火力+2　索敵+3", "ship_class":"lexington"},
       {"text":"火力+2　索敵+3", "ship_class":"yorktown"},
       {"text":"火力+2　索敵+3", "ship_class":"essex"},
+      {"text":"火力+2　索敵+3", "ship_class":"ranger"},
       {"text":"火力+2　索敵+3", "ship_class":"arkroyal"},
       {"text":"火力+2　索敵+3", "ship_class":"illustrious"},
       {"text":"火力+2　索敵+3", "ship_class":"houshou"},
@@ -3181,6 +3401,7 @@
       {"text":"火力+2　索敵+3", "ship_class":"taiyou_shinyou_2"},
       {"text":"火力+2　索敵+3", "ship_class":"mogami-v"},
       {"text":"火力+2　索敵+3", "ship_class":"casablanca"},
+      {"text":"火力+2　索敵+3", "ship_class":"independence"},
       {"text":"火力+2　索敵+3", "ship_class":"ise_ise_2"},
       {"text":"火力+2　索敵+3", "ship_class":"ise_hyuuga_2"}
     ]}
@@ -3217,7 +3438,9 @@
       {"text":"火力+1　対空+1　索敵+1　回避+1", "ship_class":"lexington"},
       {"text":"火力+1　対空+1　索敵+1　回避+1", "ship_class":"yorktown"},
       {"text":"火力+1　対空+1　索敵+1　回避+1", "ship_class":"essex"},
-      {"text":"火力+1　対空+1　索敵+1　回避+1", "ship_class":"casablanca"}
+      {"text":"火力+1　対空+1　索敵+1　回避+1", "ship_class":"ranger"},
+      {"text":"火力+1　対空+1　索敵+1　回避+1", "ship_class":"casablanca"},
+      {"text":"火力+1　対空+1　索敵+1　回避+1", "ship_class":"independence"}
     ]}
   ]},
   {"id":"033", "type":"その他：機関部強化", "title":"改良型艦本式タービン", "bonus":[
@@ -3427,6 +3650,7 @@
       {"text":"対空+1　回避+2　装甲+1", "ship_class":"etorofu"},
       {"text":"対空+1　回避+2　装甲+1", "ship_class":"mikura"},
       {"text":"対空+1　回避+2　装甲+1", "ship_class":"hiburi"},
+      {"text":"対空+1　回避+2　装甲+1", "ship_class":"ukuru"},
       {"text":"対空+1　回避+2　装甲+1", "ship_class":"type-d"},
       {"text":"火力+1　対空+2　回避+3　装甲+1", "ship_class":"ayanami_ushio_2"},
       {"text":"火力+1　対空+2　回避+3　装甲+1", "ship_class":"shiratsuyu_shigure_2"},
@@ -3471,7 +3695,9 @@
       {"text":"火力+1　対空+1　回避+1", "ship_class":"lexington"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"yorktown"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"essex"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"ranger"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"casablanca"},
+      {"text":"火力+1　対空+1　回避+1", "ship_class":"independence"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"fletcher"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"johncbutler"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"northampton"},
@@ -3491,8 +3717,11 @@
       {"text":"火力+2　回避+3　索敵+4", "ship_class":"colorado"},
       {"text":"火力+2　回避+3　索敵+4", "ship_class":"iowa"},
       {"text":"火力+2　回避+3　索敵+4", "ship_class":"lexington"},
+      {"text":"火力+2　回避+3　索敵+4", "ship_class":"yorktown"},
       {"text":"火力+2　回避+3　索敵+4", "ship_class":"essex"},
+      {"text":"火力+2　回避+3　索敵+4", "ship_class":"ranger"},
       {"text":"火力+2　回避+3　索敵+4", "ship_class":"casablanca"},
+      {"text":"火力+2　回避+3　索敵+4", "ship_class":"independence"},
       {"text":"火力+2　回避+3　索敵+4", "ship_class":"northampton"},
       {"text":"火力+2　回避+3　索敵+4", "ship_class":"atlanta"}
     ]},
@@ -3510,8 +3739,11 @@
       {"text":"火力+3　回避+4　索敵+4", "ship_class":"colorado"},
       {"text":"火力+3　回避+4　索敵+4", "ship_class":"iowa"},
       {"text":"火力+3　回避+4　索敵+4", "ship_class":"lexington"},
+      {"text":"火力+3　回避+4　索敵+4", "ship_class":"yorktown"},
       {"text":"火力+3　回避+4　索敵+4", "ship_class":"essex"},
+      {"text":"火力+3　回避+4　索敵+4", "ship_class":"ranger"},
       {"text":"火力+3　回避+4　索敵+4", "ship_class":"casablanca"},
+      {"text":"火力+3　回避+4　索敵+4", "ship_class":"independence"},
       {"text":"火力+3　回避+4　索敵+4", "ship_class":"northampton"},
       {"text":"火力+3　回避+4　索敵+4", "ship_class":"atlanta"},
       {"text":"火力+2　回避+2　索敵+2", "ship_class":"nelson"},
@@ -3534,12 +3766,16 @@
       {"text":"対空+1　回避+3　索敵+1", "ship_class":"colorado"},
       {"text":"対空+1　回避+3　索敵+1", "ship_class":"iowa"},
       {"text":"対空+1　回避+3　索敵+1", "ship_class":"lexington"},
+      {"text":"対空+1　回避+3　索敵+1", "ship_class":"yorktown"},
       {"text":"対空+1　回避+3　索敵+1", "ship_class":"essex"},
+      {"text":"対空+1　回避+3　索敵+1", "ship_class":"ranger"},
       {"text":"対空+1　回避+3　索敵+1", "ship_class":"casablanca"},
+      {"text":"対空+1　回避+3　索敵+1", "ship_class":"independence"},
       {"text":"対空+1　回避+3　索敵+1", "ship_class":"northampton"},
       {"text":"対空+1　回避+2", "ship_class":"queenelizabeth"},
       {"text":"対空+1　回避+2", "ship_class":"nelson"},
       {"text":"対空+1　回避+2", "ship_class":"arkroyal"},
+      {"text":"対空+1　回避+2", "ship_class":"illustrious"},
       {"text":"対空+1　回避+2", "ship_class":"town"},
       {"text":"対空+1　回避+1", "ship_class":"perth"}
     ]}
@@ -3549,12 +3785,16 @@
       {"text":"火力+2　対空+2　回避+3　索敵+2", "ship_class":"colorado"},
       {"text":"火力+2　対空+2　回避+3　索敵+2", "ship_class":"iowa"},
       {"text":"火力+2　対空+2　回避+3　索敵+2", "ship_class":"lexington"},
+      {"text":"火力+2　対空+2　回避+3　索敵+2", "ship_class":"yorktown"},
       {"text":"火力+2　対空+2　回避+3　索敵+2", "ship_class":"essex"},
+      {"text":"火力+2　対空+2　回避+3　索敵+2", "ship_class":"ranger"},
       {"text":"火力+2　対空+2　回避+3　索敵+2", "ship_class":"casablanca"},
+      {"text":"火力+2　対空+2　回避+3　索敵+2", "ship_class":"independence"},
       {"text":"火力+2　対空+2　回避+3　索敵+2", "ship_class":"northampton"},
       {"text":"火力+1　対空+1　回避+3　索敵+1", "ship_class":"queenelizabeth"},
       {"text":"火力+1　対空+1　回避+3　索敵+1", "ship_class":"nelson"},
       {"text":"火力+1　対空+1　回避+3　索敵+1", "ship_class":"arkroyal"},
+      {"text":"火力+1　対空+1　回避+3　索敵+1", "ship_class":"illustrious"},
       {"text":"火力+1　対空+1　回避+3　索敵+1", "ship_class":"town"},
       {"text":"火力+1　対空+1　回避+1", "ship_class":"perth"}
     ]}
@@ -3755,6 +3995,78 @@
       {"text":"回避+3　対潜+2", "ship_class":"katori"}
     ]}
   ]},
+  {"id":"132", "type":"対潜装備：ソナー", "title":"零式水中聴音機", "bonus":[
+    {"synergy":"単体(累積不可)", "items":[
+      {"text":"回避+2", "ship_class":"taihou_taihou_1"},
+      {"text":"回避+2", "ship_class":"shoukaku_shoukaku_2"},
+      {"text":"回避+2", "ship_class":"shoukaku_shoukaku_2a"},
+      {"text":"回避+2", "ship_class":"shoukaku_zuikaku_2"},
+      {"text":"回避+2", "ship_class":"shoukaku_zuikaku_2a"},
+      {"text":"回避+1", "ship_class":"yamato_yamato_2"},
+      {"text":"回避+1", "ship_class":"yamato_yamato_2h"},
+      {"text":"回避+1", "ship_class":"yamato_musashi_2"}
+    ]},
+    {"synergy":"単体(★3～4,累積不可)", "items":[
+      {"text":"回避+3", "ship_class":"taihou_taihou_1"},
+      {"text":"回避+3", "ship_class":"shoukaku_shoukaku_2"},
+      {"text":"回避+3", "ship_class":"shoukaku_shoukaku_2a"},
+      {"text":"回避+3", "ship_class":"shoukaku_zuikaku_2"},
+      {"text":"回避+3", "ship_class":"shoukaku_zuikaku_2a"},
+      {"text":"回避+2", "ship_class":"yamato_yamato_2"},
+      {"text":"回避+2", "ship_class":"yamato_yamato_2h"},
+      {"text":"回避+2", "ship_class":"yamato_musashi_2"}
+    ]},
+    {"synergy":"単体(★5～6,累積不可)", "items":[
+      {"text":"対潜+1　回避+3", "ship_class":"taihou_taihou_1"},
+      {"text":"対潜+1　回避+3", "ship_class":"shoukaku_shoukaku_2"},
+      {"text":"対潜+1　回避+3", "ship_class":"shoukaku_shoukaku_2a"},
+      {"text":"対潜+1　回避+3", "ship_class":"shoukaku_zuikaku_2"},
+      {"text":"対潜+1　回避+3", "ship_class":"shoukaku_zuikaku_2a"},
+      {"text":"対潜+1　回避+2", "ship_class":"yamato_yamato_2"},
+      {"text":"対潜+1　回避+2", "ship_class":"yamato_yamato_2h"},
+      {"text":"対潜+1　回避+2", "ship_class":"yamato_musashi_2"}
+    ]},
+    {"synergy":"単体(★+7,累積不可)", "items":[
+      {"text":"対潜+1　回避+4", "ship_class":"taihou_taihou_1"},
+      {"text":"対潜+1　回避+4", "ship_class":"shoukaku_shoukaku_2"},
+      {"text":"対潜+1　回避+4", "ship_class":"shoukaku_shoukaku_2a"},
+      {"text":"対潜+1　回避+4", "ship_class":"shoukaku_zuikaku_2"},
+      {"text":"対潜+1　回避+4", "ship_class":"shoukaku_zuikaku_2a"},
+      {"text":"対潜+1　回避+3", "ship_class":"yamato_yamato_2"},
+      {"text":"対潜+1　回避+3", "ship_class":"yamato_yamato_2h"},
+      {"text":"対潜+1　回避+3", "ship_class":"yamato_musashi_2"}
+    ]},
+    {"synergy":"単体(★+8,累積不可)", "items":[
+      {"text":"対潜+2　回避+4", "ship_class":"taihou_taihou_1"},
+      {"text":"対潜+2　回避+4", "ship_class":"shoukaku_shoukaku_2"},
+      {"text":"対潜+2　回避+4", "ship_class":"shoukaku_shoukaku_2a"},
+      {"text":"対潜+2　回避+4", "ship_class":"shoukaku_zuikaku_2"},
+      {"text":"対潜+2　回避+4", "ship_class":"shoukaku_zuikaku_2a"},
+      {"text":"対潜+2　回避+3", "ship_class":"yamato_yamato_2"},
+      {"text":"対潜+2　回避+3", "ship_class":"yamato_yamato_2h"},
+      {"text":"対潜+2　回避+3", "ship_class":"yamato_musashi_2"}
+    ]},
+    {"synergy":"単体(★+9,累積不可)", "items":[
+      {"text":"対潜+2　回避+4　命中+1", "ship_class":"taihou_taihou_1"},
+      {"text":"対潜+2　回避+4　命中+1", "ship_class":"shoukaku_shoukaku_2"},
+      {"text":"対潜+2　回避+4　命中+1", "ship_class":"shoukaku_shoukaku_2a"},
+      {"text":"対潜+2　回避+4　命中+1", "ship_class":"shoukaku_zuikaku_2"},
+      {"text":"対潜+2　回避+4　命中+1", "ship_class":"shoukaku_zuikaku_2a"},
+      {"text":"対潜+2　回避+3　命中+1", "ship_class":"yamato_yamato_2"},
+      {"text":"対潜+2　回避+3　命中+1", "ship_class":"yamato_yamato_2h"},
+      {"text":"対潜+2　回避+3　命中+1", "ship_class":"yamato_musashi_2"}
+    ]},
+    {"synergy":"単体(★max,累積不可)", "items":[
+      {"text":"対潜+3　回避+4　命中+1", "ship_class":"taihou_taihou_1"},
+      {"text":"対潜+3　回避+4　命中+1", "ship_class":"shoukaku_shoukaku_2"},
+      {"text":"対潜+3　回避+4　命中+1", "ship_class":"shoukaku_shoukaku_2a"},
+      {"text":"対潜+3　回避+4　命中+1", "ship_class":"shoukaku_zuikaku_2"},
+      {"text":"対潜+3　回避+4　命中+1", "ship_class":"shoukaku_zuikaku_2a"},
+      {"text":"対潜+3　回避+3　命中+1", "ship_class":"yamato_yamato_2"},
+      {"text":"対潜+3　回避+3　命中+1", "ship_class":"yamato_yamato_2h"},
+      {"text":"対潜+3　回避+3　命中+1", "ship_class":"yamato_musashi_2"}
+    ]}
+  ]},
   {"id":"044", "type":"対潜装備：爆雷", "title":"九四式爆雷投射機", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"回避+2　対潜+3", "ship_class":"katori"}
@@ -3803,6 +4115,24 @@
       {"text":"回避+1　対潜+1", "ship_class":"town"}
     ]}
   ]},
+  {"id":"472", "type":"対潜装備：爆雷", "title":"Mk.32 対潜魚雷(Mk.2落射機)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"回避+1　対潜+3　命中+1", "ship_class":"johncbutler_samuel_2"},
+      {"text":"対潜+2", "ship_class":"fletcher"},
+      {"text":"対潜+2", "ship_class":"johncbutler"},
+      {"text":"対潜+2", "ship_class":"brooklyn"},
+      {"text":"対潜+2", "ship_class":"stlouis"},
+      {"text":"対潜+2", "ship_class":"atlanta"},
+      {"text":"対潜+1", "ship_class":"hms-j"},
+      {"text":"対潜+1", "ship_class":"town"},
+      {"text":"回避+1", "ship_class":"shimushu"},
+      {"text":"回避+1", "ship_class":"etorofu"},
+      {"text":"回避+1", "ship_class":"mikura"},
+      {"text":"回避+1", "ship_class":"hiburi"},
+      {"text":"回避+1", "ship_class":"ukuru"},
+      {"text":"回避+1", "ship_class":"type-d"}
+    ]}
+  ]},
   {"id":"378", "type":"対潜装備：爆雷", "title":"対潜短魚雷(試作初期型)", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"回避+2　対潜+4", "ship_class":"fletcher_fletcher_2"},
@@ -3832,6 +4162,7 @@
       {"text":"回避+1　対潜+2", "ship_class":"etorofu"},
       {"text":"回避+1　対潜+2", "ship_class":"mikura"},
       {"text":"回避+1　対潜+2", "ship_class":"hiburi"},
+      {"text":"回避+1　対潜+2", "ship_class":"ukuru"},
       {"text":"回避+1　対潜+2", "ship_class":"type-d"},
       {"text":"回避+1　対潜+1", "ship_class":"tenryuu"},
       {"text":"回避+1　対潜+1", "ship_class":"kuma"},
@@ -3882,6 +4213,34 @@
       {"text":"火力+1　対空+1", "ship_class":"kongou"},
       {"text":"火力+1　対空+2", "ship_class":"nagato_nagato_2"},
       {"text":"火力+2　対空+2　回避+1", "ship_class":"nagato_mutsu_2"}
+    ]}
+  ]},
+  {"id":"483", "type":"その他：対空強化弾", "title":"三式弾改二", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+4　対空+4　回避+1", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+3　対空+3　回避+2", "ship_class":"kongou_hiei_2c"},
+      {"text":"火力+3　対空+3", "ship_class":"kongou_kongou_2"},
+      {"text":"火力+3　対空+3", "ship_class":"kongou_kirishima_2"},
+      {"text":"火力+2　対空+2", "ship_class":"kongou_hiei_2"},
+      {"text":"火力+2　対空+3　回避+2", "ship_class":"kongou_haruna_2"},
+      {"text":"火力+1　対空+1", "ship_class":"kongou"},
+      {"text":"火力+2　対空+2　回避+2", "ship_class":"yamato_yamato_2"},
+      {"text":"火力+2　対空+2　回避+2", "ship_class":"yamato_yamato_2h"},
+      {"text":"火力+2　対空+2　回避+2", "ship_class":"yamato_musashi_2"},
+      {"text":"火力+1　対空+2", "ship_class":"nagato_nagato_2"},
+      {"text":"火力+1　対空+2", "ship_class":"fusou_fusou_2"},
+      {"text":"火力+1　対空+2", "ship_class":"fusou_yamashiro_2"},
+      {"text":"火力+2　対空+2　回避+1", "ship_class":"nagato_mutsu_2"},
+      {"text":"火力+1　対空+2　回避+1", "ship_class":"ise_ise_2"},
+      {"text":"火力+1　対空+2　回避+1", "ship_class":"ise_hyuuga_2"}
+    ]},
+    {"synergy":"単体(★+8)", "items":[
+      {"text":"火力+4　対空+4　回避+1　命中+1", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+3　対空+3　回避+2　命中+1", "ship_class":"kongou_hiei_2c"},
+      {"text":"火力+3　対空+3　命中+1", "ship_class":"kongou_kongou_2"},
+      {"text":"火力+3　対空+3　命中+1", "ship_class":"kongou_kirishima_2"},
+      {"text":"火力+2　対空+2　命中+1", "ship_class":"kongou_hiei_2"},
+      {"text":"火力+2　対空+3　回避+2　命中+1", "ship_class":"kongou_haruna_2"}
     ]}
   ]},
   {"id":"365", "type":"その他：対艦強化弾", "title":"一式徹甲弾改", "bonus":[
@@ -3935,6 +4294,7 @@
       {"text":"対空+2　回避+2　装甲+1", "ship_class":"queenelizabeth"},
       {"text":"対空+2　回避+2　装甲+1", "ship_class":"nelson"},
       {"text":"対空+2　回避+2　装甲+1", "ship_class":"arkroyal"},
+      {"text":"対空+2　回避+2　装甲+1", "ship_class":"illustrious"},
       {"text":"対空+2　回避+2　装甲+1", "ship_class":"hms-j"},
       {"text":"対空+2　回避+2　装甲+1", "ship_class":"town"}
     ]}

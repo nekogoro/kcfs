@@ -32,6 +32,9 @@
 - id: essex
   name: Essex級
 
+- id: ranger
+  name: Ranger級
+
 - id: yorktown
   name: Yorktown級
 

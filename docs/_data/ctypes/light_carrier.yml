@@ -29,5 +29,8 @@
 - id: mogami-v
   name: 最上型
 
+- id: independence
+  name: Independence級
+
 - id: casablanca
-  name: Casablanca型
+  name: Casablanca級
