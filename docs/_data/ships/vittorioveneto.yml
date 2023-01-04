@@ -6,4 +6,7 @@
   name: Italia
 
 - id: roma
-  name: Roma / Roma改
+  name: Roma
+
+- id: roma_1
+  name: Roma改

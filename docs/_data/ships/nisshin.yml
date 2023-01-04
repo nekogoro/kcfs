@@ -1,6 +1,9 @@
 
 - id: nisshin
-  name: 日進 / 日進改
+  name: 日進
+
+- id: nisshin_1
+  name: 日進改
 
 - id: nisshin_a
   name: 日進甲
