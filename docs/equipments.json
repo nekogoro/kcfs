@@ -4587,7 +4587,12 @@
       {"text":"火力+1　索敵+1　回避-5", "ship_class":"asashio_arare_2"},
       {"text":"火力+1　索敵+1　回避-5", "ship_class":"asashio_kasumi_2"},
       {"text":"火力+1　索敵+1　回避-5", "ship_class":"asashio_kasumi_2b"},
-      {"text":"火力+1　索敵+1　回避-5", "ship_class":"yuugumo_makigumo_2"}
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"kagerou_hayashio_1"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"kagerou_hayashio_2"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"kagerou_tanikaze_d1"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"yuugumo_makigumo_2"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"yuugumo_tamanami_1"},
+      {"text":"火力+1　索敵+1　回避-5", "ship_class":"matsu_ume_1"}
     ]}
   ]},
   {"id":"409", "type":"上陸用舟艇", "title":"武装大発", "bonus":[

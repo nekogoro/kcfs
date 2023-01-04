@@ -24,7 +24,10 @@
   name: 親潮改二
 
 - id: hayashio
-  name: 早潮 / 早潮改
+  name: 早潮
+  
+- id: hayashio_1
+  name: 早潮改
 
 - id: hayashio_2
   name: 早潮改二
