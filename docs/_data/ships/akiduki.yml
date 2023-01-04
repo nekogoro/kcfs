@@ -1,15 +1,30 @@
 
 - id: akiduki
-  name: 秋月 / 秋月改
+  name: 秋月
+
+- id: akiduki_1
+  name: 秋月改
 
 - id: teruduki
-  name: 照月 / 照月改
+  name: 照月
+
+- id: teruduki_1
+  name: 照月改
 
 - id: suzutsuki
-  name: 涼月 / 涼月改
+  name: 涼月
+
+- id: suzutsuki_1
+  name: 涼月改
 
 - id: hatsutsuki
-  name: 初月 / 初月改
+  name: 初月
+
+- id: hatsutsuki_1
+  name: 初月改
 
 - id: fuyutsuki
-  name: 冬月 / 冬月改
+  name: 冬月
+
+- id: fuyutsuki_1
+  name: 冬月改

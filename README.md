@@ -36,3 +36,4 @@ KanColle Fit-gun Sort
 |浜風乙改|kagerou_hamakaze_b1|「乙」と「改」の位置を反映|
 |鈴谷航改二|mogami-v_suzuya_v2|`航=v`(暫定), `mogami`(重巡) と `mogami-v`(軽空母)は区別する(暫定)|
 |加賀改二護|kaga_kaga_2g|`護=g`(暫定、`g` stands for goei or guard)|
+|鳳翔改二戦|houshou_houshou_2f|`戦=f`(force)|
