@@ -2268,8 +2268,8 @@
       {"text":"火力+2", "ship_class":"fusou_yamashiro_2"},
       {"text":"火力+3　回避+1", "ship_class":"ise_ise_1"},
       {"text":"火力+3　回避+1", "ship_class":"ise_hyuuga_1"},
-      {"text":"火力+4　回避+2", "ship_class":"ise_ise_2"},
-      {"text":"火力+4　回避+2", "ship_class":"ise_hyuuga_2"},
+      {"text":"火力+7　対空+1　回避+4", "ship_class":"ise_ise_2"},
+      {"text":"火力+7　対空+1　回避+4", "ship_class":"ise_hyuuga_2"},
       {"text":"火力+4　対潜+1　回避+2　(累積不可)", "ship_class":"agano_noshiro_2"},
       {"text":"火力+4　対空+1　対潜+1　回避+2", "ship_class":"agano_yahagi_2"},
       {"text":"火力+4　対空+1　対潜+1　回避+2", "ship_class":"agano_yahagi_2b"},
@@ -2282,8 +2282,8 @@
   ]},
   {"id":"322", "type":"水上機：水上爆撃機", "title":"瑞雲改二(六三四空)", "bonus":[
     {"synergy":"単体", "items":[
-      {"text":"火力+5　対空+2　対潜+1　回避+2", "ship_class":"ise_ise_2"},
-      {"text":"火力+5　対空+2　対潜+1　回避+2", "ship_class":"ise_hyuuga_2"},
+      {"text":"火力+8　対空+3　対潜+1　回避+4", "ship_class":"ise_ise_2"},
+      {"text":"火力+8　対空+3　対潜+1　回避+4", "ship_class":"ise_hyuuga_2"},
       {"text":"火力+4　対潜+1　回避+2　(累積不可)", "ship_class":"agano_noshiro_2"},
       {"text":"火力+4　対空+1　対潜+1　回避+2", "ship_class":"agano_yahagi_2"},
       {"text":"火力+4　対空+1　対潜+1　回避+2", "ship_class":"agano_yahagi_2b"},
@@ -2296,8 +2296,22 @@
   ]},
   {"id":"323", "type":"水上機：水上爆撃機", "title":"瑞雲改二(六三四空／熟練)", "bonus":[
     {"synergy":"単体", "items":[
-      {"text":"火力+6　対空+3　対潜+2　回避+3", "ship_class":"ise_ise_2"},
-      {"text":"火力+6　対空+3　対潜+2　回避+3", "ship_class":"ise_hyuuga_2"},
+      {"text":"火力+9　対空+4　対潜+2　回避+5", "ship_class":"ise_ise_2"},
+      {"text":"火力+9　対空+4　対潜+2　回避+5", "ship_class":"ise_hyuuga_2"},
+      {"text":"火力+4　対潜+1　回避+2　(累積不可)", "ship_class":"agano_noshiro_2"},
+      {"text":"火力+4　対空+1　対潜+1　回避+2", "ship_class":"agano_yahagi_2"},
+      {"text":"火力+4　対空+1　対潜+1　回避+2", "ship_class":"agano_yahagi_2b"},
+      {"text":"火力+4　対空+1　回避+3", "ship_class":"mogami_mogami_2"},
+      {"text":"火力+4　対空+1　回避+3", "ship_class":"mogami_mogami_2s"}
+    ]},
+    {"synergy":"＋その他水上爆撃機(日本)", "items":[
+      {"text":"火力+6　対潜+1　回避+3", "ship_class":"agano_noshiro_2"}
+    ]}
+  ]},
+  {"id":"490", "type":"水上機：水上爆撃機", "title":"試製 夜間瑞雲(攻撃装備)", "bonus":[
+    {"synergy":"単体", "items":[
+      {"text":"火力+3　対空+1　回避+2", "ship_class":"ise_ise_2"},
+      {"text":"火力+3　対空+1　回避+2", "ship_class":"ise_hyuuga_2"},
       {"text":"火力+4　対潜+1　回避+2　(累積不可)", "ship_class":"agano_noshiro_2"},
       {"text":"火力+4　対空+1　対潜+1　回避+2", "ship_class":"agano_yahagi_2"},
       {"text":"火力+4　対空+1　対潜+1　回避+2", "ship_class":"agano_yahagi_2b"},
