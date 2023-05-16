@@ -5809,7 +5809,7 @@
       {"text":"対空+1", "ship_class":"lighthousetender"},
       {"text":"対空+1", "ship_class":"auxiliaryicebreaker"},
       {"text":"対空+1", "ship_class":"type-2tl"},
-      {"text":"対空+1", "ship_class":"2ndclasstransporter_no-101-transportship_1"}
+      {"text":"対空+1", "ship_class":"2ndclasstransporter_no-101_1"}
     ]}
   ]},
   {"id":"268", "type":"その他", "title":"北方迷彩(＋北方装備)", "bonus":[
