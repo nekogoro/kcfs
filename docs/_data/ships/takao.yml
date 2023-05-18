@@ -3,7 +3,10 @@
   name: 高雄 / 高雄改
 
 - id: atago
-  name: 愛宕 / 愛宕改
+  name: 愛宕
+
+- id: atago_1
+  name: 愛宕改
 
 - id: maya
   name: 摩耶 / 摩耶改

@@ -9,7 +9,10 @@
   name: Fletcher Mk.II
 
 - id: johnston
-  name: Johnston / Johnston改
+  name: Johnston
+
+- id: johnston_1
+  name: Johnston改
 
 - id: heywoodle
   name: Heywood L.E. / Heywood L.E.改
