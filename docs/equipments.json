@@ -1159,15 +1159,199 @@
       {"text":"火力+2　回避+2", "ship_class":"town"}
     ]}
   ]},
+    {"id":"502", "type":"大口径主砲", "title":"35.6cm連装砲改三(ダズル迷彩仕様)", "bonus":[
+      {"synergy":"単体(★+0)", "items":[
+        {"text":"火力+5　対空+4　回避+3", "ship_class":"kongou_haruna_2b"},
+        {"text":"火力+3　対空+3　回避+3", "ship_class":"kongou_haruna_2c"}
+      ]},
+      {"synergy":"単体(★+0〜?)", "items":[
+        {"text":"火力+2　対空+1", "ship_class":"kongou_kongou_2"},
+        {"text":"火力+2　対空+1", "ship_class":"kongou_hiei_2"}
+      ]},
+      {"synergy":"単体(★+0〜1)", "items":[
+        {"text":"火力+2　対空+2　回避+1", "ship_class":"kongou_haruna_2"}
+      ]},
+      {"synergy":"単体(★+0〜3)", "items":[
+        {"text":"火力+2　対空+1　回避+1", "ship_class":"kongou_kongou_2c"}
+      ]},
+      {"synergy":"単体(★+0〜4)", "items":[
+        {"text":"火力+2　対空+1", "ship_class":"kongou_hiei_2c"},
+        {"text":"火力+2　対空+1", "ship_class":"kongou_kirishima_2"}
+      ]},
+      {"synergy":"単体(★+1〜2)", "items":[
+        {"text":"火力+5　対空+4　回避+4", "ship_class":"kongou_haruna_2b"},
+        {"text":"火力+3　対空+3　回避+4", "ship_class":"kongou_haruna_2c"}
+      ]},
+      {"synergy":"単体(★+3〜4)", "items":[
+        {"text":"火力+5　対空+5　回避+4", "ship_class":"kongou_haruna_2b"},
+        {"text":"火力+3　対空+4　回避+4", "ship_class":"kongou_haruna_2c"}
+      ]},
+      {"synergy":"単体(★+5〜6)", "items":[
+        {"text":"火力+6　対空+5　回避+4", "ship_class":"kongou_haruna_2b"},
+        {"text":"火力+4　対空+4　回避+4", "ship_class":"kongou_haruna_2c"}
+      ]},
+      {"synergy":"単体(★+5〜7)", "items":[
+        {"text":"火力+2　対空+1　回避+1", "ship_class":"kongou_hiei_2c"},
+        {"text":"火力+2　対空+1　回避+1", "ship_class":"kongou_kirishima_2"}
+      ]},
+      {"synergy":"単体(★+7)", "items":[
+        {"text":"火力+6　対空+5　回避+5", "ship_class":"kongou_haruna_2b"},
+        {"text":"火力+4　対空+4　回避+5", "ship_class":"kongou_haruna_2c"}
+      ]},
+      {"synergy":"単体(★+8)", "items":[
+        {"text":"火力+6　対空+6　回避+5", "ship_class":"kongou_haruna_2b"},
+        {"text":"火力+4　対空+5　回避+5", "ship_class":"kongou_haruna_2c"}
+      ]},
+      {"synergy":"単体(★+9)", "items":[
+        {"text":"火力+7　対空+6　回避+5", "ship_class":"kongou_haruna_2b"},
+        {"text":"火力+5　対空+5　回避+5", "ship_class":"kongou_haruna_2c"}
+      ]},
+      {"synergy":"単体(★+2〜3)", "items":[
+        {"text":"火力+2　対空+2　回避+2", "ship_class":"kongou_haruna_2"}
+      ]},
+      {"synergy":"単体(★+4〜5)", "items":[
+        {"text":"火力+2　対空+3　回避+2", "ship_class":"kongou_haruna_2"},
+        {"text":"火力+2　対空+2　回避+1", "ship_class":"kongou_kongou_2c"}
+      ]},
+      {"synergy":"単体(★+6〜7)", "items":[
+        {"text":"火力+3　対空+3　回避+2", "ship_class":"kongou_haruna_2"},
+        {"text":"火力+3　対空+2　回避+1", "ship_class":"kongou_kongou_2c"}
+      ]},
+      {"synergy":"単体(★+8〜9)", "items":[
+        {"text":"火力+3　対空+3　回避+3", "ship_class":"kongou_haruna_2"},
+        {"text":"火力+3　対空+2　回避+2", "ship_class":"kongou_kongou_2c"},
+        {"text":"火力+3　対空+1　回避+1", "ship_class":"kongou_hiei_2c"},
+        {"text":"火力+3　対空+1　回避+1", "ship_class":"kongou_kirishima_2"}
+      ]},
+      {"synergy":"単体(★max)", "items":[
+        {"text":"火力+7　対空+7　回避+5", "ship_class":"kongou_haruna_2b"},
+        {"text":"火力+5　対空+6　回避+5", "ship_class":"kongou_haruna_2c"},
+        {"text":"火力+3　対空+4　回避+3", "ship_class":"kongou_haruna_2"},
+        {"text":"火力+3　対空+3　回避+2", "ship_class":"kongou_kongou_2c"},
+        {"text":"火力+3　対空+2　回避+1", "ship_class":"kongou_hiei_2c"},
+        {"text":"火力+3　対空+2　回避+1", "ship_class":"kongou_kirishima_2"}
+      ]},
+      {"synergy":"＋42号対空電探改二(★+0〜1)", "items":[
+        {"text":"対空+2", "ship_class":"kongou_haruna_2b"},
+        {"text":"対空+2", "ship_class":"kongou_haruna_2c"},
+        {"text":"対空+2", "ship_class":"kongou_haruna_2"}
+      ]},
+      {"synergy":"＋42号対空電探改二(★+2〜?)", "items":[
+        {"text":"火力+1　対空+2", "ship_class":"kongou_haruna_2b"},
+        {"text":"火力+1　対空+2", "ship_class":"kongou_haruna_2c"},
+        {"text":"火力+1　対空+2", "ship_class":"kongou_haruna_2"}
+      ]},
+      {"synergy":"＋42号対空電探改二(★+4〜?)", "items":[
+        {"text":"火力+1　対空+2　回避+1", "ship_class":"kongou_haruna_2b"},
+        {"text":"火力+1　対空+2　回避+1", "ship_class":"kongou_haruna_2c"},
+        {"text":"火力+1　対空+2　回避+1", "ship_class":"kongou_haruna_2"}
+      ]},
+      {"synergy":"＋42号対空電探改二(★+6〜?)", "items":[
+        {"text":"火力+1　対空+2　回避+1　命中+1", "ship_class":"kongou_haruna_2b"},
+        {"text":"火力+1　対空+2　回避+1　命中+1", "ship_class":"kongou_haruna_2c"},
+        {"text":"火力+1　対空+2　回避+1　命中+1", "ship_class":"kongou_haruna_2"}
+      ]},
+      {"synergy":"＋42号対空電探改二(★max)", "items":[
+        {"text":"火力+2　対空+3　回避+1　命中+1", "ship_class":"kongou_haruna_2b"},
+        {"text":"火力+2　対空+3　回避+1　命中+1", "ship_class":"kongou_haruna_2c"},
+        {"text":"火力+2　対空+3　回避+1　命中+1", "ship_class":"kongou_haruna_2"}
+      ]},
+      {"synergy":"＋21号対空電探改二", "items":[
+        {"text":"対空+1", "ship_class":"kongou_haruna_2b"},
+        {"text":"対空+1", "ship_class":"kongou_haruna_2c"}
+      ]},
+      {"synergy":"＋水上電探", "items":[
+        {"text":"火力+3　回避+4", "ship_class":"kongou_haruna_2b"},
+        {"text":"火力+2　回避+2", "ship_class":"kongou_haruna_2c"},
+        {"text":"火力+2　回避+2", "ship_class":"kongou_haruna_2"},
+        {"text":"火力+2　回避+2", "ship_class":"kongou_kongou_2c"},
+        {"text":"火力+2　回避+2", "ship_class":"kongou_kongou_2"}
+      ]}
+   ]},
   {"id":"289", "type":"大口径主砲", "title":"35.6cm三連装砲改(ダズル迷彩仕様)", "bonus":[
-    {"synergy":"単体", "items":[
-      {"text":"火力+2　対空+1", "ship_class":"kongou_kongou_2"},
-      {"text":"火力+2　対空+2　回避+2", "ship_class":"kongou_haruna_2"},
+    {"synergy":"単体(★+0)", "items":[
+      {"text":"火力+2　対空+2　回避+2", "ship_class":"kongou_haruna_2b"},
+      {"text":"火力+2　対空+2　回避+2", "ship_class":"kongou_haruna_2c"},
+      {"text":"火力+2　対空+2　回避+2", "ship_class":"kongou_haruna_2"}
+    ]},
+    {"synergy":"単体(★+1〜2)", "items":[
+      {"text":"火力+2　対空+2　回避+3", "ship_class":"kongou_haruna_2b"},
+      {"text":"火力+2　対空+2　回避+3", "ship_class":"kongou_haruna_2c"},
+      {"text":"火力+2　対空+2　回避+3", "ship_class":"kongou_haruna_2"}
+    ]},
+    {"synergy":"単体(★+3〜4)", "items":[
+      {"text":"火力+2　対空+3　回避+3", "ship_class":"kongou_haruna_2b"},
+      {"text":"火力+2　対空+3　回避+3", "ship_class":"kongou_haruna_2c"},
+      {"text":"火力+2　対空+3　回避+3", "ship_class":"kongou_haruna_2"}
+    ]},
+    {"synergy":"単体(★+5〜6)", "items":[
+      {"text":"火力+3　対空+3　回避+3", "ship_class":"kongou_haruna_2b"},
+      {"text":"火力+3　対空+3　回避+3", "ship_class":"kongou_haruna_2c"},
+      {"text":"火力+3　対空+3　回避+3", "ship_class":"kongou_haruna_2"}
+    ]},
+    {"synergy":"単体(★+7)", "items":[
+      {"text":"火力+3　対空+3　回避+4", "ship_class":"kongou_haruna_2b"},
+      {"text":"火力+3　対空+3　回避+4", "ship_class":"kongou_haruna_2c"},
+      {"text":"火力+3　対空+3　回避+4", "ship_class":"kongou_haruna_2"}
+    ]},
+    {"synergy":"単体(★+8)", "items":[
+      {"text":"火力+3　対空+4　回避+4", "ship_class":"kongou_haruna_2b"},
+      {"text":"火力+3　対空+4　回避+4", "ship_class":"kongou_haruna_2c"},
+      {"text":"火力+3　対空+4　回避+4", "ship_class":"kongou_haruna_2"}
+    ]},
+    {"synergy":"単体(★+9)", "items":[
+      {"text":"火力+4　対空+4　回避+4", "ship_class":"kongou_haruna_2b"},
+      {"text":"火力+4　対空+4　回避+4", "ship_class":"kongou_haruna_2c"},
+      {"text":"火力+4　対空+4　回避+4", "ship_class":"kongou_haruna_2"}
+    ]},
+    {"synergy":"単体(★max)", "items":[
+      {"text":"火力+3　対空+2　回避+2", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+3　対空+2　回避+2", "ship_class":"kongou_kongou_2"},
+      {"text":"火力+4　対空+4　回避+5", "ship_class":"kongou_haruna_2b"},
+      {"text":"火力+4　対空+4　回避+5", "ship_class":"kongou_haruna_2c"},
+      {"text":"火力+4　対空+4　回避+5", "ship_class":"kongou_haruna_2"},
+      {"text":"火力+2　対空+1　回避+1", "ship_class":"kongou_hiei_2c"},
+      {"text":"火力+2　対空+1　回避+1", "ship_class":"kongou_hiei_2"},
+      {"text":"火力+2　対空+1　回避+1", "ship_class":"kongou_kirishima_2"}
+    ]},
+    {"synergy":"単体(★+0〜3)", "items":[
+      {"text":"火力+2　対空+1", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+2　対空+1", "ship_class":"kongou_kongou_2"}
+    ]},
+    {"synergy":"単体(★+4〜5)", "items":[
+      {"text":"火力+2　対空+2", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+2　対空+2", "ship_class":"kongou_kongou_2"}
+    ]},
+    {"synergy":"単体(★+6〜7)", "items":[
+      {"text":"火力+2　対空+2　回避+1", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+2　対空+2　回避+1", "ship_class":"kongou_kongou_2"}
+    ]},
+    {"synergy":"単体(★+8〜9)", "items":[
+      {"text":"火力+3　対空+2　回避+1", "ship_class":"kongou_kongou_2c"},
+      {"text":"火力+3　対空+2　回避+1", "ship_class":"kongou_kongou_2"}
+    ]},
+    {"synergy":"単体(★+0〜6)", "items":[
+      {"text":"火力+1", "ship_class":"kongou_hiei_2c"},
       {"text":"火力+1", "ship_class":"kongou_hiei_2"},
       {"text":"火力+1", "ship_class":"kongou_kirishima_2"}
     ]},
+    {"synergy":"単体(★+7〜8)", "items":[
+      {"text":"火力+1　対空+1", "ship_class":"kongou_hiei_2c"},
+      {"text":"火力+1　対空+1", "ship_class":"kongou_hiei_2"},
+      {"text":"火力+1　対空+1", "ship_class":"kongou_kirishima_2"}
+    ]},
+    {"synergy":"単体(★+9)", "items":[
+      {"text":"火力+2　対空+1", "ship_class":"kongou_hiei_2c"},
+      {"text":"火力+2　対空+1", "ship_class":"kongou_hiei_2"},
+      {"text":"火力+2　対空+1", "ship_class":"kongou_kirishima_2"}
+    ]},
     {"synergy":"＋水上電探", "items":[
+      {"text":"火力+2　回避+2", "ship_class":"kongou_kongou_2c"},
       {"text":"火力+2　回避+2", "ship_class":"kongou_kongou_2"},
+      {"text":"火力+2　回避+2", "ship_class":"kongou_hiei_2c"},
+      {"text":"火力+2　回避+2", "ship_class":"kongou_hiei_2"},
+      {"text":"火力+2　回避+2", "ship_class":"kongou_haruna_2b"},
+      {"text":"火力+2　回避+2", "ship_class":"kongou_haruna_2c"},
       {"text":"火力+2　回避+2", "ship_class":"kongou_haruna_2"}
     ]}
   ]},
