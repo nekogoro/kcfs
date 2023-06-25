@@ -48,7 +48,10 @@
   name: 早波 / 早波改
 
 - id: hamanami
-  name: 浜波 / 浜波改
+  name: 浜波
+
+- id: hamanami_1
+  name: 浜波改
 
 - id: okinami
   name: 沖波 / 沖波改

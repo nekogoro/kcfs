@@ -15,5 +15,7 @@
   name: 雷 / 雷改
 
 - id: inaduma
-  name: 電 / 電改
-
+  name: 電
+  
+- id: inaduma_1
+  name: 電改
