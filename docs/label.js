@@ -96,6 +96,7 @@ function generateSubLabel (subType) {
       break;
     case '夜戦':
     case '夜攻':
+    case '夜偵':
     case 'バルジ':
       str += 'stroke_purple';
       break;

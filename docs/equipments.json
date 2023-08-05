@@ -3090,7 +3090,7 @@
       {"text":"対潜+1　索敵+1", "ship_class":"iowa"}
     ]}
   ]},
-  {"id":"471", "type":"水上機：水上偵察機", "title":"Loire 130M", "bonus":[
+  {"id":"471", "type":"水上機：夜偵", "title":"Loire 130M", "bonus":[
     {"synergy":"単体(★2)", "items":[
       {"text":"火力+4　回避+2　命中+3", "ship_class":"richelieu"},
       {"text":"火力+2　回避+2　命中+2", "ship_class":"commandantteste"}
@@ -3104,7 +3104,7 @@
       {"text":"火力+3　回避+4　命中+4", "ship_class":"commandantteste"}
     ]}
   ]},
-  {"id":"510", "type":"水上機：水上偵察機", "title":"Walrus", "bonus":[
+  {"id":"510", "type":"水上機：夜偵", "title":"Walrus", "bonus":[
     {"synergy":"単体", "items":[
       {"text":"火力+6　対潜+3　索敵+5　回避+4", "ship_class":"nelson"},
       {"text":"火力+2　対潜+3　索敵+2　回避+2", "ship_class":"queenelizabeth"},
