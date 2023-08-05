@@ -48,7 +48,13 @@
   name: 雪風改二
 
 - id: amatsukaze
-  name: 天津風 / 天津風改
+  name: 天津風
+
+- id: amatsukaze_1
+  name: 天津風改
+
+- id: amatsukaze_2
+  name: 天津風改二
 
 - id: tokitsukaze
   name: 時津風 / 時津風改
